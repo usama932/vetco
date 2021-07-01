@@ -101,7 +101,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 filter_card">
+                                <div class="col-12 filter_card2">
                                     <div class="row">
                                         <div class="col-md-2 col-sm-12">
                                             <img src="{{ asset('assets/vet/doc_1.png') }}" alt="" width="105"
@@ -126,7 +126,7 @@
                                                     <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                 </div>
                                                 <div class="col-12 text-left">
-                                                    <a href="javascript:;">
+                                                    <a href="{{ url('vet-profile') }}">
                                                         <small>
                                                             <i class="fa fa-briefcase" aria-hidden="true"></i>
                                                             View Doctor Profile
@@ -264,7 +264,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 filter_card">
+                                <div class="col-12 filter_card2">
                                     <div class="row">
                                         <div class="col-md-2 col-sm-12">
                                             <img src="{{ asset('assets/vet/doc_2.png') }}" alt="" width="105"
@@ -289,7 +289,7 @@
                                                     <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                 </div>
                                                 <div class="col-12 text-left">
-                                                    <a href="javascript:;">
+                                                    <a href="{{ url('vet-profile') }}">
                                                         <small>
                                                             <i class="fa fa-briefcase" aria-hidden="true"></i>
                                                             View Doctor Profile

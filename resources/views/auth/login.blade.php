@@ -5,21 +5,22 @@
 @section('content')
     <div class="container-fluid shadow_bottom pt-5 mt-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-5">
-                    <div class="card">
+            <div class="row justify-content-center pt-5">
+                <div class="col-md-5 pt-5">
+                    <div class="filter_card">
                         <div class="login_header">
                             <div class="row">
                                     <div class="col">
-                                        <h3 class="font-weight-bold">Log in</h3>
+                                        <h3 class="font-weight-bold mt-2">Log in</h3>
                                     </div>
                                 </div>
 
-                            <div class="row mb-3">
-                                <div class="col">
-                                    <i class="fa fa-facebook fi text-primary"> </i>
-                                    <i class="fa fa-apple fi text-primary"> </i>
-                                    <i class="fa fa-envelope fi text-primary    "> </i>
+                            <div class="row mb-5">
+                                <div class="col pb-2">
+                                    <a href="javascript:;" class="fia">
+                                    <i class="fa fa-facebook fi text-primary"> </i></a><a href="javascript:;" class="fia">
+                                    <i class="fa fa-apple fi text-primary"> </i></a><a href="javascript:;" class="fia">
+                                    <i class="fa fa-envelope fi text-primary    "> </i></a>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +28,7 @@
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
 
-                                <div class="form-group row mt-5 mb-5">
+                                <div class="form-group row mt-3 mb-3">
                                     <div class="col-12">
                                         <input id="email" type="email"
                                                class="form-control @error('email') is-invalid @enderror" name="email"
@@ -42,7 +43,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group row mt-5 mb-5">
+                                <div class="form-group row mt-3 mb-5">
                                     <div class="col-12">
                                         <input id="password" type="password"
                                                class="form-control @error('password') is-invalid @enderror"

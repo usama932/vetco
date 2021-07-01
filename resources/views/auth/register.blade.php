@@ -22,7 +22,7 @@
                             <span class="text-primary span_text"> Get Started </span>
                         </div>
                     </div>
-                    <div class="card" style="background: #e1e1e1">
+                    <div class="filter_card">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2 bg-primary font-weight-bold text-white text-center rounded"> Step 01
@@ -35,7 +35,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-user text-primary" aria-hidden="true"></i>
@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-user text-primary" aria-hidden="true"></i>
@@ -57,7 +57,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-envelope text-primary" aria-hidden="true"></i>
@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-phone text-primary" aria-hidden="true"></i>
@@ -79,7 +79,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-address-book text-primary" aria-hidden="true"></i>
@@ -90,7 +90,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-fort-awesome text-primary" aria-hidden="true"></i>
@@ -101,7 +101,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-university text-primary" aria-hidden="true"></i>
@@ -112,7 +112,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-flickr text-primary" aria-hidden="true"></i>
@@ -123,7 +123,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-lock text-primary" aria-hidden="true"></i>
@@ -134,7 +134,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <div class="input-group mb-3 w-50 ml-auto mr-auto">
+                                    <div class="input-group mb-1 w-50 ml-auto mr-auto">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-lock text-primary" aria-hidden="true"></i>

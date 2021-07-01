@@ -15,8 +15,8 @@
                                 </span>
                             </div>
                             <div class="col-4 text-right">
-                                <span class="mp text-white bg-primary">
-                                    My Pets
+                                <span class="mp bg-primary">
+                                    <a href="{{ url('my-pets') }}" class="text-white"> My Pets </a>
                                 </span>
                             </div>
                             <div class="col-md-12 pt-3 pt-md-5">

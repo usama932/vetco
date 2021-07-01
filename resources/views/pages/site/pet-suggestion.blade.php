@@ -50,7 +50,7 @@
                         </div>
                     </div>
 
-                    <div class="row filter_card">
+                    <div class="row filter_card2">
                         <div class="col-md-2 col-sm-12 text-center mb-3">
                             <img src="{{ asset('assets/vet/teeth_cleaning.png') }}" alt="" width="103"
                                  height="103">
@@ -75,7 +75,7 @@
                             <button class="cb"> Book Physical Wellness </button>
                         </div>
                     </div>
-                    <div class="row filter_card">
+                    <div class="row filter_card2">
                         <div class="col-md-2 col-sm-12 text-center mb-3">
                             <img src="{{ asset('assets/vet/teeth_cleaning.png') }}" alt="" width="103"
                                  height="103">
@@ -103,6 +103,8 @@
 
                 </div>
 
+                <div class="row ">
+                </div>
             </div>
         </div>
     </div>

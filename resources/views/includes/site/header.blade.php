@@ -28,13 +28,13 @@
                 </li>
                 @guest
                     <li class="nav-item">
-                        <a class="nav-link header_link ml-3 text-primary" href="javascript:;">
+                        <a class="nav-link header_link text-primary" href="javascript:;">
                             Claim Practice
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ url('register') }}"
-                           class="btn btn-primary header_btn header_btn_active pt-2 pb-2 pl-4 pr-4 ml-5">Sign up</a>
+                           class="btn btn-primary header_btn header_btn_active pt-2 pb-2 pl-4 pr-4 ml-2">Sign up</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ url('login') }}"

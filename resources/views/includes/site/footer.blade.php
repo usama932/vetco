@@ -1,4 +1,3 @@
-
 <footer class="footer">
     <div class="container-fluid">
         <div class="row">
@@ -19,8 +18,8 @@
                 <p class="fh">
                     Company
                 </p>
-                    <a href="#" class="f_href w-100 pt-4"> Privacy Policy </a>
-                    <a href="#" class="f_href w-100 pt-3"> Terms Of Services </a>
+                <a href="#" class="f_href w-100 pt-4"> Privacy Policy </a>
+                <a href="#" class="f_href w-100 pt-3"> Terms Of Services </a>
             </div>
             <div class="col-md-3 col-sm-12 p-5 text-center">
                 <p class="fso">
@@ -28,9 +27,15 @@
                 </p>
                 <div class="row">
                     <div class="col">
-                        <i class="fa fa-facebook fi text-primary"> </i>
-                        <i class="fa fa-apple fi text-primary"> </i>
-                        <i class="fa fa-envelope fi text-primary"> </i>
+                        <a href="javascript:;" class="fia">
+                            <i class="fa fa-facebook fi text-primary"> </i>
+                        </a>
+                        <a href="javascript:;" class="fia">
+                            <i class="fa fa-apple fi text-primary"> </i>
+                        </a>
+                        <a href="javascript:;" class="fia">
+                            <i class="fa fa-envelope fi text-primary"> </i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -38,7 +43,7 @@
         <div class="row text-right">
             <div class="col">
                 <p class="fc">
-                ® Copyright {{ date('Y') }}, All Right Reserved
+                    ® Copyright {{ date('Y') }}, All Right Reserved
                 </p>
             </div>
         </div>

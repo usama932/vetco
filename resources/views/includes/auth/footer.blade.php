@@ -1,4 +1,3 @@
-
 <footer class="footer">
     <div class="container-fluid">
         <div class="row">
@@ -28,9 +27,15 @@
                 </p>
                 <div class="row">
                     <div class="col">
-                        <i class="fa fa-facebook fi text-primary"> </i>
-                        <i class="fa fa-apple fi text-primary"> </i>
-                        <i class="fa fa-envelope fi text-primary    "> </i>
+                        <a href="javascript:;" class="fia">
+                            <i class="fa fa-facebook fi text-primary"> </i>
+                        </a>
+                        <a href="javascript:;" class="fia">
+                            <i class="fa fa-apple fi text-primary"> </i>
+                        </a>
+                        <a href="javascript:;" class="fia">
+                            <i class="fa fa-envelope fi text-primary"> </i>
+                        </a>
                     </div>
                 </div>
             </div>

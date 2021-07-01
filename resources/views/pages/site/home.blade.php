@@ -8,10 +8,10 @@
             <div class="container-fluid">
 
                 <div class="row pt-5 shadow_bottom">
-                    <div class="col-md col-sm-12 w-100 p-0 text-center">
+                    <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5">
                         <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
                     </div>
-                    <div class="col-md-5 col-sm-12 text-center">
+                    <div class="col-md-5 col-sm-12 text-center pt-md-5">
                         <p class="vfp">
                             Find the Best Vet for Your Pet
                         </p>
@@ -26,17 +26,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md col-sm-12 w-100 p-0 text-center">
+                    <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5">
                         <img src="{{ asset('assets/vet/Ill3.png') }}" alt="" class="vfp_img2">
                     </div>
                 </div>
 
-                <div class="row pt-5 pl-4 pr-4" style="background: #f0f0ef">
-                    <div class="col-12">
+                <div class="row pt-5 pl-4 pr-4 pb-5" style="background: #f0f0ef">
+                    <div class="col-12 pt-md-5">
                         <p class="as text-center">
                             About us
                         </p>
                         <p class="asd pt-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit venenatis risus sed
+                            malesuada. Donec tincidunt acum dolor sit amet, consectetur adipiscing elit. Donec hendrerit
+                            venenatis risus sed
+                            malesuada. Donec tincidunt acum dolor sit amet, consectetur adipiscing elit. Donec hendrerit
+                            venenatis risus sed
+                            malesuada. Donec tincidunt ac sapien ut accumsan. Proin finibus congue lectus quis iaculis.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit venenatis risus sed
                             malesuada. Donec tincidunt acum dolor sit amet, consectetur adipiscing elit. Donec hendrerit
                             venenatis risus sed
@@ -182,6 +188,18 @@
                                     (Revolutionizing Value Based Pet Care)
                                 </p>
                                 <p class="asd pt-4 text-justify">
+                                    Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been
+                                    the industry's standard dummy text ever since
+                                    the 1500s, when an unknown printer took a
+                                    galley of type and scrambled it to make a type
+                                    specimen book.
+                                    Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been
+                                    the industry's standard dummy text ever since
+                                    the 1500s, when an unknown printer took a
+                                    galley of type and scrambled it to make a type
+                                    specimen book.
                                     Lorem Ipsum is simply dummy text of the printing
                                     and typesetting industry. Lorem Ipsum has been
                                     the industry's standard dummy text ever since

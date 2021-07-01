@@ -25,11 +25,20 @@ Route::get('/pet-suggestion', function () {
 Route::get('/add-pet', function () {
     return view('pages.site.add-pet');
 });
-Route::get('/appointments', function () {
-    return view('pages.site.appointments');
+Route::get('/my-pets', function () {
+    return view('pages.site.my-pets');
+});
+Route::get('/checklist', function () {
+    return view('pages.site.checklist');
 });
 Route::get('/profile', function () {
     return view('pages.site.profile');
+});
+Route::get('/appointments', function () {
+    return view('pages.site.appointments');
+});
+Route::get('/vet-profile', function () {
+    return view('pages.site.vet-profile');
 });
 Route::get('/appointments-list', function () {
     return view('pages.site.appointments-list');

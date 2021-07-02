@@ -1,36 +1,17 @@
-@extends('layouts.auth.app')
+@extends('layouts.site.app')
 
-@section('title', 'Sign up')
+@section('title', 'Settings')
 
 @section('content')
     <div class="container-fluid shadow_bottom pt-5 mt-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <span class="step text-light bg-primary ">1</span>
-                            <span class="arrow">&#8594;</span>
-                            {{--                            <span class="arrow"> 123 </span>--}}
-                            <span class="step">2</span>
-                            <span class="arrow text-white">&#8594;</span>
-                            <span class="step">3</span>
-                        </div>
-                        <div class="col-12 text-center pt-3">
-                            <span class="text-primary span_text"> Sign Up </span>
-                            <span class="text-primary span_text"> Add Your Pet </span>
-                            <span class="text-primary span_text"> Get Started </span>
-                        </div>
-                    </div>
                     <div class="filter_card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-2 bg-primary font-weight-bold text-white text-center rounded"> Step 01
-                                </div>
-                            </div>
-                            <div class="row">
                                 <div class="col text-center text-primary">
-                                    <h3 class="font-weight-bold"> Sign Up </h3>
+                                    <h3 class="font-weight-bold"> Profile Update </h3>
                                 </div>
                             </div>
 
@@ -218,46 +199,13 @@
                                 </div>
                                 <div class="form-group row mb-0">
                                     <div class="col-12 text-center">
-                                        <input type="checkbox" id="agree_checkbox" name="agreement"
-                                               class="@error('agreement') is-invalid @enderror"
-                                               value="1" {{(old('agreement') && old('agreement') == 1) ? 'checked' : ''}}>
-                                        <label for="agree_checkbox"> Agree to <a href="#"> TERM & CONDITION </a></label>
-                                        @error('agreement')
-                                        <span class="invalid-feedback text-danger" role="alert" style="display: block;">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                        @enderror
-                                    </div>
-                                    <div class="col-12 text-center">
                                         <button type="button" id="" class="btn btn-primary"
                                                 data-toggle="modal" data-target="#exampleModal">
-                                            {{ __('Sign up') }}
+                                            {{ __('Update') }}
                                         </button>
                                     </div>
                                 </div>
                             </form>
-
-                            <div class="form-group row mb-0">
-                                <div class="col-12 text-center text-primary">
-                                    <small> Already a member </small> <a href="{{ url('login') }}" class="font-weight-bold text-primary"> Login here! </a>
-                                </div>
-                            </div>
-                            <div class="form-group row mb-0">
-                                <div class="col text-right">
-                                    <a href="javascript:;" class="fiar">
-                                        <i class="fa fa-facebook fi bg-primary text-white text-center"
-                                           style="width: 2.4vw; padding: 0.7vw;"> </i>
-                                    </a>
-                                    <a href="javascript:;" class="fiar">
-                                        <i class="fa fa-apple fi bg-primary text-white text-center"
-                                           style="width: 2.4vw; padding: 0.7vw;"> </i>
-                                    </a>
-                                    <a href="javascript:;" class="fiar">
-                                        <i class="fa fa-envelope fi bg-primary text-white text-center"
-                                           style="width: 2.4vw; padding: 0.7vw;"> </i>
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -271,14 +219,13 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title text-left mt-0 font-weight-bold" id="exampleModalLabel">Email
-                        Confirmation</h3>
+                    <h3 class="modal-title text-left mt-0 font-weight-bold" id="exampleModalLabel">Success</h3>
 {{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
 {{--                        <span aria-hidden="true">&times;</span>--}}
 {{--                    </button>--}}
                 </div>
                 <div class="modal-body text-secondary font-weight-bold">
-                    Email has been sent, go their to confirm verification!
+                    Profile Updated Successfully.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger ml-auto mr-auto" data-dismiss="modal">Close</button>

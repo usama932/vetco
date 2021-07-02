@@ -34,6 +34,9 @@ Route::get('/checklist', function () {
 Route::get('/profile', function () {
     return view('pages.site.profile');
 });
+Route::get('/profile-edit', function () {
+    return view('pages.site.profile-edit');
+});
 Route::get('/appointments', function () {
     return view('pages.site.appointments');
 });

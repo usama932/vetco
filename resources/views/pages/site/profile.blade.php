@@ -3,7 +3,7 @@
 @section('title', 'Profile')
 
 @section('content')
-    <div class="content p-0 shadow_bottom">
+    <div class="content p-0">
         <div class="content">
             <div class="container-fluid pt-5">
                 <div class="ml-vw pt-5">

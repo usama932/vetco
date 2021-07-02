@@ -29,9 +29,9 @@
                                 <span class="dp_speciality">
                                     Pets Physical Specialist
                                 </span></div>
-                                <div class="row" style="margin-top: -10px">
+                                <div class="row" style="margin-top: -5px">
                                 <span class="dp_rating">
-                                    <i class="fa fa-star text-warning mr-1" aria-hidden="true"></i>5 <sub> stars </sub>
+                                    <i class="fa fa-star text-warning mr-2" aria-hidden="true"></i>5 <sub> stars </sub>
                                 </span>
 
                                 </div>
@@ -54,8 +54,7 @@
                         </div>
                         <div class="row pl-3 pl-md-5">
                             <div class="vt_re_sc">
-                                <div class="col-12 filter_card" style="
-    box-shadow: 0px 0px 4px -2px black;">
+                                <div class="col-12 filter_card" style="    box-shadow: 0px 0px 4px -2px black;">
                                     <div class="row">
                                         <div class="col-6 col-md-1 text-center">
                                             <img src="{{ asset('assets/vet/review_1.png') }}" alt="" class="dp_r_img">

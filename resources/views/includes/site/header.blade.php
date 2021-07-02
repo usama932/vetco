@@ -60,7 +60,7 @@
                              aria-labelledby="navbarDropdownProfile">
                             <a class="dropdown-item text-white border-bottom" href="{{ url('appointments') }}">Appointments</a>
                             <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
-                            <a class="dropdown-item text-white border-bottom" href="#">Settings</a>
+                            <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>
                             <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">Log out</a>
 

@@ -20,28 +20,28 @@
                 <div class=" ml-vw  pt-3">
                     <div class="row">
                         <div class="col text-center form-inline">
-                            <select class="selectpicker filter_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4">
+                            <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="Choose Pet" data-size="4">
                                 <option value="2">Cats </option>
                                 <option value="3">Dogs</option>
                                 <option value="4">Snakes</option>
                                 <option value="5">Birds</option>
                                 <option value="6">Rabbits </option>
                             </select>
-                            <select class="selectpicker filter_form_input" data-style="select-with-transition" title="Condition, Procedure, Doctor" data-size="4">
+                            <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="Condition, Procedure, Doctor" data-size="4">
                                 <option value="2">Physical Wellness Exam </option>
                                 <option value="3">Dental Cleanings</option>
                                 <option value="4">Dental Extractions</option>
                                 <option value="5">Deworming</option>
                                 <option value="6">Vacinations  </option>
                             </select>
-                            <select class="selectpicker filter_form_input" data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
+                            <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
                                 <option value="2">000, Broadway </option>
                                 <option value="3">000, Broadway</option>
                                 <option value="4">000, Broadway</option>
                                 <option value="5">000, Broadway</option>
                                 <option value="6">000, Broadway </option>
                             </select>
-                            <input type="text" class="form-control datepicker filter_form_input" value="">
+                            <input type="text" class="form-control datepicker filter_form_input  ml-auto mr-auto" value="">
                             <button type="submit" class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn"><i class="fa fa-search" aria-hidden="true"></i>
                             </button>
                         </div>

@@ -21,8 +21,8 @@
                 <div class="ml-vw2  pt-3">
                     <div class="row">
                         <div class="col text-center form-inline">
-                            <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4" style="font-family: 'FontAwesome'">
-                                <option value="2">Cats  &#xf042;</option>
+                            <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4">
+                                <option value="2">Cats</option>
                                 <option value="3">Dogs</option>
                                 <option value="4">Snakes</option>
                                 <option value="5">Birds</option>

@@ -236,6 +236,15 @@
                                     </table>
                                 </div>
                             </div>
+                            <div class="col-md-12 text-right">
+                                <span class="ml-2 mr-2">First</span>
+                                <span class="ml-2 mr-2">Prev</span>
+                                <span class="ml-2 mr-2 bg-primary text-white" style="padding: 5px 10px; border-radius: 50%; text-align: center;">1</span>
+                                <span class="ml-2 mr-2">2</span>
+                                <span class="ml-2 mr-2">3</span>
+                                <span class="ml-2 mr-2">Next</span>
+                                <span class="ml-2 mr-2">Last</span>
+                            </div>
                         </div>
                     </div>
                 </div>

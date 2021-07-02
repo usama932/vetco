@@ -18,11 +18,32 @@
                         <p class="rvb">
                             Revolutionizing Value Based Pet Care
                         </p>
-                        <div class="row">
-                            <div class="col p-0 w-100">
-                                <form action="#">
-
-                                </form>
+                        <div class="row pt-md-3 pb-4">
+                            <div class="col text-center form-inline pl-md-5 pr-md-5">
+                                <select class="selectpicker filter_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4">
+                                    <option value="2">Cats </option>
+                                    <option value="3">Dogs</option>
+                                    <option value="4">Snakes</option>
+                                    <option value="5">Birds</option>
+                                    <option value="6">Rabbits </option>
+                                </select>
+                                <select class="selectpicker filter_form_input" data-style="select-with-transition" title="Condition, Procedure, Doctor" data-size="4">
+                                    <option value="2">Physical Wellness Exam </option>
+                                    <option value="3">Dental Cleanings</option>
+                                    <option value="4">Dental Extractions</option>
+                                    <option value="5">Deworming</option>
+                                    <option value="6">Vacinations  </option>
+                                </select>
+                                <select class="selectpicker filter_form_input" data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
+                                    <option value="2">000, Broadway </option>
+                                    <option value="3">000, Broadway</option>
+                                    <option value="4">000, Broadway</option>
+                                    <option value="5">000, Broadway</option>
+                                    <option value="6">000, Broadway </option>
+                                </select>
+                                <input type="text" class="form-control datepicker filter_form_input" value="">
+                                <button type="submit" class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn"><i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -31,7 +52,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-5 pl-4 pr-4 pb-5" style="background: #f0f0ef">
+                <div class="row pt-5 pl-4 pr-4 pb-5" id="about_us" style="background: #f0f0ef">
                     <div class="col-12 pt-md-5">
                         <p class="as text-center">
                             About us
@@ -56,7 +77,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -76,7 +97,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col text-center pt-5 pb-2">
-                                        <button class="cb"> Learn more</button>
+                                        <button class="cb  btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +114,7 @@
                                 <div class="row">
                                     <div class="col text-center">
                                         <p class="ct pt-3 text-primary">
-                                            Woof woof!
+                                            Meow!
                                         </p>
                                     </div>
                                 </div>
@@ -107,7 +128,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col text-center pt-5 pb-2">
-                                        <button class="cb"> Learn more</button>
+                                        <button class="cb  btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>
@@ -118,13 +139,13 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/catt.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col text-center">
                                         <p class="ct pt-3 text-primary">
-                                            Woof woof!
+                                            sssssss!
                                         </p>
                                     </div>
                                 </div>
@@ -138,7 +159,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col text-center pt-5 pb-2">
-                                        <button class="cb"> Learn more</button>
+                                        <button class="cb btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>
@@ -149,13 +170,13 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/bird.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col text-center">
                                         <p class="ct pt-3 text-primary">
-                                            Woof woof!
+                                            cheep cheep!
                                         </p>
                                     </div>
                                 </div>
@@ -169,7 +190,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col text-center pt-5 pb-2">
-                                        <button class="cb"> Learn more</button>
+                                        <button class="cb  btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>

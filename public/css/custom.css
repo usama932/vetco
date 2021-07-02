@@ -240,7 +240,7 @@ body {
         font-size: 5vw;
         padding: 2vw 3.5vw;
         border-radius: 50%;
-        border: 1px solid;
+        border: 1px solid #03388b;
     }
 
     .arrow {
@@ -258,7 +258,7 @@ body {
     }
 
     .filter_form_btn {
-        width: 10%;
+        width: 30%;
     }
 
     .suggestion_form_input {
@@ -417,9 +417,43 @@ body {
         width: 20vw;
         height: 20vw;
     }
+
+    .ap_dr_sec {
+        max-height: 120vw;
+        overflow-y: scroll;
+    }
+
+    .ap_dr_row {
+        width: 86vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vt_re_sc {
+        max-height: 100vw;
+        overflow-y: scroll;
+    }
 }
 
 @media (min-width: 992px) {
+    .vt_re_sc {
+        max-height: 25vw;
+        overflow-y: scroll;
+        padding: 1vw;
+    }
+
+    .ap_dr_row {
+        width: 52vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ap_dr_sec {
+        width: 55vw;
+        max-height: 32vw;
+        overflow-y: scroll;
+    }
+
     .profile_border {
         border-right: 1px solid #000000 !important;
     }
@@ -590,7 +624,7 @@ body {
 
     .f_href {
         line-height: 1vw;
-        font-weight: bold;
+        /*font-weight: bold;*/
         font-size: 1vw;;
         font-family: Helvetica !important;
         color: #ffffff;
@@ -616,6 +650,12 @@ body {
         color: #ffffff !important;
     }
 
+    .fiar .fi:hover {
+        background: #ffffff !important;
+        box-shadow: 0px 0px 7px 2px #03388b;
+        color: #03388b !important;
+    }
+
     .ml-vw {
         margin-left: 15vw;
         margin-right: 15vw;
@@ -630,7 +670,7 @@ body {
         font-size: 1.6vw;
         padding: 0.25vw 0.8vw;
         border-radius: 50%;
-        border: 1px solid;
+        border: 1px solid #03388b;
     }
 
     .arrow {
@@ -646,7 +686,7 @@ body {
     }
 
     .filter_form_input {
-        width: 23%;
+        width: 23% !important;
     }
 
     .filter_form_btn {
@@ -658,7 +698,8 @@ body {
     }
 
     .suggestion_form_btn {
-        width: 5% !important;
+        width: 4% !important;
+        margin-left: 0.7vw !important;
     }
 
     .time_span {

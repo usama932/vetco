@@ -6,7 +6,7 @@
     <div class="container-fluid shadow_bottom pt-5 mt-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <div class="row">
                         <div class="col-12 text-center">
                             <span class="step text-light bg-primary">1</span>
@@ -21,7 +21,7 @@
                             <span class="text-primary span_text"> Get Started </span>
                         </div>
                     </div>
-                    <div class="card" style="background: #e1e1e1">
+                    <div class="filter_card">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2 bg-primary font-weight-bold text-white text-center rounded"> Step 02
@@ -29,7 +29,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-center text-primary">
-                                    <h3 class="font-weight-bold"> Add Ypur Pet </h3>
+                                    <h3 class="font-weight-bold"> Add Your Pet </h3>
                                 </div>
                             </div>
                             <div class="row">
@@ -60,12 +60,16 @@
                                 <div class="col-12 text-center mb-3">
                                     <label for="" class="text-primary"> Does your pet have insurance? If yes, which </label>
                                     <br>
+                                    <div class="ml-auto mr-auto w-50" style="max-height: 100px; overflow-y: scroll;">
                                     <input type="checkbox" id="1" name="" value="1">
                                     <label for="1" class="text-primary"> Lorem Ipsum </label><br>
                                     <input type="checkbox" id="2" name="" value="2">
                                     <label for="2" class="text-primary"> Lorem Ipsum </label><br>
                                     <input type="checkbox" id="3" name="" value="3">
                                     <label for="3" class="text-primary"> Lorem Ipsum </label><br>
+                                    <input type="checkbox" id="4" name="" value="4">
+                                    <label for="4" class="text-primary"> Lorem Ipsum </label><br>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group row mb-0">

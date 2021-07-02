@@ -53,39 +53,39 @@
                                 <div class="col-8"> Bailey </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> First Name
+                                <div class="col-4"> Last Name
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"> Ipsum </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> First Name
+                                <div class="col-4"> Age
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"> 00 </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> First Name
+                                <div class="col-4"> City
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"> Lorem </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> First Name
+                                <div class="col-4"> Address
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"> 228 Park Ave </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> First Name
+                                <div class="col-4"> City
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"> Florida </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> First Name
+                                <div class="col-4"> State
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"> Chilli </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> First Name
+                                <div class="col-4"> Zip Code
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"> 0678 </div>
                             </div>
                         </div>
                     </div>

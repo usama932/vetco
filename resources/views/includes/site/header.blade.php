@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link header_link text-primary" href="javascript:;">
+                    <a class="nav-link header_link text-primary @if(url('/') == url()->current())about_us_a"  href="#action" @else about_us_a" href="{{ url('/#about_us') }}" @endif>
                         About us
                     </a>
                 </li>
@@ -41,10 +41,16 @@
                            class="btn btn-primary header_btn pt-2 pb-2 pl-4 pr-4 ml-3 mr-4 text-primary bg-light">Login</a>
                     </li>
                 @else
-                    <li class="nav-item dropdown show bg-primary text-white rounded" style="width: 8vw;">
-                        <a class="nav-link " href="javascript:;" id="navbarDropdownProfile" style="font-size: 1.1vw"
+                    <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 13vw;">
+                        <a class="nav-link p-1" href="javascript:;" id="navbarDropdownProfile" style="font-size: 0.8vw; font-weight: 700"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Bailey
+                            <div class="row">
+                                <div class="col text-left">
+                                    {{ Auth::user()->first_name }}</div>
+                                <div class="col text-right">
+                                    <i class="fa fa-caret-down" aria-hidden="true" style="font-size: 1vw"></i></div>
+                            </div>
+
                             {{--                        <i class="material-icons">person</i>--}}
                             {{--                        <p class="d-lg-none d-md-block">--}}
                             {{--                            Account--}}
@@ -52,10 +58,15 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown"
                              aria-labelledby="navbarDropdownProfile">
-                            <a class="dropdown-item text-white border-bottom" href="#">Appointments</a>
-                            <a class="dropdown-item text-white border-bottom" href="#">Profile</a>
+                            <a class="dropdown-item text-white border-bottom" href="{{ url('appointments') }}">Appointments</a>
+                            <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
                             <a class="dropdown-item text-white border-bottom" href="#">Settings</a>
-                            <a class="dropdown-item text-white border-bottom" href="#">Log out</a>
+                            <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">Log out</a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
                         </div>
                     </li>
                 @endguest

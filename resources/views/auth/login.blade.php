@@ -31,7 +31,7 @@
                                 <div class="form-group row mt-3 mb-3">
                                     <div class="col-12">
                                         <input id="email" type="email"
-                                               class="form-control @error('email') is-invalid @enderror" name="email"
+                                               class="form-control text-primary @error('email') is-invalid @enderror" name="email"
                                                value="{{ old('email') }}" required autocomplete="email" autofocus
                                                placeholder="{{ __('E-Mail Address') }}">
 
@@ -46,7 +46,7 @@
                                 <div class="form-group row mt-3 mb-5">
                                     <div class="col-12">
                                         <input id="password" type="password"
-                                               class="form-control @error('password') is-invalid @enderror"
+                                               class="form-control text-primary @error('password') is-invalid @enderror"
                                                name="password" required autocomplete="current-password" placeholder="{{ __('Password') }}">
 
                                         @error('password')

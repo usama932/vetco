@@ -12,7 +12,7 @@
                             <span class="my_pets"> My Pets: </span>
                         </div>
                     </div>
-                    <div class="row mt-3">
+                    <div class="row mt-3 flex-row flex-nowrap  table-responsive" style="display: inline-flex">
                         <div class="col-12 col-md-4">
                             <div class="row">
                                 <div class="col-4 text-center">
@@ -27,6 +27,102 @@
                                     </div>
                                     <div class="row">
                                         <span class="mp_type"> 1 Year 6 months </span>
+                                    </div>
+                                    <div class="row">
+                                        <a href="{{ url('checklist') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Well Guide Checklist </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                </div>
+                                <div class="col-8 text-left">
+                                    <div class="row">
+                                        <span class="mp_name"> Catoo </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> Cat, American </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> 6 weeks </span>
+                                    </div>
+                                    <div class="row">
+                                        <a href="{{ url('checklist') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Well Guide Checklist </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                </div>
+                                <div class="col-8 text-left">
+                                    <div class="row">
+                                        <span class="mp_name"> Catoo </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> Cat, American </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> 6 weeks </span>
+                                    </div>
+                                    <div class="row">
+                                        <a href="{{ url('checklist') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Well Guide Checklist </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                </div>
+                                <div class="col-8 text-left">
+                                    <div class="row">
+                                        <span class="mp_name"> Catoo </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> Cat, American </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> 6 weeks </span>
+                                    </div>
+                                    <div class="row">
+                                        <a href="{{ url('checklist') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Well Guide Checklist </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                </div>
+                                <div class="col-8 text-left">
+                                    <div class="row">
+                                        <span class="mp_name"> Catoo </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> Cat, American </span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="mp_type"> 6 weeks </span>
                                     </div>
                                     <div class="row">
                                         <a href="{{ url('checklist') }}">
@@ -107,6 +203,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row"></div>
                 </div>
             </div>
         </div>

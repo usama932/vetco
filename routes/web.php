@@ -46,4 +46,15 @@ Route::get('/appointments-list', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::group(['middleware' => ['auth', 'role:admin']], function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+});
+
+Route::group(['middleware' => ['auth', 'role:vet']], function () {
+    Route::get('/home1', [App\Http\Controllers\HomeController::class, 'index1'])->name('home');
+});
+
+Route::group(['middleware' => ['auth', 'role:pet']], function () {
+    Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2'])->name('home');
+});

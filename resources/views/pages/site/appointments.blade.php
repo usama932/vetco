@@ -22,7 +22,10 @@
                     <div class="row">
                         <div class="col text-center form-inline">
                             <select name="" id="" class="form-control ml-auto mr-auto suggestion_form_input">
-                                <option value="">Dogs</option>
+                                <option value="">Dogs </option>
+                                <option value="">Cats </option>
+                                <option value="">Snakes </option>
+                                <option value="">Birds </option>
                             </select>
                             <select name="" id="" class="form-control ml-auto mr-auto suggestion_form_input">
                                 <option value="">Dental</option>
@@ -44,356 +47,524 @@
 
                 <div class="ml-vw2 pt-3">
 
-                    <div class="row p-3"
+                    <div class="row p-1 p-md-3 rounded"
                          style="background-image: linear-gradient(to left, #ffffff, #f5f5f5, #efefef); box-shadow: 0px 4px 16px -9px;">
-                        <div class="col-md-8 col-12">
-                            <div class="row">
+                        <div class="col-md-8 col-12 pl-1 pr-1 pl-md-2 pr-md-2">
+                            <div class="row pl-md-3">
                                 <div class="col">
                                     <h4 class="text-primary font-weight-bold" style="text-decoration: underline"> All
                                         Appointments </h4>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row pl-md-3">
                                 <div class="col-md-2 col-6">
-                                    <span class="btn btn-primary btn-block pt-1 pb-1 text-capitalize">Dentist</span>
+                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Dentist</span>
                                 </div>
                                 <div class="col-md-2 col-6">
-                                    <span class="btn btn-primary btn-block pt-1 pb-1 text-capitalize">April 14</span>
+                                    <span class="btn btn-primary btn-block p-1 text-capitalize">April 14</span>
                                 </div>
                                 <div class="col-md-2 col-6">
-                                    <span class="btn btn-primary btn-block pt-1 pb-1 text-capitalize">Speciality</span>
+                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Speciality</span>
                                 </div>
                                 <div class="col-md-2 col-6">
                                     <span
-                                        class="btn btn-primary btn-block pt-1 pb-1 text-capitalize">Avalaibility</span>
+                                        class="btn btn-primary btn-block p-1 text-capitalize">Avalaibility</span>
                                 </div>
                             </div>
-                            <div class="row mt-2">
+                            <div class="row pl-md-3 mt-2">
                                 <div class="col">
                                     <h4 class="text-primary font-weight-bold"> 43 Providers </h4>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <div class="row text-center">
-                                        <div class="col-1 p-0 pt-3">
-                                            <
-                                        </div>
-                                        <div class="col p-0">
-                                            Mon <br> <small>April 16</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Tue <br> <small>April 17</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Wed <br> <small>April 18</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Thu <br> <small>April 19</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Fri <br> <small>April 20</small>
-                                        </div>
-                                        <div class="col-1 p-0 pt-3">
-                                            >
-                                        </div>
+                            <div class="ap_dr_sec">
+                                <div class="row ap_dr_row">
+                                    <div class="col-md-6 col-sm-12">
                                     </div>
-                                </div>
-                                <div class="col-12 filter_card2">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-12">
-                                            <img src="{{ asset('assets/vet/doc_1.png') }}" alt="" width="105"
-                                                 height="144">
-                                        </div>
-                                        <div class="col-md-4 col-sm-12">
-                                            <div class="row">
-                                                <div class="col-12 text-right text-black"><small>10 Miles</small></div>
-                                                <div class="col-12 text-left text-black">
-                                                    <h5 class="font-weight-bold mb-0"> Dr. Steven Portman, MD </h5>
-                                                </div>
-                                                <div class="col-12 text-left text-black">
-                                                    <small> Dentist </small>
-                                                </div>
-                                                <div class="col-12 text-left text-black">
-                                                    <small> 300, suite Florida, United state. </small>
-                                                </div>
-                                                <div class="col-12 text-left">
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="col-12 text-left">
-                                                    <a href="{{ url('vet-profile') }}">
-                                                        <small>
-                                                            <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                            View Doctor Profile
-                                                        </small>
-                                                    </a>
-                                                </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="row text-center">
+                                            <div class="col-1 p-0 pt-3">
+                                                <
                                             </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 p-0">
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col-1"></div>
+                                            <div class="col p-0">
+                                                Mon <br> <small>April 16</small>
                                             </div>
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col-1"></div>
+                                            <div class="col p-0">
+                                                Tue <br> <small>April 17</small>
                                             </div>
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col-1"></div>
+                                            <div class="col p-0">
+                                                Wed <br> <small>April 18</small>
                                             </div>
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col-1"></div>
+                                            <div class="col p-0">
+                                                Thu <br> <small>April 19</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Fri <br> <small>April 20</small>
+                                            </div>
+                                            <div class="col-1 p-0 pt-3">
+                                                >
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <div class="row text-center">
-                                        <div class="col-1 p-0 pt-3">
-                                            <
-                                        </div>
-                                        <div class="col p-0">
-                                            <strong> Mon </strong> <br> <small>April 16</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Tue <br> <small>April 17</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Wed <br> <small>April 18</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Thu <br> <small>April 19</small>
-                                        </div>
-                                        <div class="col p-0">
-                                            Fri <br> <small>April 20</small>
-                                        </div>
-                                        <div class="col-1 p-0 pt-3">
-                                            >
+                                    <div class="col-12 filter_card2">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-12">
+                                                <img src="{{ asset('assets/vet/doc_1.png') }}" alt="" width="105"
+                                                     height="144">
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-12 text-right text-black"><small>10 Miles</small>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <h5 class="font-weight-bold mb-0"> Dr. Steven Portman, MD </h5>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <small> Dentist </small>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <small> 300, suite Florida, United state. </small>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                        <a href="{{ url('vet-profile') }}">
+                                                            <small>
+                                                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                                                View Doctor Profile
+                                                            </small>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12 p-0">
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 filter_card2">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-12">
-                                            <img src="{{ asset('assets/vet/doc_2.png') }}" alt="" width="105"
-                                                 height="144">
-                                        </div>
-                                        <div class="col-md-4 col-sm-12">
-                                            <div class="row">
-                                                <div class="col-12 text-right text-black"><small>10 Miles</small></div>
-                                                <div class="col-12 text-left text-black">
-                                                    <h5 class="font-weight-bold mb-0"> Dr. Steven Portman, MD </h5>
-                                                </div>
-                                                <div class="col-12 text-left text-black">
-                                                    <small> Dentist </small>
-                                                </div>
-                                                <div class="col-12 text-left text-black">
-                                                    <small> 300, suite Florida, United state. </small>
-                                                </div>
-                                                <div class="col-12 text-left">
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="col-12 text-left">
-                                                    <a href="{{ url('vet-profile') }}">
-                                                        <small>
-                                                            <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                            View Doctor Profile
-                                                        </small>
-                                                    </a>
-                                                </div>
+                                <div class="row ap_dr_row">
+                                    <div class="col-md-6 col-sm-12">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="row text-center">
+                                            <div class="col-1 p-0 pt-3">
+                                                <
+                                            </div>
+                                            <div class="col p-0">
+                                                <strong> Mon </strong> <br> <small>April 16</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Tue <br> <small>April 17</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Wed <br> <small>April 18</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Thu <br> <small>April 19</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Fri <br> <small>April 20</small>
+                                            </div>
+                                            <div class="col-1 p-0 pt-3">
+                                                >
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-sm-12 p-0">
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col-1"></div>
+                                    </div>
+                                    <div class="col-12 filter_card2">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-12">
+                                                <img src="{{ asset('assets/vet/doc_2.png') }}" alt="" width="105"
+                                                     height="144">
                                             </div>
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-12 text-right text-black"><small>10 Miles</small>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <h5 class="font-weight-bold mb-0"> Dr. Kathrine, MD </h5>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <small> Dentist </small>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <small> 300, suite Florida, United state. </small>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                        <a href="{{ url('vet-profile') }}">
+                                                            <small>
+                                                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                                                View Doctor Profile
+                                                            </small>
+                                                        </a>
+                                                    </div>
                                                 </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
-                                                    <span
-                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col-1"></div>
                                             </div>
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
+                                            <div class="col-md-6 col-sm-12 p-0">
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
                                                 </div>
-                                                <div class="col-1"></div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
                                             </div>
-                                            <div class="row text-center mt-2">
-                                                <div class="col-1"></div>
-                                                <div class="col p-0">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ap_dr_row">
+                                    <div class="col-md-6 col-sm-12">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="row text-center">
+                                            <div class="col-1 p-0 pt-3">
+                                                <
+                                            </div>
+                                            <div class="col p-0">
+                                                <strong> Mon </strong> <br> <small>April 16</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Tue <br> <small>April 17</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Wed <br> <small>April 18</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Thu <br> <small>April 19</small>
+                                            </div>
+                                            <div class="col p-0">
+                                                Fri <br> <small>April 20</small>
+                                            </div>
+                                            <div class="col-1 p-0 pt-3">
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 filter_card2">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-12">
+                                                <img src="{{ asset('assets/vet/doc_1.png') }}" alt="" width="105"
+                                                     height="144">
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-12 text-right text-black"><small>10 Miles</small>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <h5 class="font-weight-bold mb-0"> Dr. Jayun, MD </h5>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <small> Dentist </small>
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <small> 300, suite California, United state. </small>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                        <a href="{{ url('vet-profile') }}">
+                                                            <small>
+                                                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                                                View Doctor Profile
+                                                            </small>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12 p-0">
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
-                                                </div>
-                                                <div class="col p-0">
+                                                    </div>
+                                                    <div class="col p-0">
                                                     <span
                                                         class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
                                                 </div>
-                                                <div class="col-1"></div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
+                                                <div class="row text-center mt-2">
+                                                    <div class="col-1"></div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col p-0">
+                                                    <span
+                                                        class="bg-primary text-white text-center time_span"> <small> <strong>10:00</strong> AM </small></span>
+                                                    </div>
+                                                    <div class="col-1"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

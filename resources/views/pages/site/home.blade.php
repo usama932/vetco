@@ -77,7 +77,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -139,7 +139,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/catt.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -170,7 +170,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/bird.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">

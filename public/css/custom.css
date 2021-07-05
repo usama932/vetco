@@ -265,6 +265,7 @@ body {
     .suggestion_form_input {
         width: 50% !important;
     }
+
     .input_margin {
         margin-top: -0.5vw;
     }
@@ -437,34 +438,40 @@ body {
         max-height: 100vw;
         overflow-y: scroll;
     }
+
     .cat-dog {
         font-weight: 500;
         font-size: 3vw;
         cursor: pointer;
     }
+
     .dog {
         padding: 1vw 2vw 1vw 3vw;
         border-top-left-radius: 3vw;
         border-bottom-left-radius: 3vw;
         background: #ccccca;
     }
+
     .cat {
         padding: 1vw 3vw 1vw 2vw;
         border-top-right-radius: 3vw;
         border-bottom-right-radius: 3vw;
         background: #ccccca;
     }
+
     .form-border {
         border: 1px solid #03388b;
         border-radius: 5vw;
     }
-    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
-        max-width: 50% !important;
 
-         }
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        max-width: 45% !important;
+    }
+
     .mob-hide {
         display: none !important;
     }
+
     .mob-left {
         text-align: left !important;
     }
@@ -478,31 +485,37 @@ body {
     .wid-50 {
         width: 50% !important;
     }
+
     .desk-hide {
         display: none !important;
     }
+
     .form-border {
         border: 1px solid #03388b;
         border-radius: 5vw;
         padding: 0px 1vw !important;
     }
+
     .cat-dog {
         font-weight: 700;
         font-size: 0.9vw;
         cursor: pointer;
     }
+
     .dog {
         padding: 0.5vw 0.6vw 0.5vw 1vw;
         border-top-left-radius: 1vw;
         border-bottom-left-radius: 1vw;
         background: #ccccca;
     }
+
     .cat {
         padding: 0.5vw 1vw 0.5vw 0.6vw;
         border-top-right-radius: 1vw;
         border-bottom-right-radius: 1vw;
         background: #ccccca;
     }
+
     .mps-card {
         transition: transform .2s;
     }
@@ -742,8 +755,10 @@ body {
         box-shadow: 0px 0px 7px 2px #03388b;
         color: #03388b !important;
     }
+
     .fir {
-        width: 2.4vw; padding: 0.7vw;
+        width: 2.4vw;
+        padding: 0.7vw;
     }
 
     .ml-vw {

@@ -50,7 +50,7 @@
                                 </select>
 
                                 <div class="input-group  filter_form_input  ml-auto mr-auto">
-                                    <input type="text" class="form-control datepicker input_margin">
+                                    <input type="text" class="form-control datepicker input_margin w-100">
                                     <div class="input-group-append">
                                         <span class="input-group-text p-0">
                                             <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; padding-right: 0.2vw;"></i>

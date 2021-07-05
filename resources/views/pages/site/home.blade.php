@@ -49,14 +49,14 @@
                                     <option value="6">000, Broadway</option>
                                 </select>
 
-                                <span class="input-group  filter_form_input  ml-auto mr-auto">
+                                <div class="input-group  filter_form_input  ml-auto mr-auto">
                                     <input type="text" class="form-control datepicker input_margin">
-                                    <span class="input-group-append">
+                                    <div class="input-group-append">
                                         <span class="input-group-text p-0">
                                             <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; padding-right: 0.2vw;"></i>
                                         </span>
-                                    </span>
-                                </span>
+                                    </div>
+                                </div>
 
                                 <a href="{{ url('filter') }}" type="button"
                                         class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn text-white"><i

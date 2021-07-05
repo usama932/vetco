@@ -53,7 +53,7 @@
                                     <input type="text" class="form-control datepicker input_margin">
                                     <div class="input-group-append">
                                         <span class="input-group-text p-0">
-                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; margin-right: 0.2vw;"></i>
+                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; padding-right: 0.2vw;"></i>
                                         </span>
                                     </div>
                                 </div>

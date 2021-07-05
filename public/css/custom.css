@@ -255,7 +255,7 @@ body {
     }
 
     .filter_form_input {
-        width: 50%;
+        width: 50% !important;
     }
 
     .filter_form_btn {
@@ -270,7 +270,7 @@ body {
     }
 
     .suggestion_form_btn {
-        width: 52%;
+        width: 50%;
     }
 
     .time_span {

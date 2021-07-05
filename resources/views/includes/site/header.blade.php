@@ -12,9 +12,7 @@
                 <img src="{{ asset('assets/vet/logo_3.png') }}" alt="" class="logo">
             </a>
         </div>
-        <button class="navbar-toggler" type="button" id="mob-dropdown" data-toggle="collapse"
-                aria-controls="navigation-index"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" id="mob-dropdown" >
             <span class="sr-only">Toggle navigation</span>
             <span class="navbar-toggler-icon icon-bar"></span>
             <span class="navbar-toggler-icon icon-bar"></span>

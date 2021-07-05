@@ -255,15 +255,15 @@ body {
     }
 
     .filter_form_input {
-        width: 45% !important;
+        /*width: 45% !important;*/
     }
 
     .filter_form_btn {
-        width: 62%;
+        /*width: 62%;*/
     }
 
     .suggestion_form_input {
-        width: 50% !important;
+        /*width: 50% !important;*/
     }
 
     .input_margin {
@@ -271,7 +271,7 @@ body {
     }
 
     .suggestion_form_btn {
-        width: 50%;
+        /*width: 50%;*/
     }
 
     .time_span {

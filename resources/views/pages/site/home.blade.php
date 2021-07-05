@@ -11,7 +11,7 @@
                     <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5 mob-hide">
                         <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
                     </div>
-                    <div class="col-md-5 col-sm-12 text-center pt-md-5">
+                    <div class="col-lg-5 col-sm-12 text-center pt-md-5">
                         <p class="vfp">
                             Find the Best Vet for Your Pet
                         </p>

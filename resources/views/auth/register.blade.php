@@ -229,17 +229,22 @@
                                         @enderror
                                     </div>
                                     <div class="col-12 text-center">
-                                        <button type="button" id="" class="btn btn-primary"
-                                                data-toggle="modal" data-target="#exampleModal">
+                                        {{--                                        <button type="button" id="" class="btn btn-primary"--}}
+                                        {{--                                                data-toggle="modal" data-target="#exampleModal">--}}
+                                        {{--                                            {{ __('Sign up') }}--}}
+                                        {{--                                        </button>--}}
+                                        <a href="{{ url('/add-pet') }}" type="button" id="" class="btn btn-primary">
                                             {{ __('Sign up') }}
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </form>
 
                             <div class="form-group row mb-0">
                                 <div class="col-12 text-center text-primary">
-                                    <small> Already a member </small> <a href="{{ url('login') }}" class="font-weight-bold text-primary"> Login here! </a>
+                                    <small> Already a member </small> <a href="{{ url('login') }}"
+                                                                         class="font-weight-bold text-primary"> Login
+                                        here! </a>
                                 </div>
                             </div>
                             <div class="form-group row mb-0">
@@ -273,16 +278,16 @@
                 <div class="modal-header">
                     <h3 class="modal-title text-left mt-0 font-weight-bold" id="exampleModalLabel">Email
                         Confirmation</h3>
-{{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
-{{--                        <span aria-hidden="true">&times;</span>--}}
-{{--                    </button>--}}
+                    {{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+                    {{--                        <span aria-hidden="true">&times;</span>--}}
+                    {{--                    </button>--}}
                 </div>
                 <div class="modal-body text-secondary font-weight-bold">
                     Email has been sent, go their to confirm verification!
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger ml-auto mr-auto" data-dismiss="modal">Close</button>
-{{--                    <a href="{{ url('add-pet') }}" class="btn btn-danger ml-auto mr-auto">Open Gmail</a>--}}
+                    {{--                    <a href="{{ url('add-pet') }}" class="btn btn-danger ml-auto mr-auto">Open Gmail</a>--}}
                 </div>
             </div>
         </div>

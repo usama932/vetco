@@ -12,18 +12,39 @@
                 <img src="{{ asset('assets/vet/logo_3.png') }}" alt="" class="logo">
             </a>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+        <button class="navbar-toggler" type="button" id="mob-dropdown" data-toggle="collapse"
+                aria-controls="navigation-index"
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="navbar-toggler-icon icon-bar"></span>
             <span class="navbar-toggler-icon icon-bar"></span>
             <span class="navbar-toggler-icon icon-bar"></span>
         </button>
+        <div
+            class="dropdown-menu mob-dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown ml-auto desk-hide"
+            aria-labelledby="navbarDropdownProfile" aria-controls="navigation-index" style="position: relative;">
+            @guest
+                <a class="dropdown-item text-white border-bottom" href="{{ url('/#about_us') }}">About us</a>
+                <a class="dropdown-item text-white border-bottom" href="javascript:;">Claim Practice</a>
+                <a class="dropdown-item text-white border-bottom" href="{{ route('register') }}">Sign up</a>
+                <a class="dropdown-item text-white border-bottom" href="{{ route('login') }}">Login</a>
+            @else
+                <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list') }}">Appointments</a>
+                <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
+                <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>
+                <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">Log out</a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+            @endguest
+        </div>
         <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link header_link text-primary @if(url('/') == url()->current())about_us_a"  href="#action" @else about_us_a" href="{{ url('/#about_us') }}" @endif>
-                        About us
+                    <a class="nav-link header_link text-primary @if(url('/') == url()->current())about_us_a"
+                       href="#action" @else about_us_a" href="{{ url('/#about_us') }}" @endif>
+                    About us
                     </a>
                 </li>
                 @guest
@@ -41,12 +62,15 @@
                            class="btn btn-primary header_btn pt-2 pb-2 pl-4 pr-4 ml-3 mr-4 text-primary bg-light">Login</a>
                     </li>
                 @else
-                    <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 13vw;">
-                        <a class="nav-link p-1" href="javascript:;" id="navbarDropdownProfile" style="font-size: 0.8vw; font-weight: 700"
+                    <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 10vw;">
+                        <a class="nav-link p-1" href="javascript:;" id="navbarDropdownProfile"
+                           style="font-size: 0.8vw; font-weight: 700"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="row">
                                 <div class="col text-left">
-                                    {{ Auth::user()->first_name }}</div>
+                                    {{--                                    {{ Auth::user()->first_name }}--}}
+                                    Bailey
+                                </div>
                                 <div class="col text-right">
                                     <i class="fa fa-caret-down" aria-hidden="true" style="font-size: 1vw"></i></div>
                             </div>
@@ -58,9 +82,10 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown"
                              aria-labelledby="navbarDropdownProfile">
-                            <a class="dropdown-item text-white border-bottom" href="{{ url('appointments') }}">Appointments</a>
+                            <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list') }}">Appointments</a>
                             <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
-                            <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>
+                            <a class="dropdown-item text-white border-bottom"
+                               href="{{ url('profile-edit') }}">Settings</a>
                             <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">Log out</a>
 

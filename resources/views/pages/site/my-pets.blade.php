@@ -198,7 +198,7 @@
                                     <input type="text" class="form-control w-50 text-primary ml-auto mr-auto" placeholder="Pet Breed">
                                 </div>
                                 <div class="col-12 text-center pt-3 pt-md-4">
-                                    <button class="btn btn-primary btn-sm"> Save </button>
+                                    <a href="{{ url('pet-suggestion') }}" class="btn btn-primary btn-sm text-white"> Save </a>
                                 </div>
                             </div>
                         </div>

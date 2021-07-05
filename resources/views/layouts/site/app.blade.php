@@ -27,6 +27,7 @@
 
 @include('includes.site.script')
 
+@yield('page-script')
 </body>
 
 </html>

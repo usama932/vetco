@@ -164,26 +164,6 @@
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
-                                    <div class="row filter_card mt-3 " style="box-shadow: 0px 1px 7px -4px;">
-                                        <div class="col-md-8 col-12">
-                                            <div class="row">
-                                                <span class="cl_title">
-                                                    Vaccination
-                                                </span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="cl_detail">
-                                                    Vetcoo recommends regular checkups once per year to catch any health problem early
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2 col-6">
-                                            <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
-                                        </div>
-                                        <div class="col-md-2 col-6">
-                                            <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -31,6 +31,10 @@
                                 </span></div>
                                 <div class="row" style="margin-top: -5px">
                                 <span class="dp_rating">
+                                    <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                     <i class="fa fa-star text-warning mr-2" aria-hidden="true"></i>5 <sub> stars </sub>
                                 </span>
 

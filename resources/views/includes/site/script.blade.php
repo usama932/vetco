@@ -246,6 +246,9 @@
         // md.initDashboardPageCharts();
         //
         // md.initVectorMap();
+        $('#mob-dropdown').click(function (){
+            $('.mob-dropdown-menu').slideToggle();
+        });
         $('.datepicker').datetimepicker({
             format:'DD/MM/YYYY',
         });

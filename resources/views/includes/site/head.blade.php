@@ -1,7 +1,7 @@
 
 <meta charset="utf-8" />
-{{--<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('/assets/vet/logo_3.png') }}">--}}
-{{--<link rel="icon" type="image/png" href="{{ asset('/assets/vet/logo_3.png') }}">--}}
+<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('/assets/vet/favicon.png') }}">
+<link rel="icon" type="image/png" href="{{ asset('/assets/vet/favicon.png') }}">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <title>
     Vet Street | @yield('title')

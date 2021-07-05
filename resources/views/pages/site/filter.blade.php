@@ -19,7 +19,7 @@
                 </div>
                 <div class=" ml-vw  pt-3">
                     <div class="row">
-                        <div class="col text-center form-inline">
+                        <div class="col text-center form-inline form-border">
                             <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="Choose Pet" data-size="4">
                                 <option value="2">Cats </option>
                                 <option value="3">Dogs</option>
@@ -41,9 +41,16 @@
                                 <option value="5">000, Broadway</option>
                                 <option value="6">000, Broadway </option>
                             </select>
-                            <input type="text" class="form-control datepicker filter_form_input  ml-auto mr-auto" value="">
-                            <button type="submit" class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn"><i class="fa fa-search" aria-hidden="true"></i>
-                            </button>
+                            <div class="input-group  filter_form_input  ml-auto mr-auto">
+                                <input type="text" class="form-control datepicker" style="margin-top: -0.1vw;">
+                                <div class="input-group-append">
+                                        <span class="input-group-text p-0">
+                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; margin-right: 0.2vw;"></i>
+                                        </span>
+                                </div>
+                            </div>
+                            <a href="{{ url('appointments') }}" type="button" class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn"><i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

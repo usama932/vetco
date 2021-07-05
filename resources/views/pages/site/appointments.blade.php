@@ -20,7 +20,7 @@
 
                 <div class="ml-vw2  pt-3">
                     <div class="row">
-                        <div class="col text-center form-inline">
+                        <div class="col text-center form-inline form-border">
                             <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4">
                                 <option value="2">Cats</option>
                                 <option value="3">Dogs</option>
@@ -49,11 +49,18 @@
                                 <option value="2">30 miles </option>
                                 <option value="2">50 miles </option>
                             </select>
-                            <input type="text" class="form-control datepicker suggestion_form_input" value="">
-                            <button type="submit"
+                            <div class="input-group  suggestion_form_input  ml-auto mr-auto">
+                                <input type="text" class="form-control datepicker" style="margin-top: -0.1vw;">
+                                <div class="input-group-append">
+                                        <span class="input-group-text p-0">
+                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; margin-right: 0.2vw;"></i>
+                                        </span>
+                                </div>
+                            </div>
+                            <a href="{{ url('appointments') }}" type="button"
                                     class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 suggestion_form_btn"><i
                                     class="fa fa-search" aria-hidden="true"></i>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -604,10 +611,10 @@
                                 </p>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0"
+                                            <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
                                                 <div class="row">
                                                     <div class="col text-center">
@@ -628,10 +635,10 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0"
+                                            <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
                                                 <div class="row">
                                                     <div class="col text-center">
@@ -652,10 +659,10 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0"
+                                            <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
                                                 <div class="row">
                                                     <div class="col text-center">
@@ -676,10 +683,10 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0"
+                                            <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
                                                 <div class="row">
                                                     <div class="col text-center">
@@ -701,10 +708,10 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0"
+                                            <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
                                                 <div class="row">
                                                     <div class="col text-center">

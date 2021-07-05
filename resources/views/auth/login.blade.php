@@ -67,7 +67,7 @@
 
                                 <div class="form-group row mb-5 mt-0">
                                     <div class="col-12 text-center text-primary">
-                                       <small> Don't have account? </small> Sign up Here!
+                                       <small> Don't have account? </small> <a href="{{ route('register') }}"> Sign up Here! </a>
                                     </div>
                                 </div>
                             </form>

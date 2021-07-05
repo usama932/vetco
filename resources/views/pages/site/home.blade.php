@@ -19,31 +19,46 @@
                             Revolutionizing Value Based Pet Care
                         </p>
                         <div class="row pt-md-3 pb-4">
-                            <div class="col text-center form-inline pl-md-5 pr-md-5">
-                                <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="Choose Pet" data-size="4">
-                                    <option value="2">Cats </option>
+                            <div class="col text-center form-inline pl-md-5 pr-md-5 form-border ml-4 mr-4 ml-md-0 mr-md-0">
+                                <select class="selectpicker filter_form_input ml-auto mr-auto"
+                                        data-style="select-with-transition" title="Choose Pet" data-size="4">
+                                    <option value="2">Cats</option>
                                     <option value="3">Dogs</option>
                                     <option value="4">Snakes</option>
                                     <option value="5">Birds</option>
-                                    <option value="6">Rabbits </option>
+                                    <option value="6">Rabbits</option>
                                 </select>
-                                <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="Condition, Procedure, Doctor" data-size="4">
-                                    <option value="2">Physical Wellness Exam </option>
+                                <select class="selectpicker filter_form_input ml-auto mr-auto"
+                                        data-style="select-with-transition" title="Condition, Procedure, Doctor"
+                                        data-size="4">
+                                    <option value="2">Physical Wellness Exam</option>
                                     <option value="3">Dental Cleanings</option>
                                     <option value="4">Dental Extractions</option>
                                     <option value="5">Deworming</option>
-                                    <option value="6">Vacinations  </option>
+                                    <option value="6">Vacinations</option>
                                 </select>
-                                <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
-                                    <option value="2">000, Broadway </option>
+                                <select class="selectpicker filter_form_input ml-auto mr-auto"
+                                        data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
+                                    <option value="2">000, Broadway</option>
                                     <option value="3">000, Broadway</option>
                                     <option value="4">000, Broadway</option>
                                     <option value="5">000, Broadway</option>
-                                    <option value="6">000, Broadway </option>
+                                    <option value="6">000, Broadway</option>
                                 </select>
-                                <input type="text" class="form-control datepicker filter_form_input  ml-auto mr-auto" value="">
-                                <button type="submit" class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn"><i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
+
+                                <div class="input-group  filter_form_input  ml-auto mr-auto">
+                                    <input type="text" class="form-control datepicker" style="margin-top: -0.1vw;">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text p-0">
+                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; margin-right: 0.2vw;"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <a href="{{ url('filter') }}" type="button"
+                                        class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn text-white"><i
+                                        class="fa fa-search" aria-hidden="true"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +92,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -108,7 +123,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/catt.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -170,7 +185,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
+                                        <img src="{{ asset('assets/vet/bird.png') }}" alt="" width="132" height="84">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -242,11 +257,12 @@
                                 </p>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col text-center">
-                                                <img src="{{ asset('assets/vet/teeth_cleaning.png') }}" alt="" class="mps_img">
+                                                <img src="{{ asset('assets/vet/teeth_cleaning.png') }}" alt=""
+                                                     class="mps_img">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -260,11 +276,12 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col text-center">
-                                                <img src="{{ asset('assets/vet/teeth_cleaning_2.png') }}" alt="" class="mps_img">
+                                                <img src="{{ asset('assets/vet/teeth_cleaning_2.png') }}" alt=""
+                                                     class="mps_img">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -278,11 +295,12 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col text-center">
-                                                <img src="{{ asset('assets/vet/Oral_Surgery_f.png') }}" alt="" class="mps_img">
+                                                <img src="{{ asset('assets/vet/Oral_Surgery_f.png') }}" alt=""
+                                                     class="mps_img">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -296,11 +314,12 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col text-center">
-                                                <img src="{{ asset('assets/vet/Parasite_Protection.png') }}" alt="" class="mps_img">
+                                                <img src="{{ asset('assets/vet/Parasite_Protection.png') }}" alt=""
+                                                     class="mps_img">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -314,11 +333,12 @@
                                 </div>
                             </div>
                             <div class="col-md col-sm-12">
-                                <div class="card">
+                                <div class="card mps-card">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col text-center">
-                                                <img src="{{ asset('assets/vet/Vaccinations_f.png') }}" alt="" class="mps_img">
+                                                <img src="{{ asset('assets/vet/Vaccinations_f.png') }}" alt=""
+                                                     class="mps_img">
                                             </div>
                                         </div>
                                         <div class="row">

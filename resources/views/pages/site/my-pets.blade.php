@@ -177,25 +177,25 @@
                                     <label for="pet_name" class="anp_label text-primary">
                                         Pet name
                                     </label>
-                                    <input type="text" class="form-control w-50 text-primary ml-auto mr-auto" placeholder="Pet Name">
+                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Name">
                                 </div>
                                 <div class="col-12 ">
                                     <label for="pet_age" class="anp_label text-primary">
                                         Pet Age
                                     </label>
-                                    <input type="text" class="form-control w-50 text-primary ml-auto mr-auto" placeholder="Pet Age">
+                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Age">
                                 </div>
                                 <div class="col-12 ">
                                     <label for="pet_type" class="anp_label text-primary">
                                         Pet Type
                                     </label>
-                                    <input type="text" class="form-control w-50 text-primary ml-auto mr-auto" placeholder="Pet Type">
+                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Type">
                                 </div>
                                 <div class="col-12 ">
                                     <label for="pet_breed" class="anp_label text-primary">
                                         Pet Breed
                                     </label>
-                                    <input type="text" class="form-control w-50 text-primary ml-auto mr-auto" placeholder="Pet Breed">
+                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Breed">
                                 </div>
                                 <div class="col-12 text-center pt-3 pt-md-4">
                                     <a href="{{ url('pet-suggestion') }}" class="btn btn-primary btn-sm text-white"> Save </a>

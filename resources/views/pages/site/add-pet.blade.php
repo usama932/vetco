@@ -24,7 +24,7 @@
                     <div class="filter_card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-2 bg-primary font-weight-bold text-white text-center rounded"> Step 02
+                                <div class="col-4 col-md-2 bg-primary font-weight-bold text-white text-center rounded"> Step 02
                                 </div>
                             </div>
                             <div class="row">
@@ -34,13 +34,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-12 text-center mb-3">
-                                        <input type="text" class="form-control w-50 ml-auto mr-auto text-primary" placeholder="Pet Name">
+                                        <input type="text" class="form-control wid-50 ml-auto mr-auto text-primary" placeholder="Pet Name">
                                 </div>
                                 <div class="col-12 text-center mb-3">
-                                        <input type="date" class="form-control w-50 ml-auto mr-auto text-primary" placeholder="Pet Birthdate">
+                                        <input type="date" class="form-control wid-50 ml-auto mr-auto text-primary" placeholder="Pet Birthdate">
                                 </div>
                                 <div class="col-12 text-center mb-3">
-                                    <select class="form-control w-50 ml-auto mr-auto text-primary">
+                                    <select class="form-control wid-50 ml-auto mr-auto text-primary">
                                         <option value="">Pet Type</option>
                                         <option value="">Type 1</option>
                                         <option value="">Type 2</option>
@@ -55,12 +55,12 @@
 {{--                                    </select>--}}
                                 </div>
                                 <div class="col-12 text-center mb-3">
-                                    <input type="text" class="form-control w-50 ml-auto mr-auto text-primary" placeholder="Pet Breed">
+                                    <input type="text" class="form-control wid-50 ml-auto mr-auto text-primary" placeholder="Pet Breed">
                                 </div>
                                 <div class="col-12 text-center mb-3">
                                     <label for="" class="text-primary"> Does your pet have insurance? If yes, which </label>
                                     <br>
-                                    <div class="ml-auto mr-auto w-50" style="max-height: 100px; overflow-y: scroll;">
+                                    <div class="ml-auto mr-auto wid-50" style="max-height: 100px; overflow-y: scroll;">
                                     <input type="checkbox" id="1" name="" value="1">
                                     <label for="1" class="text-primary"> Lorem Ipsum </label><br>
                                     <input type="checkbox" id="2" name="" value="2">

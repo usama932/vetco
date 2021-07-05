@@ -21,7 +21,7 @@
                 <a href="#" class="f_href w-100 pt-4"> Privacy Policy </a>
                 <a href="#" class="f_href w-100 pt-3"> Terms Of Services </a>
             </div>
-            <div class="col-md-3 col-sm-12 p-5 text-center">
+            <div class="col-md-3 col-sm-12 p-5 text-center mob-left">
                 <p class="fso">
                     Follow us on:
                 </p>

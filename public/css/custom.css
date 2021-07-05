@@ -122,7 +122,7 @@ body {
     }
 
     .vfp_img {
-        width: 70vw;
+        width: 61vw;
     }
 
     .vfp_img2 {
@@ -220,10 +220,11 @@ body {
 
     .fi {
         background: #ffffff;
-        padding: 2.5vw;
+        padding: 2.8vw;
         margin: 1vw;
         width: 10vw;
         border-radius: 50%;
+        text-align: center;
     }
 
     .ml-vw {
@@ -254,7 +255,7 @@ body {
     }
 
     .filter_form_input {
-        width: 49%;
+        width: 50%;
     }
 
     .filter_form_btn {
@@ -262,7 +263,10 @@ body {
     }
 
     .suggestion_form_input {
-        width: 49%;
+        width: 50% !important;
+    }
+    .input_margin {
+        margin-top: -0.5vw;
     }
 
     .suggestion_form_btn {
@@ -374,7 +378,7 @@ body {
     .anp_label {
         font-size: 3.5vw;
         font-weight: 900;
-        width: 50%;
+        width: 100%;
         text-align: left;
         opacity: 0.5;
         margin: 0;
@@ -454,9 +458,26 @@ body {
         border: 1px solid #03388b;
         border-radius: 5vw;
     }
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        max-width: 50% !important;
+
+         }
+    .mob-hide {
+        display: none !important;
+    }
+    .mob-left {
+        text-align: left !important;
+    }
 }
 
 @media (min-width: 992px) {
+    .input_margin {
+        margin-top: -0.15vw;
+    }
+
+    .wid-50 {
+        width: 50% !important;
+    }
     .desk-hide {
         display: none !important;
     }
@@ -720,6 +741,9 @@ body {
         background: #ffffff !important;
         box-shadow: 0px 0px 7px 2px #03388b;
         color: #03388b !important;
+    }
+    .fir {
+        width: 2.4vw; padding: 0.7vw;
     }
 
     .ml-vw {

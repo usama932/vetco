@@ -42,7 +42,7 @@
                                 <option value="6">000, Broadway </option>
                             </select>
                             <div class="input-group  filter_form_input  ml-auto mr-auto">
-                                <input type="text" class="form-control datepicker" style="margin-top: -0.1vw;">
+                                <input type="text" class="form-control datepicker input_margin">
                                 <div class="input-group-append">
                                         <span class="input-group-text p-0">
                                             <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; margin-right: 0.2vw;"></i>

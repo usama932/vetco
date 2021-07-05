@@ -7,8 +7,8 @@
         <div class="content">
             <div class="container-fluid">
 
-                <div class="row pt-5 shadow_bottom">
-                    <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5">
+                <div class="row pt-md-5 pt-3 shadow_bottom">
+                    <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5 mob-hide">
                         <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
                     </div>
                     <div class="col-md-5 col-sm-12 text-center pt-md-5">
@@ -18,6 +18,9 @@
                         <p class="rvb">
                             Revolutionizing Value Based Pet Care
                         </p>
+                        <div class="col-12 w-100 text-center desk-hide pb-4">
+                            <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
+                        </div>
                         <div class="row pt-md-3 pb-4">
                             <div class="col text-center form-inline pl-md-5 pr-md-5 form-border ml-4 mr-4 ml-md-0 mr-md-0">
                                 <select class="selectpicker filter_form_input ml-auto mr-auto"
@@ -47,7 +50,7 @@
                                 </select>
 
                                 <div class="input-group  filter_form_input  ml-auto mr-auto">
-                                    <input type="text" class="form-control datepicker" style="margin-top: -0.1vw;">
+                                    <input type="text" class="form-control datepicker input_margin">
                                     <div class="input-group-append">
                                         <span class="input-group-text p-0">
                                             <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; margin-right: 0.2vw;"></i>
@@ -62,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5">
+                    <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5 mob-hide">
                         <img src="{{ asset('assets/vet/Ill3.png') }}" alt="" class="vfp_img2">
                     </div>
                 </div>

@@ -18,7 +18,7 @@
 {{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
 {{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
 {{--        </button>--}}
-        <a href="javascript:;" id="mob-dropdown" >
+        <a href="javascript:;" id="mob-dropdown" class="desk-hide" >
             <i class="fa fa-bars" aria-hidden="true"></i>
         </a>
         <div

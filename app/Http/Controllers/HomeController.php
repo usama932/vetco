@@ -24,11 +24,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $page = 'Dashboard';
+        return view('pages.admin.home', compact('page'));
     }
     public function index1()
     {
-        return view('home');
+        $page = 'Dashboard';
+        return view('pages.vet.home', compact('page'));
     }
     public function index2()
     {

@@ -138,6 +138,7 @@ body {
         padding-top: 1vw !important;
         line-height: 5vw;
         font-size: 4vw;
+        text-align: justify;
     }
 
     .rvb {
@@ -461,7 +462,7 @@ body {
 
     .form-border {
         border: 1px solid #03388b;
-        border-radius: 5vw;
+        /*border-radius: 1vw;*/
     }
 
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
@@ -475,9 +476,45 @@ body {
     .mob-left {
         text-align: left !important;
     }
+    .asc {
+        width: 23vw;
+        height: 18vw;
+
+    }
+    .cba{
+        width: 80%;
+        color: white;
+        background: #03388b;
+        border: #03388b;
+        border-radius: 6px;
+        padding: 8px 0;
+        font-size: 3vw;
+    }
+    .cda {
+        font-weight: bold;
+        font-size: 3.2vw;
+        line-height: 4vw;
+    }
 }
 
 @media (min-width: 992px) {
+    .cda {
+        font-weight: bold;
+        font-size: 1vw;
+    }
+    .cba{
+        width: 80%;
+        color: white;
+        background: #03388b;
+        border: #03388b;
+        border-radius: 6px;
+        padding: 8px 0;
+        font-size: 1vw;
+    }
+    .asc {
+        width: 8vw;
+        height: 6vw;
+    }
     .input_margin {
         margin-top: -0.15vw;
     }
@@ -492,8 +529,8 @@ body {
 
     .form-border {
         border: 1px solid #03388b;
-        border-radius: 5vw;
-        padding: 0px 1vw !important;
+        /*border-radius: 1vw;*/
+        padding: 0px 0.4vw !important;
     }
 
     .cat-dog {
@@ -642,6 +679,11 @@ body {
         font-size: 2.7vw;
         padding-top: 8vw;
     }
+    .vfpf {
+        line-height: 1vw;
+        font-size: 2.7vw;
+        padding-top: 8vw;
+    }
 
     .vfp_img {
         width: 30vw;
@@ -660,6 +702,7 @@ body {
     .asd {
         line-height: 1.5vw;
         font-size: 1.1vw;
+        text-align: justify;
     }
 
     .rvb {
@@ -799,7 +842,7 @@ body {
     }
 
     .suggestion_form_input {
-        width: 19% !important;
+        width: 18.5% !important;
     }
 
     .suggestion_form_btn {

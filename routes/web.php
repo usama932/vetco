@@ -50,14 +50,78 @@ Route::get('/appointments-list', function () {
 Auth::routes();
 
 
-Route::group(['middleware' => ['auth', 'role:admin']], function () {
-    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(['middleware' => ['auth', 'role:admin'], 'prefix' => 'admin'], function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
+    Route::get('/all-practices', function () {
+        $page = 'All Practices';
+        return view('pages.admin.all-practices', compact('page'));
+    });
+    Route::get('/pending-requests', function () {
+        $page = 'Pending Requests';
+        return view('pages.admin.pending-requests', compact('page'));
+    });
+    Route::get('/search-results', function () {
+        $page = '0';
+        return view('pages.admin.search-results', compact('page'));
+    });
+    Route::get('/search-details', function () {
+        $page = '0';
+        return view('pages.admin.search-details', compact('page'));
+    });
+    Route::get('/login', function () {
+        $page = '0';
+        return view('pages.admin.login', compact('page'));
+    });
 });
 
-Route::group(['middleware' => ['auth', 'role:vet']], function () {
-    Route::get('/home1', [App\Http\Controllers\HomeController::class, 'index1'])->name('home');
+Route::group(['middleware' => ['auth', 'role:vet'], 'prefix' => 'vet'], function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index1']);
+    Route::get('/reviews', function () {
+        $page = 'Reviews';
+        return view('pages.vet.reviews', compact('page'));
+    });
+    Route::get('/services', function () {
+        $page = 'Services';
+        return view('pages.vet.services', compact('page'));
+    });
+    Route::get('/appointments', function () {
+        $page = 'All Practices';
+        return view('pages.vet.appointments', compact('page'));
+    });
+    Route::get('/pending-appointments', function () {
+        $page = 'All Practices';
+        return view('pages.vet.pending-appointments', compact('page'));
+    });
+    Route::get('/search-result', function () {
+        $page = '0';
+        return view('pages.vet.search-result', compact('page'));
+    });
+    Route::get('/search-details', function () {
+        $page = '0';
+        return view('pages.vet.search-details', compact('page'));
+    });
+    Route::get('/profile', function () {
+        $page = '0';
+        return view('pages.vet.profile', compact('page'));
+    });
+    Route::get('/claim-practice', function () {
+        $page = '0';
+        return view('pages.vet.claim-practice', compact('page'));
+    });
+    Route::get('/login', function () {
+        $page = '0';
+        return view('pages.vet.login', compact('page'));
+    });
+    Route::get('/privacy', function () {
+        $page = '0';
+        return view('pages.vet.privacy', compact('page'));
+    });
+    Route::get('/terms', function () {
+        $page = '0';
+        return view('pages.vet.terms', compact('page'));
+    });
 });
 
 Route::group(['middleware' => ['auth', 'role:pet']], function () {
-    Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2'])->name('home');
+    Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2']);
 });

@@ -32,7 +32,7 @@
             @else
                 <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list') }}">Appointments</a>
                 <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
-                <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>
+{{--                <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>--}}
                 <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">Log out</a>
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -85,8 +85,8 @@
                              aria-labelledby="navbarDropdownProfile">
                             <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list') }}">Appointments</a>
                             <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
-                            <a class="dropdown-item text-white border-bottom"
-                               href="{{ url('profile-edit') }}">Settings</a>
+{{--                            <a class="dropdown-item text-white border-bottom"--}}
+{{--                               href="{{ url('profile-edit') }}">Settings</a>--}}
                             <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">Log out</a>
 

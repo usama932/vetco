@@ -7,20 +7,20 @@
         <div class="content">
             <div class="container-fluid">
 
-                <div class="ml-vw2 row pt-5 ">
+                <div class="ml-vw2 row pt-md-2">
                     <div class="col text-lest">
-                        <p class="vfp">
+                        <p class="vfp pt-md-5">
                             Hey, Bailey
                         </p>
-                        <p class="rvb">
+                        <p class="rvb pb-0">
                             Let’s help you stay on top of your Pet health
                         </p>
                     </div>
                 </div>
 
-                <div class="ml-vw2  pt-3">
+                <div class="ml-vw2 pt-2">
                     <div class="row">
-                        <div class="col text-center form-inline form-border">
+                        <div class="col col-md-8 ml-auto mr-auto mt-md-4 mb-md-5 mt-2 mb-4 text-center form-inline form-border rounded">
                             <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4">
                                 <option value="2">Cats</option>
                                 <option value="3">Dogs</option>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
 
-                <div class="ml-vw2 pt-3">
+                <div class="ml-vw2 pt-3 pb-5">
 
                     <div class="row p-1 p-md-3 rounded"
                          style="background-image: linear-gradient(to left, #ffffff, #f5f5f5, #efefef); box-shadow: 0px 4px 16px -9px;">

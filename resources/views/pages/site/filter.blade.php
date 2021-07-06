@@ -7,9 +7,9 @@
         <div class="content">
             <div class="container-fluid">
 
-                <div class="row pt-5 ">
-                    <div class="col text-center">
-                        <p class="vfp">
+                <div class="row">
+                    <div class="col text-center pt-md-5">
+                        <p class="vfpf pt-md-5">
                             Find the Best Vet for Your Pet
                         </p>
                         <p class="rvb">
@@ -19,7 +19,7 @@
                 </div>
                 <div class=" ml-vw  pt-3">
                     <div class="row">
-                        <div class="col text-center form-inline form-border">
+                        <div class="col-md-8 text-center form-inline form-border rounded ml-auto mr-auto mt-2 mb-2 mb-md-4 mt-md-4">
                             <select class="selectpicker filter_form_input ml-auto mr-auto" data-style="select-with-transition" title="Choose Pet" data-size="4">
                                 <option value="2">Cats </option>
                                 <option value="3">Dogs</option>
@@ -115,6 +115,7 @@
 
                 </div>
 
+                <div class="row"></div>
             </div>
         </div>
     </div>

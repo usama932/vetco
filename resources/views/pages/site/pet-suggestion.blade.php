@@ -8,9 +8,9 @@
         <div class="content">
             <div class="container-fluid">
 
-                <div class="ml-vw row pt-5 ">
+                <div class="ml-vw row pt-md-2">
                     <div class="col text-lest">
-                        <p class="vfp">
+                        <p class="vfp pt-md-5">
                             Hey, Bailey
                         </p>
                         <p class="rvb">
@@ -19,9 +19,9 @@
                     </div>
                 </div>
 
-                <div class=" ml-vw  pt-3">
+                <div class=" ml-vw pt-2">
                     <div class="row">
-                        <div class="col text-center form-inline form-border">
+                        <div class="col col-md-8 ml-auto mr-auto mt-md-4 mb-md-4 mt-2 mb-4 text-center form-inline form-border rounded">
                             <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4">
                                 <option value="2">Cats</option>
                                 <option value="3">Dogs</option>

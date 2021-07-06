@@ -22,7 +22,7 @@
                             <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
                         </div>
                         <div class="row pt-md-3 pb-4">
-                            <div class="col text-center form-inline pl-md-5 pr-md-5 form-border ml-4 mr-4 ml-md-0 mr-md-0">
+                            <div class="col text-center form-inline pl-md-5 pr-md-5 form-border rounded ml-4 mr-4 ml-md-0 mr-md-0">
                                 <select class="selectpicker filter_form_input ml-auto mr-auto"
                                         data-style="select-with-transition" title="Choose Pet" data-size="4">
                                     <option value="2">Cats</option>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-5 pl-4 pr-4 pb-5" id="about_us" style="background: #f0f0ef">
+                <div class="row pt-5 pl-md-4 pr-md-4 pb-5 pl-2 pr-2" id="about_us" style="background: #f0f0ef">
                     <div class="col-12 pt-md-5">
                         <p class="as text-center">
                             About us
@@ -90,12 +90,43 @@
                             malesuada. Donec tincidunt ac sapien ut accumsan. Proin finibus congue lectus quis iaculis.
                         </p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 pl-3 pr-3">
-                        <div class="card">
-                            <div class="card-body">
+{{--                    <div class="col-md-3 col-6 pl-3 pr-3">--}}
+{{--                        <div class="card">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <div class="row">--}}
+{{--                                    <div class="col text-center pt-5">--}}
+{{--                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" class="asc">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="row">--}}
+{{--                                    <div class="col text-center">--}}
+{{--                                        <p class="ct pt-3 text-primary">--}}
+{{--                                            Woof woof!--}}
+{{--                                        </p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="row">--}}
+{{--                                    <div class="col text-left">--}}
+{{--                                        <p class="cd pt-3">--}}
+{{--                                            Lorem Ipsum is simply dummy text of the--}}
+{{--                                            printingand typesetting industry.--}}
+{{--                                        </p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="row">--}}
+{{--                                    <div class="col text-center pt-5 pb-2">--}}
+{{--                                        <button class="cb  btn btn-primary"> Learn more</button>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+                    <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
+                        <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
+                            <div class="card-body p-md-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" width="132" height="84">
+                                    <div class="col text-center pt-md-5 pt-2">
+                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -107,26 +138,26 @@
                                 </div>
                                 <div class="row">
                                     <div class="col text-left">
-                                        <p class="cd pt-3">
+                                        <p class="cda pt-md-3 pt-1">
                                             Lorem Ipsum is simply dummy text of the
                                             printingand typesetting industry.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-5 pb-2">
-                                        <button class="cb  btn btn-primary"> Learn more</button>
+                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                        <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 pl-3 pr-3">
-                        <div class="card">
-                            <div class="card-body">
+                    <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
+                        <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
+                            <div class="card-body p-md-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/catt.png') }}" alt="" width="132" height="84">
+                                    <div class="col text-center pt-md-5 pt-2">
+                                        <img src="{{ asset('assets/vet/catt.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -138,77 +169,77 @@
                                 </div>
                                 <div class="row">
                                     <div class="col text-left">
-                                        <p class="cd pt-3">
+                                        <p class="cda pt-md-3 pt-1">
                                             Lorem Ipsum is simply dummy text of the
                                             printingand typesetting industry.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-5 pb-2">
-                                        <button class="cb  btn btn-primary"> Learn more</button>
+                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                        <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 pl-3 pr-3">
-                        <div class="card">
-                            <div class="card-body">
+                    <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
+                        <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
+                            <div class="card-body p-md-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" width="132" height="84">
+                                    <div class="col text-center pt-md-5 pt-2">
+                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col text-center">
                                         <p class="ct pt-3 text-primary">
-                                            sssssss!
+                                            ssssssss!
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col text-left">
-                                        <p class="cd pt-3">
+                                        <p class="cda pt-md-3 pt-1">
                                             Lorem Ipsum is simply dummy text of the
                                             printingand typesetting industry.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-5 pb-2">
-                                        <button class="cb btn btn-primary"> Learn more</button>
+                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                        <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 pl-3 pr-3">
-                        <div class="card">
-                            <div class="card-body">
+                    <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
+                        <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
+                            <div class="card-body p-md-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-5">
-                                        <img src="{{ asset('assets/vet/bird.png') }}" alt="" width="132" height="84">
+                                    <div class="col text-center pt-md-5 pt-2">
+                                        <img src="{{ asset('assets/vet/bird.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col text-center">
                                         <p class="ct pt-3 text-primary">
-                                            cheep cheep!
+                                            Cheep Cheep!
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col text-left">
-                                        <p class="cd pt-3">
+                                        <p class="cda pt-md-3 pt-1">
                                             Lorem Ipsum is simply dummy text of the
                                             printingand typesetting industry.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-5 pb-2">
-                                        <button class="cb  btn btn-primary"> Learn more</button>
+                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                        <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
                             </div>

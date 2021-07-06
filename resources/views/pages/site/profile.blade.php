@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="col-md-8 col-12 text-left pl-md-5">
-                            <div class="row pt-md-5 ">
+                            <div class="row pt-md-2 ">
                                 <div class="col">
                                     <h4 class="text-black font-weight-bold"> Contact Info </h4>
                                 </div>
@@ -41,6 +41,9 @@
                                         (815) 00 00000
                                     </p>
                                 </div>
+                                <div class="col-3 text-right">
+                                    <button class="btn btn-primary btn-sm edit"> Edit </button>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col">
@@ -50,42 +53,42 @@
                             <div class="row text-black">
                                 <div class="col-4"> First Name
                                 </div>
-                                <div class="col-8"> Bailey </div>
+                                <div class="col-8"><input type="text" name="" id="" class="form-control wid-50" readonly value="Bailey"> </div>
                             </div>
                             <div class="row text-black">
                                 <div class="col-4"> Last Name
                                 </div>
-                                <div class="col-8"> Ipsum </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="Ipsum"> </div>
                             </div>
                             <div class="row text-black">
                                 <div class="col-4"> Age
                                 </div>
-                                <div class="col-8"> 00 </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="00"> </div>
                             </div>
                             <div class="row text-black">
                                 <div class="col-4"> City
                                 </div>
-                                <div class="col-8"> Lorem </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="Lorem"> </div>
                             </div>
                             <div class="row text-black">
                                 <div class="col-4"> Address
                                 </div>
-                                <div class="col-8"> 228 Park Ave </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="228 Park Ave"> </div>
                             </div>
                             <div class="row text-black">
                                 <div class="col-4"> City
                                 </div>
-                                <div class="col-8"> Florida </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="Florida"> </div>
                             </div>
                             <div class="row text-black">
                                 <div class="col-4"> State
                                 </div>
-                                <div class="col-8"> Chilli </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="Chilli"> </div>
                             </div>
                             <div class="row text-black">
                                 <div class="col-4"> Zip Code
                                 </div>
-                                <div class="col-8"> 0678 </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="0678"> </div>
                             </div>
                         </div>
                     </div>
@@ -96,4 +99,12 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('page-script')
+    <script>
+        $('.edit').click(function (){
+           $('.form-control').removeAttr('readonly');
+        });
+    </script>
 @endsection

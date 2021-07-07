@@ -37,11 +37,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
                                         <li><a href="#">View</a></li>
                                         <li><a href="#">Edit</a></li>
-
+                                        <li><a href="#">Delete</a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -60,11 +58,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
                                         <li><a href="#">View</a></li>
                                         <li><a href="#">Edit</a></li>
-
+                                        <li><a href="#">Delete</a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -83,11 +79,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
                                         <li><a href="#">View</a></li>
                                         <li><a href="#">Edit</a></li>
-
+                                        <li><a href="#">Delete</a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -106,11 +100,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
                                         <li><a href="#">View</a></li>
                                         <li><a href="#">Edit</a></li>
-
+                                        <li><a href="#">Delete</a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -129,11 +121,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
                                         <li><a href="#">View</a></li>
                                         <li><a href="#">Edit</a></li>
-
+                                        <li><a href="#">Delete</a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -152,11 +142,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
                                         <li><a href="#">View</a></li>
                                         <li><a href="#">Edit</a></li>
-
+                                        <li><a href="#">Delete</a></li>
                                     </ul>
                                 </div>
                             </td>

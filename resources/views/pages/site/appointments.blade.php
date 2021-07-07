@@ -57,7 +57,7 @@
                                         </span>
                                 </div>
                             </div>
-                            <a href="{{ url('appointments') }}" type="button"
+                            <a href="{{ url('search') }}" type="button"
                                     class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 suggestion_form_btn"><i
                                     class="fa fa-search" aria-hidden="true"></i>
                             </a>

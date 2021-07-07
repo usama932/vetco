@@ -72,11 +72,11 @@
     box-shadow: 0px 0px 4px -2px black;">
                                 <div class="row">
                                     <div class="col-6 col-md-1 text-center">
-                                        <img src="{{ asset('vet/assets/vet/review_1.png') }}" alt=""
+                                        <img src="{{ asset('assets/vet/review_1.png') }}" alt=""
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -99,11 +99,11 @@
     box-shadow: 0px 0px 4px -2px black;">
                                 <div class="row">
                                     <div class="col-6 col-md-1 text-center">
-                                        <img src="{{ asset('vet/assets/vet/review_2.png') }}" alt=""
+                                        <img src="{{ asset('assets/vet/review_2.png') }}" alt=""
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -126,11 +126,11 @@
     box-shadow: 0px 0px 4px -2px black;">
                                 <div class="row">
                                     <div class="col-6 col-md-1 text-center">
-                                        <img src="{{ asset('vet/assets/vet/review_2.png') }}" alt=""
+                                        <img src="{{ asset('assets/vet/review_1.png') }}" alt=""
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -153,11 +153,11 @@
     box-shadow: 0px 0px 4px -2px black;">
                                 <div class="row">
                                     <div class="col-6 col-md-1 text-center">
-                                        <img src="{{ asset('vet/assets/vet/review_2.png') }}" alt=""
+                                        <img src="{{ asset('assets/vet/review_2.png') }}" alt=""
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>

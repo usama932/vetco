@@ -58,7 +58,7 @@
                                         </span>
                                 </div>
                             </div>
-                            <a href="{{ url('appointments') }}" type="button"
+                            <a href="{{ url('search') }}" type="button"
                                     class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 suggestion_form_btn"><i
                                     class="fa fa-search" aria-hidden="true"></i>
                             </a>
@@ -100,7 +100,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 text-center" style="padding-top: 34px;">
-                            <a href="{{ url('appointments') }}" type="button" class="cb"> Book Physical Wellness </a>
+                            <a href="{{ url('search') }}" type="button" class="cb"> Book Physical Wellness </a>
                         </div>
                     </div>
                     <div class="row filter_card2">
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 text-center" style="padding-top: 34px;">
-                            <a href="{{ url('appointments') }}"type="button"  class="cb"> Book Dental Cleaning </a>
+                            <a href="{{ url('search') }}"type="button"  class="cb"> Book Dental Cleaning </a>
                         </div>
                     </div>
 

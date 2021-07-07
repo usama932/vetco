@@ -77,7 +77,7 @@
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -104,7 +104,7 @@
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -131,7 +131,7 @@
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -158,7 +158,7 @@
                                              class="dp_r_img">
                                     </div>
                                     <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
-                                        <span class="dp_r_name">Mr Josaf</span>
+                                        <span class="dp_r_name ml-3">Mr Josaf</span>
                                     </div>
                                     <div class="col-12 col-md-3 ">
                                         <i class="fa fa-star text-warning " aria-hidden="true"></i>

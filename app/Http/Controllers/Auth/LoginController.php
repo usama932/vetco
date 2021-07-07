@@ -50,7 +50,7 @@ class LoginController extends Controller
         ]);
         if (Auth::attempt(array('email' => $input['email'], 'password' => $input['password']))) {
             if (Auth::user()->hasRole('pet')) {
-                return redirect('/');
+                return redirect('/search');
             } else if (Auth::user()->hasRole('vet')) {
                 return redirect('vet/home');
             } else if (Auth::user()->hasRole('admin')) {

@@ -52,8 +52,8 @@
                     </a>
                 </li>
                 <li class="button-container nav-item iframe-extern">
-                    <a href="{{ url('/admin/login') }}" class="btn btn-sm search-btn btn-light-blue ml-2 btn-block">
-                        <i class="fas fa-sign-out-alt"></i>
+                    <a href="{{ url('/admin/login') }}" class="ml-2 text-white" style="    font-size: 18px;">
+                        <i class="fas fa-sign-out-alt pt-1"></i>
                     </a>
                 </li>
             </ul>

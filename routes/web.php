@@ -37,7 +37,7 @@ Route::get('/profile', function () {
 Route::get('/profile-edit', function () {
     return view('pages.site.profile-edit');
 });
-Route::get('/appointments', function () {
+Route::get('/search', function () {
     return view('pages.site.appointments');
 });
 Route::get('/vet-profile', function () {

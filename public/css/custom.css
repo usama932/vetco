@@ -52,7 +52,6 @@ body {
     border: #03388b;
     border-radius: 6px;
     padding: 8px 0;
-    font-size: 18px;
 }
 
 
@@ -495,9 +494,21 @@ body {
         font-size: 3.2vw;
         line-height: 4vw;
     }
+    .filter_sec {
+        max-height: 110vw;
+        padding: 0 6vw;
+        overflow-y: auto;
+        margin-bottom: 5vw;
+    }
 }
 
 @media (min-width: 992px) {
+    .filter_sec {
+        max-height: 26vw;
+        padding: 2vw;
+        overflow-y: auto;
+        margin-bottom: 2vw;
+    }
     .cda {
         font-weight: bold;
         font-size: 1vw;
@@ -630,7 +641,7 @@ body {
     }
 
     .anp_label {
-        font-size: 1.5vw;
+        font-size: 1.1vw;
         font-weight: 700;
         width: 50%;
         text-align: left;
@@ -895,7 +906,7 @@ body {
 
     .mp {
         padding: 0.2vw 1.5vw;
-        font-size: 1.5vw;
+        font-size: 1.1vw;
         border-radius: 7px;
     }
 

@@ -15,6 +15,7 @@
 
 <!-- CSS Files -->
 <link href="{{ asset('/assets/css/material-dashboard.css?v=2.2.2') }}" rel="stylesheet" />
+<link href="{{ asset('/assets/css/jquery-confirm.min.css') }}" rel="stylesheet" />
 <!-- CSS Just for demo purpose, don't include it in your project -->
 <link href="{{ asset('/assets/demo/demo.css') }}" rel="stylesheet" />
 {{--Custom CSS--}}

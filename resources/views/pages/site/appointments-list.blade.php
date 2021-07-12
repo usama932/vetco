@@ -34,16 +34,16 @@
                                                 Practice Address
                                             </th>
                                             <th>
+                                                Phone Number
+                                            </th>
+                                            <th>
                                                 Appointment Date
                                             </th>
                                             <th>
                                                 Time
                                             </th>
                                             <th>
-                                                Previous Appointment
-                                            </th>
-                                            <th>
-                                                Upcoming Appointment
+
                                             </th>
                                         </tr>
                                         </thead>
@@ -59,16 +59,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -82,16 +90,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -105,16 +121,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -128,16 +152,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -151,16 +183,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -174,16 +214,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -197,16 +245,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -220,16 +276,24 @@
                                                 102, Broadway
                                             </td>
                                             <td>
+                                                00000000000
+                                            </td>
+                                            <td>
                                                 00-00-0000
                                             </td>
                                             <td>
                                                 00-00
                                             </td>
                                             <td>
-                                                00-00-00, 00:00 PM
-                                            </td>
-                                            <td>
-                                                00-00-00, 00:00 AM
+                                                <div class="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                        <i class="fa fa-ellipsis-v text-dark"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a>Reschedule</a></li>
+                                                        <li><a href="#">Cancel</a></li>
+                                                    </ul>
+                                                </div>
                                             </td>
                                         </tr>
                                         </tbody>

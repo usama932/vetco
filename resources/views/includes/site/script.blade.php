@@ -29,6 +29,12 @@
 <script src="{{ asset('/assets/js/plugins/nouislider.min.js') }}"></script>
 <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+
+
+<script src="{{ asset('/assets/js/jquery-confirm.min.js') }}"></script>
+
+
+
 <!-- Library for adding dinamically elements -->
 <script src="{{ asset('/assets/js/plugins/arrive.min.js') }}"></script>
 
@@ -259,6 +265,20 @@
             $("body, html").animate({
                 scrollTop: position
             } /* speed */);
+        });
+        $(".remove").click(function(e) {
+            e.preventDefault();
+            var href = $(this).attr("href");
+            $.confirm({
+                title: 'Confirm!',
+                content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
+                buttons: {
+                    YES: function() {
+                        $(location).attr('href', href);
+                    },
+                    NO: function() {}
+                }
+            });
         });
     });
 </script>

@@ -21,5 +21,6 @@
 <!-- CSS Just for demo purpose, don't include it in your project -->
 <link href="{{ asset('admin/assets/demo/demo.css') }}" rel="stylesheet"/>
 <link href="{{ asset('admin/assets/demo/vertical-nav.css') }}" rel="stylesheet"/>
+<link href="{{ asset('admin/assets/css/jquery-confirm.min.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="{{ asset('admin/assets/css/custom.css') }}">
 <link rel='stylesheet' type='text/css' href="{{ asset('admin/fullcalendar.css') }}"/>

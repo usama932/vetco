@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-md-12 ml-auto mr-auto">
                     <div class="row p-5">
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
                             <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
@@ -35,7 +35,7 @@
 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
                             <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
@@ -58,7 +58,7 @@
                                 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
                             <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
@@ -81,7 +81,7 @@
                                 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
                             <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
@@ -104,7 +104,7 @@
                                 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
                             <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
@@ -129,7 +129,7 @@
                         </div>
 
 
-{{--                        <div class="col-md-3 col-sm-12">--}}
+{{--                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">--}}
 {{--                            <div class="card">--}}
 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
 {{--                                <div class="text-right">--}}

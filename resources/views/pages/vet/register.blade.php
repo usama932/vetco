@@ -36,55 +36,90 @@
 </nav>
 <div class="page-header header-filter"
      style="background-image: url('./assets/img/bg.png'); background-size: cover; background-position: center;">
-    <div class="container">
+    <div class="container" style="padding-top: 9vh;">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
+            <div class="col-lg-5 col-md-8 col-sm-10 ml-auto mr-auto">
 
-                <form class="form" method="" action="">
-                    <div class="card card-login card-hidden border-0 bg-transparent no-shadow">
 
-                        <div class="card-body bg-transparent border-0">
-                            <h2 class="card-description text-center text-white font-weight-bold">Login</h2>
-                            <span class="bmd-form-group">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">
-                                                <i class="material-icons">account_circle</i>
-                                            </span>
-                                        </div>
-                                        <input type="text" class="form-control login" placeholder="Username">
+                <form method="POST" action="{{ route('register') }}">
+                    @csrf
+                    <h2 class="card-description text-center text-white font-weight-bold">Vet Login</h2>
+                    <div class="card rounded">
+
+                        @if (session('error'))
+                            <div class="alert alert-danger" role="alert">
+                                {{ session('error') }}
+                            </div>
+                        @endif
+
+                        <div class="card-body bg-transparent">
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">First Name</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
                                     </div>
-                                </span>
-
-                            <span class="bmd-form-group">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">
-                                                <i class="material-icons">lock_outline</i>
-                                            </span>
-                                        </div>
-                                        <input type="password" class="form-control login" placeholder="Password">
-                                    </div>
-                                </span>
-
-
-                            <div class="d-flex align-items-center justify-content-around mt-3 pl-5">
-                                <div class="checkbox">
-                                    <label class="text-white">
-                                        <input type="checkbox" name="optionsCheckboxes">
-                                        Remember Me
-                                    </label>
                                 </div>
-                                <div>
-                                    <a href="javascript:void(0)" class="text-italic text-white">Forgot Password
-                                        ?</a>
-
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">Last Name</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">Email</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="email" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">Phone No.</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">Address</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">Password</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="password" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">Confirm Password</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="password" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row mt-3 pl-5">
+                                <div class="col-12 text-center text-blue">
+                                     Already have an account? <a
+                                        href="{{ url('vet/login') }}" class="text-blue font-weight-bold"> Log in
+                                        Here! </a>
                                 </div>
                             </div>
 
                         </div>
                         <div class="card-footer justify-content-center">
-                            <a href="{{ url('admin/home') }}" class="btn btn-blue ">Login</a>
+                            <a href="{{ url('vet/home') }}" class="btn btn-blue">Sign up</a>
                         </div>
                     </div>
                 </form>

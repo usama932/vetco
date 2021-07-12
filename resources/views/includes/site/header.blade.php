@@ -26,9 +26,9 @@
             aria-labelledby="navbarDropdownProfile" aria-controls="navigation-index" style="right: 2vw; width: 50%;">
             @guest
                 <a class="dropdown-item text-white border-bottom" href="{{ url('/#about_us') }}">About us</a>
-                <a class="dropdown-item text-white border-bottom" href="javascript:;">Claim Practice</a>
-                <a class="dropdown-item text-white border-bottom" href="{{ route('register') }}">Sign up</a>
-                <a class="dropdown-item text-white border-bottom" href="{{ route('login') }}">Login</a>
+                <a class="dropdown-item text-white border-bottom" href="{{ url('vet/login') }}">Claim Practice</a>
+{{--                <a class="dropdown-item text-white border-bottom" href="{{ route('register') }}">Sign up</a>--}}
+                <a class="dropdown-item text-white border-bottom" href="{{ route('login') }}">Log in</a>
             @else
                 <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list') }}">Appointments</a>
                 <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
@@ -50,17 +50,17 @@
                 </li>
                 @guest
                     <li class="nav-item">
-                        <a class="nav-link header_link text-primary" href="javascript:;">
+                        <a class="nav-link header_link text-primary" href="{{ url('vet/login')}}">
                             Claim Practice
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{ url('register') }}"
-                           class="btn btn-primary header_btn header_btn_active pt-2 pb-2 pl-4 pr-4 ml-2">Sign up</a>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a href="{{ url('register') }}"--}}
+{{--                           class="btn btn-primary header_btn header_btn_active pt-2 pb-2 pl-4 pr-4 ml-2">Sign up</a>--}}
+{{--                    </li>--}}
                     <li class="nav-item">
                         <a href="{{ url('login') }}"
-                           class="btn btn-primary header_btn pt-2 pb-2 pl-4 pr-4 ml-3 mr-4 text-primary bg-light">Login</a>
+                           class="btn btn-primary header_btn pt-2 pb-2 pl-4 pr-4 ml-3 mr-4 text-primary bg-light">LOG IN</a>
                     </li>
                 @else
                     <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 10vw;">

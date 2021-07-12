@@ -40,11 +40,19 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
 
-                <form class="form" method="" action="">
+
+                <form method="POST" action="{{ route('login') }}">
+                    @csrf
                     <div class="card card-login card-hidden border-0 bg-transparent no-shadow">
 
+                        @if (session('error'))
+                            <div class="alert alert-danger" role="alert">
+                                {{ session('error') }}
+                            </div>
+                        @endif
+
                         <div class="card-body bg-transparent border-0">
-                            <h2 class="card-description text-center text-white font-weight-bold">Login</h2>
+                            <h2 class="card-description text-center text-white font-weight-bold">Vet Login</h2>
                             <span class="bmd-form-group">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
@@ -52,7 +60,7 @@
                                                 <i class="material-icons">account_circle</i>
                                             </span>
                                         </div>
-                                        <input type="text" class="form-control login" placeholder="Username">
+                                        <input type="email" name="email" class="form-control login" placeholder="Email" required>
                                     </div>
                                 </span>
 
@@ -63,7 +71,7 @@
                                                 <i class="material-icons">lock_outline</i>
                                             </span>
                                         </div>
-                                        <input type="password" class="form-control login" placeholder="Password">
+                                        <input type="password" name="password" class="form-control login" placeholder="Password" required>
                                     </div>
                                 </span>
 
@@ -81,10 +89,16 @@
 
                                 </div>
                             </div>
+                            <div class="form-group row mt-3 pl-5">
+                                <div class="col-12 text-center">
+                                    <small class="text-white"> Don't have account? </small> <a href="{{ url('vet/register') }}"  class="text-white"> Sign up
+                                        Here! </a>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="card-footer justify-content-center">
-                            <a href="index.php" class="btn btn-blue ">Login</a>
+                            <button class="btn btn-blue">Login</button>
                         </div>
                     </div>
                 </form>

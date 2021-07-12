@@ -13,7 +13,7 @@
                             Find the Best Vet for Your Pet
                         </p>
                         <p class="rvb">
-                            Revolutionizing Value Based Pet Care
+                            Revolutionizing Transparency in Healthcare
                         </p>
                     </div>
                 </div>

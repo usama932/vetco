@@ -22,5 +22,6 @@
 <link href="{{ asset('vet/assets/demo/demo.css') }}" rel="stylesheet"/>
 <link href="{{ asset('vet/assets/demo/vertical-nav.css') }}" rel="stylesheet"/>
 <link rel="stylesheet" href="{{ asset('vet/assets/css/main.min.css') }}">
+<link href="{{ asset('vet/assets/css/jquery-confirm.min.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="{{ asset('vet/assets/css/custom.css') }}">
 {{--<link rel='stylesheet' type='text/css' href="{{ asset('vet/fullcalendar.css') }}"/>--}}

@@ -7,16 +7,16 @@
         <div class="content">
             <div class="container-fluid">
 
-                <div class="row pt-md-5 pt-3 shadow_bottom">
+                <div class="row pt-md-5 pt-3 shadow_bottom vh-92">
                     <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5 mob-hide">
                         <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
                     </div>
-                    <div class="col-lg-5 col-sm-12 text-center pt-md-5">
+                    <div class="col-md-5 col-sm-12 text-center pt-md-5">
                         <p class="vfp">
                             Find the Best Vet for Your Pet
                         </p>
                         <p class="rvb">
-                            Revolutionizing Value Based Pet Care
+                            Revolutionizing Transparency in Healthcare
                         </p>
                         <div class="col-12 w-100 text-center desk-hide pb-4">
                             <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-5 pl-md-4 pr-md-4 pb-5 pl-2 pr-2" id="about_us" style="background: #f0f0ef">
+                <div class="row pt-5 pl-md-4 pr-md-4 pb-5 pl-2 pr-2 vh-100" id="about_us" style="background: #f0f0ef">
                     <div class="col-12 pt-md-5">
                         <p class="as text-center">
                             About us
@@ -255,7 +255,7 @@
                                     About Pets
                                 </p>
                                 <p class="aps pt-4 text-center">
-                                    (Revolutionizing Value Based Pet Care)
+                                    (Revolutionizing Transparency in Healthcare)
                                 </p>
                                 <p class="asd pt-4 text-justify">
                                     Lorem Ipsum is simply dummy text of the printing

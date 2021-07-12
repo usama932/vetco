@@ -15,26 +15,23 @@
                     <table class="table " id="myTable">
                         <thead>
                         <tr>
-                            <th>Date</th>
-                            <th>Time</th>
                             <th>Pet Name</th>
                             <th>Pet Type</th>
-                            <th>Services</th>
+                            <th>Service</th>
+                            <th>Appointment Date</th>
+                            <th>Time</th>
                             <th>Owner Name</th>
-                            <th>Phone Number</th>
-                            <th>Action</th>
+                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
                             <td>Tommi</td>
                             <td>Dog</td>
                             <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
                             <td>Lorem Ipsum</td>
-                            <td>0 000 0000</td>
-
                             <td>
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
@@ -44,7 +41,7 @@
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
                                         <li><a href="#">Message</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
-                                        <li><a href="#">Cancel</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
 
                                     </ul>
                                 </div>
@@ -52,13 +49,12 @@
 
                         </tr>
                         <tr>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
                             <td>Tommi</td>
                             <td>Dog</td>
                             <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
                             <td>Lorem Ipsum</td>
-                            <td>0 000 0000</td>
                             <td>
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
@@ -68,7 +64,7 @@
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
                                         <li><a href="#">Message</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
-                                        <li><a href="#">Cancel</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
 
                                     </ul>
                                 </div>
@@ -76,13 +72,12 @@
 
                         </tr>
                         <tr>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
                             <td>Tommi</td>
                             <td>Dog</td>
                             <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
                             <td>Lorem Ipsum</td>
-                            <td>0 000 0000</td>
                             <td>
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
@@ -92,7 +87,7 @@
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
                                         <li><a href="#">Message</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
-                                        <li><a href="#">Cancel</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
 
                                     </ul>
                                 </div>
@@ -100,13 +95,12 @@
 
                         </tr>
                         <tr>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
                             <td>Tommi</td>
                             <td>Dog</td>
                             <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
                             <td>Lorem Ipsum</td>
-                            <td>0 000 0000</td>
                             <td>
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
@@ -116,7 +110,7 @@
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
                                         <li><a href="#">Message</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
-                                        <li><a href="#">Cancel</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
 
                                     </ul>
                                 </div>
@@ -124,13 +118,12 @@
 
                         </tr>
                         <tr>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
                             <td>Tommi</td>
                             <td>Dog</td>
                             <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
                             <td>Lorem Ipsum</td>
-                            <td>0 000 0000</td>
                             <td>
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
@@ -140,7 +133,7 @@
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
                                         <li><a href="#">Message</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
-                                        <li><a href="#">Cancel</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
 
                                     </ul>
                                 </div>
@@ -148,13 +141,12 @@
 
                         </tr>
                         <tr>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
                             <td>Tommi</td>
                             <td>Dog</td>
                             <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
                             <td>Lorem Ipsum</td>
-                            <td>0 000 0000</td>
                             <td>
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
@@ -164,14 +156,174 @@
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
                                         <li><a href="#">Message</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
-                                        <li><a href="#">Cancel</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
 
                                     </ul>
                                 </div>
                             </td>
 
                         </tr>
+                        <tr>
+                            <td>Tommi</td>
+                            <td>Dog</td>
+                            <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
 
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi</td>
+                            <td>Dog</td>
+                            <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi</td>
+                            <td>Dog</td>
+                            <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi</td>
+                            <td>Dog</td>
+                            <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi</td>
+                            <td>Dog</td>
+                            <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi</td>
+                            <td>Dog</td>
+                            <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi</td>
+                            <td>Dog</td>
+                            <td>Dental Warming</td>
+                            <td>11-02-2020</td>
+                            <td>12:00 PM</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
                         </tbody>
                     </table>
                 </div>
@@ -214,31 +366,29 @@
                             <table class="table">
 
                                 <tbody>
-
                                 <tr>
-                                    <td>Appointment Name</td>
+                                    <td>Owner Name</td>
                                     <td><input type="text" class="form-control" value="Oral Surgery"></td>
-
                                 </tr>
                                 <tr>
-                                    <td>Pets Type</td>
-                                    <td><input type="text" class="form-control" value="Dog"></td>
-
+                                    <td>Email</td>
+                                    <td><input type="text" class="form-control" value="pet@test.com"></td>
                                 </tr>
                                 <tr>
-                                    <td>Ph No</td>
-                                    <td><input type="text" class="form-control" value="+1 222 2222"></td>
-
+                                    <td>Phone Number</td>
+                                    <td><input type="text" class="form-control" value="0000000000000"></td>
                                 </tr>
                                 <tr>
-                                    <td>Appointment Date</td>
-                                    <td><input type="text" class="form-control" value="00:00"></td>
-
+                                    <td>Pet Breed</td>
+                                    <td><input type="text" class="form-control" value="Poodle"></td>
                                 </tr>
                                 <tr>
-                                    <td>Appointment Time</td>
-                                    <td><input type="text" class="form-control" value="00:00"></td>
-
+                                    <td>Pet Age</td>
+                                    <td><input type="text" class="form-control" value="3"></td>
+                                </tr>
+                                <tr>
+                                    <td>Seen By</td>
+                                    <td><input type="text" class="form-control" value="Lorem Ipsum"></td>
                                 </tr>
 
                                 </tbody>

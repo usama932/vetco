@@ -36,21 +36,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="card card-stats">
-                        <div class="card-header card-header-warning card-header-icon no-shadow">
-                            <div class="card-icon bg-blue">
-                                <i class="material-icons">weekend</i>
-                            </div>
-                            <p class="card-category">No of Views</p>
-                            <h3 class="card-title text-dark">184</h3>
-                        </div>
-                        <div class="card-footer">
+{{--                <div class="col-lg-4 col-md-6 col-sm-6">--}}
+{{--                    <div class="card card-stats">--}}
+{{--                        <div class="card-header card-header-warning card-header-icon no-shadow">--}}
+{{--                            <div class="card-icon bg-blue">--}}
+{{--                                <i class="material-icons">weekend</i>--}}
+{{--                            </div>--}}
+{{--                            <p class="card-category">Service</p>--}}
+{{--                            <h3 class="card-title text-dark">7</h3>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-footer">--}}
 
-                        </div>
-                    </div>
-                </div>
-
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+            </div>
+            <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="card card-stats">
                         <div class="card-header card-header-warning card-header-icon no-shadow">
@@ -151,7 +152,6 @@
         });
 
 
-
         var ctx = document.getElementById('myChart1').getContext('2d');
         var myChart1 = new Chart(ctx, {
             type: 'bar',
@@ -187,7 +187,6 @@
                 }
             }
         });
-
 
 
         var ctx = document.getElementById('myChart2').getContext('2d');

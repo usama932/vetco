@@ -28,6 +28,7 @@
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 <script src="{{ asset('admin/assets/js/material-kit.js?v=2.2.0') }}" type="text/javascript"></script>
 
+<script src="{{ asset('admin/assets/js/jquery-confirm.min.js') }}"></script>
 <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 
 
@@ -154,6 +155,20 @@
             }
         });
 
+        $(".remove").click(function(e) {
+            e.preventDefault();
+            var href = $(this).attr("href");
+            $.confirm({
+                title: 'Confirm!',
+                content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
+                buttons: {
+                    YES: function() {
+                        $(location).attr('href', href);
+                    },
+                    NO: function() {}
+                }
+            });
+        });
     });
 </script>
 

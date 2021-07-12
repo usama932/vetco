@@ -74,7 +74,7 @@ Route::group(['middleware' => ['auth', 'role:admin'], 'prefix' => 'admin'], func
     });
 });
 
-Route::group(['middleware' => ['auth', 'role:vet'], 'prefix' => 'vet'], function () {
+Route::group(['prefix' => 'vet'], function () {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index1']);
     Route::get('/reviews', function () {
         $page = 'Reviews';
@@ -105,12 +105,8 @@ Route::group(['middleware' => ['auth', 'role:vet'], 'prefix' => 'vet'], function
         return view('pages.vet.profile', compact('page'));
     });
     Route::get('/claim-practice', function () {
-        $page = '0';
+        $page = 'Claim Practice';
         return view('pages.vet.claim-practice', compact('page'));
-    });
-    Route::get('/login', function () {
-        $page = '0';
-        return view('pages.vet.login', compact('page'));
     });
     Route::get('/privacy', function () {
         $page = '0';
@@ -119,6 +115,15 @@ Route::group(['middleware' => ['auth', 'role:vet'], 'prefix' => 'vet'], function
     Route::get('/terms', function () {
         $page = '0';
         return view('pages.vet.terms', compact('page'));
+    });
+    Route::get('/login', function () {
+        $page = '0';
+        return view('pages.vet.login', compact('page'));
+    });
+
+    Route::get('/register', function () {
+        $page = '0';
+        return view('pages.vet.register', compact('page'));
     });
 });
 

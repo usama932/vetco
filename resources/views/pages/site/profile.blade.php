@@ -61,11 +61,6 @@
                                 <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="Ipsum"> </div>
                             </div>
                             <div class="row text-black">
-                                <div class="col-4"> Age
-                                </div>
-                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="00"> </div>
-                            </div>
-                            <div class="row text-black">
                                 <div class="col-4"> City
                                 </div>
                                 <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="Lorem"> </div>

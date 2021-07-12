@@ -10,7 +10,10 @@
                 <div class="ml-vw2 row pt-md-2">
                     <div class="col text-lest">
                         <p class="vfp pt-md-5">
-                            Hey, Bailey
+                            @guest
+                            @else
+                                Hey, Bailey
+                            @endguest
                         </p>
                         <p class="rvb pb-0">
                             Let’s help you stay on top of your Pet health
@@ -20,45 +23,52 @@
 
                 <div class="ml-vw2 pt-2">
                     <div class="row">
-                        <div class="col col-md-8 ml-auto mr-auto mt-md-4 mb-md-5 mt-2 mb-4 text-center form-inline form-border rounded">
-                            <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Choose Pet" data-size="4">
+                        <div
+                            class="col col-md-8 ml-auto mr-auto mt-md-4 mb-md-5 mt-2 mb-4 text-center form-inline form-border rounded">
+                            <select class="selectpicker ml-auto mr-auto suggestion_form_input"
+                                    data-style="select-with-transition" title="Choose Pet" data-size="4">
                                 <option value="2">Cats</option>
                                 <option value="3">Dogs</option>
                                 <option value="4">Snakes</option>
                                 <option value="5">Birds</option>
-                                <option value="6">Rabbits </option>
+                                <option value="6">Rabbits</option>
                             </select>
-                            <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Condition, Procedure, Doctor" data-size="4">
-                                <option value="2">Physical Wellness Exam </option>
+                            <select class="selectpicker ml-auto mr-auto suggestion_form_input"
+                                    data-style="select-with-transition" title="Condition, Procedure, Doctor"
+                                    data-size="4">
+                                <option value="2">Physical Wellness Exam</option>
                                 <option value="3">Dental Cleanings</option>
                                 <option value="4">Dental Extractions</option>
                                 <option value="5">Deworming</option>
-                                <option value="6">Vacinations  </option>
+                                <option value="6">Vacinations</option>
                             </select>
-                            <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
-                                <option value="2">000, Broadway </option>
+                            <select class="selectpicker ml-auto mr-auto suggestion_form_input"
+                                    data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
+                                <option value="2">000, Broadway</option>
                                 <option value="3">000, Broadway</option>
                                 <option value="4">000, Broadway</option>
                                 <option value="5">000, Broadway</option>
-                                <option value="6">000, Broadway </option>
+                                <option value="6">000, Broadway</option>
                             </select>
-                            <select class="selectpicker ml-auto mr-auto suggestion_form_input" data-style="select-with-transition" title="Radius" data-size="4">
-                                <option value="2">05 miles </option>
-                                <option value="2">10 miles </option>
-                                <option value="2">20 miles </option>
-                                <option value="2">30 miles </option>
-                                <option value="2">50 miles </option>
+                            <select class="selectpicker ml-auto mr-auto suggestion_form_input"
+                                    data-style="select-with-transition" title="Radius" data-size="4">
+                                <option value="2">5 miles</option>
+                                <option value="2">10 miles</option>
+                                <option value="2">20 miles</option>
+                                <option value="2">30 miles</option>
+                                <option value="2">50 miles</option>
                             </select>
                             <div class="input-group  suggestion_form_input  ml-auto mr-auto">
                                 <input type="text" class="form-control datepicker input_margin">
                                 <div class="input-group-append">
                                         <span class="input-group-text p-0">
-                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; margin-right: 0.2vw;"></i>
+                                            <i class="fa fa-calendar" aria-hidden="true"
+                                               style="margin-left: -1vw; margin-right: 0.2vw;"></i>
                                         </span>
                                 </div>
                             </div>
                             <a href="{{ url('search') }}" type="button"
-                                    class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 suggestion_form_btn"><i
+                               class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 suggestion_form_btn"><i
                                     class="fa fa-search" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -72,23 +82,23 @@
                         <div class="col-md-8 col-12 pl-1 pr-1 pl-md-2 pr-md-2">
                             <div class="row pl-md-3">
                                 <div class="col">
-                                    <h4 class="text-primary font-weight-bold" style="text-decoration: underline"> All
+                                    <h4 class="text-primary font-weight-bold"> All
                                         Appointments </h4>
                                 </div>
                             </div>
                             <div class="row pl-md-3">
-                                <div class="col-md-2 col-6">
+                                <div class="col-lg col-xl-2 col-6">
                                     <span class="btn btn-primary btn-block p-1 text-capitalize">Dentist</span>
                                 </div>
-                                <div class="col-md-2 col-6">
-                                    <span class="btn btn-primary btn-block p-1 text-capitalize">April 14</span>
+                                <div class="col-lg col-xl-2 col-6">
+                                    <span class="btn btn-primary btn-block p-1 text-capitalize">4/14</span>
                                 </div>
-                                <div class="col-md-2 col-6">
+                                <div class="col-lg col-xl-2 col-6">
                                     <span class="btn btn-primary btn-block p-1 text-capitalize">Speciality</span>
                                 </div>
-                                <div class="col-md-2 col-6">
+                                <div class="col-lg col-xl-2 col-6">
                                     <span
-                                        class="btn btn-primary btn-block p-1 text-capitalize">Avalaibility</span>
+                                        class="btn btn-primary btn-block p-1 text-capitalize">Availability</span>
                                 </div>
                             </div>
                             <div class="row pl-md-3 mt-2">
@@ -106,19 +116,19 @@
                                                 <
                                             </div>
                                             <div class="col p-0">
-                                                Mon <br> <small>April 16</small>
+                                                Mon <br> <small>4/16</small>
                                             </div>
                                             <div class="col p-0">
-                                                Tue <br> <small>April 17</small>
+                                                Tue <br> <small>4/17</small>
                                             </div>
                                             <div class="col p-0">
-                                                Wed <br> <small>April 18</small>
+                                                Wed <br> <small>4/18</small>
                                             </div>
                                             <div class="col p-0">
-                                                Thu <br> <small>April 19</small>
+                                                Thu <br> <small>4/19</small>
                                             </div>
                                             <div class="col p-0">
-                                                Fri <br> <small>April 20</small>
+                                                Fri <br> <small>4/20</small>
                                             </div>
                                             <div class="col-1 p-0 pt-3">
                                                 >
@@ -149,6 +159,9 @@
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <a href="{{ url('vet-profile') }}">
+                                                            <sub> <sup>See Reviews</sup></sub>
+                                                        </a>
                                                     </div>
                                                     <div class="col-12 text-left">
                                                         <a href="{{ url('vet-profile') }}">
@@ -270,19 +283,19 @@
                                                 <
                                             </div>
                                             <div class="col p-0">
-                                                <strong> Mon </strong> <br> <small>April 16</small>
+                                                <strong> Mon </strong> <br> <small>4/16</small>
                                             </div>
                                             <div class="col p-0">
-                                                Tue <br> <small>April 17</small>
+                                                Tue <br> <small>4/17</small>
                                             </div>
                                             <div class="col p-0">
-                                                Wed <br> <small>April 18</small>
+                                                Wed <br> <small>4/18</small>
                                             </div>
                                             <div class="col p-0">
-                                                Thu <br> <small>April 19</small>
+                                                Thu <br> <small>4/19</small>
                                             </div>
                                             <div class="col p-0">
-                                                Fri <br> <small>April 20</small>
+                                                Fri <br> <small>4/20</small>
                                             </div>
                                             <div class="col-1 p-0 pt-3">
                                                 >
@@ -313,6 +326,9 @@
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <a href="{{ url('vet-profile') }}">
+                                                            <sub> <sup>See Reviews</sup></sub>
+                                                        </a>
                                                     </div>
                                                     <div class="col-12 text-left">
                                                         <a href="{{ url('vet-profile') }}">
@@ -434,19 +450,19 @@
                                                 <
                                             </div>
                                             <div class="col p-0">
-                                                <strong> Mon </strong> <br> <small>April 16</small>
+                                                <strong> Mon </strong> <br> <small>4/16</small>
                                             </div>
                                             <div class="col p-0">
-                                                Tue <br> <small>April 17</small>
+                                                Tue <br> <small>4/17</small>
                                             </div>
                                             <div class="col p-0">
-                                                Wed <br> <small>April 18</small>
+                                                Wed <br> <small>4/18</small>
                                             </div>
                                             <div class="col p-0">
-                                                Thu <br> <small>April 19</small>
+                                                Thu <br> <small>4/19</small>
                                             </div>
                                             <div class="col p-0">
-                                                Fri <br> <small>April 20</small>
+                                                Fri <br> <small>4/20</small>
                                             </div>
                                             <div class="col-1 p-0 pt-3">
                                                 >
@@ -477,6 +493,9 @@
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <a href="{{ url('vet-profile') }}">
+                                                            <sub> <sup>See Reviews</sup></sub>
+                                                        </a>
                                                     </div>
                                                     <div class="col-12 text-left">
                                                         <a href="{{ url('vet-profile') }}">

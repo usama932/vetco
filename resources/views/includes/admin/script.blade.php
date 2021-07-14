@@ -155,17 +155,18 @@
             }
         });
 
-        $(".remove").click(function(e) {
+        $(".remove").click(function (e) {
             e.preventDefault();
             var href = $(this).attr("href");
             $.confirm({
                 title: 'Confirm!',
                 content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
                 buttons: {
-                    YES: function() {
+                    YES: function () {
                         $(location).attr('href', href);
                     },
-                    NO: function() {}
+                    NO: function () {
+                    }
                 }
             });
         });
@@ -173,7 +174,7 @@
 </script>
 
 <script>
-    $("#add_practise_btn").on("click", function (e) {
+    $("#add_practice_btn").on("click", function (e) {
         e.preventDefault();
         $('#myModal2').modal('show');
     });
@@ -184,7 +185,7 @@
 
 <!-- Classic Modal -->
 <div class="modal fade rounded-borders" id="myModal2" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Add New Practice</h5>
@@ -308,25 +309,35 @@
                                     <label for="" class="text-light-blue">Service Price</label>
 
                                 </div>
-                                <div class="col-md-6 text-left">
+                                <div class="col-md-4 text-left">
                                     <select class="selectpicker" data-style="bg-transparent text-dark border-bottom"
                                             title="Single Select" data-size="7">
                                         <option disabled selected> Choose service</option>
                                         <option value="1">
-                                            Dental Cleaning ($200)
+                                            Dental Cleaning
                                         </option>
                                         <option value="2">
-                                            Lorem, ipsum ($400)
+                                            Lorem, ipsum
                                         </option>
                                     </select>
                                 </div>
-                                <div class="col-md-1">
-                                    <i class="fas fa-plus text-light-blue"></i>
+                                <div class="col-md-2 text-left">
+                                    <input type="number" name="" id="" placeholder="100" class="form-control">
                                 </div>
                             </div>
-                            <div class="text-right">
-                                <a href="javascript:void(0)" class="text-light-blue" style="font-size:12px"><i
-                                        class="fas fa-plus"></i> Add New Service</a>
+                            <div class="service-section">
+
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-4 text-left">
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <div class="text-right">
+                                        <a href="javascript:void(0)" class="text-light-blue add_new_service"
+                                           style="font-size:12px"><i
+                                                class="fas fa-plus"></i> Add New Service</a>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="text-center">
@@ -342,3 +353,39 @@
     </div>
 </div>
 <!--  End Modal -->
+
+<script>
+    $(document).ready(function () {
+        $(document).on('click', '.remove-service', function (){
+            $(this).closest('.service-section-inner').remove();
+        });
+        $('.add_new_service').click(function () {
+            var content = '';
+            content += '<div class="service-section-inner">';
+            content += '<div class="row">'
+            content += '<div class="col-md-4">';
+            content += '</div>';
+            content += '<div class="col-md-4 text-left">';
+            content += '<select class="selectpicker" data-style="bg-transparent text-dark border-bottom"';
+            content += 'title="Single Select" data-size="7">';
+            content += '<option disabled selected> Choose service</option>';
+            content += '<option value="1">';
+            content += 'Dental Cleaning';
+            content += '</option>';
+            content += '<option value="2">';
+            content += 'Lorem, ipsum';
+            content += '</option>';
+            content += '</select>';
+            content += '</div>';
+            content += '<div class="col-md-2 text-left pt-2">';
+            content += '<input type="number" name="" id="" placeholder="100" class="form-control">';
+            content += '</div>';
+            content += '<div class="col-md-1 text-center">';
+            content += '<i class="fas fa-times text-light-blue remove-service pt-3" style="cursor: pointer;"></i>';
+            content += '</div>';
+            content += '</div>';
+            content += '</div>';
+            $('.service-section').append(content).find('.selectpicker').selectpicker();
+        });
+    });
+</script>

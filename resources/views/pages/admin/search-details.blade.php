@@ -271,7 +271,7 @@
     <!-- Edit Details Modal -->
 
     <div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title text-light-blue">Edit Details</h5>
@@ -395,7 +395,7 @@
                                         <label for="" class="text-light-blue">Service Price</label>
 
                                     </div>
-                                    <div class="col-md-6 text-left">
+                                    <div class="col-md-4 text-left">
                                         <select class="selectpicker" data-style="bg-transparent text-dark border-bottom"
                                                 title="Single Select" data-size="7">
                                             <option disabled selected> Choose service</option>
@@ -406,14 +406,21 @@
                                                 Lorem, ipsum ($400)
                                             </option>
                                         </select>
-                                    </div>
-                                    <div class="col-md-1">
-                                        <i class="fas fa-plus text-light-blue"></i>
-                                    </div>
+                                    </div><div class="col-md-2 text-left"><input type="number" name="" id="" placeholder="100" class="form-control"></div>
                                 </div>
-                                <div class="text-right">
-                                    <a href="javascript:void(0)" class="text-light-blue" style="font-size:12px"><i
-                                            class="fas fa-plus"></i> Add New Service</a>
+                                <div class="service-section">
+
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 text-left">
+                                    </div>
+                                    <div class="col-md-6 text-left">
+                                        <div class="text-right">
+                                            <a href="javascript:void(0)" class="text-light-blue add_new_service"
+                                               style="font-size:12px"><i
+                                                    class="fas fa-plus"></i> Add New Service</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="text-center">

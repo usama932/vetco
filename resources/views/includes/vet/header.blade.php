@@ -61,9 +61,12 @@
 {{--                    <a href="{{ url('/vet/login') }}" class="ml-2 text-white" style="    font-size: 18px;">--}}
 {{--                        <i class="fas fa-sign-out-alt pt-1"></i>--}}
 {{--                    </a>--}}
-                    <a href="{{ url('vet/login') }}" class="nav-link">
-                        Sign Out
-                    </a>
+                    <a class="ml-2 text-white" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">Sign out</a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
                 </li>
 
 {{--                <li class=" nav-item">--}}

@@ -112,6 +112,10 @@ body {
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        max-width: 45% !important;
+    }
     .logo {
         width: 25vw;
     }
@@ -466,10 +470,6 @@ body {
         /*border-radius: 1vw;*/
     }
 
-    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
-        max-width: 45% !important;
-    }
-
     .mob-hide {
         display: none !important;
     }
@@ -510,6 +510,10 @@ body {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        max-width: 45% !important;
+    }
     .vh-92 {
         min-height: 92vh !important;
     }
@@ -954,6 +958,10 @@ body {
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        max-width: 45% !important;
+    }
     .vh-92 {
         min-height: 92vh !important;
     }
@@ -1397,6 +1405,10 @@ body {
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        max-width: 45% !important;
+    }
     .vh-92 {
         min-height: 92vh !important;
     }

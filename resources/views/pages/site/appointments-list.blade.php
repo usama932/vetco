@@ -69,7 +69,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -100,7 +101,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -131,7 +133,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -162,7 +165,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -193,7 +197,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -224,7 +229,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -255,7 +261,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -286,7 +293,8 @@
                                             </td>
                                             <td>
                                                 <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                                    <a href="#" class="btn bg-white btn-round btn-sm"
+                                                       data-toggle="dropdown">
                                                         <i class="fa fa-ellipsis-v text-dark"></i>
                                                     </a>
                                                     <ul class="dropdown-menu">
@@ -301,13 +309,22 @@
                                 </div>
                             </div>
                             <div class="col-md-12 text-right" style="font-weight: bold">
-                                <span class="ml-2 mr-2">First</span>
-                                <span class="ml-2 mr-2">Prev</span>
-                                <span class="ml-2 mr-2 bg-primary text-white" style="padding: 5px 10px; border-radius: 50%; text-align: center;">1</span>
-                                <span class="ml-2 mr-2">2</span>
-                                <span class="ml-2 mr-2">3</span>
-                                <span class="ml-2 mr-2">Next</span>
-                                <span class="ml-2 mr-2">Last</span>
+                                @if($id > 1)
+                                    <a href="{{ url('appointments-list/'.($id-1)) }}">
+                                        <span class="ml-2 mr-2">Prev</span>
+                                    </a>
+                                @endif
+                                <a href="{{ url('appointments-list/1') }}" @if($id == 1) class="text-white bg-primary"
+                                   @endif style="cursor: pointer; padding: 6px 12px; border-radius: 50%; text-align: center;">1</a>
+                                <a href="{{ url('appointments-list/2') }}" @if($id == 2) class="text-white bg-primary"
+                                   @endif style="cursor: pointer; padding: 6px 12px; border-radius: 50%; text-align: center;">2</a>
+                                <a href="{{ url('appointments-list/3') }}" @if($id == 3) class="text-white bg-primary"
+                                   @endif style="cursor: pointer; padding: 6px 12px; border-radius: 50%; text-align: center;">3</a>
+                                @if($id < 3)
+                                    <a href="{{ url('appointments-list/'.($id+1)) }}">
+                                        <span class="ml-2 mr-2">Next</span>
+                                    </a>
+                                @endif
                             </div>
                         </div>
                     </div>

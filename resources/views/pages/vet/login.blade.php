@@ -38,7 +38,7 @@
      style="background-image: url('./assets/img/bg.png'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
+            <div class="col-xl-4 col-lg-5 col-md-7 col-sm-19 col-12 ml-auto mr-auto">
 
 
                 <form method="POST" action="{{ route('login') }}">

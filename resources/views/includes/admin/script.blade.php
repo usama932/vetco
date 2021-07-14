@@ -200,7 +200,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-md-4 text-left">
-                                    <label for="" class="text-light-blue">Practise Name</label>
+                                    <label for="" class="text-light-blue">Practice Name</label>
                                 </div>
                                 <div class="col-md-6 text-left">
                                     <div class="input-group align-items-center">

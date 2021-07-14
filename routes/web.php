@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.site.home');
 });
+Route::get('/home', function () {
+    return view('pages.site.home');
+});
 Route::get('/filter', function () {
     return view('pages.site.filter');
 });
@@ -43,8 +46,8 @@ Route::get('/search', function () {
 Route::get('/vet-profile', function () {
     return view('pages.site.vet-profile');
 });
-Route::get('/appointments-list', function () {
-    return view('pages.site.appointments-list');
+Route::get('/appointments-list/{id}', function ($id) {
+    return view('pages.site.appointments-list', compact('id'));
 });
 
 Auth::routes();

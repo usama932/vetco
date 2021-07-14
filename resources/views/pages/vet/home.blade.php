@@ -14,7 +14,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">No of Appointments</p>
+                            <p class="card-category">Total Views</p>
                             <h3 class="card-title text-dark">184</h3>
                         </div>
                         <div class="card-footer">
@@ -28,7 +28,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Total View</p>
+                            <p class="card-category">Total Clicks</p>
                             <h3 class="card-title text-dark">184</h3>
                         </div>
                         <div class="card-footer">
@@ -36,20 +36,20 @@
                         </div>
                     </div>
                 </div>
-{{--                <div class="col-lg-4 col-md-6 col-sm-6">--}}
-{{--                    <div class="card card-stats">--}}
-{{--                        <div class="card-header card-header-warning card-header-icon no-shadow">--}}
-{{--                            <div class="card-icon bg-blue">--}}
-{{--                                <i class="material-icons">weekend</i>--}}
-{{--                            </div>--}}
-{{--                            <p class="card-category">Service</p>--}}
-{{--                            <h3 class="card-title text-dark">7</h3>--}}
-{{--                        </div>--}}
-{{--                        <div class="card-footer">--}}
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-header card-header-warning card-header-icon no-shadow">
+                            <div class="card-icon bg-blue">
+                                <i class="material-icons">weekend</i>
+                            </div>
+                            <p class="card-category">Total Appointments</p>
+                            <h3 class="card-title text-dark">37</h3>
+                        </div>
+                        <div class="card-footer">
 
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -58,7 +58,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Appointment Graph</p>
+                            <p class="card-category">Appointments</p>
 
 
                         </div>
@@ -76,7 +76,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">No of Appointments per service</p>
+                            <p class="card-category">Average Spend per Appointment</p>
 
                         </div>
                         <div class="card-body">
@@ -94,7 +94,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Total Views</p>
+                            <p class="card-category">Most Popular Services</p>
 
                         </div>
                         <div class="card-body">

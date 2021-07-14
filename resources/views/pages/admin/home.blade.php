@@ -58,7 +58,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Appointments</p>
+                            <p class="card-category">Appointments Over Time</p>
 
 
                         </div>
@@ -76,7 +76,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Appointment over Time</p>
+                            <p class="card-category">Appointments per Practice</p>
 
                         </div>
                         <div class="card-body">
@@ -94,7 +94,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Total Practices</p>
+                            <p class="card-category">Most Booked Services</p>
 
                         </div>
                         <div class="card-body">

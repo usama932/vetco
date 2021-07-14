@@ -12,13 +12,13 @@
                 <img src="{{ asset('assets/vet/logo_3.png') }}" alt="" class="logo">
             </a>
         </div>
-{{--        <button class="navbar-toggler" type="button" id="mob-dropdown" >--}}
-{{--            <span class="sr-only">Toggle navigation</span>--}}
-{{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
-{{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
-{{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
-{{--        </button>--}}
-        <a href="javascript:;" id="mob-dropdown" class="desk-hide" >
+        {{--        <button class="navbar-toggler" type="button" id="mob-dropdown" >--}}
+        {{--            <span class="sr-only">Toggle navigation</span>--}}
+        {{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
+        {{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
+        {{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
+        {{--        </button>--}}
+        <a href="javascript:;" id="mob-dropdown" class="desk-hide">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </a>
         <div
@@ -27,12 +27,13 @@
             @guest
                 <a class="dropdown-item text-white border-bottom" href="{{ url('/#about_us') }}">About us</a>
                 <a class="dropdown-item text-white border-bottom" href="{{ url('vet/login') }}">Claim Practice</a>
-{{--                <a class="dropdown-item text-white border-bottom" href="{{ route('register') }}">Sign up</a>--}}
+                {{--                <a class="dropdown-item text-white border-bottom" href="{{ route('register') }}">Sign up</a>--}}
                 <a class="dropdown-item text-white border-bottom" href="{{ route('login') }}">Log in</a>
             @else
-                <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list') }}">Appointments</a>
+                <a class="dropdown-item text-white border-bottom"
+                   href="{{ url('appointments-list/1') }}">Appointments</a>
                 <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
-{{--                <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>--}}
+                {{--                <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>--}}
                 <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">Log out</a>
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -42,25 +43,35 @@
         </div>
         <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link header_link text-primary @if(url('/') == url()->current())about_us_a"
-                       href="#action" @else about_us_a" href="{{ url('/#about_us') }}" @endif>
-                    About us
-                    </a>
-                </li>
+                @if(url('/') .'/profile' == url()->current())
+                    <li class="nav-item">
+                        <a class="nav-link header_link text-primary"
+                           href="{{ url('/') }}">
+                            Search
+                        </a>
+                    </li>
+                @else
+                    <li class="nav-item">
+                        <a class="nav-link header_link text-primary @if(url('/') == url()->current())about_us_a"
+                           href="#action" @else about_us_a" href="{{ url('/#about_us') }}" @endif>
+                        About us
+                        </a>
+                    </li>
+                @endif
                 @guest
                     <li class="nav-item">
                         <a class="nav-link header_link text-primary" href="{{ url('vet/login')}}">
                             Claim Practice
                         </a>
                     </li>
-{{--                    <li class="nav-item">--}}
-{{--                        <a href="{{ url('register') }}"--}}
-{{--                           class="btn btn-primary header_btn header_btn_active pt-2 pb-2 pl-4 pr-4 ml-2">Sign up</a>--}}
-{{--                    </li>--}}
+                    {{--                    <li class="nav-item">--}}
+                    {{--                        <a href="{{ url('register') }}"--}}
+                    {{--                           class="btn btn-primary header_btn header_btn_active pt-2 pb-2 pl-4 pr-4 ml-2">Sign up</a>--}}
+                    {{--                    </li>--}}
                     <li class="nav-item">
                         <a href="{{ url('login') }}"
-                           class="btn btn-primary header_btn pt-2 pb-2 pl-4 pr-4 ml-3 mr-4 text-primary bg-light">LOG IN</a>
+                           class="btn btn-primary header_btn pt-2 pb-2 pl-4 pr-4 ml-3 mr-4 text-primary bg-light">LOG
+                            IN</a>
                     </li>
                 @else
                     <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 10vw;">
@@ -83,10 +94,10 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown"
                              aria-labelledby="navbarDropdownProfile">
-                            <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list') }}">Appointments</a>
+                            <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list/1') }}">Appointments</a>
                             <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
-{{--                            <a class="dropdown-item text-white border-bottom"--}}
-{{--                               href="{{ url('profile-edit') }}">Settings</a>--}}
+                            {{--                            <a class="dropdown-item text-white border-bottom"--}}
+                            {{--                               href="{{ url('profile-edit') }}">Settings</a>--}}
                             <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">Log out</a>
 

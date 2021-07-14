@@ -19,41 +19,44 @@
                 <li
                     class="dropdown nav-item <?php echo ($page == "All Practices" || $page=="Pending Requests" ? "active" : "")?> ">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                        Practices
+                        Appointments
                     </a>
                     <div class="dropdown-menu dropdown-with-icons">
                         <a href="{{ url('admin/all-practices') }}" class="dropdown-item">
-                            All Practices
+                            All Appointments
                         </a>
                         <a href="{{ url('admin/pending-requests') }}" class="dropdown-item">
-                            Pending Requests
+                            Pending Appointments
                         </a>
 
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" id="add_practise_btn">Add New Practice</a>
+                <li class="nav-item <?php echo ($page == "Profile" ? "active" : "")?> ">
+                    <a class="nav-link" href="{{ url('admin/profile') }}">Profile</a>
                 </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="" id="add_practise_btn">Add New Practice</a>--}}
+{{--                </li>--}}
             </ul>
             <ul class="navbar-nav ml-auto">
 
 
-                <li class=" nav-item">
-                    <input type="text" class="rounded border-0" placeholder="Dental Cleaning">
+{{--                <li class=" nav-item">--}}
+{{--                    <input type="text" class="rounded border-0" placeholder="Dental Cleaning">--}}
 
-                </li>
-                <li class=" nav-item ml-3 mr-3">
-                    <input type="text" class="rounded border-0" placeholder="1500, California Search">
+{{--                </li>--}}
+{{--                <li class=" nav-item ml-3 mr-3">--}}
+{{--                    <input type="text" class="rounded border-0" placeholder="1500, California Search">--}}
 
-                </li>
+{{--                </li>--}}
+{{--                <li class="button-container nav-item iframe-extern">--}}
+{{--                    <a href="{{ url('admin/search-results') }}" class="btn search-btn btn-light-blue btn-block">--}}
+{{--                        Search--}}
+{{--                    </a>--}}
+{{--                </li>--}}
                 <li class="button-container nav-item iframe-extern">
-                    <a href="{{ url('admin/search-results') }}" class="btn search-btn btn-light-blue btn-block">
-                        Search
-                    </a>
-                </li>
-                <li class="button-container nav-item iframe-extern">
-                    <a href="{{ url('/admin/login') }}" class="ml-2 text-white" style="    font-size: 18px;">
-                        <i class="fas fa-sign-out-alt pt-1"></i>
+                    <a href="{{ url('/admin/login') }}" class="ml-2 text-white">
+                        Sign out
                     </a>
                 </li>
             </ul>

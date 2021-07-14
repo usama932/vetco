@@ -37,7 +37,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
+                                        <li><a href="#">Deny</a></li>
 
 
                                     </ul>
@@ -58,7 +58,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
+                                        <li><a href="#">Deny</a></li>
 
 
                                     </ul>
@@ -79,7 +79,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
+                                        <li><a href="#">Deny</a></li>
 
 
                                     </ul>
@@ -100,7 +100,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
+                                        <li><a href="#">Deny</a></li>
 
 
                                     </ul>
@@ -121,7 +121,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
+                                        <li><a href="#">Deny</a></li>
 
 
                                     </ul>
@@ -142,7 +142,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Decline</a></li>
+                                        <li><a href="#">Deny</a></li>
 
 
                                     </ul>

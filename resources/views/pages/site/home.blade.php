@@ -70,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-5 pl-md-4 pr-md-4 pb-5 pl-2 pr-2 vh-100" id="about_us" style="background: #f0f0ef">
+                <div class="row pt-2 pl-md-4 pr-md-4 pb-5 pl-2 pr-2 vh-100" id="about_us" style="background: #f0f0ef">
                     <div class="col-12 pt-md-5">
                         <p class="as text-center">
                             About us

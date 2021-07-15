@@ -21,9 +21,52 @@
                         <div class="col-12 w-100 text-center desk-hide pb-4">
                             <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
                         </div>
-                        <div class="row pt-md-3 pb-4">
-                            <div class="col text-center form-inline pl-md-5 pr-md-5 form-border rounded ml-4 mr-4 ml-md-0 mr-md-0">
-                                <select class="selectpicker filter_form_input ml-auto mr-auto"
+{{--                        <div class="row pt-md-3 pb-4">--}}
+{{--                            <div class="col text-center form-inline pl-md-5 pr-md-5 form-border rounded ml-4 mr-4 ml-md-0 mr-md-0">--}}
+{{--                                <select class="selectpicker filter_form_input ml-auto mr-auto"--}}
+{{--                                        data-style="select-with-transition" title="Choose Pet" data-size="4">--}}
+{{--                                    <option value="2">Cats</option>--}}
+{{--                                    <option value="3">Dogs</option>--}}
+{{--                                    <option value="4">Snakes</option>--}}
+{{--                                    <option value="5">Birds</option>--}}
+{{--                                    <option value="6">Rabbits</option>--}}
+{{--                                </select>--}}
+{{--                                <select class="selectpicker filter_form_input ml-auto mr-auto"--}}
+{{--                                        data-style="select-with-transition" title="Condition, Procedure, Doctor"--}}
+{{--                                        data-size="4">--}}
+{{--                                    <option value="2">Physical Wellness Exam</option>--}}
+{{--                                    <option value="3">Dental Cleanings</option>--}}
+{{--                                    <option value="4">Dental Extractions</option>--}}
+{{--                                    <option value="5">Deworming</option>--}}
+{{--                                    <option value="6">Vacinations</option>--}}
+{{--                                </select>--}}
+{{--                                <select class="selectpicker filter_form_input ml-auto mr-auto"--}}
+{{--                                        data-style="select-with-transition" title="City, State, Zipcode" data-size="4">--}}
+{{--                                    <option value="2">000, Broadway</option>--}}
+{{--                                    <option value="3">000, Broadway</option>--}}
+{{--                                    <option value="4">000, Broadway</option>--}}
+{{--                                    <option value="5">000, Broadway</option>--}}
+{{--                                    <option value="6">000, Broadway</option>--}}
+{{--                                </select>--}}
+
+{{--                                <div class="input-group  filter_form_input  ml-auto mr-auto">--}}
+{{--                                    <input type="text" class="form-control datepicker input_margin">--}}
+{{--                                    <div class="input-group-append">--}}
+{{--                                        <span class="input-group-text p-0">--}}
+{{--                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; padding-right: 0.2vw;"></i>--}}
+{{--                                        </span>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+
+{{--                                <a href="{{ url('filter') }}" type="button"--}}
+{{--                                        class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn text-white"><i--}}
+{{--                                        class="fa fa-search" aria-hidden="true"></i>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+                        <div class="row pt-md-3 mb-4 form-border rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
+                            <div class="col-6 col-sm-6 col-md-3 p-0">
+                                <select class="selectpicker ml-auto mr-auto"
                                         data-style="select-with-transition" title="Choose Pet" data-size="4">
                                     <option value="2">Cats</option>
                                     <option value="3">Dogs</option>
@@ -31,7 +74,10 @@
                                     <option value="5">Birds</option>
                                     <option value="6">Rabbits</option>
                                 </select>
-                                <select class="selectpicker filter_form_input ml-auto mr-auto"
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 p-0">
+
+                                <select class="selectpicker ml-auto mr-auto"
                                         data-style="select-with-transition" title="Condition, Procedure, Doctor"
                                         data-size="4">
                                     <option value="2">Physical Wellness Exam</option>
@@ -40,7 +86,10 @@
                                     <option value="5">Deworming</option>
                                     <option value="6">Vacinations</option>
                                 </select>
-                                <select class="selectpicker filter_form_input ml-auto mr-auto"
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 p-0">
+
+                                <select class="selectpicker ml-auto mr-auto"
                                         data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
                                     <option value="2">000, Broadway</option>
                                     <option value="3">000, Broadway</option>
@@ -48,21 +97,17 @@
                                     <option value="5">000, Broadway</option>
                                     <option value="6">000, Broadway</option>
                                 </select>
-
-                                <div class="input-group  filter_form_input  ml-auto mr-auto">
-                                    <input type="text" class="form-control datepicker input_margin">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text p-0">
-                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -1vw; padding-right: 0.2vw;"></i>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <a href="{{ url('filter') }}" type="button"
-                                        class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn text-white"><i
-                                        class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-6 col-sm-5 col-md-2 p-0" style="display: flex;">
+                                <input type="text" class="form-control datepicker mt-1">
+                                            <i class="fa fa-calendar" aria-hidden="true" style="margin-left: -17px;margin-top: 13px;margin-right: 5px;"></i>
+                            </div>
+                            <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
+                                <a href="{{ url('filter') }}" type="button" style="text-align:center;width: 100%;background: #03388b;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
+                                        class="fa fa-search pt-1" aria-hidden="true"></i>
                                 </a>
                             </div>
+
                         </div>
                     </div>
                     <div class="col-md col-sm-12 w-100 p-0 text-center pt-md-5 mob-hide">

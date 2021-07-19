@@ -5,23 +5,8 @@
 @section('content')
     <div class="container-fluid shadow_bottom pt-5 mt-5">
         <div class="container">
-            {{--            <div class="temp" style="position: fixed; top: 200px; right: 0; width: 400px;">--}}
-            {{--                Sign Up will not Work--}}
-            {{--                If you want to visit portals--}}
-            {{--                please Login with following Credentials <br>--}}
-            {{--                Admin Login <br>--}}
-            {{--                admin@admin.com--}}
-            {{--                12345678 <br>--}}
-            {{--                Vet Login <br>--}}
-            {{--                vet@vet.com--}}
-            {{--                12345678 <br>--}}
-            {{--                Pet Login <br>--}}
-            {{--                pet@pet.com--}}
-            {{--                12345678 <br>--}}
-            {{--                This Info will be removed after Review.--}}
-            {{--            </div>--}}
             <div class="row justify-content-center pt-5">
-                <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto pt-5 pb-5">
+                <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8 ml-auto mr-auto pt-5 pb-5">
                     <div class="filter_card">
                         <div class="login_header">
                             <div class="row">
@@ -98,9 +83,10 @@
                                 </div>
 
                                 <div class="form-group row mb-5 mt-0">
-                                    <div class="col-12 text-center text-primary">
-                                        <small> Don't have account? </small> <a href="{{ route('register') }}"> Sign up
-                                            Here! </a>
+                                    <div class="col-12 text-center text-primary p-0">
+                                        <small> Don't have account?
+                                            <a href="{{ route('register') }}" class="fw-700"> Sign up Here! </a>
+                                        </small>
                                     </div>
                                 </div>
                             </form>

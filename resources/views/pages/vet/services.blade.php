@@ -21,7 +21,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/tooth.png') }}" alt="" width="140">
+                                            <img src="{{ asset('vet/assets/img/tooth.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -44,7 +44,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/dog.png') }}" alt="" width="140">
+                                            <img src="{{ asset('vet/assets/img/dog.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -67,7 +67,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/cleaning.png') }}" alt="" width="140">
+                                            <img src="{{ asset('vet/assets/img/cleaning.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -90,7 +90,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/vaccinate.png') }}" alt="" width="140">
+                                            <img src="{{ asset('vet/assets/img/vaccinate.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -113,7 +113,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/extraction.png') }}" alt="" width="140">
+                                            <img src="{{ asset('vet/assets/img/extraction.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">

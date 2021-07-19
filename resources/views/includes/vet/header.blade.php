@@ -13,12 +13,26 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-{{--                <li class="nav-item <?php echo($page == "Dashboard" ? "active" : "")?> ">--}}
-{{--                    <a class="nav-link" href="{{ url('vet/home') }}">Home</a>--}}
-{{--                </li>--}}
+                <li class="nav-item <?php echo($page == "Dashboard" ? "active" : "")?> ">
+                    <a class="nav-link" href="{{ url('vet/home') }}">Dashboard</a>
+                </li>
 {{--                <li class="nav-item <?php echo($page == "Services" ? "active" : "")?> ">--}}
 {{--                    <a class="nav-link" href="{{ url('vet/services') }}">Services</a>--}}
 {{--                </li>--}}
+                <li
+                    class="dropdown nav-item <?php echo($page == "All Practices" || $page == "Pending Requests" ? "active" : "")?> ">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                        Appointments
+                    </a>
+                    <div class="dropdown-menu dropdown-with-icons bg-blue">
+                        <a href="{{ url('vet/appointments') }}" class="dropdown-item text-white">
+                            All Appointments
+                        </a>
+                        <a href="{{ url('vet/pending-appointments') }}" class="dropdown-item text-white">
+                            Pending Appointments
+                        </a>
+                    </div>
+                </li>
                 <li
                     class="dropdown nav-item <?php echo($page == "Services" || $page == "Claim Practice" ? "active" : "")?> ">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -28,29 +42,20 @@
                         <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
                             Services
                         </a>
-                        <a href="{{ url('vet/claim-practice') }}" class="dropdown-item text-white">
-                            Claim Pratice
+                        <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
+                            Prices
                         </a>
-
+                        <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
+                            Practice Details
+                        </a>
+                        {{--                        <a href="{{ url('vet/claim-practice') }}" class="dropdown-item text-white">--}}
+                        {{--                            Claim Pratice--}}
+                        {{--                        </a>--}}
                     </div>
                 </li>
-                <li
-                    class="dropdown nav-item <?php echo($page == "All Practices" || $page == "Pending Requests" ? "active" : "")?> ">
-                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                        Appointments
-                    </a>
-                    <div class="dropdown-menu dropdown-with-icons bg-blue">
-                        <a href="{{ url('vet/pending-appointments') }}" class="dropdown-item text-white">
-                            Pending
-                        </a>
-                        <a href="{{ url('vet/appointments') }}" class="dropdown-item text-white">
-                            Scheduled
-                        </a>
-                    </div>
-                </li>
-                <li class="nav-item <?php echo($page == "Reviews" ? "active" : "")?> ">
-                    <a class="nav-link" href="{{ url('vet/reviews') }}">Reviews</a>
-                </li>
+{{--                <li class="nav-item <?php echo($page == "Reviews" ? "active" : "")?> ">--}}
+{{--                    <a class="nav-link" href="{{ url('vet/reviews') }}">Reviews</a>--}}
+{{--                </li>--}}
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="" id="add_practise_btn">Add New Practice</a>
                 </li> -->

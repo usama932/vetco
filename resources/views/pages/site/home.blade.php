@@ -64,10 +64,10 @@
 {{--                                </a>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
-                        <div class="row pt-md-3 mb-4 form-border rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
-                            <div class="col-6 col-sm-6 col-md-3 p-0">
+                        <div class="row pt-md-3 mb-4 form-border search-form rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
+                            <div class="col-4 col-sm-4 col-md-2 p-0">
                                 <select class="selectpicker ml-auto mr-auto"
-                                        data-style="select-with-transition" title="Choose Pet" data-size="4">
+                                        data-style="select-with-transition" title="Pet Type" data-size="4">
                                     <option value="2">Cats</option>
                                     <option value="3">Dogs</option>
                                     <option value="4">Snakes</option>
@@ -75,10 +75,10 @@
                                     <option value="6">Rabbits</option>
                                 </select>
                             </div>
-                            <div class="col-6 col-sm-6 col-md-3 p-0">
+                            <div class="col-8 col-sm-8 col-md-4 p-0">
 
                                 <select class="selectpicker ml-auto mr-auto"
-                                        data-style="select-with-transition" title="Condition, Procedure, Doctor"
+                                        data-style="select-with-transition" title="Services, Procedure, Doctor"
                                         data-size="4">
                                     <option value="2">Physical Wellness Exam</option>
                                     <option value="3">Dental Cleanings</option>
@@ -168,9 +168,9 @@
 {{--                    </div>--}}
                     <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
-                            <div class="card-body p-md-4 p-2">
+                            <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2">
+                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
                                         <img src="{{ asset('assets/vet/dogi.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                    <div class="col text-center pt-xl-5 pt-lg-3 pt-md-1 pt-1 pb-md-2 pb-1">
                                         <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
@@ -199,9 +199,9 @@
                     </div>
                     <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
-                            <div class="card-body p-md-4 p-2">
+                            <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2">
+                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
                                         <img src="{{ asset('assets/vet/catt.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
@@ -221,7 +221,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                    <div class="col text-center pt-xl-5 pt-lg-3 pt-md-1 pt-1 pb-md-2 pb-1">
                                         <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
@@ -230,9 +230,9 @@
                     </div>
                     <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
-                            <div class="card-body p-md-4 p-2">
+                            <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2">
+                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
                                         <img src="{{ asset('assets/vet/Snake.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
@@ -252,7 +252,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                    <div class="col text-center pt-xl-5 pt-lg-3 pt-md-1 pt-1 pb-md-2 pb-1">
                                         <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>
@@ -261,9 +261,9 @@
                     </div>
                     <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
-                            <div class="card-body p-md-4 p-2">
+                            <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2">
+                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
                                         <img src="{{ asset('assets/vet/bird.png') }}" alt="" class="asc">
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col text-center pt-md-5 pt-2 pb-md-2 pb-1">
+                                    <div class="col text-center pt-xl-5 pt-lg-3 pt-md-1 pt-1 pb-md-2 pb-1">
                                         <button class="cba btn btn-primary"> Learn more</button>
                                     </div>
                                 </div>

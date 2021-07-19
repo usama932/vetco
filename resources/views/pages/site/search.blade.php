@@ -21,7 +21,7 @@
                     </div>
                 </div>
 
-                <div class="ml-vw2 pt-2">
+                <div class="ml-vw pt-2">
                     {{--                    <div class="row">--}}
                     {{--                        <div--}}
                     {{--                            class="col col-md-8 ml-auto mr-auto mt-md-4 mb-md-5 mt-2 mb-4 text-center form-inline form-border rounded">--}}
@@ -73,72 +73,74 @@
                     {{--                            </a>--}}
                     {{--                        </div>--}}
                     {{--                    </div>--}}
-                    <div class="row">
-                        <div class="col-12 col-md-8 ml-auto mr-auto">
-                            <div
-                                class="row pt-md-3 mb-4 form-border rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
-                                <div class="col-6 col-sm-6 col-md p-0">
-                                    <select class="selectpicker ml-auto mr-auto"
-                                            data-style="select-with-transition" title="Choose Pet" data-size="4">
-                                        <option value="2">Cats</option>
-                                        <option value="3">Dogs</option>
-                                        <option value="4">Snakes</option>
-                                        <option value="5">Birds</option>
-                                        <option value="6">Rabbits</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md p-0">
 
-                                    <select class="selectpicker ml-auto mr-auto"
-                                            data-style="select-with-transition" title="Condition, Procedure, Doctor"
-                                            data-size="4">
-                                        <option value="2">Physical Wellness Exam</option>
-                                        <option value="3">Dental Cleanings</option>
-                                        <option value="4">Dental Extractions</option>
-                                        <option value="5">Deworming</option>
-                                        <option value="6">Vacinations</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md p-0">
-
-                                    <select class="selectpicker ml-auto mr-auto"
-                                            data-style="select-with-transition" title="City, State, Zipcode"
-                                            data-size="4">
-                                        <option value="2">000, Broadway</option>
-                                        <option value="3">000, Broadway</option>
-                                        <option value="4">000, Broadway</option>
-                                        <option value="5">000, Broadway</option>
-                                        <option value="6">000, Broadway</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 col-sm-6 col-md p-0">
-
-                                    <select class="selectpicker ml-auto mr-auto"
-                                            data-style="select-with-transition" title="Radius" data-size="4">
-                                        <option value="2">5 miles</option>
-                                        <option value="2">10 miles</option>
-                                        <option value="2">20 miles</option>
-                                        <option value="2">30 miles</option>
-                                        <option value="2">50 miles</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 col-sm-5 col-md-2 p-0" style="display: flex;">
-                                    <input type="text" class="form-control datepicker mt-1">
-                                    <i class="fa fa-calendar" aria-hidden="true"
-                                       style="margin-left: -17px;margin-top: 13px;margin-right: 5px;"></i>
-                                </div>
-                                <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
-                                    <a href="{{ url('filter') }}" type="button"
-                                       style="text-align:center;width: 100%;background: #03388b;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
-                                            class="fa fa-search pt-1" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-
-                            </div>
+                    <div
+                        class="row pt-md-3 mb-4 form-border search-form rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
+                        <div class="col-4 col-sm-4 col-md-2 p-0">
+                            <select class="selectpicker ml-auto mr-auto"
+                                    data-style="select-with-transition" title="Pet Type" data-size="4">
+                                <option value="2">Cats</option>
+                                <option value="3">Dogs</option>
+                                <option value="4">Snakes</option>
+                                <option value="5">Birds</option>
+                                <option value="6">Rabbits</option>
+                            </select>
                         </div>
+                        <div class="col-8 col-sm-8 col-md-4 p-0">
+
+                            <select class="selectpicker ml-auto mr-auto"
+                                    data-style="select-with-transition" title="Services, Procedure, Doctor"
+                                    data-size="4">
+                                <option value="2">Physical Wellness Exam</option>
+                                <option value="3">Dental Cleanings</option>
+                                <option value="4">Dental Extractions</option>
+                                <option value="5">Deworming</option>
+                                <option value="6">Vacinations</option>
+                            </select>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 p-0">
+
+                            <select class="selectpicker ml-auto mr-auto"
+                                    data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
+                                <option value="2">000, Broadway</option>
+                                <option value="3">000, Broadway</option>
+                                <option value="4">000, Broadway</option>
+                                <option value="5">000, Broadway</option>
+                                <option value="6">000, Broadway</option>
+                            </select>
+                        </div>
+                        <div class="col-6 col-sm-5 col-md-2 p-0" style="display: flex;">
+                            <input type="text" class="form-control datepicker mt-1">
+                            <i class="fa fa-calendar" aria-hidden="true"
+                               style="margin-left: -17px;margin-top: 13px;margin-right: 5px;"></i>
+                        </div>
+                        <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
+                            <a href="{{ url('filter') }}" type="button"
+                               style="text-align:center;width: 100%;background: #03388b;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
+                                    class="fa fa-search pt-1" aria-hidden="true"></i>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
 
+                <div class="ml-vw">
+                    <div class="row">
+                        <div class="col pt-2 mt-1">
+                            <span style="font-weight: 700; font-size: 13px">
+                            Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
+                                </span>
+                        </div>
+                        <div class="col-md-3 col-12 text-right">
+                            <select class="selectpicker ml-auto mr-auto"
+                                    data-style="select-with-transition" title="Sort" data-size="4">
+                                <option value="2">Nearest to Farthest</option>
+                                <option value="3">Low to High</option>
+                                <option value="4">Avg. Patient Review</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
                 <div class="ml-vw2 pt-3 pb-5">
 
                     <div class="row p-1 p-md-3 rounded"
@@ -693,9 +695,9 @@
                                     Most Popular Services
                                 </p>
                             </div>
-                            <div class="col-md col-sm-12">
+                            <div class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div class="card-body">
+                                    <div class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                         <div class="ml-3 mr-3">
                                             <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
@@ -717,9 +719,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md col-sm-12">
+                            <div class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div class="card-body">
+                                    <div class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                         <div class="ml-3 mr-3">
                                             <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
@@ -741,9 +743,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md col-sm-12">
+                            <div class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div class="card-body">
+                                    <div class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                         <div class="ml-3 mr-3">
                                             <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
@@ -765,9 +767,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md col-sm-12">
+                            <div class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div class="card-body">
+                                    <div class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                         <div class="ml-3 mr-3">
                                             <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
@@ -790,9 +792,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md col-sm-12">
+                            <div class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div class="card-body">
+                                    <div class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                         <div class="ml-3 mr-3">
                                             <div class="card pb-4 m-0 mps-sub-card"
                                                  style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">

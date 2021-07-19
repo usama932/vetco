@@ -36,6 +36,12 @@ Route::get('/my-pets', function () {
 Route::get('/checklist', function () {
     return view('pages.site.checklist');
 });
+Route::get('/add-new-pet', function () {
+    return view('pages.site.add-new-pet');
+});
+Route::get('/edit-pet', function () {
+    return view('pages.site.edit-pet');
+});
 Route::get('/profile', function () {
     return view('pages.site.profile');
 });
@@ -43,7 +49,7 @@ Route::get('/profile-edit', function () {
     return view('pages.site.profile-edit');
 });
 Route::get('/search', function () {
-    return view('pages.site.appointments');
+    return view('pages.site.search');
 });
 Route::get('/vet-profile', function () {
     return view('pages.site.vet-profile');

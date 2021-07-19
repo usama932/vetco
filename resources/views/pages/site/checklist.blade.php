@@ -81,7 +81,7 @@
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
                                         <div class="col-md-2 col-6">
-                                            <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
+                                            <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
                                     <div class="row filter_card mt-3 " style="box-shadow: 0px 1px 7px -4px;">
@@ -101,7 +101,7 @@
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
                                         <div class="col-md-2 col-6">
-                                            <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
+                                            <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
                                     <div class="row filter_card mt-3 " style="box-shadow: 0px 1px 7px -4px;">
@@ -121,7 +121,7 @@
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
                                         <div class="col-md-2 col-6">
-                                            <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
+                                            <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
                                     <div class="row filter_card mt-3 " style="box-shadow: 0px 1px 7px -4px;">
@@ -141,7 +141,7 @@
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
                                         <div class="col-md-2 col-6">
-                                            <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
+                                            <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
                                     <div class="row filter_card mt-3 " style="box-shadow: 0px 1px 7px -4px;">
@@ -161,7 +161,7 @@
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
                                         <div class="col-md-2 col-6">
-                                            <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
+                                            <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
                                 </div>

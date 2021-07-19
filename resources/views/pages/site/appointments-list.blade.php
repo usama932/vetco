@@ -10,9 +10,24 @@
                     <div class="col pt-3 pt-md-5">
                         <div class="row filter_card ml-vw2">
                             <div class="col-8">
-                                <span class="ual">
-                                    Upcoming Appointments List
-                                </span>
+                                <div class="nav-tabs-navigation">
+                                    <div class="nav-tabs-wrapper">
+                                        <ul class="nav nav-tabs" data-tabs="tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" href="#profile" data-toggle="tab">
+                                                    <span class="text-primary">Upcoming Appointments</span>
+                                                    <div class="ripple-container"></div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#messages" data-toggle="tab">
+                                                    <span class="text-primary">Past Appointments</span>
+                                                    <div class="ripple-container"></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-4 text-right">
                                 <span class="mp bg-primary">
@@ -20,292 +35,553 @@
                                 </span>
                             </div>
                             <div class="col-md-12 pt-3 pt-md-5">
-                                <div class="table-responsive">
-                                    <table class="table appointments_table">
-                                        <thead class=" text-primary font-weight-bold">
-                                        <tr>
-                                            <th>
-                                                Pet Name
-                                            </th>
-                                            <th>
-                                                Practice Name
-                                            </th>
-                                            <th>
-                                                Practice Address
-                                            </th>
-                                            <th>
-                                                Phone Number
-                                            </th>
-                                            <th>
-                                                Appointment Date
-                                            </th>
-                                            <th>
-                                                Time
-                                            </th>
-                                            <th>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="profile">
+                                        <div class="table-responsive">
+                                            <table class="table appointments_table">
+                                                <thead class=" text-primary font-weight-bold">
+                                                <tr>
+                                                    <th>
+                                                        Pet Name
+                                                    </th>
+                                                    <th>
+                                                        Practice Name
+                                                    </th>
+                                                    <th>
+                                                        Practice Address
+                                                    </th>
+                                                    <th>
+                                                        Phone Number
+                                                    </th>
+                                                    <th>
+                                                        Appointment Date
+                                                    </th>
+                                                    <th>
+                                                        Time
+                                                    </th>
+                                                    <th>
 
-                                            </th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                Lorem
-                                            </td>
-                                            <td>
-                                                Ipsum
-                                            </td>
-                                            <td>
-                                                102, Broadway
-                                            </td>
-                                            <td>
-                                                00000000000
-                                            </td>
-                                            <td>
-                                                00-00-0000
-                                            </td>
-                                            <td>
-                                                00-00
-                                            </td>
-                                            <td>
-                                                <div class="dropdown">
-                                                    <a href="#" class="btn bg-white btn-round btn-sm"
-                                                       data-toggle="dropdown">
-                                                        <i class="fa fa-ellipsis-v text-dark"></i>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a>Reschedule</a></li>
-                                                        <li><a href="#">Cancel</a></li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                                    </th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="messages">
+                                        <div class="table-responsive">
+                                            <table class="table appointments_table">
+                                                <thead class=" text-primary font-weight-bold">
+                                                <tr>
+                                                    <th>
+                                                        Pet Name
+                                                    </th>
+                                                    <th>
+                                                        Practice Name
+                                                    </th>
+                                                    <th>
+                                                        Practice Address
+                                                    </th>
+                                                    <th>
+                                                        Phone Number
+                                                    </th>
+                                                    <th>
+                                                        Appointment Date
+                                                    </th>
+                                                    <th>
+                                                        Time
+                                                    </th>
+                                                    <th>
+
+                                                    </th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td>
+                                                        Ipsum
+                                                    </td>
+                                                    <td>
+                                                        102, Broadway
+                                                    </td>
+                                                    <td>
+                                                        00000000000
+                                                    </td>
+                                                    <td>
+                                                        00-00-0000
+                                                    </td>
+                                                    <td>
+                                                        00-00
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-12 text-right" style="font-weight: bold">

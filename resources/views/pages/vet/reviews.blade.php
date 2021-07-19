@@ -7,7 +7,19 @@
     <div class="container">
         <div class="container">
 
-            <h3>Reviews</h3>
+            <div class="row mb-3">
+                <div class="col-3">
+                    <h3>Reviews</h3>
+                </div>
+                <div class="col-9 text-right">
+                    <h4>Average Rating</h4>
+                    <i class="fa fa-star text-warning " aria-hidden="true"></i>
+                    <i class="fa fa-star text-warning " aria-hidden="true"></i>
+                    <i class="fa fa-star text-warning " aria-hidden="true"></i>
+                    <i class="fa fa-star text-warning " aria-hidden="true"></i>
+                    <i class="fa fa-star text-warning " aria-hidden="true"></i>
+                </div>
+            </div>
             <div class="row pl-3 pl-md-5 mb-5">
                 <div class="">
                     <div class="col-12 filter_card" style="
@@ -19,7 +31,7 @@
                             <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
                                 <span class="dp_r_name">Mr Josaf</span>
                             </div>
-                            <div class="col-12 col-md-3 ">
+                            <div class="col-12 col-md-3 text-right">
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -45,7 +57,7 @@
                             <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
                                 <span class="dp_r_name">Mr Josaf</span>
                             </div>
-                            <div class="col-12 col-md-3 ">
+                            <div class="col-12 col-md-3 text-right">
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -71,7 +83,7 @@
                             <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
                                 <span class="dp_r_name">Mr Josaf</span>
                             </div>
-                            <div class="col-12 col-md-3 ">
+                            <div class="col-12 col-md-3 text-right">
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
@@ -97,7 +109,7 @@
                             <div class="col-6 col-md-8 text-left pt-2 pt-md-3">
                                 <span class="dp_r_name">Mr Josaf</span>
                             </div>
-                            <div class="col-12 col-md-3 ">
+                            <div class="col-12 col-md-3 text-right">
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>
                                 <i class="fa fa-star text-warning " aria-hidden="true"></i>

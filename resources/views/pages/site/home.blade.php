@@ -170,8 +170,8 @@
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
                             <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
-                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" class="asc">
+                                    <div class="col text-center pt-lg-3 pt-2 img-div">
+                                        <img src="{{ asset('assets/vet/dogi.png') }}" alt="" class="dog-img">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -201,8 +201,8 @@
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
                             <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
-                                        <img src="{{ asset('assets/vet/catt.png') }}" alt="" class="asc">
+                                    <div class="col text-center pt-lg-3 pt-2 img-div">
+                                        <img src="{{ asset('assets/vet/catt.png') }}" alt="" class="cat-img">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -232,8 +232,8 @@
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
                             <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
-                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" class="asc">
+                                    <div class="col text-center pt-lg-3 pt-2 img-div">
+                                        <img src="{{ asset('assets/vet/Snake.png') }}" alt="" class="snake-img pt-3">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -263,8 +263,8 @@
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
                             <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
-                                    <div class="col text-center pt-xl-5 pt-lg-4 pt-md-3 pt-sm-4 pt-2">
-                                        <img src="{{ asset('assets/vet/bird.png') }}" alt="" class="asc">
+                                    <div class="col text-center pt-lg-3 pt-2 img-div">
+                                        <img src="{{ asset('assets/vet/bird.png') }}" alt="" class="bird-img">
                                     </div>
                                 </div>
                                 <div class="row">

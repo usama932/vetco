@@ -121,10 +121,24 @@ body {
 .filter_form_input button {
     font-size: 11px !important;
 }
-
+.dog-img{
+    width: 25%;
+}
+.cat-img{
+    width: 25%;
+}
+.snake-img{
+    width: 35%;
+}
+.bird-img{
+    width: 35%;
+}
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767px) {
+    .img-div {
+        min-height: 61px;
+    }
     .search-form button{
         font-size: 11px;
     }
@@ -532,6 +546,9 @@ body {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .img-div {
+        min-height: 71px;
+    }
     .search-form button{
         font-size: 11px;
     }
@@ -989,6 +1006,9 @@ body {
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    .img-div {
+        min-height: 90px;
+    }
 
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
         max-width: 100% !important;
@@ -1436,7 +1456,9 @@ body {
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+    .img-div {
+        min-height: 117px;
+    }
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
         max-width: 100% !important;
     }

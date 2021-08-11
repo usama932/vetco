@@ -13,7 +13,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Total Views</p>
+                            <p class="card-category">Total Practice Page Views</p>
                             <h3 class="card-title text-dark">184</h3>
                         </div>
                         <div class="card-footer">
@@ -27,7 +27,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Total Clicks</p>
+                            <p class="card-category">Pending Appointments</p>
                             <h3 class="card-title text-dark">184</h3>
                         </div>
                         <div class="card-footer">
@@ -57,7 +57,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Appointments</p>
+                            <p class="card-category">Appointments (week, month)</p>
 
 
                         </div>
@@ -93,7 +93,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Most Popular Services</p>
+                            <p class="card-category">“Most Popular Services</p>
 
                         </div>
                         <div class="card-body">

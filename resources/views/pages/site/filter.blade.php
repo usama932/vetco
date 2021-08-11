@@ -18,67 +18,24 @@
                     </div>
                 </div>
                 <div class=" ml-vw  pt-3">
-                    {{--                    <div class="row">--}}
-                    {{--                        <div--}}
-                    {{--                            class="col-md-8 text-center form-inline form-border rounded ml-auto mr-auto mt-2 mb-2 mb-md-4 mt-md-4">--}}
-                    {{--                            <select class="selectpicker filter_form_input ml-auto mr-auto"--}}
-                    {{--                                    data-style="select-with-transition" title="Choose Pet" data-size="4">--}}
-                    {{--                                <option value="2">Cats</option>--}}
-                    {{--                                <option value="3">Dogs</option>--}}
-                    {{--                                <option value="4">Snakes</option>--}}
-                    {{--                                <option value="5">Birds</option>--}}
-                    {{--                                <option value="6">Rabbits</option>--}}
-                    {{--                            </select>--}}
-                    {{--                            <select class="selectpicker filter_form_input ml-auto mr-auto"--}}
-                    {{--                                    data-style="select-with-transition" title="Condition, Procedure, Doctor"--}}
-                    {{--                                    data-size="4">--}}
-                    {{--                                <option value="2">Physical Wellness Exam</option>--}}
-                    {{--                                <option value="3">Dental Cleanings</option>--}}
-                    {{--                                <option value="4">Dental Extractions</option>--}}
-                    {{--                                <option value="5">Deworming</option>--}}
-                    {{--                                <option value="6">Vacinations</option>--}}
-                    {{--                            </select>--}}
-                    {{--                            <select class="selectpicker filter_form_input ml-auto mr-auto"--}}
-                    {{--                                    data-style="select-with-transition" title="City, State, Zipcode" data-size="4">--}}
-                    {{--                                <option value="2">000, Broadway</option>--}}
-                    {{--                                <option value="3">000, Broadway</option>--}}
-                    {{--                                <option value="4">000, Broadway</option>--}}
-                    {{--                                <option value="5">000, Broadway</option>--}}
-                    {{--                                <option value="6">000, Broadway</option>--}}
-                    {{--                            </select>--}}
-                    {{--                            <div class="input-group  filter_form_input  ml-auto mr-auto">--}}
-                    {{--                                <input type="text" class="form-control datepicker input_margin">--}}
-                    {{--                                <div class="input-group-append">--}}
-                    {{--                                        <span class="input-group-text p-0">--}}
-                    {{--                                            <i class="fa fa-calendar" aria-hidden="true"--}}
-                    {{--                                               style="margin-left: -1vw; margin-right: 0.2vw;"></i>--}}
-                    {{--                                        </span>--}}
-                    {{--                                </div>--}}
-                    {{--                            </div>--}}
-                    {{--                            <a href="{{ url('search') }}" type="button"--}}
-                    {{--                               class="btn btn-primary ml-auto mr-auto p-0 pt-2 pb-2 filter_form_btn"><i--}}
-                    {{--                                    class="fa fa-search" aria-hidden="true"></i>--}}
-                    {{--                            </a>--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-
                     <div
-                        class="row pt-md-3 mb-4 form-border search-form rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
-                        <div class="col-4 col-sm-4 col-md-2 p-0">
-                            <select class="selectpicker ml-auto mr-auto"
-                                    data-style="select-with-transition" title="Pet Type" data-size="4">
-                                <option value="2">Cats</option>
-                                <option value="3">Dogs</option>
-                                <option value="4">Snakes</option>
-                                <option value="5">Birds</option>
-                                <option value="6">Rabbits</option>
+                        class="row pt-md-3 mb-4 form-border search-form custom-search-form rounded  pl-md-5 pr-md-5 ml-md-0 mr-md-0">
+                        <div class="col-4 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
+                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                                    title="Pet Type" data-size="4" data-width="fit" data-max-options="1"
+                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                <option value="2">Cat</option>
+                                <option value="3">Dog</option>
+                                <option value="4">Snake</option>
+                                <option value="5">Bird</option>
+                                <option value="6">Rabbit</option>
                             </select>
                         </div>
-                        <div class="col-8 col-sm-8 col-md-4 p-0">
-
-                            <select class="selectpicker ml-auto mr-auto"
-                                    data-style="select-with-transition" title="Services, Procedure, Doctor"
-                                    data-size="4">
+                        <div class="col-8 col-sm-8 col-md-4 p-md-0 pl-2 pr-2">
+                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                                    title="Services, Procedure, Doctor" data-size="4" data-width="fit"
+                                    data-max-options="1"
+                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
                                 <option value="2">Physical Wellness Exam</option>
                                 <option value="3">Dental Cleanings</option>
                                 <option value="4">Dental Extractions</option>
@@ -86,21 +43,27 @@
                                 <option value="6">Vacinations</option>
                             </select>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-3 p-0">
-
-                            <select class="selectpicker ml-auto mr-auto"
-                                    data-style="select-with-transition" title="City, State, Zipcode" data-size="4">
-                                <option value="2">000, Broadway</option>
-                                <option value="3">000, Broadway</option>
-                                <option value="4">000, Broadway</option>
-                                <option value="5">000, Broadway</option>
-                                <option value="6">000, Broadway</option>
+                        <div class="col-6 col-sm-6 col-md-3 p-md-0 pl-2 pr-2">
+                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                                    title="City, State, Zipcode" data-size="4" data-width="fit"
+                                    data-live-search="true" data-max-options="1" data-actions-box="true"
+                                    data-deselect-all-text="Deselect" multiple>
+                                <option value="3">001, Broadway</option>
+                                <option value="4">002, Broadway</option>
+                                <option value="5">003, Broadway</option>
+                                <option value="6">004, Broadway</option>
+                                <option value="5">005, Broadway</option>
                             </select>
                         </div>
-                        <div class="col-6 col-sm-5 col-md-2 p-0" style="display: flex;">
-                            <input type="text" class="form-control datepicker mt-1">
-                            <i class="fa fa-calendar" aria-hidden="true"
-                               style="margin-left: -17px;margin-top: 13px;margin-right: 5px;"></i>
+                        <div class="col-6 col-sm-5 col-md-2 p-md-0 pl-2 pr-2">
+                            <div class="form-group p-0 m-0 mt-1">
+                                <div class="input-group date">
+                                    <input type="text" class="form-control datepicker"/>
+                                    <span class="input-group-addon">
+                                        <span class="fa fa-calendar pt-2 mt-1 mr-2"></span>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
                             <a href="{{ url('filter') }}" type="button"
@@ -128,9 +91,9 @@
                     </div>
                     <div class="row pl-3 pr-3 mb-2">
                         <div class="col-12">
-                            <span style="font-weight: 700; font-size: 14px">
-                            Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
-                                </span>
+                            <span style="font-weight: 700; font-size: 17px">
+                                Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -187,12 +150,13 @@
                                                         <small> 300, suite Florida, United state. </small>
                                                     </div>
                                                     <div class="col-12 text-left">
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
                                                         <a href="{{ url('vet-profile') }}">
-                                                            <sub> <sup>See Reviews</sup></sub>
+                                                            <sub> <sup><i class="fa fa-caret-down mr-1" aria-hidden="true"></i>700</sup></sub>
                                                         </a>
                                                     </div>
                                                     <div class="col-12 text-left">
@@ -394,12 +358,13 @@
                                                         <small> 300, suite Florida, United state. </small>
                                                     </div>
                                                     <div class="col-12 text-left">
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
                                                         <a href="{{ url('vet-profile') }}">
-                                                            <sub> <sup>See Reviews</sup></sub>
+                                                            <sub> <sup><i class="fa fa-caret-down mr-1" aria-hidden="true"></i>700</sup></sub>
                                                         </a>
                                                     </div>
                                                     <div class="col-12 text-left">
@@ -601,12 +566,13 @@
                                                         <small> 300, suite California, United state. </small>
                                                     </div>
                                                     <div class="col-12 text-left">
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-success" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o text-secondary" aria-hidden="true"></i>
                                                         <a href="{{ url('vet-profile') }}">
-                                                            <sub> <sup>See Reviews</sup></sub>
+                                                            <sub> <sup><i class="fa fa-caret-down mr-1" aria-hidden="true"></i>500</sup></sub>
                                                         </a>
                                                     </div>
                                                     <div class="col-12 text-left">

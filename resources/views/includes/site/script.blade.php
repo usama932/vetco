@@ -34,7 +34,6 @@
 <script src="{{ asset('/assets/js/jquery-confirm.min.js') }}"></script>
 
 
-
 <!-- Library for adding dinamically elements -->
 <script src="{{ asset('/assets/js/plugins/arrive.min.js') }}"></script>
 
@@ -248,15 +247,23 @@
 {{--</script>--}}
 <script>
     $(document).ready(function () {
-        // Javascript method's body can be found in assets/js/demos.js
-        // md.initDashboardPageCharts();
-        //
-        // md.initVectorMap();
-        $('#mob-dropdown').click(function (){
+        $('#mob-dropdown').click(function () {
             $('.mob-dropdown-menu').slideToggle();
         });
         $('.datepicker').datetimepicker({
-            format:'DD/MM/YYYY',
+            format: 'DD/MM/YYYY',
+            icons: {
+                time: "fa fa-clock-o",
+                date: "fa fa-calendar",
+                up: "fa fa-chevron-up",
+                down: "fa fa-chevron-down",
+                previous: 'fa fa-chevron-left',
+                next: 'fa fa-chevron-right',
+                today: 'fa fa-screenshot',
+                clear: 'fa fa-trash',
+                close: 'fa fa-remove'
+            },
+            showClear: true,
         });
         $('.about_us_a').click(function () {
 
@@ -266,17 +273,18 @@
                 scrollTop: position
             } /* speed */);
         });
-        $(".remove").click(function(e) {
+        $(".remove").click(function (e) {
             e.preventDefault();
             var href = $(this).attr("href");
             $.confirm({
                 title: 'Confirm!',
                 content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
                 buttons: {
-                    YES: function() {
+                    YES: function () {
                         $(location).attr('href', href);
                     },
-                    NO: function() {}
+                    NO: function () {
+                    }
                 }
             });
         });

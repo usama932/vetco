@@ -95,6 +95,14 @@ Route::group(['prefix' => 'vet'], function () {
         $page = 'Services';
         return view('pages.vet.services', compact('page'));
     });
+    Route::get('/edit-services', function () {
+        $page = 'Services';
+        return view('pages.vet.edit-services', compact('page'));
+    });
+    Route::get('/add-services', function () {
+        $page = 'Services';
+        return view('pages.vet.add-services', compact('page'));
+    });
     Route::get('/appointments', function () {
         $page = 'All Practices';
         return view('pages.vet.appointments', compact('page'));

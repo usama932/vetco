@@ -29,7 +29,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Total View</p>
+                            <p class="card-category">Total Unique Views</p>
                             <h3 class="card-title text-dark">184</h3>
                         </div>
                         <div class="card-footer">

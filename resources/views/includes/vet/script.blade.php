@@ -47,11 +47,23 @@
         // md.initDashboardPageCharts();
         //
         // md.initVectorMap();
-        $('#mob-dropdown').click(function (){
+        $('#mob-dropdown').click(function () {
             $('.mob-dropdown-menu').slideToggle();
         });
         $('.datepicker').datetimepicker({
-            format:'DD/MM/YYYY',
+            format: 'DD/MM/YYYY',
+            icons: {
+                time: "fa fa-clock-o",
+                date: "fa fa-calendar",
+                up: "fa fa-chevron-up",
+                down: "fa fa-chevron-down",
+                previous: 'fa fa-chevron-left',
+                next: 'fa fa-chevron-right',
+                today: 'fa fa-screenshot',
+                clear: 'fa fa-trash',
+                close: 'fa fa-remove'
+            },
+            showClear: true,
         });
         $('.about_us_a').click(function () {
 
@@ -64,7 +76,7 @@
     });
 </script>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('#myTable').DataTable({
             responsive: {
                 details: false
@@ -75,22 +87,38 @@
 </script>
 
 <script>
-    $("#add_practise_btn").on("click", function(e) {
+    $("#add_practise_btn").on("click", function (e) {
         e.preventDefault();
         $('#myModal2').modal('show');
     });
 
-    $(".remove").click(function(e) {
+    $(".remove").click(function (e) {
         e.preventDefault();
         var href = $(this).attr("href");
         $.confirm({
             title: 'Confirm!',
             content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
             buttons: {
-                YES: function() {
+                YES: function () {
                     $(location).attr('href', href);
                 },
-                NO: function() {}
+                NO: function () {
+                }
+            }
+        });
+    });
+    $(".remove-service").click(function (e) {
+        e.preventDefault();
+        var href = $(this).attr("href");
+        $.confirm({
+            title: 'Confirm!',
+            content: 'You are about to Remove Service. Are you sure you want to Remove this Service?',
+            buttons: {
+                YES: function () {
+                    $(location).attr('href', href);
+                },
+                NO: function () {
+                }
             }
         });
     });

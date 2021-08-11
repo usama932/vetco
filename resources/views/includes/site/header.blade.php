@@ -18,11 +18,11 @@
         {{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
         {{--            <span class="navbar-toggler-icon icon-bar"></span>--}}
         {{--        </button>--}}
-        <a href="javascript:;" id="mob-dropdown" class="desk-hide">
+        <a href="javascript:;" id="mob-dropdown" class="desk-md-hide">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </a>
         <div
-            class="dropdown-menu mob-dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown ml-auto desk-hide"
+            class="dropdown-menu mob-dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown ml-auto"
             aria-labelledby="navbarDropdownProfile" aria-controls="navigation-index" style="right: 2vw; width: 50%;">
             @guest
                 <a class="dropdown-item text-white border-bottom" href="{{ url('/#about_us') }}">About us</a>

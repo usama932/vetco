@@ -43,6 +43,7 @@
                                 </div>
                                 <div class="col-3 text-right">
                                     <button class="btn btn-primary btn-sm edit"> Edit </button>
+                                    <button class="btn btn-success btn-sm save" hidden> Save </button>
                                 </div>
                             </div>
                             <div class="row">
@@ -100,6 +101,11 @@
     <script>
         $('.edit').click(function (){
            $('.form-control').removeAttr('readonly');
+           $('.save').removeAttr('hidden');
+        });
+        $('.save').click(function (){
+            $('.form-control').attr('readonly', true);
+           $('.save').attr('hidden', true);
         });
     </script>
 @endsection

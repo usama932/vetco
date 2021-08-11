@@ -8,43 +8,58 @@
 
     <div class="container">
         <div class="container">
-            <h3 class="text-blue">Services</h3>
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-blue">Services</h3>
+                </div>
+                <div class="col text-right">
+                    <a href="{{ url('vet/add-services') }}" class="btn btn-blue"> Add Service </a>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-12 ml-auto mr-auto">
                     <div class="row p-5">
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
-                            <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
-{{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
-                                <div class="text-right">
-                                    <i class="fas fa-edit text-blue" data-toggle="modal" data-target="#myModal1"></i>
-                                </div>
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/tooth.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
+                                <div class="card"
+                                     style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                                    <a href="{{ url('vet/edit-services') }}">
+                                    {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
+                                    <div class="text-right">
+                                        <i class="fas fa-remove text-danger mr-1 remove-service"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <img src="{{ asset('vet/assets/img/tooth.png') }}" alt="" width="140"
+                                                     height="140" style="border-radius: 50%;">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center p-0">
+                                                <p class="mps_t text-blue font-weight-bold">
+                                                    Oral Surgery
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col text-center p-0">
-                                            <p class="mps_t text-blue font-weight-bold">
-                                                Oral Surgery
-                                            </p>
-                                        </div>
-                                    </div>
+                                    {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
+
+                                    </a>
                                 </div>
-{{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
                             </div>
-                        </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
-                            <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                            <div class="card"
+                                 style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                                <a href="{{ url('vet/edit-services') }}">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
-                                    <i class="fas fa-edit text-blue" data-toggle="modal" data-target="#myModal1"></i>
+                                    <i class="fas fa-remove text-danger mr-1 remove-service"></i>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/dog.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
+                                            <img src="{{ asset('vet/assets/img/dog.png') }}" alt="" width="140"
+                                                 height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -56,18 +71,22 @@
                                     </div>
                                 </div>
                                 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
-                            <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                            <div class="card"
+                                 style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                                <a href="{{ url('vet/edit-services') }}">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
-                                    <i class="fas fa-edit text-blue" data-toggle="modal" data-target="#myModal1"></i>
+                                    <i class="fas fa-remove text-danger mr-1 remove-service"></i>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/cleaning.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
+                                            <img src="{{ asset('vet/assets/img/cleaning.png') }}" alt="" width="140"
+                                                 height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -79,18 +98,22 @@
                                     </div>
                                 </div>
                                 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
-                            <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                            <div class="card"
+                                 style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                                <a href="{{ url('vet/edit-services') }}">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
-                                    <i class="fas fa-edit text-blue" data-toggle="modal" data-target="#myModal1"></i>
+                                    <i class="fas fa-remove text-danger mr-1 remove-service"></i>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/vaccinate.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
+                                            <img src="{{ asset('vet/assets/img/vaccinate.png') }}" alt="" width="140"
+                                                 height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -102,18 +125,22 @@
                                     </div>
                                 </div>
                                 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
-                            <div class="card" style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                            <div class="card"
+                                 style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">
+                                <a href="{{ url('vet/edit-services') }}">
                                 {{--                                <div class="bg-blue rounded m-0 p-0" style="height:5px;width:100%"></div>--}}
                                 <div class="text-right">
-                                    <i class="fas fa-edit text-blue" data-toggle="modal" data-target="#myModal1"></i>
+                                    <i class="fas fa-remove text-danger mr-1 remove-service"></i>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <img src="{{ asset('vet/assets/img/extraction.png') }}" alt="" width="140" height="140" style="border-radius: 50%;">
+                                            <img src="{{ asset('vet/assets/img/extraction.png') }}" alt="" width="140"
+                                                 height="140" style="border-radius: 50%;">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -125,37 +152,38 @@
                                     </div>
                                 </div>
                                 {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
+                                </a>
                             </div>
                         </div>
 
 
-{{--                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">--}}
-{{--                            <div class="card">--}}
-{{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
-{{--                                <div class="text-right">--}}
-{{--                                    <i class="fas fa-edit text-blue" data-toggle="modal" data-target="#myModal1"></i>--}}
+                        {{--                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">--}}
+                        {{--                            <div class="card">--}}
+                        {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
+                        {{--                                <div class="text-right">--}}
+                        {{--                                    <i class="fas fa-edit text-blue" data-toggle="modal" data-target="#myModal1"></i>--}}
 
-{{--                                </div>--}}
+                        {{--                                </div>--}}
 
-{{--                                <div class="card-body">--}}
-{{--                                    <div class="row">--}}
-{{--                                        <div class="col text-center">--}}
-{{--                                            <img src="{{ asset('vet/assets/img/extraction.png') }}" alt=""--}}
-{{--                                                 class="mps_img">--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="row">--}}
-{{--                                        <div class="col text-center">--}}
-{{--                                            <p class="mps_t">--}}
-{{--                                                Dental Extractions--}}
-{{--                                            </p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
+                        {{--                                <div class="card-body">--}}
+                        {{--                                    <div class="row">--}}
+                        {{--                                        <div class="col text-center">--}}
+                        {{--                                            <img src="{{ asset('vet/assets/img/extraction.png') }}" alt=""--}}
+                        {{--                                                 class="mps_img">--}}
+                        {{--                                        </div>--}}
+                        {{--                                    </div>--}}
+                        {{--                                    <div class="row">--}}
+                        {{--                                        <div class="col text-center">--}}
+                        {{--                                            <p class="mps_t">--}}
+                        {{--                                                Dental Extractions--}}
+                        {{--                                            </p>--}}
+                        {{--                                        </div>--}}
+                        {{--                                    </div>--}}
+                        {{--                                </div>--}}
+                        {{--                                <div class="bg-blue rounded" style="height:5px;width:100%"></div>--}}
 
-{{--                            </div>--}}
-{{--                        </div>--}}
+                        {{--                            </div>--}}
+                        {{--                        </div>--}}
 
                     </div>
 

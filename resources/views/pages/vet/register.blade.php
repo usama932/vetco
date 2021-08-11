@@ -94,6 +94,30 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">City</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">State</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-3 col-form-label text-blue">Zip</label>
+                                <div class="col-md-9">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <label class="col-md-3 col-form-label text-blue">Password</label>
                                 <div class="col-md-9">
                                     <div class="form-group has-default bmd-form-group">

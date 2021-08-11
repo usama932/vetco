@@ -40,13 +40,10 @@
                     </a>
                     <div class="dropdown-menu dropdown-with-icons bg-blue">
                         <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
-                            Services
-                        </a>
-                        <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
-                            Prices
-                        </a>
-                        <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
                             Practice Details
+                        </a>
+                        <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
+                            Services
                         </a>
                         {{--                        <a href="{{ url('vet/claim-practice') }}" class="dropdown-item text-white">--}}
                         {{--                            Claim Pratice--}}

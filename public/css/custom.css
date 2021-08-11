@@ -6,11 +6,13 @@ body {
     background: white !important;
 
 }
+
 .nav-tabs .nav-item .nav-link.active {
     background-color: rgb(3 56 139 / 20%);
     transition: 0.3s background-color 0.2s;
     font-weight: 700;
 }
+
 .text-black {
     color: #000000 !important;
 }
@@ -71,9 +73,11 @@ body {
 .f_href:focus {
     color: #ffffff;
 }
+
 .fw-700 {
     font-weight: 700 !important;
 }
+
 .cursor-pointer {
     cursor: pointer !important;
 }
@@ -118,20 +122,40 @@ body {
     background: #ffffff !important;
     color: #03388b !important;
 }
+
 .filter_form_input button {
     font-size: 11px !important;
 }
-.dog-img{
+
+.dog-img {
     width: 25%;
 }
-.cat-img{
+
+.cat-img {
     width: 25%;
 }
-.snake-img{
+
+.snake-img {
     width: 35%;
 }
-.bird-img{
+
+.bird-img {
     width: 35%;
+}
+
+.custom-search-form .filter-option-inner-inner {
+    text-transform: capitalize;
+    max-width: 100%;
+    display: inline-block !important;
+}
+
+/* remove bs select all btn */
+.custom-search-form select[data-max-options="1"] ~ .dropdown-menu .bs-actionsbox .bs-select-all {
+    display: none;
+}
+
+.custom-search-form select[data-max-options="1"] ~ .dropdown-menu .bs-actionsbox .bs-deselect-all {
+    width: 100%;
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -139,19 +163,23 @@ body {
     .img-div {
         min-height: 62px;
     }
-    .search-form button{
+
+    .search-form button {
         font-size: 11px;
     }
-    .search-form .datepicker{
+
+    .search-form .datepicker {
         font-size: 12px;
     }
-    .search-form .filter-option-inner{
+
+    .search-form .filter-option-inner {
         padding-right: 13px !important;
     }
 
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
         max-width: 100% !important;
     }
+
     .logo {
         width: 25vw;
     }
@@ -163,10 +191,12 @@ body {
     }
 
     .vfp_img {
+        max-width: 100%;
         width: 61vw;
     }
 
     .vfp_img2 {
+        max-width: 100%;
         width: 60vw;
     }
 
@@ -223,10 +253,10 @@ body {
     }
 
     .fc {
-        line-height: 20px;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 12px !important;
         text-align: center;
+        margin-top: 2vw;
     }
 
     .ap_img {
@@ -237,27 +267,30 @@ body {
     .fh {
         line-height: 1vw;
         font-weight: bold;
-        font-size: 8vw;
+        font-size: 5vw;
     }
 
     .fd {
-        padding-top: 5vw;
+        padding-top: 1vw;
         line-height: 5vw;
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 2.5vw;
+        margin-bottom: 1.5vw;
     }
 
     .f_href {
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 2.5vw;
         font-family: Helvetica !important;
         color: #ffffff;
         display: inherit;
     }
 
     .fso {
-        line-height: 2vw;
-        font-size: 8vw;
+        margin-top: 4vw;
+        line-height: 1vw;
+        font-weight: bold;
+        font-size: 5vw;
     }
 
     .fi {
@@ -549,22 +582,27 @@ body {
     .img-div {
         min-height: 72px;
     }
-    .search-form button{
+
+    .search-form button {
         font-size: 11px;
     }
-    .search-form .datepicker{
+
+    .search-form .datepicker {
         font-size: 12px;
     }
-    .search-form .filter-option-inner{
+
+    .search-form .filter-option-inner {
         padding-right: 11px !important;
     }
 
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
         max-width: 100% !important;
     }
+
     .vh-92 {
         min-height: 92vh !important;
     }
+
     .vh-100 {
         min-height: 92vh !important;
     }
@@ -770,10 +808,12 @@ body {
     }
 
     .vfp_img {
+        max-width: 100%;
         width: 30vw;
     }
 
     .vfp_img2 {
+        max-width: 100%;
         width: 25.9vw;
     }
 
@@ -1006,6 +1046,9 @@ body {
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    .desk-md-hide {
+        display: none;
+    }
     .img-div {
         min-height: 91px;
     }
@@ -1013,12 +1056,15 @@ body {
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
         max-width: 100% !important;
     }
+
     .vh-92 {
         min-height: 92vh !important;
     }
+
     .vh-100 {
         min-height: 92vh !important;
     }
+
     .filter_sec {
         max-height: 26vw;
         padding: 2vw;
@@ -1220,10 +1266,12 @@ body {
     }
 
     .vfp_img {
+        max-width: 100%;
         width: 30vw;
     }
 
     .vfp_img2 {
+        max-width: 100%;
         width: 25.9vw;
     }
 
@@ -1459,15 +1507,19 @@ body {
     .img-div {
         min-height: 119px;
     }
+
     .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
         max-width: 100% !important;
     }
+
     .vh-92 {
         min-height: 92vh !important;
     }
+
     .vh-100 {
         min-height: 92vh !important;
     }
+
     .filter_sec {
         max-height: 26vw;
         padding: 2vw;
@@ -1669,10 +1721,12 @@ body {
     }
 
     .vfp_img {
+        max-width: 100%;
         width: 30vw;
     }
 
     .vfp_img2 {
+        max-width: 100%;
         width: 25.9vw;
     }
 

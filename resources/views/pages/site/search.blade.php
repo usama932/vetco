@@ -83,16 +83,16 @@
                     <div class="row">
                         <div class="col pt-2 mt-1">
                             <span style="font-weight: 700; font-size: 17px">
-                            Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
-                                </span>
+                                Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
+                            </span>
                         </div>
                     </div>
                 </div>
                 <div class="ml-vw2 pt-3 pb-5">
 
-                    <div class="row p-1 p-md-3 rounded"
+                    <div class="row p-1 pt-md-3 pb-md-3 pl-md-0 pr-md-0  rounded"
                          style="background-image: linear-gradient(to left, #ffffff, #f5f5f5, #efefef); box-shadow: 0px 4px 16px -9px;">
-                        <div class="col-md-8 col-12 pl-1 pr-1 pl-md-2 pr-md-2">
+                        <div class="col-md-8 col-12 pl-1 pr-1 pl-md-1 pr-md-1">
                             <div class="row pl-md-3">
                                 <div class="col">
                                     <h4 class="text-primary font-weight-bold"> All
@@ -109,33 +109,33 @@
                                         <option value="4">Avg. Patient Review</option>
                                     </select>
                                 </div>
-{{--                                <div class="col-lg col-xl-2 col-6">--}}
-{{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Dentist</span>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-lg col-xl-2 col-6">--}}
-{{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">4/14</span>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-lg col-xl-2 col-6">--}}
-{{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Speciality</span>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-lg col-xl-2 col-6">--}}
-{{--                                    <span--}}
-{{--                                        class="btn btn-primary btn-block p-1 text-capitalize">Availability</span>--}}
-{{--                                </div>--}}
+                                {{--                                <div class="col-lg col-xl-2 col-6">--}}
+                                {{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Dentist</span>--}}
+                                {{--                                </div>--}}
+                                {{--                                <div class="col-lg col-xl-2 col-6">--}}
+                                {{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">4/14</span>--}}
+                                {{--                                </div>--}}
+                                {{--                                <div class="col-lg col-xl-2 col-6">--}}
+                                {{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Speciality</span>--}}
+                                {{--                                </div>--}}
+                                {{--                                <div class="col-lg col-xl-2 col-6">--}}
+                                {{--                                    <span--}}
+                                {{--                                        class="btn btn-primary btn-block p-1 text-capitalize">Availability</span>--}}
+                                {{--                                </div>--}}
                             </div>
                             <div class="row pl-md-3 mt-2">
                                 <div class="col">
                                     <h4 class="text-primary font-weight-bold"> 43 Practices Found </h4>
                                 </div>
                             </div>
+
                             <div class="ap_dr_sec">
                                 <div class="row ap_dr_row">
-                                    <div class="col-md-6 col-sm-12">
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
+
+                                    <div class="col-md-7 col-sm-12 p-0 ml-auto">
                                         <div class="row text-center">
-                                            <div class="col-1 p-0 pt-3">
-                                                <
+                                            <div class="col-1 p-0 pt-3 text-right">
+                                                &lt;
                                             </div>
                                             <div class="col p-0">
                                                 Mon <br> <small>4/16</small>
@@ -152,26 +152,28 @@
                                             <div class="col p-0">
                                                 Fri <br> <small>4/20</small>
                                             </div>
-                                            <div class="col-1 p-0 pt-3">
-                                                >
+                                            <div class="col-1 p-0 pt-3 text-left">
+                                                &gt;
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 filter_card2">
-                                        <div class="row">
-                                            <div class="col-md-2 col-sm-12">
-                                                <img src="{{ asset('assets/vet/doc_1.png') }}" alt="" width="105"
-                                                     height="144">
+                                    <div class="col-12">
+                                        <div class="row filter_card2">
+                                            <div class="col-md-2 col-sm-12 p-1">
+                                                <img src="{{ asset('assets/vet/doc_1.png') }}" alt=""
+                                                     width="105" height="144" style="max-width: 100%;">
                                             </div>
-                                            <div class="col-md-4 col-sm-12">
+                                            <div class="col-md-3 col-sm-12 p-0">
                                                 <div class="row">
                                                     <div class="col-12 text-right text-black"><small>10 Miles</small>
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <h5 class="font-weight-bold mb-0"> Dr. Steven Portman, MD </h5>
+                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>
+                                                        <small> Dentist </small>
+
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <small> Dentist </small>
+
                                                     </div>
                                                     <div class="col-12 text-left text-black">
                                                         <small> 300, suite Florida, United state. </small>
@@ -181,22 +183,24 @@
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-half-o text-warning" aria-hidden="true"></i>
-                                                        <a href="{{ url('vet-profile') }}">
-                                                            <sub> <sup><i class="fa fa-caret-down mr-1" aria-hidden="true"></i>579</sup></sub>
+                                                        <i class="fa fa-star-half-o text-warning"
+                                                           aria-hidden="true"></i>
+                                                        <a href="http://localhost/vetco/public/vet-profile">
+                                                            <sub> <sup><i class="fa fa-caret-down mr-1"
+                                                                          aria-hidden="true"></i>579</sup></sub>
                                                         </a>
                                                     </div>
-                                                    <div class="col-12 text-left">
-                                                        <a href="{{ url('vet-profile') }}">
-                                                            <small>
+                                                    <div class="col-12 text-left pr-1">
+                                                        <a href="http://localhost/vetco/public/vet-profile">
+                                                            <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
                                                                 View Doctor Profile
-                                                            </small>
+                                                            </sub>
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-12 p-0">
+                                            <div class="col-md-7 col-sm-12 p-0">
                                                 <div class="row text-center mt-2">
                                                     <div class="col-1"></div>
                                                     <div class="col p-0">
@@ -296,17 +300,17 @@
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                                 <div class="row ap_dr_row">
-                                    <div class="col-md-6 col-sm-12">
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
+
+                                    <div class="col-md-7 col-sm-12 p-0 ml-auto">
                                         <div class="row text-center">
-                                            <div class="col-1 p-0 pt-3">
-                                                <
+                                            <div class="col-1 p-0 pt-3 text-right">
+                                                &lt;
                                             </div>
                                             <div class="col p-0">
-                                                <strong> Mon </strong> <br> <small>4/16</small>
+                                                Mon <br> <small>4/16</small>
                                             </div>
                                             <div class="col p-0">
                                                 Tue <br> <small>4/17</small>
@@ -320,26 +324,28 @@
                                             <div class="col p-0">
                                                 Fri <br> <small>4/20</small>
                                             </div>
-                                            <div class="col-1 p-0 pt-3">
-                                                >
+                                            <div class="col-1 p-0 pt-3 text-left">
+                                                &gt;
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 filter_card2">
-                                        <div class="row">
-                                            <div class="col-md-2 col-sm-12">
-                                                <img src="{{ asset('assets/vet/doc_2.png') }}" alt="" width="105"
-                                                     height="144">
+                                    <div class="col-12">
+                                        <div class="row filter_card2">
+                                            <div class="col-md-2 col-sm-12 p-1">
+                                                <img src="{{ asset('assets/vet/doc_2.png') }}" alt=""
+                                                     width="105" height="144" style="max-width: 100%;">
                                             </div>
-                                            <div class="col-md-4 col-sm-12">
+                                            <div class="col-md-3 col-sm-12 p-0">
                                                 <div class="row">
                                                     <div class="col-12 text-right text-black"><small>10 Miles</small>
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <h5 class="font-weight-bold mb-0"> Dr. Kathrine, MD </h5>
+                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>
+                                                        <small> Dentist </small>
+
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <small> Dentist </small>
+
                                                     </div>
                                                     <div class="col-12 text-left text-black">
                                                         <small> 300, suite Florida, United state. </small>
@@ -349,22 +355,24 @@
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
-                                                        <a href="{{ url('vet-profile') }}">
-                                                            <sub> <sup><i class="fa fa-caret-down mr-1" aria-hidden="true"></i>700</sup></sub>
+                                                        <i class="fa fa-star-half-o text-warning"
+                                                           aria-hidden="true"></i>
+                                                        <a href="http://localhost/vetco/public/vet-profile">
+                                                            <sub> <sup><i class="fa fa-caret-down mr-1"
+                                                                          aria-hidden="true"></i>579</sup></sub>
                                                         </a>
                                                     </div>
-                                                    <div class="col-12 text-left">
-                                                        <a href="{{ url('vet-profile') }}">
-                                                            <small>
+                                                    <div class="col-12 text-left pr-1">
+                                                        <a href="http://localhost/vetco/public/vet-profile">
+                                                            <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
                                                                 View Doctor Profile
-                                                            </small>
+                                                            </sub>
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-12 p-0">
+                                            <div class="col-md-7 col-sm-12 p-0">
                                                 <div class="row text-center mt-2">
                                                     <div class="col-1"></div>
                                                     <div class="col p-0">
@@ -464,17 +472,17 @@
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                                 <div class="row ap_dr_row">
-                                    <div class="col-md-6 col-sm-12">
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
+
+                                    <div class="col-md-7 col-sm-12 p-0 ml-auto">
                                         <div class="row text-center">
-                                            <div class="col-1 p-0 pt-3">
-                                                <
+                                            <div class="col-1 p-0 pt-3 text-right">
+                                                &lt;
                                             </div>
                                             <div class="col p-0">
-                                                <strong> Mon </strong> <br> <small>4/16</small>
+                                                Mon <br> <small>4/16</small>
                                             </div>
                                             <div class="col p-0">
                                                 Tue <br> <small>4/17</small>
@@ -488,51 +496,54 @@
                                             <div class="col p-0">
                                                 Fri <br> <small>4/20</small>
                                             </div>
-                                            <div class="col-1 p-0 pt-3">
-                                                >
+                                            <div class="col-1 p-0 pt-3 text-left">
+                                                &gt;
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 filter_card2">
-                                        <div class="row">
-                                            <div class="col-md-2 col-sm-12">
-                                                <img src="{{ asset('assets/vet/doc_1.png') }}" alt="" width="105"
-                                                     height="144">
+                                    <div class="col-12">
+                                        <div class="row filter_card2">
+                                            <div class="col-md-2 col-sm-12 p-1">
+                                                <img src="{{ asset('assets/vet/doc_1.png') }}" alt=""
+                                                     width="105" height="144" style="max-width: 100%;">
                                             </div>
-                                            <div class="col-md-4 col-sm-12">
+                                            <div class="col-md-3 col-sm-12 p-0">
                                                 <div class="row">
                                                     <div class="col-12 text-right text-black"><small>10 Miles</small>
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <h5 class="font-weight-bold mb-0"> Dr. Jayun, MD </h5>
-                                                    </div>
-                                                    <div class="col-12 text-left text-black">
+                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>
                                                         <small> Dentist </small>
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <small> 300, suite California, United state. </small>
+
+                                                    </div>
+                                                    <div class="col-12 text-left text-black">
+                                                        <small> 300, suite Florida, United state. </small>
                                                     </div>
                                                     <div class="col-12 text-left">
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
                                                         <i class="fa fa-star text-warning" aria-hidden="true"></i>
-                                                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
-                                                        <a href="{{ url('vet-profile') }}">
-                                                            <sub> <sup><i class="fa fa-caret-down mr-1" aria-hidden="true"></i>579</sup></sub>
+                                                        <i class="fa fa-star-half-o text-warning"
+                                                           aria-hidden="true"></i>
+                                                        <a href="http://localhost/vetco/public/vet-profile">
+                                                            <sub> <sup><i class="fa fa-caret-down mr-1"
+                                                                          aria-hidden="true"></i>579</sup></sub>
                                                         </a>
                                                     </div>
-                                                    <div class="col-12 text-left">
-                                                        <a href="{{ url('vet-profile') }}">
-                                                            <small>
+                                                    <div class="col-12 text-left pr-1">
+                                                        <a href="http://localhost/vetco/public/vet-profile">
+                                                            <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
                                                                 View Doctor Profile
-                                                            </small>
+                                                            </sub>
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-12 p-0">
+                                            <div class="col-md-7 col-sm-12 p-0">
                                                 <div class="row text-center mt-2">
                                                     <div class="col-1"></div>
                                                     <div class="col p-0">
@@ -632,9 +643,11 @@
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-4 col-12">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6028.218820157943!2d-74.16819217014017!3d40.93526925255779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fc5699f995d9%3A0xcb88f11921242943!2s16%20E%205th%20St%2C%20Paterson%2C%20NJ%2007524%2C%20USA!5e0!3m2!1sen!2s!4v1574772648849!5m2!1sen!2s"

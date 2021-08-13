@@ -39,7 +39,7 @@
                         Profile
                     </a>
                     <div class="dropdown-menu dropdown-with-icons bg-blue">
-                        <a href="{{ url('vet/services') }}" class="dropdown-item text-white">
+                        <a href="{{ url('vet/practice-details') }}" class="dropdown-item text-white">
                             Practice Details
                         </a>
                         <a href="{{ url('vet/services') }}" class="dropdown-item text-white">

@@ -44,22 +44,22 @@
                                                     <th>
                                                         Pet Name
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Practice Name
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Practice Address
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Phone Number
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Appointment Date
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Time
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
 
                                                     </th>
                                                 </tr>
@@ -69,22 +69,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -101,22 +101,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -133,22 +133,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -165,22 +165,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -197,22 +197,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -229,22 +229,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -261,22 +261,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -293,22 +293,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -325,22 +325,214 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -365,22 +557,22 @@
                                                     <th>
                                                         Pet Name
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Practice Name
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Practice Address
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Phone Number
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Appointment Date
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
                                                         Time
                                                     </th>
-                                                    <th>
+                                                    <th class="text-center">
 
                                                     </th>
                                                 </tr>
@@ -390,22 +582,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -422,22 +614,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -454,22 +646,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -486,22 +678,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -518,22 +710,22 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">
@@ -550,22 +742,54 @@
                                                     <td>
                                                         Lorem
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         Ipsum
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         102, Broadway
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00000000000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00-0000
                                                     </td>
-                                                    <td>
+                                                    <td class="text-center">
                                                         00-00
                                                     </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a>Reschedule</a></li>
+                                                                <li><a href="#">Cancel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
                                                         <div class="dropdown">
                                                             <a href="#" class="btn bg-white btn-round btn-sm"
                                                                data-toggle="dropdown">

@@ -25,7 +25,7 @@
             class="dropdown-menu mob-dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown ml-auto"
             aria-labelledby="navbarDropdownProfile" aria-controls="navigation-index" style="right: 2vw; width: 50%;">
             @guest
-                <a class="dropdown-item text-white border-bottom" href="{{ url('/#about_us') }}">About us</a>
+                {{--                <a class="dropdown-item text-white border-bottom" href="{{ url('/#about_us') }}">About us</a>--}}
                 <a class="dropdown-item text-white border-bottom" href="{{ url('vet/login') }}">Claim Practice</a>
                 {{--                <a class="dropdown-item text-white border-bottom" href="{{ route('register') }}">Sign up</a>--}}
                 <a class="dropdown-item text-white border-bottom" href="{{ route('login') }}">Log in</a>
@@ -42,24 +42,25 @@
                 </form>
             @endguest
         </div>
-        <div class="collapse navbar-collapse justify-content-end">
+{{--        <div class="collapse navbar-collapse justify-content-end">--}}
+        <div class="desk-sm-hide">
             <ul class="navbar-nav">
                 @guest
-                    @if(url('/') .'/profile' == url()->current())
-                        <li class="nav-item">
-                            <a class="nav-link header_link text-primary"
-                               href="{{ url('/') }}">
-                                Search
-                            </a>
-                        </li>
-                    @else
-                        <li class="nav-item">
-                            <a class="nav-link header_link text-primary @if(url('/') == url()->current())about_us_a"
-                               href="#action" @else about_us_a" href="{{ url('/#about_us') }}" @endif>
-                            About us
-                            </a>
-                        </li>
-                    @endif
+{{--                    @if(url('/') .'/profile' == url()->current())--}}
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link header_link text-primary"--}}
+{{--                               href="{{ url('/') }}">--}}
+{{--                                Search--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                    @else--}}
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link header_link text-primary @if(url('/') == url()->current())about_us_a"--}}
+{{--                               href="#action" @else about_us_a" href="{{ url('/#about_us') }}" @endif>--}}
+{{--                            About us--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                    @endif--}}
                     <li class="nav-item">
                         <a class="nav-link header_link text-primary" href="{{ url('vet/login')}}">
                             Claim Practice
@@ -75,12 +76,12 @@
                             IN</a>
                     </li>
                 @else
-                        <li class="nav-item">
-                            <a class="nav-link header_link text-primary"
-                               href="{{ url('/') }}">
-                                Fetch Options
-                            </a>
-                        </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link header_link text-primary"--}}
+{{--                           href="{{ url('/') }}">--}}
+{{--                            Fetch Options--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
                     <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 10vw;">
                         <a class="nav-link p-1" href="javascript:;" id="navbarDropdownProfile"
                            style="font-size: 0.8vw; font-weight: 700"

@@ -78,22 +78,23 @@
                 <div class="ml-vw pt-3">
                     <div class="row p-3">
                         <div class="col ct pt-2 mt-1">
-                            2 Providers
-                        </div>
-                        <div class="col-md-3 col-7 text-right">
-                            <select class="selectpicker ml-auto mr-auto"
-                                    data-style="select-with-transition" title="Sort" data-size="4">
-                                <option value="2">Nearest to Farthest</option>
-                                <option value="3">Low to High</option>
-                                <option value="4">Avg. Patient Review</option>
-                            </select>
+                            2 Practices Found
                         </div>
                     </div>
                     <div class="row pl-3 pr-3 mb-2">
                         <div class="col-12">
-                            <span style="font-weight: 700; font-size: 17px">
+                            <span style="font-weight: 700; font-size: 24px">
                                 Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
                             </span>
+                        </div>
+                        <div class="col-12 custom-search-form">
+                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                                    title="Sort" data-size="4" data-width="fit" data-max-options="1"
+                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                <option value="2">Distance: Nearest to Farthest </option>
+                                <option value="3">Price: Low to High</option>
+                                <option value="4">Avg. Patient Review</option>
+                            </select>
                         </div>
                     </div>
                 </div>
@@ -166,7 +167,7 @@
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                                View Doctor Profile
+                                                                View Practice Profile
                                                             </sub>
                                                         </a>
                                                     </div>
@@ -338,7 +339,7 @@
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                                View Doctor Profile
+                                                                View Practice Profile
                                                             </sub>
                                                         </a>
                                                     </div>
@@ -509,7 +510,7 @@
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                                View Doctor Profile
+                                                                View Practice Profile
                                                             </sub>
                                                         </a>
                                                     </div>

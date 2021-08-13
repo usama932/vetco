@@ -14,33 +14,32 @@
                         <thead>
                         <tr>
                             <th>Practices Name</th>
-                            <th>Address</th>
-                            <th>City</th>
-                            <th>State</th>
-                            <th>Zip</th>
-                            <th>Phone no</th>
-                            <th>Action</th>
+                            <th class="text-center">Address</th>
+                            <th class="text-center">City</th>
+                            <th class="text-center">State</th>
+                            <th class="text-center">Zip</th>
+                            <th class="text-center">Phone no</th>
+                            <th class="text-center">Action</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -49,22 +48,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -73,22 +71,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -97,22 +94,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -121,22 +117,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -145,22 +140,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -169,22 +163,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -193,22 +186,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -217,22 +209,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -241,22 +232,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -265,22 +255,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -289,22 +278,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -313,22 +301,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -337,22 +324,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -361,22 +347,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -385,22 +370,21 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -409,22 +393,228 @@
                         </tr>
                         <tr>
                             <td>Lorem</td>
-                            <td>Broad way, 201</td>
-                            <td>Chelli</td>
-                            <td>Indiana</td>
-                            <td>2200</td>
-                            <td>+0 000 0000</td>
-                            <td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#">Delete</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View More Details</a></li>
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
+                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lorem</td>
+                            <td class="text-center">Broad way, 201</td>
+                            <td class="text-center">Chelli</td>
+                            <td class="text-center">Indiana</td>
+                            <td class="text-center">2200</td>
+                            <td class="text-center">+0 000 0000</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a></li>
+                                        {{--                                        <li><a href="#">Edit</a></li>--}}
+                                        <li><a href="#" class="delete">Delete</a></li>
+
                                         <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
                                     </ul>
                                 </div>
@@ -630,6 +820,22 @@
             });
             $(document).on('click', '.update-btn', function (){
                 $('#addEditModal').modal('hide');
+            });
+
+            $(".delete").click(function (e) {
+                e.preventDefault();
+                var href = $(this).attr("href");
+                $.confirm({
+                    title: 'Confirm!',
+                    content: 'You are about to Delete Appointment. Are you sure you want to Delete this Appointment?',
+                    buttons: {
+                        YES: function () {
+                            $(location).attr('href', href);
+                        },
+                        NO: function () {
+                        }
+                    }
+                });
             });
         });
     </script>

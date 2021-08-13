@@ -8,7 +8,7 @@
 
     <div class="container">
         <div class="container">
-            <div class="row">
+            <div class="row pl-md-5 pr-md-5 pt-md-5">
                 <div class="col">
                     <h3 class="text-blue">Services</h3>
                 </div>
@@ -18,7 +18,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 ml-auto mr-auto">
-                    <div class="row p-5">
+                    <div class="row pl-5 pr-5">
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-9 col-12">
                                 <div class="card"
                                      style="border-top: 6px solid #03388b;border-bottom: 8px solid #03388b;border-right: 2px solid #5f88c8;border-left: 2px solid #5f88c8;">

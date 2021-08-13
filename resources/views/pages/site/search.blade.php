@@ -81,10 +81,19 @@
 
                 <div class="ml-vw">
                     <div class="row">
-                        <div class="col pt-2 mt-1">
-                            <span style="font-weight: 700; font-size: 17px">
+                        <div class="col-12 pt-2 mt-1">
+                            <span style="font-weight: 700; font-size: 24px">
                                 Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
                             </span>
+                        </div>
+                        <div class="col text-left custom-search-form">
+                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                                    title="Sort" data-size="4" data-width="fit" data-max-options="1"
+                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                <option value="2">Distance: Nearest to Farthest </option>
+                                <option value="3">Price: Low to High</option>
+                                <option value="4">Avg. Patient Review</option>
+                            </select>
                         </div>
                     </div>
                 </div>
@@ -100,15 +109,6 @@
                                 </div>
                             </div>
                             <div class="row pl-md-3">
-                                <div class="col text-left custom-search-form">
-                                    <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
-                                            title="Sort" data-size="4" data-width="fit" data-max-options="1"
-                                            data-actions-box="true" data-deselect-all-text="Deselect" multiple>
-                                        <option value="2">Nearest to Farthest</option>
-                                        <option value="3">Low to High</option>
-                                        <option value="4">Avg. Patient Review</option>
-                                    </select>
-                                </div>
                                 {{--                                <div class="col-lg col-xl-2 col-6">--}}
                                 {{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Dentist</span>--}}
                                 {{--                                </div>--}}
@@ -194,7 +194,7 @@
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                                View Doctor Profile
+                                                                View Practice Profile
                                                             </sub>
                                                         </a>
                                                     </div>
@@ -366,7 +366,7 @@
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                                View Doctor Profile
+                                                                View Practice Profile
                                                             </sub>
                                                         </a>
                                                     </div>
@@ -537,7 +537,7 @@
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
                                                                 <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                                                View Doctor Profile
+                                                                View Practice Profile
                                                             </sub>
                                                         </a>
                                                     </div>

@@ -43,7 +43,7 @@
 
                 <form method="POST" action="{{ route('register') }}">
                     @csrf
-                    <h2 class="card-description text-center text-white font-weight-bold">Vet Login</h2>
+                    <h2 class="card-description text-center text-white font-weight-bold">Vet Sign Up</h2>
                     <div class="card rounded">
 
                         @if (session('error'))
@@ -54,80 +54,88 @@
 
                         <div class="card-body bg-transparent">
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">First Name</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">Practice Name</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="text" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">Last Name</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">First Name</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="text" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">Email</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">Last Name</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Email</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="email" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">Phone No.</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">Phone No.</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="text" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">Address</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">Address</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="text" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">City</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">City</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="text" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">State</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">State</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="text" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">Zip</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">Zip</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="text" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">Password</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">Password</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="password" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-3 col-form-label text-blue">Confirm Password</label>
-                                <div class="col-md-9">
+                                <label class="col-md-4 col-form-label text-blue">Confirm Password</label>
+                                <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="password" class="form-control" required>
                                     </div>

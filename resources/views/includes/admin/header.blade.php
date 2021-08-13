@@ -1,7 +1,7 @@
 <nav class="navbar  bg-blue    navbar-expand-lg " id="sectionsNav">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="{{ url('admin/home') }}">
+            <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="./assets/img/logo.png" alt="" class="img-fluid" width="120"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
                     aria-label="Toggle navigation">

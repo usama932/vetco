@@ -8,7 +8,7 @@
 
     <div class="container">
         <div class="card p-3 rounded-borders">
-            <h3>Appointment</h3>
+            <h3>Appointments</h3>
 
             <div class="card-content">
                 <div class="table-responsive">
@@ -16,23 +16,23 @@
                         <thead>
                         <tr>
                             <th>Pet Name</th>
-                            <th>Pet Type</th>
-                            <th>Service</th>
-                            <th>Appointment Date</th>
-                            <th>Time</th>
-                            <th>Owner Name</th>
+                            <th class="text-center">Pet Type</th>
+                            <th class="text-center">Service</th>
+                            <th class="text-center">Appointment Date</th>
+                            <th class="text-center">Time</th>
+                            <th class="text-center">Owner Name</th>
                             <th></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>Tommi1</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -49,13 +49,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -72,13 +72,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -95,13 +95,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -118,13 +118,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -141,13 +141,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -164,13 +164,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -187,13 +187,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -210,13 +210,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -233,13 +233,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -256,13 +256,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -279,13 +279,13 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -302,13 +302,243 @@
 
                         </tr>
                         <tr>
-                            <td>Tommi</td>
-                            <td>Dog</td>
-                            <td>Dental Warming</td>
-                            <td>11-02-2020</td>
-                            <td>12:00 PM</td>
-                            <td>Lorem Ipsum</td>
-                            <td>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="#">Message</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>

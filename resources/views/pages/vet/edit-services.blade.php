@@ -55,7 +55,7 @@
             </div>
             <div class="row">
                 <div class="col pl-5 pr-5 pb-5 text-right">
-                    <button class="btn btn-blue add_pet"> Add More Pet</button>
+                    <button class="btn btn-blue add_pet"> Add</button>
                     <button class="btn btn-blue"> Save </button>
                 </div>
             </div>

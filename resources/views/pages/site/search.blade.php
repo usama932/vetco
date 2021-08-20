@@ -16,7 +16,7 @@
                             @endguest
                         </p>
                         <p class="rvb pb-0">
-                            Let’s help you stay on top of your Pet health
+                            Let’s help you stay on top of your Pet's health
                         </p>
                     </div>
                 </div>
@@ -82,18 +82,9 @@
                 <div class="ml-vw">
                     <div class="row">
                         <div class="col-12 pt-2 mt-1">
-                            <span style="font-weight: 700; font-size: 24px">
+                            <span class="boy">
                                 Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
                             </span>
-                        </div>
-                        <div class="col text-left custom-search-form">
-                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
-                                    title="Sort" data-size="4" data-width="fit" data-max-options="1"
-                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
-                                <option value="2">Distance: Nearest to Farthest </option>
-                                <option value="3">Price: Low to High</option>
-                                <option value="4">Avg. Patient Review</option>
-                            </select>
                         </div>
                     </div>
                 </div>
@@ -101,13 +92,19 @@
 
                     <div class="row p-1 pt-md-3 pb-md-3 pl-md-0 pr-md-0  rounded"
                          style="background-image: linear-gradient(to left, #ffffff, #f5f5f5, #efefef); box-shadow: 0px 4px 16px -9px;">
+                        <div class="col-sm-12 col-md-8">
+                            <h4 class="text-primary font-weight-bold"> 43 Practices Found </h4>
+                        </div>
+                        <div class="col-sm-12 col-md-4 text-right custom-search-form pl-5 pr-5">
+                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                                    title="Sort" data-size="4" data-max-options="1"
+                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                <option value="2">Distance: Nearest to Farthest</option>
+                                <option value="3">Price: Low to High</option>
+                                <option value="4">Avg. Patient Review</option>
+                            </select>
+                        </div>
                         <div class="col-md-8 col-12 pl-1 pr-1 pl-md-1 pr-md-1">
-                            <div class="row pl-md-3">
-                                <div class="col">
-                                    <h4 class="text-primary font-weight-bold"> All
-                                        Appointments </h4>
-                                </div>
-                            </div>
                             <div class="row pl-md-3">
                                 {{--                                <div class="col-lg col-xl-2 col-6">--}}
                                 {{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Dentist</span>--}}
@@ -122,11 +119,6 @@
                                 {{--                                    <span--}}
                                 {{--                                        class="btn btn-primary btn-block p-1 text-capitalize">Availability</span>--}}
                                 {{--                                </div>--}}
-                            </div>
-                            <div class="row pl-md-3 mt-2">
-                                <div class="col">
-                                    <h4 class="text-primary font-weight-bold"> 43 Practices Found </h4>
-                                </div>
                             </div>
 
                             <div class="ap_dr_sec">
@@ -652,7 +644,7 @@
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6028.218820157943!2d-74.16819217014017!3d40.93526925255779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fc5699f995d9%3A0xcb88f11921242943!2s16%20E%205th%20St%2C%20Paterson%2C%20NJ%2007524%2C%20USA!5e0!3m2!1sen!2s!4v1574772648849!5m2!1sen!2s"
                                 width="100%" height="600" frameborder="0"
-                                style="border:0; margin-top: 40px; padding: 20px" allowfullscreen=""></iframe>
+                                style="border:0; padding: 20px; padding-top: 0px;" allowfullscreen=""></iframe>
                         </div>
                     </div>
 

@@ -83,7 +83,7 @@
                     </div>
                     <div class="row pl-3 pr-3 mb-2">
                         <div class="col-12">
-                            <span style="font-weight: 700; font-size: 24px">
+                            <span class="boy">
                                 Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
                             </span>
                         </div>

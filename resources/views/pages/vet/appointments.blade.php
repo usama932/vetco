@@ -39,7 +39,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -62,7 +62,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -85,7 +85,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -108,7 +108,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -131,7 +131,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -154,7 +154,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -177,7 +177,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -200,7 +200,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -223,7 +223,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -246,7 +246,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -269,7 +269,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -292,7 +292,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -315,7 +315,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -338,7 +338,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -361,7 +361,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -384,7 +384,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -407,7 +407,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -430,7 +430,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -453,7 +453,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -476,7 +476,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -499,7 +499,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -522,7 +522,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 
@@ -545,7 +545,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="#">Message</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
                                         <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
                                         <li><a href="#" class="remove">Cancel</a></li>
 

@@ -1,8 +1,8 @@
-<footer class="footer">
+<footer class="footer bg-blue">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4 col-sm-12 p-5 text-left">
-                <p class="fh">
+            <div class="col-md-4 col-sm-12 pl-5 pr-5 pt-5 pb-0 text-left">
+                <p class="fh mb-0">
                     Contact us
                 </p>
                 <p class="fd">
@@ -14,27 +14,29 @@
                     700, Green Lane, New York, USA
                 </p>
             </div>
-            <div class="col-md-5 col-sm-12 p-5 text-left">
-                <p class="fh">
+            <div class="col-md-5 col-sm-12 pl-5 pr-5 pt-5 pb-0 text-left">
+                <p class="fh mb-0">
                     Company
                 </p>
-                <a href="#" class="f_href w-100 pt-4"> Privacy Policy </a>
-                <a href="#" class="f_href w-100 pt-3"> Terms Of Services </a>
+                <p class="fd">
+                    <a href="{{ url('vet/privacy') }}" class="f_href w-100 text-white"> Privacy Policy </a>
+                    <a href="{{ url('vet/terms') }}" class="f_href w-100 pt-2 mt-1 text-white"> Terms Of Services </a>
+                </p>
             </div>
-            <div class="col-md-3 col-sm-12 p-5 text-center mob-left">
+            <div class="col-md-3 col-sm-12 pl-5 pr-5 pt-5 pb-0 text-center mob-left">
                 <p class="fso">
                     Follow us on:
                 </p>
                 <div class="row">
                     <div class="col">
-                        <a href="javascript:;" class="fia">
-                            <i class="fa fa-facebook fi text-primary"> </i>
+                        <a href="javascript:void(0)" class="fia">
+                            <i class="fab fa-facebook fi text-blue"> </i>
                         </a>
-                        <a href="javascript:;" class="fia">
-                            <i class="fa fa-apple fi text-primary"> </i>
+                        <a href="javascript:void(0)" class="fia">
+                            <i class="fab fa-apple fi text-blue"> </i>
                         </a>
-                        <a href="javascript:;" class="fia">
-                            <i class="fa fa-envelope fi text-primary"> </i>
+                        <a href="javascript:void(0)" class="fia">
+                            <i class="fa fa-envelope fi text-blue"> </i>
                         </a>
                     </div>
                 </div>
@@ -43,7 +45,7 @@
         <div class="row text-right">
             <div class="col">
                 <p class="fc">
-                    ® Copyright {{ date('Y') }}, All Right Reserved
+                    ® Copyright 2021, All Right Reserved
                 </p>
             </div>
         </div>

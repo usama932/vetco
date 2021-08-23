@@ -278,7 +278,7 @@
             var href = $(this).attr("href");
             $.confirm({
                 title: 'Confirm!',
-                content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
+                content: 'You are about to Cancel Appointment. Are you sure you want to Cancel this Appointment?',
                 buttons: {
                     YES: function () {
                         $(location).attr('href', href);

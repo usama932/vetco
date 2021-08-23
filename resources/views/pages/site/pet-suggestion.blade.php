@@ -76,8 +76,8 @@
                                 </div>
                                 <div class="col-6 col-sm-5 col-md-2 p-md-0 pl-2 pr-2">
                                     <div class="form-group p-0 m-0 mt-1">
-                                        <div class="input-group date">
-                                            <input type="text" class="form-control datepicker"/>
+                                        <div class="input-group date datepicker">
+                                            <input type="text" class="form-control"/>
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar pt-2 mt-1 mr-2"></span>
                                             </span>
@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
                                     <a href="{{ url('filter') }}" type="button"
-                                       style="text-align:center;width: 100%;background: #03388b;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
+                                       style="text-align:center;width: 100%;background: #306ed5;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
                                             class="fa fa-search pt-1" aria-hidden="true"></i>
                                     </a>
                                 </div>

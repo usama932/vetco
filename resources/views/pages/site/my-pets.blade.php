@@ -12,161 +12,168 @@
                             <span class="my_pets"> My Pets: </span>
                         </div>
                     </div>
-                    <div class="row mt-3 flex-row flex-nowrap  table-responsive" style="display: inline-flex">
-                        <div class="col-12 col-md-4">
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <img src="{{ asset('assets/vet/mp_1.png') }}" alt="" class="mp_img">
-                                </div>
-                                <div class="col-8 text-left">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row mt-3 flex-row flex-nowrap  table-responsive" style="display: inline-flex">
+                                <div class="col-12 col-md-6">
                                     <div class="row">
-                                        <span class="mp_name"> TOMI </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> Dog, Persian </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> 1 Year 6 months </span>
-                                    </div>
-                                    <div class="row">
-                                        <a href="{{ url('edit-pet') }}">
+                                        <div class="col-4 text-center">
+                                            <img src="{{ asset('assets/vet/mp_1.png') }}" alt="" class="mp_img">
+                                        </div>
+                                        <div class="col-8 text-left">
+                                            <div class="row">
+                                                <span class="mp_name"> TOMI </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> Dog, Persian </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> 1 Year 6 months </span>
+                                            </div>
+                                            <div class="row">
+                                                <a href="{{ url('edit-pet') }}">
                                             <span class="bg-primary text-white mp_link">
                                             Edit / Remove </span>
-                                        </a>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-4 text-center">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                        </div>
+                                        <div class="col-8 text-left">
+                                            <div class="row">
+                                                <span class="mp_name"> Catoo </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> Cat, American </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> 6 weeks </span>
+                                            </div>
+                                            <div class="row">
+                                                <a href="{{ url('edit-pet') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Edit / Remove </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-4 text-center">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                        </div>
+                                        <div class="col-8 text-left">
+                                            <div class="row">
+                                                <span class="mp_name"> Catoo </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> Cat, American </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> 6 weeks </span>
+                                            </div>
+                                            <div class="row">
+                                                <a href="{{ url('edit-pet') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Edit / Remove </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-4 text-center">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                        </div>
+                                        <div class="col-8 text-left">
+                                            <div class="row">
+                                                <span class="mp_name"> Catoo </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> Cat, American </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> 6 weeks </span>
+                                            </div>
+                                            <div class="row">
+                                                <a href="{{ url('edit-pet') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Edit / Remove </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-4 text-center">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                        </div>
+                                        <div class="col-8 text-left">
+                                            <div class="row">
+                                                <span class="mp_name"> Catoo </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> Cat, American </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> 6 weeks </span>
+                                            </div>
+                                            <div class="row">
+                                                <a href="{{ url('edit-pet') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Edit / Remove </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-4 text-center">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                        </div>
+                                        <div class="col-8 text-left">
+                                            <div class="row">
+                                                <span class="mp_name"> Catoo </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> Cat, American </span>
+                                            </div>
+                                            <div class="row">
+                                                <span class="mp_type"> 6 weeks </span>
+                                            </div>
+                                            <div class="row">
+                                                <a href="{{ url('edit-pet') }}">
+                                            <span class="bg-primary text-white mp_link">
+                                            Edit / Remove </span>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-3">
+
                             <div class="row">
-                                <div class="col-4 text-center">
-                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
-                                </div>
-                                <div class="col-8 text-left">
-                                    <div class="row">
-                                        <span class="mp_name"> Catoo </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> Cat, American </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> 6 weeks </span>
-                                    </div>
-                                    <div class="row">
-                                        <a href="{{ url('edit-pet') }}">
-                                            <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
-                                </div>
-                                <div class="col-8 text-left">
-                                    <div class="row">
-                                        <span class="mp_name"> Catoo </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> Cat, American </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> 6 weeks </span>
-                                    </div>
-                                    <div class="row">
-                                        <a href="{{ url('edit-pet') }}">
-                                            <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
-                                </div>
-                                <div class="col-8 text-left">
-                                    <div class="row">
-                                        <span class="mp_name"> Catoo </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> Cat, American </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> 6 weeks </span>
-                                    </div>
-                                    <div class="row">
-                                        <a href="{{ url('edit-pet') }}">
-                                            <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
-                                </div>
-                                <div class="col-8 text-left">
-                                    <div class="row">
-                                        <span class="mp_name"> Catoo </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> Cat, American </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> 6 weeks </span>
-                                    </div>
-                                    <div class="row">
-                                        <a href="{{ url('edit-pet') }}">
-                                            <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
-                                </div>
-                                <div class="col-8 text-left">
-                                    <div class="row">
-                                        <span class="mp_name"> Catoo </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> Cat, American </span>
-                                    </div>
-                                    <div class="row">
-                                        <span class="mp_type"> 6 weeks </span>
-                                    </div>
-                                    <div class="row">
-                                        <a href="{{ url('edit-pet') }}">
-                                            <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
-                                        </a>
-                                    </div>
+                                <div class="col text-right">
+                                    <a class="btn btn-primary btn-sm" href="{{ url('add-new-pet') }}">
+                                        Add New Pet
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row filter_card mt-3" style="box-shadow: 0px 1px 7px -4px;">
                         <div class="col">
-                            <div class="row">
-                                <div class="col pl-3 pl-md-5">
-                                    <a class="btn btn-primary btn-sm" href="{{ url('add-new-pet') }}">
-                                        Add New Pet
-                                    </a>
-                                </div>
-                            </div>
                             <div class="row pt-3 pt-md-4">
                                 <div class="col-6 pl-3 pl-md-5">
                                  <span class="wg_cl">

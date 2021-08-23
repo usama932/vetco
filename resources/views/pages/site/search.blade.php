@@ -61,8 +61,8 @@
                         </div>
                         <div class="col-6 col-sm-5 col-md-2 p-md-0 pl-2 pr-2">
                             <div class="form-group p-0 m-0 mt-1">
-                                <div class="input-group date">
-                                    <input type="text" class="form-control datepicker"/>
+                                <div class="input-group date datepicker">
+                                    <input type="text" class="form-control"/>
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar pt-2 mt-1 mr-2"></span>
                                     </span>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
                             <a href="{{ url('filter') }}" type="button"
-                               style="text-align:center;width: 100%;background: #03388b;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
+                               style="text-align:center;width: 100%;background: #306ed5;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
                                     class="fa fa-search pt-1" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -160,8 +160,9 @@
                                                     <div class="col-12 text-right text-black"><small>10 Miles</small>
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>
-                                                        <small> Dentist </small>
+                                                        <span class="vet_name"> Dental Cleaning </span>
+                                                        {{--                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>--}}
+                                                        {{--                                                        <small> Dentist </small>--}}
 
                                                     </div>
                                                     <div class="col-12 text-left text-black">
@@ -332,8 +333,9 @@
                                                     <div class="col-12 text-right text-black"><small>10 Miles</small>
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>
-                                                        <small> Dentist </small>
+                                                        <span class="vet_name"> Dental Cleaning </span>
+                                                        {{--                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>--}}
+                                                        {{--                                                        <small> Dentist </small>--}}
 
                                                     </div>
                                                     <div class="col-12 text-left text-black">
@@ -504,8 +506,9 @@
                                                     <div class="col-12 text-right text-black"><small>10 Miles</small>
                                                     </div>
                                                     <div class="col-12 text-left text-black">
-                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>
-                                                        <small> Dentist </small>
+                                                        <span class="vet_name"> Dental Cleaning </span>
+                                                        {{--                                                        <span class="vet_name"> Dr. Steven Portman, MD </span>--}}
+                                                        {{--                                                        <small> Dentist </small>--}}
                                                     </div>
                                                     <div class="col-12 text-left text-black">
 
@@ -662,132 +665,146 @@
                             <div
                                 class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div
-                                        class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
-                                        <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0 mps-sub-card"
-                                                 style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
-                                                <div class="row">
-                                                    <div class="col text-center">
-                                                        <img src="{{ asset('assets/vet/teeth_cleaning.png') }}" alt=""
-                                                             class="mps_img">
+                                    <a href="{{ url('filter') }}">
+                                        <div
+                                            class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
+                                            <div class="ml-3 mr-3">
+                                                <div class="card pb-4 m-0 mps-sub-card"
+                                                     style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <img src="{{ asset('assets/vet/teeth_cleaning.png') }}"
+                                                                 alt=""
+                                                                 class="mps_img">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center text-primary">
-                                                <p class="mps_t mb-1">
-                                                    Dental Cleanings
-                                                </p>
+                                            <div class="row">
+                                                <div class="col text-center text-primary">
+                                                    <p class="mps_t mb-1">
+                                                        Dental Cleanings
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <div
                                 class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div
-                                        class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
-                                        <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0 mps-sub-card"
-                                                 style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
-                                                <div class="row">
-                                                    <div class="col text-center">
-                                                        <img src="{{ asset('assets/vet/teeth_cleaning_2.png') }}" alt=""
-                                                             class="mps_img">
+                                    <a href="{{ url('filter') }}">
+                                        <div
+                                            class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
+                                            <div class="ml-3 mr-3">
+                                                <div class="card pb-4 m-0 mps-sub-card"
+                                                     style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <img src="{{ asset('assets/vet/teeth_cleaning_2.png') }}"
+                                                                 alt=""
+                                                                 class="mps_img">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center text-primary">
-                                                <p class="mps_t mb-1">
-                                                    Dental Extractions
-                                                </p>
+                                            <div class="row">
+                                                <div class="col text-center text-primary">
+                                                    <p class="mps_t mb-1">
+                                                        Dental Extractions
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <div
                                 class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div
-                                        class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
-                                        <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0 mps-sub-card"
-                                                 style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
-                                                <div class="row">
-                                                    <div class="col text-center">
-                                                        <img src="{{ asset('assets/vet/Oral_Surgery_f.png') }}" alt=""
-                                                             class="mps_img">
+                                    <a href="{{ url('filter') }}">
+                                        <div
+                                            class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
+                                            <div class="ml-3 mr-3">
+                                                <div class="card pb-4 m-0 mps-sub-card"
+                                                     style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <img src="{{ asset('assets/vet/Oral_Surgery_f.png') }}"
+                                                                 alt=""
+                                                                 class="mps_img">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center text-primary">
-                                                <p class="mps_t mb-1">
-                                                    Oral Surgery
-                                                </p>
+                                            <div class="row">
+                                                <div class="col text-center text-primary">
+                                                    <p class="mps_t mb-1">
+                                                        Oral Surgery
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <div
                                 class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div
-                                        class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
-                                        <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0 mps-sub-card"
-                                                 style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
-                                                <div class="row">
-                                                    <div class="col text-center">
-                                                        <img src="{{ asset('assets/vet/Parasite_Protection.png') }}"
-                                                             alt=""
-                                                             class="mps_img">
+                                    <a href="{{ url('filter') }}">
+                                        <div
+                                            class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
+                                            <div class="ml-3 mr-3">
+                                                <div class="card pb-4 m-0 mps-sub-card"
+                                                     style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <img src="{{ asset('assets/vet/Parasite_Protection.png') }}"
+                                                                 alt=""
+                                                                 class="mps_img">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center text-primary">
-                                                <p class="mps_t mb-1">
-                                                    Parasite Protection
-                                                </p>
+                                            <div class="row">
+                                                <div class="col text-center text-primary">
+                                                    <p class="mps_t mb-1">
+                                                        Parasite Protection
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <div
                                 class="col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
                                 <div class="card mps-card">
-                                    <div
-                                        class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
-                                        <div class="ml-3 mr-3">
-                                            <div class="card pb-4 m-0 mps-sub-card"
-                                                 style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
-                                                <div class="row">
-                                                    <div class="col text-center">
-                                                        <img src="{{ asset('assets/vet/Vaccinations_f.png') }}" alt=""
-                                                             class="mps_img">
+                                    <a href="{{ url('filter') }}">
+                                        <div
+                                            class="card-body col-md col-sm-12 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-1 pr-md-1 pr-lg-2 pl-lg-2 pl-xl-3 pr-xl-3">
+                                            <div class="ml-3 mr-3">
+                                                <div class="card pb-4 m-0 mps-sub-card"
+                                                     style="margin-top: -40px !important;box-shadow: 0px 1px 6px -2px;">
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <img src="{{ asset('assets/vet/Vaccinations_f.png') }}"
+                                                                 alt=""
+                                                                 class="mps_img">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col text-center text-primary">
-                                                <p class="mps_t mb-1">
-                                                    Vaccinations
-                                                </p>
+                                            <div class="row">
+                                                <div class="col text-center text-primary">
+                                                    <p class="mps_t mb-1">
+                                                        Vaccinations
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 

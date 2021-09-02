@@ -29,7 +29,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td><input type="text" class="form-control" value=""></td>
+                            <td><select type="text" class="form-control" value=""><option value="Lorem">Lorem</option><option value="Lorem1">Lorem1</option></select></td>
                             <td><input type="text" class="form-control" value=""></td>
                             <td class="text-center">
                                 <i class="fas fa-remove text-danger mr-1 remove-pet"></i>
@@ -41,7 +41,7 @@
             </div>
             <div class="row">
                 <div class="col pl-5 pr-5 pb-5 text-right">
-                    <button class="btn btn-blue add_pet"> Add</button>
+                    <button class="btn btn-blue add_pet"> Add More</button>
                     <button class="btn btn-blue"> Save </button>
                 </div>
             </div>
@@ -54,7 +54,7 @@
         $('.add_pet').click(function () {
             var content = '';
             content += '<tr>';
-            content += '<td><input type="text" class="form-control"value=""></td>';
+            content += '<td><select type="text" class="form-control" value=""><option value="Lorem">Lorem</option><option value="Lorem1">Lorem1</option></select></td>';
             content += '<td><input type="text" class="form-control" value=""></td>';
             content += '<td class="text-center">';
             content += '<i class="fas fa-remove text-danger mr-1 remove-pet"></i>';

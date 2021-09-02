@@ -1683,7 +1683,7 @@ body {
     }
 
     .cl_a {
-        font-size: 0.6vw;
+        font-size: 10px;
     }
 
     .cl_detail {
@@ -1993,5 +1993,15 @@ body {
     .my_pets {
         font-size: 1.7vw;
         font-weight: 700;
+    }
+}
+
+@media (min-width: 768px)and (max-width: 860px)
+{
+    .search-form .datepicker {
+        font-size: 10px !important;
+    }
+    #pickerinput{
+        font-size: 12px !important;
     }
 }

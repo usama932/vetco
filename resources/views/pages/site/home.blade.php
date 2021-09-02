@@ -3,6 +3,12 @@
 @section('title', 'Home')
 
 @section('content')
+
+<style>
+   
+    
+</style>
+
     <div class="content p-md-0 pl-2 pr-2">
         <div class="content">
             <div class="container-fluid">
@@ -12,7 +18,7 @@
                         <img src="{{ asset('assets/vet/Ill2.png') }}" alt="" class="vfp_img">
                     </div>
                     <div class="col-xl-5 col-lg-6 col-md-7 col-sm-12 text-center pt-md-5 pl-1 pr-1">
-                        <p class="vfp">
+                        <p class="vfp" >
                             Find the Best Vet for Your Pet
                         </p>
                         <p class="rvb">
@@ -26,7 +32,7 @@
                             <div class="col-4 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                                 <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                         title="Pet Type" data-size="4" data-width="fit" data-max-options="1"
-                                        data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                          multiple>
                                     <option value="2">Cat</option>
                                     <option value="3">Dog</option>
                                     <option value="4">Snake</option>
@@ -38,7 +44,7 @@
                                 <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                         title="Services, Procedure, Doctor" data-size="4" data-width="fit"
                                         data-max-options="1"
-                                        data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                         multiple>
                                     <option value="2">Physical Wellness Exam</option>
                                     <option value="3">Dental Cleanings</option>
                                     <option value="4">Dental Extractions</option>
@@ -49,8 +55,7 @@
                             <div class="col-6 col-sm-6 col-md-3 p-md-0 pl-2 pr-2">
                                 <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                         title="City, State, Zipcode" data-size="4" data-width="fit"
-                                        data-live-search="true" data-max-options="1" data-actions-box="true"
-                                        data-deselect-all-text="Deselect" multiple>
+                                        data-live-search="true" data-max-options="1" multiple>
                                     <option value="3">001, Broadway</option>
                                     <option value="4">002, Broadway</option>
                                     <option value="5">003, Broadway</option>
@@ -61,9 +66,9 @@
                             <div class="col-6 col-sm-5 col-md-2 p-md-0 pl-2 pr-2">
                                 <div class="form-group p-0 m-0 mt-1">
                                     <div class="input-group date datepicker">
-                                        <input type="text" class="form-control"/>
+                                        <input type="text" class="form-control" id="pickerinput"/>
                                         <span class="input-group-addon">
-                                            <span class="fa fa-calendar pt-2 mt-1 mr-2"></span>
+                                            <span class="fa fa-calendar pt-2 mt-1 "></span>
                                         </span>
                                     </div>
                                 </div>
@@ -82,7 +87,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-2 pl-md-4 pr-md-4 pb-5 pl-2 pr-2 vh-100" id="about_us" style="background: #f0f0ef">
+                <div class="row pt-2 pl-md-4 pr-md-4 pb-5 pl-2 pr-2 " id="about_us" style="background: #f0f0ef">
                     <div class="col-12 pt-md-5">
                         <p class="as text-center">
                             About us
@@ -133,7 +138,7 @@
                     {{--                            </div>--}}
                     {{--                        </div>--}}
                     {{--                    </div>--}}
-                    <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
+                    <!-- <div class="col-md-3 col-6 pl-1 pr-1 pl-md-3 pr-md-3">
                         <div class="card mt-1 mb-1 mt-md-4 mb-md-4">
                             <div class="card-body p-xl-4 p-lg-3 p-md-2 p-sm-4 p-2">
                                 <div class="row">
@@ -256,11 +261,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="row shadow_bottom">
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <div class="row p-5">
                             <div class="col-md-6 col-sm-12">
                                 <p class="ap text-center">
@@ -294,7 +299,7 @@
                                 <img src="{{ asset('assets/vet/Ill1.png') }}" alt="" class="ap_img">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-12">
                         <div class="row p-5">
                             <div class="col-12">

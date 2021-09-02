@@ -30,21 +30,21 @@
                         <tbody>
                         <tr>
                             <td><input type="text" class="form-control" value="Cat"></td>
-                            <td><input type="text" class="form-control" value="100"></td>
+                            <td><input type="text" class="form-control" value="$100"></td>
                             <td class="text-center">
                                 <i class="fas fa-remove text-danger mr-1 remove-pet"></i>
                             </td>
                         </tr>
                         <tr>
                             <td><input type="text" class="form-control" value="Dog"></td>
-                            <td><input type="text" class="form-control" value="120"></td>
+                            <td><input type="text" class="form-control" value="$120"></td>
                             <td class="text-center">
                                 <i class="fas fa-remove text-danger mr-1 remove-pet"></i>
                             </td>
                         </tr>
                         <tr>
                             <td><input type="text" class="form-control" value="Bird"></td>
-                            <td><input type="text" class="form-control" value="50"></td>
+                            <td><input type="text" class="form-control" value="$50"></td>
                             <td class="text-center">
                                 <i class="fas fa-remove text-danger mr-1 remove-pet"></i>
                             </td>

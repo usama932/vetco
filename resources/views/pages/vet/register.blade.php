@@ -21,6 +21,18 @@
     <link href="{{ asset('vet/assets/demo/demo.css') }}" rel="stylesheet"/>
     <link href="{{ asset('vet/assets/demo/vertical-nav.css') }}" rel="stylesheet"/>
     <link rel="stylesheet" href="{{ asset('vet/assets/css/custom.css') }}">
+    <style>
+  .active {
+    background-color: #ffffff;
+    color: var(--white);
+    border-radius: 4px;
+}
+.nav-pills .nav-item .nav-link.active {
+    color: #fff !important;
+        background-color: #5a95cd;
+    box-shadow: 0 5px 20px 0px rgb(0 0 0 / 20%), 0 13px 24px -11px rgb(90 149 205);
+}
+    </style>
 </head>
 
 <body class="login-page sidebar-collapse">
@@ -38,10 +50,10 @@
      style="background-image: url('./assets/img/bg.png'); background-size: cover; background-position: center;">
     <div class="container" style="padding-top: 9vh;">
         <div class="row">
-            <div class="col-lg-5 col-md-8 col-sm-10 ml-auto mr-auto">
+            <div class="col-lg-8 col-md-10 col-sm-12 ml-auto mr-auto">
 
 
-                <form method="POST" action="{{ route('register') }}">
+                <!-- <form method="POST" action="{{ route('register') }}">
                     @csrf
                     <h2 class="card-description text-center text-white font-weight-bold">Vet Sign Up</h2>
                     <div class="card rounded">
@@ -154,7 +166,186 @@
                             <a href="{{ url('vet/home') }}" class="btn btn-blue">Sign up</a>
                         </div>
                     </div>
+                </form> -->
+
+            <div class="wizard-container">
+              <div class="card card-wizard" data-color="info" id="wizardProfile">
+                <form action="" method="">
+                  <!--        You can switch " data-color="primary" "  with one of the next bright colors: "green", "orange", "red", "blue"       -->
+                  <div class="card-headers text-center">
+                    <h3 class="card-title">
+                    Vet Sign Up
+                    </h3>
+                    <!-- <h5 class="card-description">This information will let us know more about you.</h5> -->
+                  </div>
+                  <div class="wizard-navigation">
+                    <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#about" data-toggle="tab" role="tab">
+                          About
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#account" data-toggle="tab" role="tab">
+                        Practice
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="about">
+                        <h5 class="info-text"> Let's start with the basic information (with validation)</h5>
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Practice Name</label>
+                                <div class="col-md-8">
+                               <div class="form-group has-default bmd-form-group">
+                                <input type="text" class="form-control" required>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">First Name</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Last Name</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Email</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="email" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Phone No.</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Address</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">City</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">State</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Zip</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Password</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="password" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Confirm Password</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="password" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="account">
+                      <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Hours</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Service</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Sign Up</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                            <div class="ml-auto">
+                             <input type="button" style="background-color:#5a95cd" class="btn btn-next btn-fill btn-info btn-wd" name="Submit" value="Submit">
+                            </div>
+                            <div class="form-group row mt-3 pl-5">
+                                <div class="col-12 text-center text-blue">
+                                     Already have an account? <a
+                                        href="{{ url('vet/login') }}" class="text-blue font-weight-bold"> Log in
+                                        Here! </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                  <!-- <div class="card-footer">
+                    <div class="mr-auto">
+                      <input type="button" class="btn btn-previous btn-fill btn-default btn-wd disabled" name="previous" value="Previous">
+                    </div>
+                    <div class="ml-auto">
+                      <input type="button" class="btn btn-next btn-fill btn-rose btn-wd" name="next" value="Next">
+                      <input type="button" class="btn btn-finish btn-fill btn-rose btn-wd" name="finish" value="Finish" style="display: none;">
+                    </div>
+                    <div class="clearfix"></div>
+                  </div> -->
                 </form>
+              </div>
+            </div>
+
             </div>
         </div>
     </div>
@@ -180,6 +371,8 @@
 <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
 <script src="{{ asset('vet/assets/js/plugins/jasny-bootstrap.min.js') }}" type="text/javascript"></script>
 <!--	Plugin for Small Gallery in Product Page -->
+<script src="{{ asset('vet/assets/js/plugins/jquery.bootstrap-wizard.js') }}" type="text/javascript"></script>
+
 <script src="{{ asset('vet/assets/js/plugins/jquery.flexisel.js') }}" type="text/javascript"></script>
 <!-- Plugins for presentation and navigation  -->
 <script src="{{ asset('vet/assets/demo/modernizr.js') }}" type="text/javascript"></script>
@@ -190,6 +383,15 @@
 <script src="{{ asset('vet/assets/demo/demo.js') }}" type="text/javascript"></script>
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 <script src="{{ asset('vet/assets/js/material-kit.js?v=2.2.0') }}" type="text/javascript"></script>
+<script>
+    $(document).ready(function() {
+      // Initialise the wizard
+      demo.initMaterialWizard();
+      setTimeout(function() {
+        $('.card.card-wizard').addClass('active');
+      }, 600);
+    });
+  </script>
 </body>
 
 </html>

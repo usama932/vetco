@@ -82,12 +82,12 @@
 {{--                            Fetch Options--}}
 {{--                        </a>--}}
 {{--                    </li>--}}
-                    <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 10vw;">
+                    <li class="nav-item dropdown show bg-primary text-white rounded ml-4" style="width: 12vw;">
                         <a class="nav-link p-1" href="javascript:;" id="navbarDropdownProfile"
                            style="font-size: 0.8vw; font-weight: 700"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="row">
-                                <div class="col text-left">
+                                <div class="col text-right">
                                     {{--                                    {{ Auth::user()->first_name }}--}}
                                     Bailey
                                 </div>

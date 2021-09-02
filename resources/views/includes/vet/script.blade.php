@@ -80,7 +80,12 @@
         $('#myTable').DataTable({
             responsive: {
                 details: false
-            }
+            },
+            aoColumnDefs: [{
+            bSortable: false,
+            aTargets: [ -1 ]
+             }
+]
         });
 
     });

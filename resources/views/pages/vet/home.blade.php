@@ -3,7 +3,27 @@
 @section('title', 'Home')
 
 @section('content')
-
+<style>
+    .togglebutton label input[type=checkbox]:checked + .toggle:after {
+    border-color: #5a95cd;
+}
+.togglebutton label input[type=checkbox]:checked + .toggle {
+    background-color: #5a95cd;
+}
+@media (min-width: 992px)and (max-width: 1200px)
+{
+    
+    #appointmentsper{
+        font-size: 12px !important;
+    }
+    #oppointment{
+        font-size: 10px !important;
+    }
+    #oppointmentlabel{
+        font-size: 10px !important;
+    }
+}
+</style>
     <div class="container">
         <div class="container">
             <div class="row">
@@ -62,9 +82,9 @@
                                 <i class="material-icons">weekend</i>
                             </div>
                             <p class="togglebutton card-category">
-                                <label>Appointments
-                                    <input type="checkbox" checked="" id="toggle">
-                                    <span class="toggle"></span>
+                              <span id="oppointment">Appointments<span>  <label id="oppointmentlabel" style="font-size: 12px;">
+                                    Week<input type="checkbox" checked="" id="toggle">
+                                    <span class="toggle"></span>Month
                                 </label>
                             </p>
                         </div>
@@ -82,7 +102,7 @@
                             <div class="card-icon bg-blue">
                                 <i class="material-icons">weekend</i>
                             </div>
-                            <p class="card-category">Average Spend per Appointment</p>
+                            <p class="card-category " id="appointmentsper">Average Spend per Appointment</p>
 
                         </div>
                         <div class="card-body">

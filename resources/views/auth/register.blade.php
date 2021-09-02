@@ -97,6 +97,38 @@
                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
                                             <div class="input-group-prepend">
                                             <span class="input-group-text" id="basic-addon1">
+                                                <i class="fa fa-lock text-primary" aria-hidden="true"></i>
+                                            </span>
+                                            </div>
+                                            <input type="password"
+                                                   class="form-control text-primary @error('password') is-invalid @enderror"
+                                                   placeholder="Password" id="password" name="password"
+                                                   aria-label="Username" value=""
+                                                   aria-describedby="basic-addon1">
+                                            @error('password')
+                                            <span class="invalid-feedback text-danger" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
+                                            <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <i class="fa fa-lock text-primary" aria-hidden="true"></i>
+                                            </span>
+                                            </div>
+                                            <input type="password" class="form-control text-primary"
+                                                   placeholder="Confirm Password" name="password_confirmation"
+                                                   aria-label="Username" id="password_confirmation"
+                                                   aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
+                                            <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
                                                 <i class="fa fa-phone text-primary" aria-hidden="true"></i>
                                             </span>
                                             </div>
@@ -183,38 +215,7 @@
                                             @enderror
                                         </div>
                                     </div>
-                                    <div class="col-12 text-center">
-                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
-                                            <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1">
-                                                <i class="fa fa-lock text-primary" aria-hidden="true"></i>
-                                            </span>
-                                            </div>
-                                            <input type="password"
-                                                   class="form-control text-primary @error('password') is-invalid @enderror"
-                                                   placeholder="Password" id="password" name="password"
-                                                   aria-label="Username" value=""
-                                                   aria-describedby="basic-addon1">
-                                            @error('password')
-                                            <span class="invalid-feedback text-danger" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                            @enderror
-                                        </div>
-                                    </div>
-                                    <div class="col-12 text-center">
-                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
-                                            <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1">
-                                                <i class="fa fa-lock text-primary" aria-hidden="true"></i>
-                                            </span>
-                                            </div>
-                                            <input type="password" class="form-control text-primary"
-                                                   placeholder="Confirm Password" name="password_confirmation"
-                                                   aria-label="Username" id="password_confirmation"
-                                                   aria-describedby="basic-addon1">
-                                        </div>
-                                    </div>
+                                  
                                 </div>
                                 <div class="form-group row mb-0">
                                     <div class="col-12 text-center">

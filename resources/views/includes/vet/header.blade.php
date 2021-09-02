@@ -60,7 +60,7 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item">
-{{--                    <a href="{{ url('/vet/login') }}" class="ml-2 text-white" style="    font-size: 18px;">--}}
+{{--                    <a href="{{ url('/vet/login') }}" class="ml-2 text-white" style="font-size: 18px;">--}}
 {{--                        <i class="fas fa-sign-out-alt pt-1"></i>--}}
 {{--                    </a>--}}
                     <a class="ml-2 text-white" href="{{ route('logout') }}" onclick="event.preventDefault();

@@ -9,7 +9,7 @@
     <div class="container">
         <div class="container">
             <div class="row pl-md-5 pr-md-5 pt-md-5">
-                <div class="col">
+                <div class="col pl-2">
                     <h3 class="text-blue">Practice Details</h3>
                 </div>
 {{--                <div class="col text-right">--}}
@@ -22,27 +22,33 @@
                         <tbody>
                         <tr>
                             <th>Email</th>
-                            <td>Lorem</td>
+                            <td >
+                            <input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            </td>
                         </tr>
                         <tr>
                             <th>Phone No.</th>
-                            <td>Lorem</td>
+                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>Address</th>
-                            <td>Lorem</td>
+                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>City</th>
-                            <td>Lorem</td>
+                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>State</th>
-                            <td>Lorem</td>
+                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>Zip Code</th>
-                            <td>Lorem</td>
+                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-right"></td>
+                            <td><button class="btn btn-info py-1 px-4" style="display:block" id="edit">edit</button> <button id="save" style="display:none" class="btn btn-info py-1 px-4">Save</button><td>
                         </tr>
                         </tbody>
                     </table>
@@ -52,4 +58,13 @@
 
     </div>
 
+@endsection
+@section('page-script')
+<script>
+   $('#edit').on('click',function(){
+       $("#edit").css("display","none");
+    $('#save').css("display","block");
+   $('input').removeAttr("readonly",true);
+   }) 
+</script>
 @endsection

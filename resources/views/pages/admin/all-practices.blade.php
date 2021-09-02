@@ -714,7 +714,7 @@
 
                         </div>
                         <div class="col-12 text-right">
-                            <button class="btn btn-blue update-btn">Update</button>
+                            <button class="btn btn-blue update-btn" style="background-color: #306ed5 !important;">Update</button>
                         </div>
                     </div>
                 </div>

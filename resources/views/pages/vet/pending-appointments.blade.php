@@ -19,7 +19,7 @@
                             <th class="text-center">Appointment Date</th>
                             <th class="text-center">Appointment Time</th>
 
-                            <th class="text-center">Action</th>
+                            <th class="text-center disabled-sorting">Action</th>
                         </tr>
                         </thead>
                         <tbody>

@@ -24,13 +24,13 @@
 
                 <div class=" ml-vw pt-2">
                     <div class="row">
-                        <div class="col-12 col-md-8 ml-auto mr-auto">
+                        <div class="col-12 col-md-12 ml-auto mr-auto">
                             <div
                                 class="row pt-md-3 mb-4 form-border custom-search-form rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
-                                <div class="col-6 col-sm-6 col-md p-md-0 pl-2 pr-2">
+                                <div class="col-6 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                             title="Pet Type" data-size="4" data-width="fit" data-max-options="1"
-                                            data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                            >
                                         <option value="2">Cat</option>
                                         <option value="3">Dog</option>
                                         <option value="4">Snake</option>
@@ -38,11 +38,11 @@
                                         <option value="6">Rabbit</option>
                                     </select>
                                 </div>
-                                <div class="col-6 col-sm-6 col-md p-md-0 pl-2 pr-2">
+                                <div class="col-6 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                             title="Services, Procedure, Doctor" data-size="4" data-width="fit"
                                             data-max-options="1"
-                                            data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                            >
                                         <option value="2">Physical Wellness Exam</option>
                                         <option value="3">Dental Cleanings</option>
                                         <option value="4">Dental Extractions</option>
@@ -50,11 +50,10 @@
                                         <option value="6">Vacinations</option>
                                     </select>
                                 </div>
-                                <div class="col-6 col-sm-6 col-md p-md-0 pl-2 pr-2">
+                                <div class="col-6 col-sm-4 col-md-3 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                             title="City, State, Zipcode" data-size="4" data-width="fit"
-                                            data-live-search="true" data-max-options="1" data-actions-box="true"
-                                            data-deselect-all-text="Deselect" multiple>
+                                            data-live-search="true" data-max-options="1" >
                                         <option value="3">001, Broadway</option>
                                         <option value="4">002, Broadway</option>
                                         <option value="5">003, Broadway</option>
@@ -62,11 +61,10 @@
                                         <option value="5">005, Broadway</option>
                                     </select>
                                 </div>
-                                <div class="col-6 col-sm-6 col-md p-md-0 pl-2 pr-2">
+                                <div class="col-6 col-sm-6 col-md-2 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto"
                                             data-style="select-with-transition" title="Radius" data-size="4"
-                                            data-width="fit" data-live-search="true" data-max-options="1"
-                                            data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                            data-width="fit" data-live-search="true" data-max-options="1">
                                         <option value="2">5 miles</option>
                                         <option value="2">10 miles</option>
                                         <option value="2">20 miles</option>

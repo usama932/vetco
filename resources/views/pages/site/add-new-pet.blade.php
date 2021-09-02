@@ -30,9 +30,9 @@
                                 </div>
                                 <div class="col-12 ">
                                     <label for="pet_age" class="anp_label text-primary">
-                                        Pet Age
+                                        Pet DOB
                                     </label>
-                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Age">
+                                    <input type="date" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Age">
                                 </div>
                                 <div class="col-12 ">
                                     <label for="pet_type" class="anp_label text-primary">

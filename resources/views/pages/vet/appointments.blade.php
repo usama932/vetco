@@ -21,7 +21,7 @@
                             <th class="text-center">Appointment Date</th>
                             <th class="text-center">Time</th>
                             <th class="text-center">Owner Name</th>
-                            <th></th>
+                            <th class="disabled-sorting"></th>
                         </tr>
                         </thead>
                         <tbody>

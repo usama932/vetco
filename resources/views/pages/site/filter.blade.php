@@ -23,7 +23,7 @@
                         <div class="col-4 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                             <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                     title="Pet Type" data-size="4" data-width="fit" data-max-options="1"
-                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                    >
                                 <option value="2">Cat</option>
                                 <option value="3">Dog</option>
                                 <option value="4">Snake</option>
@@ -35,7 +35,7 @@
                             <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                     title="Services, Procedure, Doctor" data-size="4" data-width="fit"
                                     data-max-options="1"
-                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                   >
                                 <option value="2">Physical Wellness Exam</option>
                                 <option value="3">Dental Cleanings</option>
                                 <option value="4">Dental Extractions</option>
@@ -46,8 +46,7 @@
                         <div class="col-6 col-sm-6 col-md-3 p-md-0 pl-2 pr-2">
                             <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                     title="City, State, Zipcode" data-size="4" data-width="fit"
-                                    data-live-search="true" data-max-options="1" data-actions-box="true"
-                                    data-deselect-all-text="Deselect" multiple>
+                                    data-live-search="true" data-max-options="1" >
                                 <option value="3">001, Broadway</option>
                                 <option value="4">002, Broadway</option>
                                 <option value="5">003, Broadway</option>
@@ -65,7 +64,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
+                        <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 p  r-1">
                             <a href="{{ url('filter') }}" type="button"
                                style="text-align:center;width: 100%;background: #306ed5;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
                                     class="fa fa-search pt-1" aria-hidden="true"></i>
@@ -75,30 +74,30 @@
                     </div>
                 </div>
 
-                <div class="ml-vw pt-3">
-                    <div class="row p-3">
-                        <div class="col ct pt-2 mt-1">
-                            2 Practices Found
-                        </div>
-                    </div>
-                    <div class="row pl-3 pr-3 mb-2">
-                        <div class="col-12">
+                <div class="ml-vw ">
+                    
+                    <div class="col-12 text-center">
                             <span class="boy">
                                 Based on your zip code, the average price for "Dental Cleaning" for a "Cat" is "$250"
                             </span>
                         </div>
-                        <div class="col-12 custom-search-form">
-                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                    
+                </div>
+                <div class="ml-vw2 pt-3 mt-4 pb-5">
+                <div class="row p-3">
+                        <div class="col-md-6 ct pt-2 mt-1">
+                            2 Practices Found
+                        </div>
+                        <div class="col-md-6 text-right custom-search-form">
+                            <select class="selectpicker col-md-4 ml-auto mr-auto" data-style="select-with-transition"
                                     title="Sort" data-size="4" data-width="fit" data-max-options="1"
-                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                    data-live-search="true" data-actions-box="true" >
                                 <option value="2">Distance: Nearest to Farthest</option>
                                 <option value="3">Price: Low to High</option>
                                 <option value="4">Avg. Patient Review</option>
                             </select>
                         </div>
                     </div>
-                </div>
-                <div class="ml-vw2 pt-3 pb-5">
                     <div class="row p-1 pt-md-3 pb-md-3 pl-md-0 pr-md-0  rounded"
                          style="background-image: linear-gradient(to left, #ffffff, #f5f5f5, #efefef); box-shadow: 0px 4px 16px -9px;">
                         <div class="col-md-8 col-12 pl-1 pr-1 pl-md-1 pr-md-1">

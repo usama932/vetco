@@ -1,7 +1,7 @@
 <footer class="footer bg-blue">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4 col-sm-12 pl-5 pr-5 pt-5 pb-0 text-left">
+            <div class="col-md-4 col-sm-12 pl-5 pr-5 pt-3 pb-0 text-left">
                 <p class="fh mb-0">
                     Contact us
                 </p>
@@ -14,7 +14,7 @@
                     700, Green Lane, New York, USA
                 </p>
             </div>
-            <div class="col-md-5 col-sm-12 pl-5 pr-5 pt-5 pb-0 text-left">
+            <div class="col-md-5 col-sm-12 pl-5 pr-5 pt-3 pb-0 text-left">
                 <p class="fh mb-0">
                     Company
                 </p>
@@ -23,7 +23,7 @@
                     <a href="{{ url('vet/terms') }}" class="f_href w-100 pt-2 mt-1 text-white"> Terms Of Services </a>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-12 pl-5 pr-5 pt-5 pb-0 text-center mob-left">
+            <div class="col-md-3 col-sm-12 pl-5 pr-5 pt-3 pb-0 text-center mob-left">
                 <p class="fso">
                     Follow us on:
                 </p>

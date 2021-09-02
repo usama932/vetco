@@ -216,10 +216,10 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 text-right mt-4">
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
@@ -236,10 +236,10 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
@@ -256,10 +256,10 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
@@ -276,10 +276,10 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>
@@ -296,10 +296,10 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="javascript:;" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Mark up-to-date</a>
                                         </div>
-                                        <div class="col-md-2 col-6">
+                                        <div class="col-md-2 col-6 text-right mt-4">
                                             <a href="{{ url('search') }}" class="btn btn-primary cl_a text-capitalize p-1 btn-block">Book Appointment</a>
                                         </div>
                                     </div>

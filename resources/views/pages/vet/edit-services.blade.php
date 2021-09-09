@@ -8,7 +8,7 @@
 
     <div class="container">
         <div class="container">
-            <h3 class="text-blue">Edit Vaccination</h3>
+            <h3 class="text-blue">Edit  Oral Surgery</h3>
             <div class="row">
                 <div class="col-6 pl-5 pt-5">
                     <input type="text" class="form-control" placeholder="Service Name" value="Vaccination">
@@ -55,8 +55,8 @@
             </div>
             <div class="row">
                 <div class="col pl-5 pr-5 pb-5 text-right">
-                    <button class="btn btn-blue add_pet"> Add</button>
-                    <button class="btn btn-blue"> Save </button>
+                    <!-- <button class="btn btn-blue add_pet"> Add</button> -->
+                    <button class="btn btn-blue"> Edit </button>
                 </div>
             </div>
         </div>

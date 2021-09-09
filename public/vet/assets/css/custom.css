@@ -5,7 +5,7 @@
     --drop-down-color: #4D7BC2;
   }
 .bg-blue{
-      background-color: var(--blue) !important;
+      background-color: #306ed5 !important;
       color: var(--white) !important;
 }
 .btn-light-blue{

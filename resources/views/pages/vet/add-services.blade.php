@@ -8,7 +8,7 @@
 
     <div class="container">
         <div class="container">
-            <h3 class="text-blue">Edit Vaccination</h3>
+            <h3 class="text-blue">Add Vaccination</h3>
             <div class="row">
                 <div class="col-6 pl-5 pt-5">
                     <input type="text" class="form-control" placeholder="Service Name" >
@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col pl-5 pr-5 pb-5 text-right">
                     <button class="btn btn-blue add_pet"> Add More</button>
-                    <button class="btn btn-blue"> Save </button>
+                    <button class="btn btn-blue" onclick="clicksave();"> Save </button>
                 </div>
             </div>
         </div>
@@ -50,7 +50,12 @@
 
 @endsection
 @section('page-script')
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
+        function clicksave(){
+            Swal.fire('Information saved successfully');
+        }
         $('.add_pet').click(function () {
             var content = '';
             content += '<tr>';

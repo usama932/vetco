@@ -178,21 +178,7 @@
                     </h3>
                     <!-- <h5 class="card-description">This information will let us know more about you.</h5> -->
                   </div>
-                  <div class="wizard-navigation">
-                    <ul class="nav nav-pills">
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#about" data-toggle="tab" role="tab">
-                          About
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#account" data-toggle="tab" role="tab">
-                        Practice
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </div>
+                  
                   <div class="card-body">
                     <div class="tab-content">
                       <div class="tab-pane active" id="about">
@@ -228,6 +214,22 @@
                                 <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
                                         <input type="email" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Password</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="password" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label class="col-md-4 col-form-label text-blue">Confirm Password</label>
+                                <div class="col-md-8">
+                                    <div class="form-group has-default bmd-form-group">
+                                        <input type="password" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
@@ -271,54 +273,70 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <label class="col-md-4 col-form-label text-blue">Password</label>
-                                <div class="col-md-8">
-                                    <div class="form-group has-default bmd-form-group">
-                                        <input type="password" class="form-control" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <label class="col-md-4 col-form-label text-blue">Confirm Password</label>
-                                <div class="col-md-8">
-                                    <div class="form-group has-default bmd-form-group">
-                                        <input type="password" class="form-control" required>
-                                    </div>
-                                </div>
-                            </div>
+                           
+                           
                             
                             </div>
                         </div>
+                        <div class="wizard-navigation">
+                  <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#about" data-toggle="tab" role="tab"  id="tab1">
+                          1
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#account" data-toggle="tab" role="tab"  id="tab2">
+                        2
+                        </a>
+                      </li>                      
+                      <li class="btn btn-secondary">
+                        <a class="text-dark" href="javascript:void(0)" onclick="next()">
+                        Next
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </div>
                       </div>
                       <div class="tab-pane" id="account">
                       <div class="row">
                                 <label class="col-md-4 col-form-label text-blue">Hours</label>
                                 <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
-                                        <input type="text" class="form-control" required>
+                                        <input type="time" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-4 col-form-label text-blue">Service</label>
+                                <label class="col-md-4 col-form-label text-blue">Pet type</label>
                                 <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
-                                        <input type="text" class="form-control" required>
+                                        <select class="form-control">
+                                            <option disabled selected value="---Select---">
+                                            ---Select---
+                                            </option>
+                                            <option value="1">
+                                             lorem
+                                            </option>
+                                            <option value="2">
+                                             lorem
+                                            </option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <label class="col-md-4 col-form-label text-blue">Sign Up</label>
+                                <label class="col-md-4 col-form-label text-blue">Service Price</label>
                                 <div class="col-md-8">
                                     <div class="form-group has-default bmd-form-group">
-                                        <input type="text" class="form-control" required>
+                                        <input type="text" placeholder="$22" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                             <div class="ml-auto">
-                             <input type="button" style="background-color:#5a95cd" class="btn btn-next btn-fill btn-info btn-wd" name="Submit" value="Submit">
+                             <input type="button" onclick="clicksave()" style="background-color:#5a95cd" class="btn btn-next btn-fill btn-info btn-wd" name="Submit" value="Submit for Approval">
                             </div>
                             <div class="form-group row mt-3 pl-5">
                                 <div class="col-12 text-center text-blue">
@@ -328,6 +346,26 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="wizard-navigation">
+                  <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about" data-toggle="tab" role="tab" id="tab1">
+                          1
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#account" data-toggle="tab" role="tab" id="tab2">
+                        2
+                        </a>
+                      </li>                      
+                      <li class="btn btn-secondary">
+                        <a class="text-dark" href="javascript:void(0)" onclick="previous()">
+                        Previous
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </div>
                       </div>
                      
                     </div>
@@ -383,7 +421,12 @@
 <script src="{{ asset('vet/assets/demo/demo.js') }}" type="text/javascript"></script>
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 <script src="{{ asset('vet/assets/js/material-kit.js?v=2.2.0') }}" type="text/javascript"></script>
-<script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        function clicksave(){
+            Swal.fire('You did this, great!');
+        }
     $(document).ready(function() {
       // Initialise the wizard
       demo.initMaterialWizard();
@@ -391,6 +434,17 @@
         $('.card.card-wizard').addClass('active');
       }, 600);
     });
+
+    function next()
+    {
+        $("#tab2").click();
+    }
+
+    
+    function previous()
+    {
+        $("#tab1").click();
+    }
   </script>
 </body>
 

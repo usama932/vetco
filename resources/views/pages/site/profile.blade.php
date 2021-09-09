@@ -82,6 +82,16 @@
                                 </div>
                                 <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="0678"> </div>
                             </div>
+                            <div class="row text-black hideemail" hidden>
+                                <div class="col-4"> Email
+                                </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="bailey@gmail.com"> </div>
+                            </div>
+                            <div class="row text-black hideemail" hidden>
+                                <div class="col-4"> Phone
+                                </div>
+                                <div class="col-8"> <input type="text" name="" id="" class="form-control wid-50" readonly value="(815) 00 00000"> </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -98,10 +108,14 @@
         $('.edit').click(function (){
            $('.form-control').removeAttr('readonly');
            $('.save').removeAttr('hidden');
+           $('.hideemail').removeAttr('hidden');
+
         });
         $('.save').click(function (){
             $('.form-control').attr('readonly', true);
            $('.save').attr('hidden', true);
+           $('.hideemail').attr('hidden', true);
+
         });
     </script>
 @endsection

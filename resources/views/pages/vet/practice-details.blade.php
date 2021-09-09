@@ -21,9 +21,27 @@
                     <table class="table">
                         <tbody>
                         <tr>
+                            <th>Contact Name</th>
+                            <td >
+                            <input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            </td>
+                       </tr>
+                        <tr>
+                            <th>Practic Name</th>
+                            <td >
+                            <input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            </td>
+                        </tr>
+                        <tr>
                             <th>Email</th>
                             <td >
                             <input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Hours</th>
+                            <td >
+                            <input type="time"  readonly class="col-md-2 col-sm-4 col-6 form-control">
                             </td>
                         </tr>
                         <tr>
@@ -48,7 +66,11 @@
                         </tr>
                         <tr>
                             <td class="text-right"></td>
-                            <td><button class="btn btn-info py-1 px-4" style="display:block" id="edit">edit</button> <button id="save" style="display:none" class="btn btn-info py-1 px-4">Save</button><td>
+                            <td class="flex" style="display:inline-flex"><button class="btn btn-info py-1 px-4" style="display:block" id="edit">edit</button>
+                             <button id="save" style="display:none" class="btn btn-info py-1 px-4">Save</button>
+                             <a id="save" href="services"  class="btn btn-info py-1 px-4">Edit Service</a>
+
+                            <td>
                         </tr>
                         </tbody>
                     </table>

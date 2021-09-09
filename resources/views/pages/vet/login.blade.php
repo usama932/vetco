@@ -28,17 +28,22 @@
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="javascript:void(0)">
-                <img src="{{ asset('vet/assets/img/logo.png') }}" class="img-fluid" width="120" alt=""> </a>
+                <img src="{{ asset('/assets/vet/logo_3.png') }}" class="img-fluid" width="120" alt=""> </a>
 
         </div>
 
     </div>
 </nav>
 <div class="page-header header-filter"
-     style="background-image: url('./assets/img/bg.png'); background-size: cover; background-position: center;">
+     style="background-image: linear-gradient(#ffffff, #ffffff, #cbcbc9); background-size: cover; background-position: center;">
     <div class="container">
         <div class="row">
-            <div class="col-xl-4 col-lg-5 col-md-7 col-sm-19 col-12 ml-auto mr-auto">
+        <div class="col-xl-4 col-lg-2 col-md-3  col-12 ml-auto mr-auto mob-hide d-none d-lg-block d-xl-block">
+        <img src="{{ asset('/assets/vet/Image1.png') }}" class="img-fluid" alt=""> </a>
+
+        </div>
+
+            <div class="col-xl-4 col-lg-8 col-md-10 col-12 ml-auto mr-auto ">
 
 
                 <form method="POST" action="{{ route('login') }}">
@@ -52,7 +57,7 @@
                         @endif
 
                         <div class="card-body bg-transparent border-0">
-                            <h2 class="card-description text-center text-white font-weight-bold">Vet Login</h2>
+                            <h2 class="card-description text-center text-dark font-weight-bold">Vet Login</h2>
                             <span class="bmd-form-group">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
@@ -78,20 +83,20 @@
 
                             <div class="d-flex align-items-center justify-content-around mt-3 pl-5">
                                 <div class="checkbox">
-                                    <label class="text-white">
+                                    <label class="text-dark">
                                         <input type="checkbox" name="optionsCheckboxes">
                                         Remember Me
                                     </label>
                                 </div>
                                 <div>
-                                    <a href="javascript:void(0)" class="text-italic text-white">Forgot Password
+                                    <a href="javascript:void(0)" class="text-italic text-dark">Forgot Password
                                         ?</a>
 
                                 </div>
                             </div>
                             <div class="form-group row mt-3 pl-5">
                                 <div class="col-12 text-center">
-                                    <small class="text-white"> Don't have account? </small> <a href="{{ url('vet/register') }}"  class="text-white"> Sign up
+                                    <small class="text-dark"> Don't have account? </small> <a href="{{ url('vet/register') }}"  class="text-dark"> Sign up
                                         Here! </a>
                                 </div>
                             </div>
@@ -103,6 +108,10 @@
                     </div>
                 </form>
             </div>
+            <div class="col-xl-4 col-lg-2 col-md-3  col-12 ml-auto mr-auto d-none d-lg-block d-xl-block">
+            <img src="{{ asset('/assets/vet/image2.png') }}" class="img-fluid"  alt=""> </a>
+
+        </div>
         </div>
     </div>
 

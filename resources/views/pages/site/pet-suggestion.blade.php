@@ -24,9 +24,9 @@
 
                 <div class=" ml-vw pt-2">
                     <div class="row">
-                        <div class="col-12 col-md-12 ml-auto mr-auto">
+                        <div class="col-12 col-md-12 ml-auto mr-auto custom-search-formbackground">
                             <div
-                                class="row pt-md-3 mb-4 form-border custom-search-form rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
+                                class="row pt-md-3 mb-2 form-border custom-search-form custom-search-formcss rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
                                 <div class="col-6 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                             title="Pet Type" data-size="4" data-width="fit" data-max-options="1"
@@ -82,9 +82,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-1">
+                                <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-0">
                                     <a href="{{ url('filter') }}" type="button"
-                                       style="text-align:center;width: 100%;background: #306ed5;color: white;margin: 2px;margin-top: 6px;padding: 3px;margin-bottom: 10px;border-radius: 6px;"><i
+                                       style="text-align:center;width: 100%;background: #306ed5;color: white;padding: 9px;"><i
                                             class="fa fa-search pt-1" aria-hidden="true"></i>
                                     </a>
                                 </div>

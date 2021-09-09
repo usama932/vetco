@@ -1162,7 +1162,7 @@ body {
     .form-border {
         border: 1px solid #306ed5;
         /*border-radius: 1vw;*/
-        padding: 0px 0.4vw !important;
+        padding: 0px 0.0vw !important;
     }
 
     .cat-dog {
@@ -1609,7 +1609,7 @@ body {
     .form-border {
         border: 1px solid #306ed5;
         /*border-radius: 1vw;*/
-        padding: 0px 0.4vw !important;
+        padding: 0px 0.0vw !important;
     }
 
     .cat-dog {
@@ -1763,7 +1763,7 @@ body {
 
     .vfpf {
         line-height: 1vw;
-        font-size: 2.7vw;
+        font-size: 54px;
         padding-top: 8vw;
     }
 
@@ -1790,8 +1790,8 @@ body {
     }
 
     .rvb {
-        line-height: 2vw;
-        font-size: 1.4vw;
+        line-height: 4vw;
+        font-size: 34px;
     }
 
     .ap {
@@ -2004,4 +2004,31 @@ body {
     #pickerinput{
         font-size: 12px !important;
     }
+}
+
+.custom-search-formcss {
+    background: white !important;
+    border: none;
+    border-radius: 0px !important;
+}
+.custom-search-formbackground {
+    padding: 15px;
+    background: #e8f3f5;
+}
+
+.custom-search-formbackground .bootstrap-select .btn.dropdown-toggle.select-with-transition {
+    background-image:none !important;
+}
+ 
+.custom-search-formbackground #pickerinput
+{
+    background-image: none !important;
+}
+
+.custom-search-formbackground .dropdown-toggle::after {
+    display: none !important;
+}
+.custom-search-formbackground .pickerinput .form-control
+{
+    background-image: none !important;
 }

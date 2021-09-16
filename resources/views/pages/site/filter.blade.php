@@ -161,6 +161,9 @@
                                                                           aria-hidden="true"></i>579</sup></sub>
                                                         </a>
                                                     </div>
+                                                    <div class="col-12 text-left">
+                                                       <span>$244</span>
+                                                    </div>
                                                     <div class="col-12 text-left pr-1">
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
@@ -334,6 +337,9 @@
                                                                           aria-hidden="true"></i>579</sup></sub>
                                                         </a>
                                                     </div>
+                                                    <div class="col-12 text-left">
+                                                       <span>$244</span>
+                                                    </div>
                                                     <div class="col-12 text-left pr-1">
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
@@ -505,6 +511,9 @@
                                                             <sub> <sup><i class="fa fa-caret-down mr-1"
                                                                           aria-hidden="true"></i>579</sup></sub>
                                                         </a>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                       <span>$244</span>
                                                     </div>
                                                     <div class="col-12 text-left pr-1">
                                                         <a href="http://localhost/vetco/public/vet-profile">

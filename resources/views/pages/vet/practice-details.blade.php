@@ -23,51 +23,51 @@
                         <tr>
                             <th>Contact Name</th>
                             <td >
-                            <input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            <input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control">
                             </td>
                        </tr>
                         <tr>
-                            <th>Practic Name</th>
+                            <th>Practice Name</th>
                             <td >
-                            <input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            <input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control">
                             </td>
                         </tr>
                         <tr>
                             <th>Email</th>
                             <td >
-                            <input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            <input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control">
                             </td>
                         </tr>
                         <tr>
                             <th>Hours</th>
                             <td >
-                            <input type="time"  readonly class="col-md-2 col-sm-4 col-6 form-control">
+                            <input type="time"   class="col-md-2 col-sm-4 col-6 form-control">
                             </td>
                         </tr>
                         <tr>
                             <th>Phone No.</th>
-                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
+                            <td><input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>Address</th>
-                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
+                            <td><input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>City</th>
-                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
+                            <td><input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>State</th>
-                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
+                            <td><input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <th>Zip Code</th>
-                            <td><input type="text" value="lorem" readonly class="col-md-2 col-sm-4 col-6 form-control"></td>
+                            <td><input type="text" value="lorem"  class="col-md-2 col-sm-4 col-6 form-control"></td>
                         </tr>
                         <tr>
                             <td class="text-right"></td>
-                            <td class="flex" style="display:inline-flex"><button class="btn btn-info py-1 px-4" style="display:block" id="edit">edit</button>
-                             <button id="save" style="display:none" class="btn btn-info py-1 px-4">Save</button>
+                            <td class="flex" style="display:inline-flex" ><button class="btn btn-info py-1 px-4" style="display:none" id="edit">edit</button>
+                             <button id="save"  class="btn btn-info py-1 px-4">Save</button>
                              <a id="save" href="services"  class="btn btn-info py-1 px-4">Edit Service</a>
 
                             <td>
@@ -86,7 +86,7 @@
    $('#edit').on('click',function(){
        $("#edit").css("display","none");
     $('#save').css("display","block");
-   $('input').removeAttr("readonly",true);
+   $('input').removeAttr("",true);
    }) 
 </script>
 @endsection

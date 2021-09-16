@@ -24,7 +24,7 @@
                             <div class="row pt-3 pt-md-4 text-center">
                                 <div class="col-12 ">
                                     <label for="pet_name" class="anp_label text-primary">
-                                        Pet name
+                                        Pet Name
                                     </label>
                                     <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Name" value="Doggy">
                                 </div>

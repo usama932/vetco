@@ -48,7 +48,7 @@
 
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
-                    <div class="card card-login card-hidden border-0 bg-transparent no-shadow">
+                    <div class="card card-login card-hidden " style="background:#f6f6f6">
 
                         @if (session('error'))
                             <div class="alert alert-danger" role="alert">

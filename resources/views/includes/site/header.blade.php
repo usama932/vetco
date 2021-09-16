@@ -87,11 +87,11 @@
                            style="font-size: 0.8vw; font-weight: 700"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="row">
-                                <div class="col text-right">
+                                <div class="col-8 text-right">
                                     {{--                                    {{ Auth::user()->first_name }}--}}
                                     Bailey
                                 </div>
-                                <div class="col text-right">
+                                <div class="col-4 text-right">
                                     <i class="fa fa-caret-down" aria-hidden="true" style="font-size: 1vw"></i></div>
                             </div>
 

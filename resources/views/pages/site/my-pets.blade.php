@@ -13,9 +13,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
-                            <div class="row mt-3 flex-row flex-nowrap  table-responsive" style="display: inline-flex">
-                                <div class="col-12 col-md-6">
+                        <div class="col-12">
+                            <div class="row " style="">
+                                <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
                                             <img src="{{ asset('assets/vet/mp_1.png') }}" alt="" class="mp_img">
@@ -23,6 +23,7 @@
                                         <div class="col-8 text-left">
                                             <div class="row">
                                                 <span class="mp_name"> TOMI </span>
+                                               <a href="#" onclick="clickremove()"><i class="fa fa-times text-danger" style="float:right;margin-left: 30px;"></i></a> 
                                             </div>
                                             <div class="row">
                                                 <span class="mp_type"> Dog, Persian </span>
@@ -33,13 +34,13 @@
                                             <div class="row">
                                                 <a href="{{ url('edit-pet') }}">
                                             <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
+                                            Edit</span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
                                             <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
@@ -47,6 +48,8 @@
                                         <div class="col-8 text-left">
                                             <div class="row">
                                                 <span class="mp_name"> Catoo </span>
+                                                <a href="#" onclick="clickremove()"><i class="fa fa-times text-danger" style="float:right;margin-left: 30px;"></i></a> 
+
                                             </div>
                                             <div class="row">
                                                 <span class="mp_type"> Cat, American </span>
@@ -57,13 +60,13 @@
                                             <div class="row">
                                                 <a href="{{ url('edit-pet') }}">
                                             <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
+                                            Edit </span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
                                             <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
@@ -71,6 +74,8 @@
                                         <div class="col-8 text-left">
                                             <div class="row">
                                                 <span class="mp_name"> Catoo </span>
+                                                <a href="#" onclick="clickremove()"><i class="fa fa-times text-danger" style="float:right;margin-left: 30px;"></i></a> 
+
                                             </div>
                                             <div class="row">
                                                 <span class="mp_type"> Cat, American </span>
@@ -81,13 +86,13 @@
                                             <div class="row">
                                                 <a href="{{ url('edit-pet') }}">
                                             <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
+                                            Edit </span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
                                             <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
@@ -95,6 +100,8 @@
                                         <div class="col-8 text-left">
                                             <div class="row">
                                                 <span class="mp_name"> Catoo </span>
+                                                <a href="#" onclick="clickremove()"><i class="fa fa-times text-danger" style="float:right;margin-left: 30px;"></i></a> 
+
                                             </div>
                                             <div class="row">
                                                 <span class="mp_type"> Cat, American </span>
@@ -105,13 +112,13 @@
                                             <div class="row">
                                                 <a href="{{ url('edit-pet') }}">
                                             <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
+                                            Edit </span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
                                             <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
@@ -119,6 +126,8 @@
                                         <div class="col-8 text-left">
                                             <div class="row">
                                                 <span class="mp_name"> Catoo </span>
+                                                <a href="#" onclick="clickremove()"><i class="fa fa-times text-danger" style="float:right;margin-left: 30px;"></i></a> 
+
                                             </div>
                                             <div class="row">
                                                 <span class="mp_type"> Cat, American </span>
@@ -129,13 +138,13 @@
                                             <div class="row">
                                                 <a href="{{ url('edit-pet') }}">
                                             <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
+                                            Edit </span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
                                             <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
@@ -143,6 +152,8 @@
                                         <div class="col-8 text-left">
                                             <div class="row">
                                                 <span class="mp_name"> Catoo </span>
+                                                <a href="#" onclick="clickremove()"><i class="fa fa-times text-danger" style="float:right;margin-left: 30px;"></i></a> 
+
                                             </div>
                                             <div class="row">
                                                 <span class="mp_type"> Cat, American </span>
@@ -153,7 +164,7 @@
                                             <div class="row">
                                                 <a href="{{ url('edit-pet') }}">
                                             <span class="bg-primary text-white mp_link">
-                                            Edit / Remove </span>
+                                            Edit </span>
                                                 </a>
                                             </div>
                                         </div>
@@ -161,7 +172,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 mt-3">
 
                             <div class="row">
                                 <div class="col text-right">
@@ -357,4 +368,12 @@
             </div>
         </div>
     </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        function clickremove(){
+            Swal.fire('Are you Sure You Want To Remove This Pet?');
+        }
+        </script>
 @endsection

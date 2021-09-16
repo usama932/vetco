@@ -67,7 +67,7 @@
                             </div>
                         </div>
                         <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-0">
-                            <a href="{{ url('filter') }}" type="button"
+                            <a href="{{ url('search') }}" type="button"
                                style="text-align:center;width: 100%;background: #306ed5;color: white;padding: 9px;"><i
                                     class="fa fa-search pt-1" aria-hidden="true"></i>
                             </a>
@@ -95,7 +95,7 @@
                         <div class="col-sm-12 col-md-4 text-right custom-search-form pl-5 pr-5">
                             <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                     title="Sort" data-size="4" data-max-options="1"
-                                    data-actions-box="true" data-deselect-all-text="Deselect" multiple>
+                                    >
                                 <option value="2">Distance: Nearest to Farthest</option>
                                 <option value="3">Price: Low to High</option>
                                 <option value="4">Avg. Patient Review</option>
@@ -179,6 +179,9 @@
                                                             <sub> <sup><i class="fa fa-caret-down mr-1"
                                                                           aria-hidden="true"></i>579</sup></sub>
                                                         </a>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                       <span>$244</span>
                                                     </div>
                                                     <div class="col-12 text-left pr-1">
                                                         <a href="http://localhost/vetco/public/vet-profile">
@@ -353,6 +356,9 @@
                                                                           aria-hidden="true"></i>579</sup></sub>
                                                         </a>
                                                     </div>
+                                                    <div class="col-12 text-left">
+                                                       <span>$244</span>
+                                                    </div>
                                                     <div class="col-12 text-left pr-1">
                                                         <a href="http://localhost/vetco/public/vet-profile">
                                                             <sub>
@@ -524,6 +530,9 @@
                                                             <sub> <sup><i class="fa fa-caret-down mr-1"
                                                                           aria-hidden="true"></i>579</sup></sub>
                                                         </a>
+                                                    </div>
+                                                    <div class="col-12 text-left">
+                                                       <span>$244</span>
                                                     </div>
                                                     <div class="col-12 text-left pr-1">
                                                         <a href="http://localhost/vetco/public/vet-profile">

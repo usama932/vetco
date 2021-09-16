@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                             <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-0">
-                                <a href="{{ url('filter') }}" type="button"
+                                <a href="{{ url('home') }}" type="button"
                                    style="text-align:center;width: 100%;background: #306ed5;color: white;margin: 2px;padding: 9px"><i
                                         class="fa fa-search pt-1" aria-hidden="true"></i>
                                 </a>

@@ -29,8 +29,7 @@
                                 class="row pt-md-3 mb-2 form-border custom-search-form custom-search-formcss rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
                                 <div class="col-6 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
-                                            title="Pet Type" data-size="4" data-width="fit" data-max-options="1"
-                                            >
+                                            title="Pet Type" data-size="4" data-width="fit" data-max-options="1" >
                                         <option value="2">Cat</option>
                                         <option value="3">Dog</option>
                                         <option value="4">Snake</option>
@@ -38,7 +37,7 @@
                                         <option value="6">Rabbit</option>
                                     </select>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
+                                <div class="col-6 col-sm-4 col-md-3 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                             title="Services, Procedure, Doctor" data-size="4" data-width="fit"
                                             data-max-options="1"
@@ -50,7 +49,7 @@
                                         <option value="6">Vacinations</option>
                                     </select>
                                 </div>
-                                <div class="col-6 col-sm-4 col-md-3 p-md-0 pl-2 pr-2">
+                                <div class="col-6 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                                     <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
                                             title="City, State, Zipcode" data-size="4" data-width="fit"
                                             data-live-search="true" data-max-options="1" >
@@ -83,7 +82,7 @@
                                     </div>
                                 </div>
                                 <div class="col-6 col-sm-1 ml-auto mr-auto col-md-1 pl-1 pr-0">
-                                    <a href="{{ url('filter') }}" type="button"
+                                    <a href="{{ url('pet-suggestion') }}" type="button"
                                        style="text-align:center;width: 100%;background: #306ed5;color: white;padding: 9px;"><i
                                             class="fa fa-search pt-1" aria-hidden="true"></i>
                                     </a>

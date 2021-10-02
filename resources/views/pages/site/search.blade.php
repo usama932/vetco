@@ -21,7 +21,7 @@
                     </div>
                 </div>
 
-                <div class="ml-vw  custom-search-formbackground">
+                <div class="ml-vw2  custom-search-formbackground">
                     <div class="row pt-md-3 mb-2 form-border search-form custom-search-formcss custom-search-form rounded  pl-md-5 pr-md-5 ml-4 mr-4 ml-md-0 mr-md-0">
                         <div class="col-4 col-sm-4 col-md-2 p-md-0 pl-2 pr-2">
                             <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition" title="Pet Type" data-size="4" data-width="fit" data-max-options="1" >
@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="ml-vw">
+                <div class="ml-vw2">
                     <div class="row">
                         <div class="col-12 pt-2 mt-1">
                             <span class="boy">
@@ -87,21 +87,21 @@
                 </div>
                 <div class="ml-vw2 pt-3 pb-5">
 
-                    <div class="row p-1 pt-md-3 pb-md-3 pl-md-0 pr-md-0  rounded"
-                         style="background-image: linear-gradient(to left, #ffffff, #f5f5f5, #efefef); box-shadow: 0px 4px 16px -9px;">
-                        <div class="col-sm-12 col-md-8">
+                    <div class="row p-1 pt-md-3 pb-md-3 pl-md-0 pr-md-0  rounded" style="background-image: linear-gradient(to left, #ffffff, #f5f5f5, #efefef); box-shadow: 0px 4px 16px -9px;">
+                       <div class="col-md-8">
+                           <div class="row">
+                           <div class="col-sm-12 col-md-8">
                             <h4 class="text-primary font-weight-bold"> 43 Practices Found </h4>
-                        </div>
-                        <div class="col-sm-12 col-md-4 text-right custom-search-form pl-5 pr-5">
+                          </div>
+                        <div class="col-sm-12 col-md-4 text-right custom-search-form pl-5 pr-5 mb-2">
                             <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
-                                    title="Sort" data-size="4" data-max-options="1"
-                                    >
+                                    title="Sort" data-size="4" data-max-options="1" >
                                 <option value="2">Distance: Nearest to Farthest</option>
                                 <option value="3">Price: Low to High</option>
                                 <option value="4">Avg. Patient Review</option>
                             </select>
                         </div>
-                        <div class="col-md-8 col-12 pl-1 pr-1 pl-md-1 pr-md-1">
+                        <div class="col-md-12 col-12 pl-1 pr-1 pl-md-1 pr-md-1">
                             <div class="row pl-md-3">
                                 {{--                                <div class="col-lg col-xl-2 col-6">--}}
                                 {{--                                    <span class="btn btn-primary btn-block p-1 text-capitalize">Dentist</span>--}}
@@ -648,6 +648,9 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                       </div>
+                       
 
                         <div class="col-md-4 col-12">
                             <iframe

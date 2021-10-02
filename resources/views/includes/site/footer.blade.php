@@ -23,7 +23,7 @@
                     <a href="#" class="f_href w-100 pt-2 mt-1"> Terms Of Services </a>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-12 pl-md-5  pr-md-5 pb-md-0 pl-3 text-center mob-left">
+            <div class="col-md-3 col-sm-12 pl-md-5  pr-md-5 pb-md-0 pl-3 text-md-center mob-left">
                 <p class="fso">
                     Follow us on:
                 </p>
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="row text-right">
+        <div class="row text-md-right">
             <div class="col">
                 <p class="fc mb-md-0">
                     ® Copyright {{ date('Y') }}, All Right Reserved

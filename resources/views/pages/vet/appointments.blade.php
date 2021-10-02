@@ -18,7 +18,7 @@
                             <th>Pet Name</th>
                             <th class="text-center">Pet Type</th>
                             <th class="text-center">Service</th>
-                            <th class="text-center">Appointment Date</th>
+                            <th class="text-center">Date</th>
                             <th class="text-center">Time</th>
                             <th class="text-center">Owner Name</th>
                             <th class="disabled-sorting"></th>

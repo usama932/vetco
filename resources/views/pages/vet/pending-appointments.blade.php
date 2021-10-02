@@ -16,10 +16,10 @@
                         <tr>
                             <th>Appointment Name</th>
                             <th class="text-center">Pets Type</th>
-                            <th class="text-center">Appointment Date</th>
+                            <th class="text-center">Date</th>
                             <th class="text-center">Appointment Time</th>
 
-                            <th class="text-center disabled-sorting">Action</th>
+                            <th class="text-center disabled-sorting"></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -28,7 +28,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -48,7 +48,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -68,7 +68,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -88,7 +88,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -108,7 +108,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -128,7 +128,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -148,7 +148,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -168,7 +168,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -188,7 +188,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -208,7 +208,7 @@
                             <td class="text-center">Dog</td>
                             <td class="text-center">1-02-2020</td>
                             <td class="text-center">12:00 PM</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>

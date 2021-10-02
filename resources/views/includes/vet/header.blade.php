@@ -14,28 +14,28 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item <?php echo($page == "Dashboard" ? "active" : "")?> ">
-                    <a class="nav-link" href="{{ url('vet/home') }}">Dashboard</a>
+                    <a class="nav-link" href="{{ url('vet/home') }}" style="color:white !important">Dashboard</a>
                 </li>
 {{--                <li class="nav-item <?php echo($page == "Services" ? "active" : "")?> ">--}}
 {{--                    <a class="nav-link" href="{{ url('vet/services') }}">Services</a>--}}
 {{--                </li>--}}
                 <li
                     class="dropdown nav-item <?php echo($page == "All Practices" || $page == "Pending Requests" ? "active" : "")?> ">
-                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" style="color:white !important">
                         Appointments
                     </a>
                     <div class="dropdown-menu dropdown-with-icons bg-blue">
-                        <a href="{{ url('vet/appointments') }}" class="dropdown-item text-white">
+                        <a href="{{ url('vet/appointments') }}" class="dropdown-item text-white" style="color:white !important">
                             All Appointments
                         </a>
-                        <a href="{{ url('vet/pending-appointments') }}" class="dropdown-item text-white">
+                        <a href="{{ url('vet/pending-appointments') }}" class="dropdown-item text-white" style="color:white !important">
                             Pending Appointments
                         </a>
                     </div>
                 </li>
                 <li
                     class="dropdown nav-item <?php echo($page == "Services" || $page == "Claim Practice" ? "active" : "")?> ">
-                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" style="color:white !important">
                         Profile
                     </a>
                     <div class="dropdown-menu dropdown-with-icons bg-blue">

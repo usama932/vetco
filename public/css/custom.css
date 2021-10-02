@@ -309,12 +309,18 @@ body {
     }
 
     .fi {
-        background: #ffffff;
+        /* background: #ffffff;
         padding: 2.8vw;
         margin: 1vw;
         width: 10vw;
         border-radius: 50%;
-        text-align: center;
+        text-align: center; */
+        background: #ffffff;
+    padding: 1.2vw;
+    margin: 1vw;
+    width: 6vw;
+    border-radius: 50%;
+    text-align: center;
     }
 
     .ml-vw {
@@ -344,17 +350,17 @@ body {
         padding-right: 0VW;
     }
 
-    .filter_form_input {
-        /*width: 45% !important;*/
-    }
+    /* .filter_form_input {
+        /*width: 45% !important;
+    } */
 
     .filter_form_btn {
         width: 62%;
     }
 
-    .suggestion_form_input {
-        /*width: 50% !important;*/
-    }
+    /* .suggestion_form_input {
+        width: 50% !important;
+    } */
 
     .input_margin {
         margin-top: -0.5vw;
@@ -1666,7 +1672,7 @@ body {
 
     .ap_dr_sec {
         width: 58vw;
-        max-height: 32vw;
+        max-height: 38vw;
         overflow-y: scroll;
         padding-left: 1vw;
         padding-right: 1vw;

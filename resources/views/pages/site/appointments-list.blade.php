@@ -9,19 +9,22 @@
                 <div class="row pt-3 pt-md-5">
                     <div class="col pt-3 pt-md-5">
                         <div class="row filter_card ml-vw2">
+                          <div class="col-12">
+                          <h3 class="mb-4">All Appointments</h3>
+                          </div>
                             <div class="col-8">
                                 <div class="nav-tabs-navigation">
                                     <div class="nav-tabs-wrapper">
                                         <ul class="nav nav-tabs" data-tabs="tabs">
                                             <li class="nav-item">
                                                 <a class="nav-link active" href="#profile" data-toggle="tab">
-                                                    <span class="text-primary">Upcoming Appointments</span>
+                                                    <span class="text-primary">Appointments</span>
                                                     <div class="ripple-container"></div>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#messages" data-toggle="tab">
-                                                    <span class="text-primary">Past Appointments</span>
+                                                    <span class="text-primary">Pending Appointments</span>
                                                     <div class="ripple-container"></div>
                                                 </a>
                                             </li>
@@ -45,10 +48,10 @@
                                                         Pet Name
                                                     </th>
                                                     <th class="text-center">
-                                                        Practice Name
+                                                        Pet Type
                                                     </th>
                                                     <th class="text-center">
-                                                        Practice Address
+                                                        Owner Name
                                                     </th>
                                                     <th class="text-center">
                                                         Service
@@ -57,14 +60,13 @@
                                                         Phone Number
                                                     </th>
                                                     <th class="text-center">
-                                                        Appointment Date
+                                                     Date
                                                     </th>
                                                     <th class="text-center">
                                                         Time
                                                     </th>
-                                                    <th class="text-center disabled-sorting">
-                                                        Action
-                                                    </th>
+                                                    <th class="text-center">
+                                                   </th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -98,49 +100,15 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                 <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
+                                                                       data-target="#reschedule">Approve</a>
                                                                 </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
                                                                 </li>
-                                                            </ul>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        Lorem
-                                                    </td>
-                                                    <td class="text-center">
-                                                        Ipsum
-                                                    </td>
-                                                    <td class="text-center">
-                                                        102, Broadway
-                                                    </td>
-                                                    <td class="text-center">
-                                                        Lorem
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00000000000
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00-00-0000
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00-00
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <div class="dropdown">
-                                                            <a href="#" class="btn bg-white btn-round btn-sm"
-                                                               data-toggle="dropdown">
-                                                                <i class="fa fa-ellipsis-v text-dark"></i>
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -176,49 +144,15 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                 <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
+                                                                       data-target="#reschedule">Approve</a>
                                                                 </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
                                                                 </li>
-                                                            </ul>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        Lorem
-                                                    </td>
-                                                    <td class="text-center">
-                                                        Ipsum
-                                                    </td>
-                                                    <td class="text-center">
-                                                        102, Broadway
-                                                    </td>
-                                                    <td class="text-center">
-                                                        Lorem
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00000000000
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00-00-0000
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00-00
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <div class="dropdown">
-                                                            <a href="#" class="btn bg-white btn-round btn-sm"
-                                                               data-toggle="dropdown">
-                                                                <i class="fa fa-ellipsis-v text-dark"></i>
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -254,49 +188,15 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                 <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
+                                                                       data-target="#reschedule">Approve</a>
                                                                 </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
                                                                 </li>
-                                                            </ul>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        Lorem
-                                                    </td>
-                                                    <td class="text-center">
-                                                        Ipsum
-                                                    </td>
-                                                    <td class="text-center">
-                                                        102, Broadway
-                                                    </td>
-                                                    <td class="text-center">
-                                                        Lorem
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00000000000
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00-00-0000
-                                                    </td>
-                                                    <td class="text-center">
-                                                        00-00
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <div class="dropdown">
-                                                            <a href="#" class="btn bg-white btn-round btn-sm"
-                                                               data-toggle="dropdown">
-                                                                <i class="fa fa-ellipsis-v text-dark"></i>
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -332,10 +232,147 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                 <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
+                                                                       data-target="#reschedule">Approve</a>
                                                                 </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Ipsum
+                                                    </td>
+                                                    <td class="text-center">
+                                                        102, Broadway
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Lorem
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00000000000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00-0000
+                                                    </td>
+                                                    <td class="text-center">
+                                                        00-00
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -371,10 +408,15 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                 <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
+                                                                       data-target="#reschedule">Approve</a>
                                                                 </li>
-                                                                <li><a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -393,10 +435,10 @@
                                                         Pet Name
                                                     </th>
                                                     <th class="text-center">
-                                                        Practice Name
+                                                        Pet Type
                                                     </th>
                                                     <th class="text-center">
-                                                        Practice Address
+                                                        Owner Name
                                                     </th>
                                                     <th class="text-center">
                                                         Service
@@ -405,14 +447,14 @@
                                                         Phone Number
                                                     </th>
                                                     <th class="text-center">
-                                                        Appointment Date
+                                                     Date
                                                     </th>
                                                     <th class="text-center">
                                                         Time
                                                     </th>
-                                                    {{--                                                    <th class="text-center">--}}
+                                                    <th class="text-center">
 
-                                                    {{--                                                    </th>--}}
+                                                   </th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -438,18 +480,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -473,18 +524,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -508,18 +568,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -543,18 +612,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -578,18 +656,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -613,18 +700,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -648,18 +744,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -683,18 +788,27 @@
                                                     <td class="text-center">
                                                         00-00
                                                     </td>
-                                                    {{--                                                    <td class="text-center">--}}
-                                                    {{--                                                        <div class="dropdown">--}}
-                                                    {{--                                                            <a href="#" class="btn bg-white btn-round btn-sm"--}}
-                                                    {{--                                                               data-toggle="dropdown">--}}
-                                                    {{--                                                                <i class="fa fa-ellipsis-v text-dark"></i>--}}
-                                                    {{--                                                            </a>--}}
-                                                    {{--                                                            <ul class="dropdown-menu">--}}
-                                                    {{--                                                                <li><a>Reschedule</a></li>--}}
-                                                    {{--                                                                <li><a href="#">Cancel</a></li>--}}
-                                                    {{--                                                            </ul>--}}
-                                                    {{--                                                        </div>--}}
-                                                    {{--                                                    </td>--}}
+                                                    <td class="text-center">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn bg-white btn-round btn-sm"
+                                                               data-toggle="dropdown">
+                                                                <i class="fa fa-ellipsis-v text-dark"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Approve</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="remove"
+                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="contact"
+                                                                       href="{{ url('appointments-list/1') }}">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 </tbody>
                                             </table>

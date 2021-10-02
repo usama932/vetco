@@ -32,20 +32,26 @@
                                     <label for="pet_age" class="anp_label text-primary">
                                         Pet DOB
                                     </label>
-                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Age" value="12/12/2010">
+                                    <input type="date" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Age" value="12/12/2010">
                                 </div>
                                 <div class="col-12 ">
                                     <label for="pet_type" class="anp_label text-primary">
                                         Pet Type
                                     </label>
-                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Type" value="dog">
+                                    <select class="form-control wid-50 text-primary ml-auto mr-auto" >
+                                        <option value="dog">Dog</option>
+                                        <option value="cat">Cate</option>
+                                </select>
+
                                 </div>
                                 <div class="col-12 ">
                                     <label for="pet_breed" class="anp_label text-primary">
                                         Pet Breed
                                     </label>
-                                    <input type="text" class="form-control wid-50 text-primary ml-auto mr-auto" placeholder="Pet Breed" value="German Shepherd">
-                                </div>
+                                    <select class="form-control wid-50 text-primary ml-auto mr-auto" >
+                                        <option value="dog">German Shepherd</option>
+                                        <option value="cat">lorem</option>
+                                </select>                                </div>
                                 <div class="col-12 text-center pt-3 pt-md-4">
                                     <a href="{{ url('my-pets') }}" class="btn btn-primary btn-sm text-white"> Update </a>
                                     <a href="{{ url('my-pets') }}" class="btn btn-primary btn-sm text-white"> Remove </a>

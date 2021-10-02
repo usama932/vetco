@@ -51,7 +51,7 @@ table.dataTable thead th, table.dataTable thead td {
 
 table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
 
-    background-position: center left !important;
+    background-position: center right !important;
 }
 
 .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:active, .dropdown-menu a:active, .dropdown-menu a.active, .dropdown-menu a:hover, .dropdown-menu a:focus, .dropdown-menu a:active {

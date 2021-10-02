@@ -1,4 +1,4 @@
-<footer class="footer bg-blue pb-0">
+<footer class="footer bg-blue pb-0 text-left">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-sm-12 pl-5 pr-5  pb-0 text-left">
@@ -23,7 +23,7 @@
                     <a href="{{ url('vet/terms') }}" class="f_href w-100 pt-2 mt-1 text-white"> Terms Of Services </a>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-12 pl-5 pr-5  pb-0 text-center mob-left">
+            <div class="col-md-3 col-sm-12 pl-5 pr-5  pb-0 text-md-center mob-left">
                 <p class="fso">
                     Follow us on:
                 </p>
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="row text-right">
+        <div class="row text-md-right">
             <div class="col">
                 <p class="fc">
                     ® Copyright 2021, All Right Reserved

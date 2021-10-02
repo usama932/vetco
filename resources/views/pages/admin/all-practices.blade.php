@@ -13,13 +13,13 @@
                     <table class="table " id="myTable">
                         <thead>
                         <tr>
-                            <th>Practices Name</th>
+                            <th>Practice Name</th>
                             <th class="text-center">Address</th>
                             <th class="text-center">City</th>
                             <th class="text-center">State</th>
                             <th class="text-center">Zip</th>
-                            <th class="text-center">Phone no</th>
-                            <th class="text-center">Action</th>
+                            <th class="text-center">Phone Number</th>
+                            <th class="text-center"></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -40,7 +40,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -63,7 +63,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -86,7 +86,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -109,7 +109,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -132,7 +132,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -155,7 +155,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -178,7 +178,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -201,7 +201,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -224,7 +224,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -247,7 +247,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -270,7 +270,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -293,7 +293,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -316,7 +316,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -339,7 +339,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -362,7 +362,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -385,7 +385,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -408,7 +408,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -431,7 +431,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -454,7 +454,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -477,7 +477,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -500,7 +500,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -523,7 +523,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -546,7 +546,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -569,7 +569,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -592,7 +592,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -615,7 +615,7 @@
                                         {{--                                        <li><a href="#">Edit</a></li>--}}
                                         <li><a href="#" class="delete">Delete</a></li>
 
-                                        <li><a href="mailto:lorem@lorem.com">Contact Practice</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
                             </td>
@@ -640,79 +640,67 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
-                        <div class="col-12">
-                            <table class="table text-blue">
-                                <tbody>
-                                <tr>
-                                    <th>
-                                        Name
-                                    </th>
-                                    <th>
-                                        Email
-                                    </th>
-                                    <th>
-                                        Phone No.
-                                    </th>
-                                    <th>
-                                        Address
-                                    </th>
-                                    <th></th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="text" name="" id="" class="form-control" value="lorem" readonly disabled>
-                                    </td>
-                                    <td>
-                                        <input type="text" name="" id="" class="form-control" value="Ipsum" readonly disabled>
-                                    </td>
-                                    <td>
-                                        <input type="text" name="" id="" class="form-control" value="lorem@lorem.com" readonly disabled>
-                                    </td>
-                                    <td>
-                                        <input type="text" name="" id="" class="form-control" value="lorem ipsum dolar" readonly disabled>
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-edit text-blue cursor-pointer edit_modal_info"></i>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="col-md-6 ml-auto mr-auto">
+                    <div class="row justify-content-center">
+                    <div class="col-md-6 ml-auto mr-auto">
                             <table class="table table-hover text-blue">
                                 <tbody>
                                 <tr class="">
+                                    <th>Name</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="Lore lorem" class="form-control"  >
+                                    </th>
+                                </tr>
+                                <tr class="">
+                                    <th>Email</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="lorem@gmail.com" class="form-control"  >
+                                    </th>
+                                </tr>
+                                <tr class="">
+                                    <th>Address</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="Lorem Lorem Lorem" class="form-control"  >
+                                    </th>
+                                </tr>
+                                <tr class="">
+                                    <th>Phone Number</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="123243254325" class="form-control"  >
+                                    </th>
+                                </tr>
+                                <tr class="">
                                     <th>Dental Cleaning</th>
                                     <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled>
+                                        <input type="text" name="" id="" value="200" class="form-control"  >
                                     </th>
                                 </tr>
                                 <tr class="">
                                     <th>Deworming</th>
                                     <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                        <input type="text" name="" id="" value="200" class="form-control"  ></th>
                                 </tr>
                                 <tr class="">
                                     <th>Oral Surgery</th>
                                     <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                        <input type="text" name="" id="" value="200" class="form-control"  ></th>
                                 </tr>
                                 <tr class="">
                                     <th>Vaccinations</th>
                                     <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                        <input type="text" name="" id="" value="200" class="form-control"  ></th>
                                 </tr>
                                 <tr class="">
                                     <th>Lorem ipsum</th>
                                     <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                        <input type="text" name="" id="" value="200" class="form-control"  ></th>
                                 </tr>
                                 </tbody>
 
                             </table>
 
                         </div>
+                      
+                        
                         <div class="col-12 text-right">
                             <button class="btn btn-blue update-btn" style="background-color: #306ed5 !important;">Update</button>
                         </div>
@@ -725,13 +713,46 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-blue font-weight-bold">Practice Details</h5>
+                    <h5 class="modal-title text-blue font-weight-bold">Practice Details 3425325</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="material-icons">clear</i>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                        <table class="table table-hover text-blue">
+                                <tbody>
+                                <tr class="">
+                                    <th>Dental Cleaning</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled>
+                                    </th>
+                                </tr>
+                                <tr class="">
+                                    <th>Deworming</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                </tr>
+                                <tr class="">
+                                    <th>Oral Surgery</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                </tr>
+                                <tr class="">
+                                    <th>Vaccinations</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                </tr>
+                                <tr class="">
+                                    <th>Lorem ipsum</th>
+                                    <th>
+                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
+                                </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
                         <div class="col-12">
                             <table class="table text-blue">
                                 <tbody>
@@ -767,37 +788,7 @@
                             </table>
                         </div>
                         <div class="col-md-6 ml-auto mr-auto">
-                            <table class="table table-hover text-blue">
-                                <tbody>
-                                <tr class="">
-                                    <th>Dental Cleaning</th>
-                                    <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled>
-                                    </th>
-                                </tr>
-                                <tr class="">
-                                    <th>Deworming</th>
-                                    <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
-                                </tr>
-                                <tr class="">
-                                    <th>Oral Surgery</th>
-                                    <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
-                                </tr>
-                                <tr class="">
-                                    <th>Vaccinations</th>
-                                    <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
-                                </tr>
-                                <tr class="">
-                                    <th>Lorem ipsum</th>
-                                    <th>
-                                        <input type="text" name="" id="" value="200" class="form-control" readonly disabled></th>
-                                </tr>
-                                </tbody>
-
-                            </table>
+                          
 
                         </div>
                     </div>

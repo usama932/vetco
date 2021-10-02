@@ -251,7 +251,7 @@
             $('.mob-dropdown-menu').slideToggle();
         });
         $('.datepicker').datetimepicker({
-            format: 'DD/MM/YYYY',
+            format: 'MM/DD/YYYY',
             icons: {
                 time: "fa fa-clock-o",
                 date: "fa fa-calendar",

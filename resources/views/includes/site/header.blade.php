@@ -32,7 +32,7 @@
             @else
                 <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
                 <a class="dropdown-item text-white border-bottom"
-                   href="{{ url('appointments-list/1') }}">Appointments</a>
+                   href="{{ url('appointments-list/1') }}">All Appointments</a>
                 <a class="dropdown-item text-white border-bottom" href="{{ url('my-pets') }}">My Pets</a>
                 {{--                <a class="dropdown-item text-white border-bottom" href="{{ url('profile-edit') }}">Settings</a>--}}
                 <a class="dropdown-item text-white border-bottom" href="{{ route('logout') }}" onclick="event.preventDefault();
@@ -103,7 +103,7 @@
                         <div class="dropdown-menu dropdown-menu-right bg-primary text-white logout_dropdown"
                              aria-labelledby="navbarDropdownProfile">
                             <a class="dropdown-item text-white border-bottom" href="{{ url('profile') }}">Profile</a>
-                            <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list/1') }}">Appointments</a>
+                            <a class="dropdown-item text-white border-bottom" href="{{ url('appointments-list/1') }}">All Appointments</a>
                             <a class="dropdown-item text-white border-bottom" href="{{ url('my-pets') }}">My Pets</a>
                             {{--                            <a class="dropdown-item text-white border-bottom"--}}
                             {{--                               href="{{ url('profile-edit') }}">Settings</a>--}}

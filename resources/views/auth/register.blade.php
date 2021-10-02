@@ -222,7 +222,7 @@
                                         <input type="checkbox" id="agree_checkbox" name="agreement"
                                                class="@error('agreement') is-invalid @enderror"
                                                value="1" {{(old('agreement') && old('agreement') == 1) ? 'checked' : ''}}>
-                                        <label for="agree_checkbox"> Agree to <a href="#"> TERM & CONDITION </a></label>
+                                        <label for="agree_checkbox"> Agree to <a href="#"> TERMS & CONDITIONS </a></label>
                                         @error('agreement')
                                         <span class="invalid-feedback text-danger" role="alert" style="display: block;">
                                         <strong>{{ $message }}</strong>
@@ -249,7 +249,7 @@
                                 </div>
                             </div>
                             <div class="form-group row mb-0">
-                                <div class="col text-right">
+                                <div class="col text-center">
                                     <a href="javascript:;" class="fiar">
                                         <i class="fa fa-facebook fi fir bg-primary text-white text-center"
                                            > </i>

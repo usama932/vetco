@@ -7375,17 +7375,17 @@ button:focus {
     .btn.btn-outline.btn-link {
       background-color: transparent; }
   .btn.btn-outline-primary {
-    color: #9c27b0;
+    color: #306ed5;
     background-color: transparent;
-    border-color: #9c27b0; }
+    border-color: #306ed5; }
     .btn.btn-outline-primary:hover {
-      color: #9c27b0;
+      color: #306ed5;
       background-color: rgba(153, 153, 153, 0.2);
-      border-color: #9c27b0; }
+      border-color: #306ed5; }
     .btn.btn-outline-primary:focus, .btn.btn-outline-primary.focus, .btn.btn-outline-primary:hover {
-      color: #9c27b0;
+      color: #306ed5;
       background-color: rgba(153, 153, 153, 0.2);
-      border-color: #9c27b0; }
+      border-color: #306ed5; }
     .btn.btn-outline-primary:active, .btn.btn-outline-primary.active,
     .open > .btn.btn-outline-primary.dropdown-toggle,
     .show > .btn.btn-outline-primary.dropdown-toggle {

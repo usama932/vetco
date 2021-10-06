@@ -45,9 +45,9 @@
 
 
 
-            <div class="col-xl-4 col-lg-8 col-md-10 col-12 ml-auto mr-auto pt-5 pb-5">
+            <div class="col-xl-4 col-lg-8 col-md-10 col-12 ml-auto mr-auto ">
                     <div class="filter_card">
-                        <div class="login_header">
+                        <!-- <div class="login_header">
                             <div class="row">
                                 <div class="col">
                                     <h3 class="font-weight-bold mt-2">Log in</h3>
@@ -56,21 +56,31 @@
 
                             <div class="row mb-5">
                                 <div class="col pb-2">
-                                    <a href="javascript:;" class="fia">
-                                        <i class="fa fa-facebook fi "> </i></a><a href="javascript:;"
+                                    <a href="javascript:;" class="fia" style="color:#306ed5">
+                                        <i class="fa fa-facebook fi "> </i></a><a style="color:#306ed5" href="javascript:;"
                                                                                               class="fia">
-                                        <i class="fa fa-apple fi "> </i></a><a href="javascript:;"
+                                        <i class="fa fa-apple fi "> </i></a><a style="color:#306ed5" href="javascript:;"
                                                                                            class="fia">
                                         <i class="fa fa-envelope fi "> </i></a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="card-body">
+                        <h3 class="font-weight-bold mt-2 text-center text-dark">Log in</h3>
+
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
 
                                 <div class="form-group row mt-3 mb-3">
-                                    <div class="col-12">
+                                <div class="col-12">
+                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-google" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Google</span></button>
+                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-facebook" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Facebook</span></button>
+                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-apple" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Apple</span></button>
+
+                                    </div>
+                                    <div  class="d-inline-flex w-100 text-dark"><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div><div  class="mt-2">OR</div><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div></div>
+                                   
+                                    <div class="col-12 mt-3">
                                         <input id="email" type="email"
                                                class="form-control text-primary @error('email') is-invalid @enderror"
                                                name="email"
@@ -124,7 +134,7 @@
                                 <div class="form-group row mb-5 mt-0">
                                     <div class="col-12 text-center text-primary p-0">
                                         <small> Don't have account?
-                                            <a href="{{ url('vet/register') }}"  class="fw-700"> Sign up Here! </a>
+                                            <a href="{{ url('vet/register') }}" style="color:#306ed5" class="fw-700"> Sign up Here! </a>
                                         </small>
                                     </div>
                                 </div>

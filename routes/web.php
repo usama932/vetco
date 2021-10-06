@@ -27,6 +27,9 @@ Route::get('/filter', function () {
 Route::get('/pet-suggestion', function () {
     return view('pages.site.pet-suggestion');
 });
+Route::get('/privacy', function () {
+    return view('pages.site.privacy');
+});
 Route::get('/add-pet', function () {
     return view('pages.site.add-pet');
 });

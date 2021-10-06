@@ -41,7 +41,7 @@
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="profile">
                                         <div class="table-responsive">
-                                            <table class="table appointments_table">
+                                            <table class="table appointments_table" id="myTable">
                                                 <thead class=" text-primary font-weight-bold">
                                                 <tr>
                                                     <th>
@@ -99,12 +99,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -143,12 +143,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -187,12 +187,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -231,12 +231,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -275,12 +275,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -319,12 +319,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -363,12 +363,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -407,12 +407,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -428,7 +428,7 @@
                                     </div>
                                     <div class="tab-pane" id="messages">
                                         <div class="table-responsive">
-                                            <table class="table appointments_table">
+                                            <table class="table w-100" id="myTable1">
                                                 <thead class=" text-primary font-weight-bold">
                                                 <tr>
                                                     <th>
@@ -487,12 +487,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -531,12 +531,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -575,12 +575,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -619,12 +619,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -663,12 +663,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -707,12 +707,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -751,12 +751,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -795,12 +795,12 @@
                                                                 <i class="fa fa-ellipsis-v text-dark"></i>
                                                             </a>
                                                             <ul class="dropdown-menu">
-                                                                <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Approve</a>
+                                                                   <li><a href="javascript:;" data-toggle="modal"
+                                                                       data-target="#reschedule">Reschedule</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Deny</a>
+                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -816,7 +816,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 text-right" style="font-weight: bold">
+                            <!-- <div class="col-md-12 text-right" style="font-weight: bold">
                                 @if($id > 1)
                                     <a href="{{ url('appointments-list/'.($id-1)) }}">
                                         <span class="ml-2 mr-2">Prev</span>
@@ -833,7 +833,7 @@
                                         <span class="ml-2 mr-2">Next</span>
                                     </a>
                                 @endif
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row ml-vw2 mb-3">
                             <div class="col-12">
@@ -1047,6 +1047,56 @@
             </div>
         </div>
     </div>
+    <script src="{{ asset('/assets/js/core/jquery.min.js') }}"></script>
+
+    <script>
+    $(document).ready(function () {
+        $('#myTable').DataTable({
+            responsive: {
+                details: false
+            }
+        });
+
+        $(".remove").click(function (e) {
+            e.preventDefault();
+            var href = $(this).attr("href");
+            $.confirm({
+                title: 'Confirm!',
+                content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
+                buttons: {
+                    YES: function () {
+                        $(location).attr('href', href);
+                    },
+                    NO: function () {
+                    }
+                }
+            });
+        });
+    });
+    $(document).ready(function () {
+        $('#myTable1').DataTable({
+            responsive: {
+                details: false
+            }
+        });
+
+        $(".remove").click(function (e) {
+            e.preventDefault();
+            var href = $(this).attr("href");
+            $.confirm({
+                title: 'Confirm!',
+                content: 'You are about to Cancel Appointment. Are you sure you want to Delete this Appointment?',
+                buttons: {
+                    YES: function () {
+                        $(location).attr('href', href);
+                    },
+                    NO: function () {
+                    }
+                }
+            });
+        });
+    });
+</script>
 @endsection
 
 @section('page-script')

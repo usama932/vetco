@@ -40,18 +40,18 @@
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="javascript:void(0)">
-                <img src="{{ asset('vet/assets/img/logo.png') }}" class="img-fluid" width="120" alt=""> </a>
+                <img src="{{ asset('/assets/vet/logo_3.png') }}" class="img-fluid" width="120" alt=""> </a>
 
         </div>
 
     </div>
 </nav>
 <div class="page-header header-filter"
-     style="background-image: url('./assets/img/bg.png'); background-size: cover; background-position: center;">
+     style="background:white">
     <div class="container" style="padding-top: 9vh;">
         <div class="row">
             <div class="col-lg-8 col-md-10 col-sm-12 ml-auto mr-auto">
-
+             
 
                 <!-- <form method="POST" action="{{ route('register') }}">
                     @csrf
@@ -167,9 +167,25 @@
                         </div>
                     </div>
                 </form> -->
-
-            <div class="wizard-container">
-              <div class="card card-wizard" data-color="info" id="wizardProfile">
+                <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#about"  data-toggle="tab" role="tab" id="tab1" style="border: 1px solid #5a95cd;font-size: 1.6vw;min-width:0px !important">
+                          1
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                      <span class="arrow" style="font-size: 3vw;padding-left: 2vw;padding-right: 2vw; color: #306ed5;">→</span>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#account" data-toggle="tab"  role="tab" id="tab2" style="border: 1px solid #5a95cd;font-size: 1.6vw;min-width:0px !important">
+                        2
+                        </a>
+                      </li>                      
+                      
+                      
+                    </ul>
+            <div class="wizard-container" >
+              <div class="card card-wizard" data-color="info" id="wizardProfile" style="background:#f6f6f6">
                 <form action="" method="">
                   <!--        You can switch " data-color="primary" "  with one of the next bright colors: "green", "orange", "red", "blue"       -->
                   <div class="card-headers text-center">
@@ -181,8 +197,8 @@
                   
                   <div class="card-body">
                     <div class="tab-content">
-                      <div class="tab-pane active" id="about">
-                        <h5 class="info-text"> Let's start with the basic information (with validation)</h5>
+                      <div class="tab-pane active" id="about" style="background:#f6f6f6">
+                        <h5 class="info-text text-dark"> Let's start with the basic information (with validation)</h5>
                         <div class="row justify-content-center">
                             <div class="col-12">
                                 <div class="row">
@@ -273,14 +289,11 @@
                                     </div>
                                 </div>
                             </div>
-                           
-                           
-                            
                             </div>
                         </div>
                         <div class="wizard-navigation">
-                  <ul class="nav nav-pills">
-                      <li class="nav-item">
+                      <ul class="nav nav-pills">
+                      <!-- <li class="nav-item">
                         <a class="nav-link active" href="#about" data-toggle="tab" role="tab"  id="tab1">
                           1
                         </a>
@@ -289,17 +302,22 @@
                         <a class="nav-link" href="#account" data-toggle="tab" role="tab"  id="tab2">
                         2
                         </a>
-                      </li>                      
+                      </li>                       -->
                       <li class="btn btn-secondary">
                         <a class="text-dark" href="javascript:void(0)" onclick="next()">
                         Next
                         </a>
                       </li>
+                      <li class="btn btn-secondary">
+                       <label> Already have an account? <a
+                                        href="{{ url('vet/login') }}" class="text-blue font-weight-bold"> Log in
+                                        Here! </a></label>
+                      </li>
                       
                     </ul>
                   </div>
                       </div>
-                      <div class="tab-pane" id="account">
+                      <div class="tab-pane" id="account" style="background:#f6f6f6">
                       <div class="row">
                                 <label class="col-md-4 col-form-label text-blue">Hours</label>
                                 <div class="col-md-8">
@@ -338,17 +356,17 @@
                             <div class="ml-auto">
                              <input type="button" onclick="clicksave()" style="background-color:#5a95cd" class="btn btn-next btn-fill btn-info btn-wd" name="Submit" value="Submit for Approval">
                             </div>
-                            <div class="form-group row mt-3 pl-5">
+                            <!-- <div class="form-group row mt-3 pl-5">
                                 <div class="col-12 text-center text-blue">
                                      Already have an account? <a
                                         href="{{ url('vet/login') }}" class="text-blue font-weight-bold"> Log in
                                         Here! </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="wizard-navigation">
                   <ul class="nav nav-pills">
-                      <li class="nav-item">
+                      <!-- <li class="nav-item">
                         <a class="nav-link" href="#about" data-toggle="tab" role="tab" id="tab1">
                           1
                         </a>
@@ -357,11 +375,16 @@
                         <a class="nav-link active" href="#account" data-toggle="tab" role="tab" id="tab2">
                         2
                         </a>
-                      </li>                      
+                      </li>                       -->
                       <li class="btn btn-secondary">
                         <a class="text-dark" href="javascript:void(0)" onclick="previous()">
                         Previous
                         </a>
+                      </li>
+                      <li class="btn btn-secondary">
+                       <label> Already have an account? <a
+                                        href="{{ url('vet/login') }}" class="text-blue font-weight-bold"> Log in
+                                        Here! </a></label>
                       </li>
                       
                     </ul>
@@ -438,11 +461,13 @@
     function next()
     {
         $("#tab2").click();
+        $("#tab2").click();
     }
 
     
     function previous()
     {
+        $("#tab1").click();
         $("#tab1").click();
     }
   </script>

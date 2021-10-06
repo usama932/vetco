@@ -62,7 +62,7 @@
 {{--                        </li>--}}
 {{--                    @endif--}}
                     <li class="nav-item">
-                        <a class="nav-link header_link text-primary" href="{{ url('vet/login')}}">
+                        <a class="nav-link header_link text-primary" href="{{ url('vet/register')}}">
                             Claim Practice
                         </a>
                     </li>

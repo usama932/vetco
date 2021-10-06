@@ -20,7 +20,7 @@
                             <th class="text-center">State</th>
                             <th class="text-center">Zip</th>
                             <th class="text-center">Phone Number</th>
-                            <th class="text-center"></th>
+                            <th class="text-left"></th>
                         </tr>
                         </thead>
                         <tbody class="">
@@ -31,15 +31,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -53,15 +52,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -75,15 +73,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -97,15 +94,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -119,15 +115,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -141,15 +136,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -163,15 +157,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -185,15 +178,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -207,15 +199,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -229,15 +220,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -251,15 +241,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>
@@ -273,15 +262,14 @@
                             <td class="text-center">Indiana</td>
                             <td class="text-center">2200</td>
                             <td class="text-center">+0 000 0000</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Approve</a></li>
-                                        <li><a href="#">Deny</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
                                     </ul>
                                 </div>

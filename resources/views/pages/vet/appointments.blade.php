@@ -8,8 +8,10 @@
 
     <div class="container">
         <div class="card p-3 rounded-borders">
-            <h3>Appointments</h3>
-
+        <div class="col-12">
+              <a class="btn "  style="background-color: #306ed5;border-color: #306ed5;" href="{{ url('vet/appointments') }}">All Appointments</a>
+              <a class="btn btn-outline-info"  href="{{ url('vet/pending-appointments') }}">Pending Appointments</a>
+              </div>
             <div class="card-content">
                 <div class="table-responsive">
                     <table class="table " id="myTable">
@@ -32,7 +34,31 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
+                                <div class="dropdown">
+                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-v text-dark"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
+                                        <li><a href="mailto:someone@example.com">Contact</a></li>
+                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
+                                        <li><a href="#" class="remove">Cancel</a></li>
+
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                        
+                            <td>Tommi1</td>
+                            <td class="text-center">Dog</td>
+                            <td class="text-center">Dental Warming</td>
+                            <td class="text-center">11-02-2020</td>
+                            <td class="text-center">12:00 PM</td>
+                            <td class="text-center">Lorem Ipsum</td>
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -55,7 +81,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -78,7 +104,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -101,7 +127,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -124,7 +150,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -147,7 +173,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -170,7 +196,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -193,7 +219,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -216,7 +242,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -239,7 +265,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -262,7 +288,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -285,7 +311,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -308,7 +334,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -331,7 +357,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -354,7 +380,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -377,7 +403,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -400,7 +426,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -423,7 +449,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -446,7 +472,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -469,7 +495,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -492,7 +518,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>
@@ -515,30 +541,7 @@
                             <td class="text-center">11-02-2020</td>
                             <td class="text-center">12:00 PM</td>
                             <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
-                                <div class="dropdown">
-                                    <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
-                                        <i class="fas fa-ellipsis-v text-dark"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a data-toggle="modal" data-target="#viewDetails">View Detail</a></li>
-                                        <li><a href="mailto:someone@example.com">Contact</a></li>
-                                        <li><a data-toggle="modal" data-target="#reschedule">Reschedule</a></li>
-                                        <li><a href="#" class="remove">Cancel</a></li>
-
-                                    </ul>
-                                </div>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>Tommi1</td>
-                            <td class="text-center">Dog</td>
-                            <td class="text-center">Dental Warming</td>
-                            <td class="text-center">11-02-2020</td>
-                            <td class="text-center">12:00 PM</td>
-                            <td class="text-center">Lorem Ipsum</td>
-                            <td class="text-center">
+                            <td class="text-left">
                                 <div class="dropdown">
                                     <a href="#" class="btn bg-white btn-round btn-sm" data-toggle="dropdown">
                                         <i class="fas fa-ellipsis-v text-dark"></i>

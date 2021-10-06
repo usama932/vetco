@@ -3,12 +3,12 @@
 @section('title', 'Login')
 
 @section('content')
-    <div class="container-fluid shadow_bottom pt-5 mt-5">
+    <div class="container-fluid shadow_bottom ">
         <div class="container">
-            <div class="row justify-content-center pt-5">
+            <div class="row justify-content-center ">
                 <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8 ml-auto mr-auto pt-5 pb-5">
-                    <div class="filter_card">
-                        <div class="login_header">
+                    <div class="filter_card pt-0">
+                        <!-- <div class="login_header">
                             <div class="row">
                                 <div class="col">
                                     <h3 class="font-weight-bold mt-2">Log in</h3>
@@ -25,13 +25,22 @@
                                         <i class="fa fa-envelope fi text-primary    "> </i></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body">
+                        </div> -->
+                        <div class="card-body pt-0">
+                        <h3 class="font-weight-bold mt-2 text-center">Log in</h3>
+
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
 
                                 <div class="form-group row mt-3 mb-3">
                                     <div class="col-12">
+                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-google" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Google</span></button>
+                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-facebook" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Facebook</span></button>
+                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-apple" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Apple</span></button>
+
+                                    </div>
+                                    <div  class="d-inline-flex w-100"><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div><div  class="mt-2">OR</div><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div></div>
+                                    <div class="col-12 mt-3">
                                         <input id="email" type="email"
                                                class="form-control text-primary @error('email') is-invalid @enderror"
                                                name="email"

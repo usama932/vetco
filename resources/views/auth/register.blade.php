@@ -222,7 +222,7 @@
                                         <input type="checkbox" id="agree_checkbox" name="agreement"
                                                class="@error('agreement') is-invalid @enderror"
                                                value="1" {{(old('agreement') && old('agreement') == 1) ? 'checked' : ''}}>
-                                        <label for="agree_checkbox"> Agree to <a href="#"> TERMS & CONDITIONS </a></label>
+                                        <label for="agree_checkbox"> Agree to <a href="{{ url('/privacy') }}"> TERMS & CONDITIONS </a></label>
                                         @error('agreement')
                                         <span class="invalid-feedback text-danger" role="alert" style="display: block;">
                                         <strong>{{ $message }}</strong>

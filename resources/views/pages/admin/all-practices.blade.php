@@ -11,7 +11,6 @@
     <div class="container">
         <div class="card p-3 rounded-borders">
             <h3>All Practices</h3>
-
             <div class="card-content">
                 <div class="table-responsive">
                     <table class="table " id="myTable">

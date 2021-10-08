@@ -8,7 +8,25 @@
       background-color: #306ed5 !important;
       color: var(--white) !important;
 }
-
+.text-primary {
+    color: #306ed5 !important;
+}
+a {
+    color: #306ed5;
+}
+.btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:hover {
+    color: #fff !important;
+    background-color: #306ed5;
+    border-color: #306ed5;
+}
+.btn.btn-primary {
+    color: #fff;
+    background-color: #306ed5;
+    border-color: #306ed5;
+}
+.bg-primary {
+    background-color: #306ed5 !important;
+}
 /* a{
     color:#306ed5 !important;
 } */

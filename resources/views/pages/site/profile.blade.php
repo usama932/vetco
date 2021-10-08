@@ -37,7 +37,6 @@
                                 <div class="col">
                                     <p style="color: #00bcd4">
                                         bailey@gmail.com<br>
-                                        +1 000 0000 <br>
                                         (815) 00 00000
                                     </p>
                                 </div>

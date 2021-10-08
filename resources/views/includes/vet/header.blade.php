@@ -28,9 +28,9 @@
                         <a href="{{ url('vet/appointments') }}" class="dropdown-item text-white" style="color:white !important">
                             All Appointments
                         </a>
-                        <a href="{{ url('vet/pending-appointments') }}" class="dropdown-item text-white" style="color:white !important">
+                        <!-- <a href="{{ url('vet/pending-appointments') }}" class="dropdown-item text-white" style="color:white !important">
                             Pending Appointments
-                        </a>
+                        </a> -->
                     </div>
                 </li>
                 <li

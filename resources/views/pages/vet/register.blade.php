@@ -325,9 +325,11 @@
                                                 <div class="col-md-10 col-lg-8 col-sm-12">
                                                     <div class="col-12 text-center">
                                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
+
                                                             <div class="input-group-prepend">
                                                                 <span class="input-group-text" id="basic-addon1">
-                                                                    <i class="fa fa-clock-o text-primary" aria-hidden="true"></i>
+                                                                    <!-- <i class="fa fa-clock-o text-primary" aria-hidden="true"></i> -->
+                                                                    From Time:
                                                                 </span>
                                                             </div>
                                                             <input type="time" class="form-control" required>
@@ -339,12 +341,29 @@
                                                             @enderror
                                                         </div>
                                                     </div>
+                                                    <div class="col-12 text-center">
+                                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
 
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text" id="basic-addon1">
+                                                                    <!-- <i class="fa fa-clock-o text-primary" aria-hidden="true"></i> -->
+                                                                    To Time:
+                                                                </span>
+                                                            </div>
+                                                            <input type="time" class="form-control" required>
+
+                                                            @error('first_name')
+                                                            <span class="invalid-feedback text-danger" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
                                                     <div class="col-12 text-center">
                                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
                                                             <div class="input-group-prepend">
                                                                 <span class="input-group-text" id="basic-addon1">
-                                                                    <i class="fa fa-file text-primary" aria-hidden="true"></i>
+                                                                    Pet Type:
                                                                 </span>
                                                             </div>
                                                             <select class="form-control">
@@ -369,12 +388,12 @@
                                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
                                                             <div class="input-group-prepend">
                                                                 <span class="input-group-text" id="basic-addon1">
-                                                                    <i class="fa fa-usd text-primary" aria-hidden="true"></i>
+                                                                    Service Type:
                                                                 </span>
                                                             </div>
                                                             <select class="form-control">
                                                                 <option disabled selected value="---Select---">
-                                                                    ---Select pet type---
+                                                                    ---Select Service type---
                                                                 </option>
                                                                 <option value="1">
                                                                     lorem

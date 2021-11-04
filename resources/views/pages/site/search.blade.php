@@ -3,19 +3,25 @@
 @section('title', 'Appointments')
 
 @section('content')
+
+<style>
+    .filter-option-inner{
+text-align:center !important;
+    }
+</style>
     <div class="content p-0 shadow_bottom">
         <div class="content">
             <div class="container-fluid">
 
                 <div class="ml-vw2 row pt-md-2">
                     <div class="col text-lest">
-                        <p class="vfp pt-md-5 text-center">
+                        <p class="vfp pt-md-5 text-left">
                             @guest
                             @else
                                 Hey, Bailey
                             @endguest
                         </p>
-                        <p class="rvb pb-0 text-center">
+                        <p class="rvb pb-0 text-left">
                             Let’s help you stay on top of your Pet's health
                         </p>
                     </div>
@@ -91,10 +97,10 @@
                        <div class="col-md-8">
                            <div class="row">
                            <div class="col-sm-12 col-md-8">
-                            <h4 class="text-primary font-weight-bold"> 43 Practices Found </h4>
+                            <h4 class="text-primary font-weight-bold mt-3"> 43 Practices Found </h4>
                           </div>
                         <div class="col-sm-12 col-md-4 text-right custom-search-form pl-5 pr-5 mb-2">
-                            <select class="selectpicker ml-auto mr-auto" data-style="select-with-transition"
+                            <select class="selectpicker  ml-auto mr-auto" data-style="select-with-transition"
                                     title="Sort" data-size="4" data-max-options="1" >
                                 <option value="2">Distance: Nearest to Farthest</option>
                                 <option value="3">Price: Low to High</option>

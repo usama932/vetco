@@ -42,8 +42,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -63,8 +65,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -84,8 +88,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -105,8 +111,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -126,8 +134,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -147,8 +157,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -168,8 +180,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -189,8 +203,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -210,8 +226,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -231,8 +249,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -252,8 +272,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -273,8 +295,10 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
                                         <li><a href="mailto:lorem@lorem.com">Contact </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Approve </a></li>
+                                                                                <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+
                                     </ul>
                                 </div>
                             </td>
@@ -388,29 +412,67 @@
                             <a onclick="showmodal('1252,lorem lorem lorem lorem lorem 1252,lorem lorem lorem')" >  <i class="fa  fa-pen"></i></a>
                             </td>
                         </tr>
+                        
                         <tr>
-                            <td><i class="fa fa-stop-circle" style="font-size:20px" aria-hidden="true"></i></td>
-                            <td>
-                            <h4><b>Service areas</b></h4>
-                            <p class="pb-0 mb-0"> Blackhorse Grove London W6 7HB US</p>
-                            <p class="pb-0 mb-0"> Blackhorse Grove London W6 7HB US</p>
-                            <p class="pb-0 mb-0"> Blackhorse Grove London W6 7HB US</p>
+                                    <td><i class="fa fa-stop-circle" style="font-size:20px" aria-hidden="true"></i></td>
+                                    <td>
+                                        <h4><b>Service Areas</b></h4>
+                                        <p class="pb-0 mb-0"> Blackhorse Grove London W6 7HB US</p>
+                                        <p class="pb-0 mb-0"> Blackhorse Grove London W6 7HB US</p>
+                                        <p class="pb-0 mb-0"> Blackhorse Grove London W6 7HB US</p>
 
-                            </td>
-                            <td>
-                            <a onclick="showmodal2()">  <i class="fa  fa-pen"></i></a>
-                            </td>
-                        </tr>
+                                    </td>
+                                    <td>
+                                        <a onclick="showmodal2()"> <i class="fa  fa-pen"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <!-- <td><i class="fa fa-stop-circle" style="font-size:20px" aria-hidden="true"></i></td>
+                            <td> -->
+                                    <td colspan="2">
+
+                                        <div class="row w-100">
+                                            <div class="col-6">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h5><b>Service Type</b></h5>
+                                                        </h5>
+                                                        <select class="form-control">
+                                                            <option>lorem</option>
+                                                            <option>lorem</option>
+                                                            <option>lorem</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <h5><b>Service Price</b></h5>
+                                                <input type="number" placeholder="$" class="form-control" />
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a onclick="addmore()"> <i class="fa  fa-plus"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <div class="row w-100" id="append">
+
+                                        </div>
+                                    </td>
+                                </tr>
                         <tr>
                             <td> <i class="fa fa-clock" style="font-size:20px" aria-hidden="true"></i></td>
                             <td>
-                         <p class="pb-0 mb-0"><span class=" ">Sunay</span><span class="float-right pr-3">Close</span></p>
-                            <p class="pb-0 mb-0"><span class="">Monday</span><span class="float-right pr-3">Close</span></p>
-                            <p class="pb-0 mb-0"><span class="">Tuesday</span><span class="float-right pr-3">Close</span></p>
+                         <p class="pb-0 mb-0"><span class=" ">Sunay</span><span class="float-right pr-3">Closed</span></p>
+                            <p class="pb-0 mb-0"><span class="">Monday</span><span class="float-right pr-3">Closed</span></p>
+                            <p class="pb-0 mb-0"><span class="">Tuesday</span><span class="float-right pr-3">Closed</span></p>
                             <p class="pb-0 mb-0"><span class="">Wednesday</span><span class="float-right pr-3">8:00 AM to 4:00 PM</span></p>
                             <p class="pb-0 mb-0"><span class="">Thursday</span><span class="float-right pr-3">8:00 AM to 4:00 PM</span></p>
-                            <p class="pb-0 mb-0"><span class="">Friday</span><span class="float-right pr-3">Close</span></p>
-                            <p class="pb-0 mb-0"><span class="">Saturday</span><span class="float-right pr-3">Close</span></p>
+                            <p class="pb-0 mb-0"><span class="">Friday</span><span class="float-right pr-3">Closed</span></p>
+                            <p class="pb-0 mb-0"><span class="">Saturday</span><span class="float-right pr-3">Closed</span></p>
 
                             </td>
                             <td>
@@ -421,7 +483,7 @@
                         <td>
                             <i class="fa fa-calendar" style="font-size:20px" aria-hidden="true"></i></td>
                             <td>
-                            Add Special Hour
+                            Add Special Hours
                             </td>
                             <td>
                             <a onclick="showmodal('Add Special Hour')">  <i class="fa  fa-pen"></i></a>
@@ -541,6 +603,30 @@
             </div>
         </div>
     </div>     -->
+    <div class="row w-100" id="servicetext">
+        <div class="col-12" >
+          <div class="row">
+          <div class="col-5">
+            <div class="row">
+              <div class="col-12">
+                <select class="form-control">
+                  <option>lorem</option>
+                  <option>lorem</option>
+                  <option>lorem</option>
+      
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <input type="number" placeholder="$" class="form-control" />
+          </div>
+          <div class="col-2 text-right">
+            <i class="fa fa-times" onclick=remove(this)></i>
+          </div>
+        </div>
+      </div>
+      </div>
 <div class="modal fade bd-example-modal-lg" id="bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -799,6 +885,14 @@
         });
     </script>
     <script>
+         function remove(e) {
+    $(e).parent().parent().remove();
+  }
+  function addmore() {
+    var html = $('#servicetext').html();
+    $('#append').append(html);
+  }
+  
    $('#edit').on('click',function(){
        $("#edit").css("display","none");
     $('#save').css("display","block");

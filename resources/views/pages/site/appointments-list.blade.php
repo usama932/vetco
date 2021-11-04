@@ -51,8 +51,8 @@
                                                         Pet Type
                                                     </th>
                                                     <th class="text-center">
-                                                        Owner Name
-                                                    </th>
+                                                    Vet Name
+                                                   </th>
                                                     <th class="text-center">
                                                         Service
                                                     </th>
@@ -66,7 +66,9 @@
                                                         Time
                                                     </th>
                                                     <th class="text-center">
+                                                        
                                                    </th>
+                                                   <th></th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -100,11 +102,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -113,6 +111,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -144,11 +143,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -157,6 +152,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -188,11 +184,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -201,6 +193,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -232,11 +225,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -245,6 +234,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -276,11 +266,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -289,6 +275,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -320,11 +307,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -333,6 +316,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -364,11 +348,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -377,6 +357,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -408,11 +389,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="remove"
-                                                                       href="{{ url('appointments-list/1') }}">Cancel</a>
+                                                                       data-target="#reschedule">Reschedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -421,6 +398,7 @@
                                                             </ul>
                                                         </div>
                                                     </td>
+                                                    <td></td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -438,7 +416,7 @@
                                                         Pet Type
                                                     </th>
                                                     <th class="text-center">
-                                                        Owner Name
+                                                    Vet Name
                                                     </th>
                                                     <th class="text-center">
                                                         Service
@@ -1047,7 +1025,22 @@
             </div>
         </div>
     </div>
-    <script src="{{ asset('/assets/js/core/jquery.min.js') }}"></script>
+@endsection
+
+@section('page-script')
+    <script>
+        // $(document).ready(function() {
+        //     var calendarEl = document.getElementById('calendar');
+        //     var calendar = new FullCalendar.Calendar(calendarEl, {
+        //         initialView: 'dayGridMonth'
+        //     });
+        //     calendar.render();
+        //     $('#reschedule').on('shown.bs.modal', function () {
+        //         calendar.render();
+        //     });
+        // });
+    </script>
+    <!-- <script src="{{ asset('/assets/js/core/jquery.min.js') }}"></script> -->
 
     <script>
     $(document).ready(function () {
@@ -1097,19 +1090,4 @@
         });
     });
 </script>
-@endsection
-
-@section('page-script')
-    <script>
-        // $(document).ready(function() {
-        //     var calendarEl = document.getElementById('calendar');
-        //     var calendar = new FullCalendar.Calendar(calendarEl, {
-        //         initialView: 'dayGridMonth'
-        //     });
-        //     calendar.render();
-        //     $('#reschedule').on('shown.bs.modal', function () {
-        //         calendar.render();
-        //     });
-        // });
-    </script>
 @endsection

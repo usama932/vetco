@@ -385,15 +385,21 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-12 text-center">
-                                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
-                                                            <div class="input-group-prepend">
+                                                        <div class="input-group px-2 mb-1 wid-50 ml-auto mr-auto">
+                                                            <!-- <div class="input-group-prepend">
                                                                 <span class="input-group-text" id="basic-addon1">
                                                                     Service Type:
                                                                 </span>
                                                             </div>
+                                                            
+                                                            @error('first_name')
+                                                            <span class="invalid-feedback text-danger" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                            @enderror -->
                                                             <select class="form-control">
-                                                                <option disabled selected value="---Select---">
-                                                                    ---Select Service type---
+                                                                <option disabled selected value="Select">
+                                                                    Select Service type
                                                                 </option>
                                                                 <option value="1">
                                                                     lorem
@@ -402,11 +408,17 @@
                                                                     lorem
                                                                 </option>
                                                             </select>
-                                                            @error('first_name')
-                                                            <span class="invalid-feedback text-danger" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
-                                                            @enderror
+                                                            <select class="form-control">
+                                                                <option disabled selected value="Select">
+                                                                    Select Service Price
+                                                                </option>
+                                                                <option value="1">
+                                                                    $ 100
+                                                                </option>
+                                                                <option value="2">
+                                                                    $ 200
+                                                                </option>
+                                                            </select>
                                                         </div>
                                                     </div>
                                                     <div class="row">
@@ -506,6 +518,18 @@
             $("#tab1").click();
             $("#tab1").click();
         }
+
+                
+        // function mynav1() {
+        //     alert("1");
+        //     $("#about").show();
+        // }
+
+        
+        // function mynav2() {
+        //     alert("2");
+        //     $("#tab2").account();
+        // }
     </script>
 </body>
 

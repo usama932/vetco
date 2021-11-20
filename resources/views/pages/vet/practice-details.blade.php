@@ -436,7 +436,7 @@
     </div>
   </div>
 </div>
-<div class="row w-100" id="servicetext">
+<!-- <div class="row w-100" id="servicetext">
   <div class="col-12" >
     <div class="row">
     <div class="col-5">
@@ -459,7 +459,7 @@
     </div>
   </div>
 </div>
-</div>
+</div> -->
 <!-- Small modal -->
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -500,7 +500,6 @@
         <button type="button" class="btn btn-info" style="background: #2a60b9;">Save</button>
       </div>
     </div>
-
   </div>
 </div>
 @endsection

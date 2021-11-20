@@ -40,7 +40,7 @@
     <nav class="navbar navbar-transparent    fixed-top  navbar-expand-lg " id="sectionsNav">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="javascript:void(0)">
+                <a class="navbar-brand" href="{{ url('/home') }}">
                     <img src="{{ asset('/assets/vet/logo_3.png') }}" class="img-fluid" width="120" alt="">
                 </a>
 
@@ -323,6 +323,11 @@
                                         <div class="tab-pane" id="account" style="background:#f6f6f6">
                                             <div class="row justify-content-center">
                                                 <div class="col-md-10 col-lg-8 col-sm-12">
+                                                <div id="accordion" role="tablist">
+                   
+                                                     <div class="col-12">
+                                                         <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#bd-example-modal-sm">Hour</button>
+                                                     </div>
                                                     <div class="col-12 text-center">
                                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
 
@@ -425,13 +430,10 @@
                                                         <div class="col-12 text-center">
                                                             <input type="button" onclick="clicksave()" style="background-color:#5a95cd" class="btn btn-next btn-fill btn-info btn-wd" name="Submit" value="Submit for Approval">
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                       
-                                   
 
                                     </div>
                                 </div>
@@ -462,6 +464,79 @@
         </div>
     </div>
   
+
+<div class="modal fade bd-example-modal-sm" id="bd-example-modal-sm" tabindex="-1" role="dialog"
+    aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="mt-1 mb-1 py-0"><b>Hours</b></h4>
+          </div>
+        <div class="modal-body pt-2">
+          <div class="row" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+              <div class="col-6">
+              Monday
+              </div>
+              <div class="col-6 text-right">
+                  7AM-10AM
+            </div>
+          </div>
+          <div class="row mt-2" onclick="closemodal()" >
+            <div class="col-6">
+            Tuesday
+            </div>
+            <div class="col-6 text-right">
+                7AM-10AM
+          </div>
+        </div>
+        <div class="row mt-2" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+            <div class="col-6">
+            Wednesday
+            </div>
+            <div class="col-6 text-right">
+                7AM-10AM
+          </div>
+        </div>
+
+        <div class="row mt-2" onclick="closemodal()">
+            <div class="col-6">
+            Thursday
+            </div>
+            <div class="col-6 text-right">
+                7AM-10AM
+          </div>
+        </div>
+
+        <div class="row mt-2" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+            <div class="col-6">
+            Friday
+            </div>
+            <div class="col-6 text-right">
+                7AM-10AM
+          </div>
+        </div>
+        <div class="row mt-2" onclick="closemodal()">
+            <div class="col-6">
+            Saturday
+            </div>
+            <div class="col-6 text-right">
+                7AM-10AM
+          </div>
+        </div>
+
+        <div class="row mt-2" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+            <div class="col-6">
+            Sunday
+            </div>
+            <div class="col-6 text-right">
+                7AM-10AM
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>  
     <!--   Core JS Files   -->
     <script src="{{ asset('vet/assets/js/core/jquery.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('vet/assets/js/core/popper.min.js') }}" type="text/javascript"></script>
@@ -530,6 +605,11 @@
         //     alert("2");
         //     $("#tab2").account();
         // }
+
+        function closemodal()
+        {
+            $('#bd-example-modal-sm').modal("hide");
+        }
     </script>
 </body>
 

@@ -27,7 +27,7 @@
 <nav class="navbar navbar-transparent    fixed-top  navbar-expand-lg " id="sectionsNav">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="javascript:void(0)">
+            <a class="navbar-brand" href="{{ url('/home') }}">
                 <img src="{{ asset('/assets/vet/logo_3.png') }}" class="img-fluid" width="120" alt=""> </a>
 
         </div>

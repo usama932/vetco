@@ -11,7 +11,7 @@ body {
 .nav-tabs .nav-item .nav-link.active {
     background-color: rgb(3 56 139 / 20%);
     transition: 0.3s background-color 0.2s;
-    font-weight: 700;
+    font-weight: 500;
 }
 .font-weight-bolder{
     font-weight: 700 !important;

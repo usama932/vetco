@@ -102,7 +102,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -143,7 +143,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -184,7 +184,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -225,7 +225,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -266,7 +266,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -307,7 +307,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -348,7 +348,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"
@@ -389,7 +389,7 @@
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                    <li><a href="javascript:;" data-toggle="modal"
-                                                                       data-target="#reschedule">Reschedule Again</a>
+                                                                       data-target="#reschedule">Schedule Again</a>
                                                                 </li>
                                                                 <li>
                                                                     <a class="contact"

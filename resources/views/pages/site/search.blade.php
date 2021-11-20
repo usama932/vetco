@@ -6,7 +6,7 @@
 
 <style>
     .filter-option-inner{
-text-align:center !important;
+text-align:right !important;
     }
 </style>
     <div class="content p-0 shadow_bottom">

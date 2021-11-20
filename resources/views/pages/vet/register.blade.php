@@ -326,44 +326,9 @@
                                                 <div id="accordion" role="tablist">
                    
                                                      <div class="col-12">
-                                                         <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#bd-example-modal-sm">Hour</button>
+                                                         <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#bd-example-modal-sm">Hours</button>
                                                      </div>
-                                                    <div class="col-12 text-center">
-                                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
-
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text" id="basic-addon1">
-                                                                    <!-- <i class="fa fa-clock-o text-primary" aria-hidden="true"></i> -->
-                                                                    From Time:
-                                                                </span>
-                                                            </div>
-                                                            <input type="time" class="form-control" required>
-
-                                                            @error('first_name')
-                                                            <span class="invalid-feedback text-danger" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
-                                                            @enderror
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 text-center">
-                                                        <div class="input-group mb-1 wid-50 ml-auto mr-auto">
-
-                                                            <div class="input-group-prepend">
-                                                                <span class="input-group-text" id="basic-addon1">
-                                                                    <!-- <i class="fa fa-clock-o text-primary" aria-hidden="true"></i> -->
-                                                                    To Time:
-                                                                </span>
-                                                            </div>
-                                                            <input type="time" class="form-control" required>
-
-                                                            @error('first_name')
-                                                            <span class="invalid-feedback text-danger" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
-                                                            @enderror
-                                                        </div>
-                                                    </div>
+                                                   
                                                     <div class="col-12 text-center">
                                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
                                                             <div class="input-group-prepend">

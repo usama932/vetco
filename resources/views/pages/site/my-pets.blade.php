@@ -1,5 +1,5 @@
 @extends('layouts.site.app')
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 @section('title', 'My Pets')
 
 @section('content')
@@ -18,7 +18,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_1.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_1.png') }}" onclick="clickimg('dog')" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -43,7 +43,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg('cat')" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -69,7 +69,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg('cat')" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -95,7 +95,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg('cat')" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -121,7 +121,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg('cat')" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -147,7 +147,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" oonclick="clickimg('cat')" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -187,10 +187,13 @@
                         <div class="col">
                             <div class="row pt-3 pt-md-4">
                                 <div class="col-6 pl-3 pl-md-5 d-flex">
-                                 <span class="wg_cl">
+                                 <span class="wg_cl mt-2">
                                      Based on your pet(s), we recommend
                                  </span>
-                                 <img src="{{ asset('assets/vet/mp_1.png') }}" id="imgsrc" alt="" class="mp_img">
+                                 <i class="fas fa-cat ml-4" style="font-size:30px;color: black;display:none"></i>
+                                 <i class="fas fa-dog ml-4" style="font-size:30px;color: black;"></i>
+
+                                 <!-- <img src="{{ asset('assets/vet/mp_1.png') }}" id="imgsrc" alt="" class="mp_img"> -->
 
                                 </div>
                                 <div class="col-6 pl-3 pl-md-5 text-right">
@@ -380,7 +383,15 @@
 
         function clickimg(e)
         {
-        $('#imgsrc').attr("src",$(e).attr("src"));
+        if(e=="cat")
+        {
+        $('.fa-cat').css("display","block");
+        $('.fa-dog').css("display","none");
+        }
+        else{
+       $('.fa-dog').css("display","block");
+        $('.fa-cat').css("display","none");
+        }
         }
         </script>
 @endsection

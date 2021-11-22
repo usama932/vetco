@@ -33,6 +33,12 @@
             background-color: #5a95cd;
             box-shadow: 0 5px 20px 0px rgb(0 0 0 / 20%), 0 13px 24px -11px rgb(90 149 205);
         }
+        .togglebutton label input[type=checkbox]:checked + .toggle {
+    background-color: rgb(76 127 175);
+        }
+        .togglebutton label input[type=checkbox]:checked + .toggle:after {
+    border-color: #4e81b1;
+}
     </style>
 </head>
 
@@ -328,7 +334,81 @@
                                                      <div class="col-12">
                                                          <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#bd-example-modal-sm">Hours</button>
                                                      </div>
+                                                   <div class="col-12 " id="hour"  style=" display:none;   color: black;background: #b7b7b7;">
+                                                    
+                                                    <div class="col-12">
+                                                        <div class="row" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+                                                            <div class="col-6">
+                                                            Monday
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                7AM-10AM
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row mt-2" onclick="closemodal()" >
+                                                            <div class="col-6">
+                                                            Tuesday
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                7AM-10AM
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row mt-2" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+                                                            <div class="col-6">
+                                                            Wednesday
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                7AM-10AM
+                                                          </div>
+                                                        </div>
+                                                
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row mt-2" onclick="closemodal()">
+                                                            <div class="col-6">
+                                                            Thursday
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                7AM-10AM
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row mt-2" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+                                                            <div class="col-6">
+                                                            Friday
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                7AM-10AM
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row mt-2" onclick="closemodal()">
+                                                            <div class="col-6">
+                                                            Saturday
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                7AM-10AM
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row mt-2" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
+                                                            <div class="col-6">
+                                                            Sunday
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                7AM-10AM
+                                                          </div>
+                                                        </div>
+                                                    </div>
                                                    
+                                                   </div>
                                                     <div class="col-12 text-center">
                                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
                                                             <div class="input-group-prepend">
@@ -428,9 +508,207 @@
             </div>
         </div>
     </div>
+    <div class="modal fade bd-example-modal-lg" id="bd-example-modal-sm" tabindex="-1" role="dialog"
+    aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4>Hours</h4>
+          <table>
+            <tbody>
+              <tr>
+                <th style="width:10%"></th> 
+                <th style="width:20%"></th>
+                <th style="width:30%"><div class="row"><div class="col-6">Open At</div> <div class="col-6">Close At</div> </th>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>
+                  <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" checked="" onchange="checkbox(this)">
+                      <span class="toggle"></span>
+                      <span id="labeltext">Open</span>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div class="row">
+                    <div class="col-6">
+                       <input type="time" class="form-control" />
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="col-12 text-right">
+            <button class="btn btn-primary" type="button" onclick="showhours()" style="background-color: #2f6bcf;border-color: #2f6bcf;">Apply</button>
   
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="modal fade bd-example-modal-sm" id="bd-example-modal-sm" tabindex="-1" role="dialog"
+<div class="modal fade bd-example-modal-sm" id="bd-example-modal-sm1" tabindex="-1" role="dialog"
     aria-labelledby="mySmallModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm">
       <div class="modal-content">
@@ -559,7 +837,12 @@
             $("#tab1").click();
         }
 
-                
+         function showhours()
+         {
+             $('#hour').css("display","block");
+             $('#bd-example-modal-sm').modal("hide");
+
+         }       
         // function mynav1() {
         //     alert("1");
         //     $("#about").show();

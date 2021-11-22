@@ -167,7 +167,7 @@
             <tr>
               <th style="width:10%"></th>
               <th style="width:20%"></th>
-              <th style="width:30%"></th>
+              <th style="width:30%"><div class="row"><div class="col-6">Open At</div> <div class="col-6">Close At</div> </th>
 
             </tr>
             <tr>
@@ -184,20 +184,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>
@@ -216,20 +206,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>
@@ -248,20 +228,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>
@@ -280,20 +250,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>
@@ -312,20 +272,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>
@@ -344,20 +294,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>
@@ -376,20 +316,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>
@@ -408,20 +338,10 @@
               <td>
                 <div class="row">
                   <div class="col-6">
-                    <select class="form-control" id="openat">
-                      <option value="">Open At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                    <input type="time" class="form-control" />
                   </div>
                   <div class="col-6">
-                    <select class="form-control" id="closeat">
-                      <option value="">Close At</option>
-                      <option value="12:00 AM">12:00 AM</option>
-                      <option value="01:00 AM">01:00 AM</option>
-                      <option value="02:00 AM">02:00 AM</option>
-                    </select>
+                     <input type="time" class="form-control" />
                   </div>
                 </div>
               </td>

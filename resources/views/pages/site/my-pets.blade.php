@@ -18,7 +18,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_1.png') }}" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_1.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -43,7 +43,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -69,7 +69,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -95,7 +95,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -121,7 +121,7 @@
                                 <div class="col-12 mt-3 col-md-6 col-lg-4">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <img src="{{ asset('assets/vet/mp_2.png') }}" alt="" class="mp_img">
+                                            <img src="{{ asset('assets/vet/mp_2.png') }}" onclick="clickimg(this)" alt="" class="mp_img">
                                         </div>
                                         <div class="col-8 text-left">
                                             <div class="row">
@@ -186,10 +186,12 @@
                     <div class="row filter_card mt-3" style="box-shadow: 0px 1px 7px -4px;">
                         <div class="col">
                             <div class="row pt-3 pt-md-4">
-                                <div class="col-6 pl-3 pl-md-5">
+                                <div class="col-6 pl-3 pl-md-5 d-flex">
                                  <span class="wg_cl">
                                      Based on your pet(s), we recommend
                                  </span>
+                                 <img src="{{ asset('assets/vet/mp_1.png') }}" id="imgsrc" alt="" class="mp_img">
+
                                 </div>
                                 <div class="col-6 pl-3 pl-md-5 text-right">
                                      <span class="bar">
@@ -374,6 +376,11 @@
     <script>
         function clickremove(){
             Swal.fire('Are you Sure You Want To Remove This Pet?');
+        }
+
+        function clickimg(e)
+        {
+        $('#imgsrc').attr("src",$(e).attr("src"));
         }
         </script>
 @endsection

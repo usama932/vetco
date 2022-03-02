@@ -106,7 +106,9 @@
     <script>
         $('.edit').click(function (){
            $('.form-control').removeAttr('readonly');
+           $('.edit').attr('hidden','true');
            $('.save').removeAttr('hidden');
+
            $('.hideemail').removeAttr('hidden');
 
         });

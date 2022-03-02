@@ -3,8 +3,6 @@
 @section('title', 'Home')
 
 @section('content')
-
-
     <div class="container">
         <div class="card p-3 rounded-borders">
             <h3></h3>
@@ -12,7 +10,7 @@
               <a class="btn btn-outline-info"  href="{{ url('vet/appointments') }}">All Appointments</a>
               <a class="btn btn-info" style="background-color: #306ed5;border-color: #306ed5;" href="{{ url('vet/pending-appointments') }}">Pending Appointments</a>
               </div>
-            <div class="card-content">
+                 <div class="card-content">
                 <div class="table-responsive">
                     <table class="table " id="myTable">
                         <thead>
@@ -259,10 +257,7 @@
                         </tbody>
                     </table>
                 </div>
-
             </div>
         </div>
-
     </div>
-
 @endsection

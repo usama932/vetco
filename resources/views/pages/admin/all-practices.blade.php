@@ -39,11 +39,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -64,11 +64,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -89,11 +89,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -114,11 +114,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -139,11 +139,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -164,11 +164,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -189,11 +189,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -214,11 +214,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -239,11 +239,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -264,11 +264,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -289,11 +289,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -314,11 +314,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -339,11 +339,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -364,11 +364,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -389,11 +389,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -414,11 +414,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -439,11 +439,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -464,11 +464,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -489,11 +489,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -514,11 +514,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -539,11 +539,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -564,11 +564,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -589,11 +589,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -614,11 +614,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -639,11 +639,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>
@@ -664,11 +664,11 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">View Details</a>
+                                        <li><a href="#" data-toggle="modal" data-target="#addEditModal">Approve</a>
                                         </li>
                                         {{-- <li><a href="#">Edit</a></li>--}}
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="#" class="delete">Delete</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny   </a></li>
+                                        <li><a href="#" class="delete">Contact</a></li>
 
 
                                     </ul>

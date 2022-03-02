@@ -332,7 +332,7 @@
                                                 <div id="accordion" role="tablist">
                    
                                                      <div class="col-12">
-                                                         <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#bd-example-modal-sm">Hours</button>
+                                                         <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#bd-example-modal-sm">Hours</button>
                                                      </div>
                                                    <div class="col-12 " id="hour"  style=" display:none;   color: black;background: #b7b7b7;">
                                                     

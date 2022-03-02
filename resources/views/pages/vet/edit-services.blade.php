@@ -13,9 +13,9 @@
                 <div class="col-6 pl-5 pt-5">
                     <input type="text" class="form-control" placeholder="Service Name" value="Vaccination">
                 </div>
-{{--                <div class="col pr-5 pt-5">--}}
-{{--                    <input type="file" name="" id="" class="form-control">--}}
-{{--                </div>--}}
+                <div class="col pr-5 pt-5">
+                    <input type="file" name="" id="" class="form-control">
+                </div>
             </div>
             <div class="row">
                 <div class="col ml-auto mr-auto p-5">

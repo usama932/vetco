@@ -41,9 +41,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -64,9 +64,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -87,9 +87,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -110,9 +110,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -133,9 +133,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -156,9 +156,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -179,9 +179,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -202,9 +202,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -225,9 +225,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -248,9 +248,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -271,9 +271,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>
@@ -294,9 +294,9 @@
                                         <i class="fas fa-ellipsis-v text-dark"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">View Details</a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Contact </a></li>
-                                        <li><a href="mailto:lorem@lorem.com">Delete </a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#moreDetailModal">Approve</a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Deny </a></li>
+                                        <li><a href="mailto:lorem@lorem.com">Contact</a></li>
                                        
 
                                     </ul>

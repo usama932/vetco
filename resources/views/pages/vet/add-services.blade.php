@@ -8,14 +8,14 @@
 
     <div class="container">
         <div class="container">
-            <h3 class="text-blue">Add Vaccination</h3>
+            <h3 class="text-blue">Add Service</h3>
             <div class="row">
                 <div class="col-6 pl-5 pt-5">
                     <input type="text" class="form-control" placeholder="Service Name" >
                 </div>
-{{--                <div class="col pr-5 pt-5">--}}
-{{--                    <input type="file" name="" id="" class="form-control">--}}
-{{--                </div>--}}
+                <div class="col pr-5 pt-5">
+                  <input type="file" name="" id="" class="form-control">
+              </div>
             </div>
             <div class="row">
                 <div class="col ml-auto mr-auto p-5">
@@ -55,6 +55,10 @@
     <script>
         function clicksave(){
             Swal.fire('Information saved successfully');
+            setTimeout(function() { 
+                window.location.href="/vetco/public/vet/services"
+
+    }, 2000);
         }
         $('.add_pet').click(function () {
             var content = '';

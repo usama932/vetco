@@ -213,7 +213,7 @@
                                          <i class="fa fa-minus text-secondary" aria-hidden="true"></i>
                                      </span>
                                     <span class="cl_status">
-                                     2/5 Completed
+                                     
                                  </span>
                                 </div>
                             </div>

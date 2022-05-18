@@ -27,6 +27,10 @@ class User extends Authenticatable
         'zip',
         'agreement',
         'password',
+        'avatar',
+        'provider_id',
+        'provider',
+        'access_token'
     ];
 
     /**
@@ -84,6 +88,7 @@ class User extends Authenticatable
         }
         return false;
     }
+    protected $guarded = ['*'];
 
     public function hasRole($role)
     {

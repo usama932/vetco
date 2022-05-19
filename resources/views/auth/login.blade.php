@@ -28,17 +28,18 @@
                         </div> -->
                         <div class="card-body pt-0">
                         <h3 class="font-weight-bold mt-2 text-center">Log in</h3>
+                        <div class="col-12">
+                            <a href="{{ route('login.google') }}"><button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-google" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Google</span></button></a>
+                            <a href="{{ route('login.facebook') }}"><button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-facebook" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Facebook</span></button></a>
+                            <a href="{{ route('login.apple') }}"><button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-apple" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Apple</span></button></a>
 
+
+                        </div>
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
 
                                 <div class="form-group row mt-3 mb-3">
-                                    <div class="col-12">
-                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-google" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Google</span></button>
-                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-facebook" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Facebook</span></button>
-                                        <button class="btn btn-block btn-outline-primary pl-1 py-2"><i class="fa fa-apple" style="float:left;margin-top:0px"></i><span class="text-capitalize">Log in with Apple</span></button>
 
-                                    </div>
                                     <div  class="d-inline-flex w-100"><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div><div  class="mt-2">OR</div><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div></div>
                                     <div class="col-12 mt-3">
                                         <input id="email" type="email"

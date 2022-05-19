@@ -15,15 +15,17 @@ use Laravel\Socialite\Facades\Socialite;
 */
 
 Route::get('/logout', 'App\Http\Controllers\Auth\LoginController@logout');
-Route::get('/auth/redirect', function () {
-    return Socialite::driver('google')->redirect();
-});
+Route::get('login/google', [App\Http\Controllers\Auth\LoginController::class, 'redirectToGoogle'])->name('login.google');
+Route::get('login/google/callback', [App\Http\Controllers\Auth\LoginController::class, 'handleGoogleCallback']);
 
-Route::get('/auth/callback', function () {
-    $user = Socialite::driver('google')->user();
+// Facebook login
+Route::get('login/facebook', [App\Http\Controllers\Auth\LoginController::class, 'redirectToFacebook'])->name('login.facebook');
+Route::get('login/facebook/callback', [App\Http\Controllers\Auth\LoginController::class, 'handleFacebookCallback']);
 
-    // $user->token
-});
+Route::get('login/apple', [App\Http\Controllers\Auth\LoginController::class, 'redirectToApple'])->name('login.apple');
+Route::get('login/apple/callback', [App\Http\Controllers\Auth\LoginController::class, 'handleAppleCallback']);
+
+
 
 Route::get('/', function () {
     return view('pages.site.home');

@@ -330,12 +330,12 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-md-10 col-lg-8 col-sm-12">
                                                 <div id="accordion" role="tablist">
-                   
+
                                                      <div class="col-12">
                                                          <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#bd-example-modal-sm">Hours</button>
                                                      </div>
                                                    <div class="col-12 " id="hour"  style=" display:none;   color: black;background: #b7b7b7;">
-                                                    
+
                                                     <div class="col-12">
                                                         <div class="row" onclick="closemodal()" style="background: #dfe7e7;cursor: pointer;">
                                                             <div class="col-6">
@@ -365,7 +365,7 @@
                                                                 7AM-10AM
                                                           </div>
                                                         </div>
-                                                
+
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="row mt-2" onclick="closemodal()">
@@ -407,7 +407,7 @@
                                                           </div>
                                                         </div>
                                                     </div>
-                                                   
+
                                                    </div>
                                                     <div class="col-12 text-center">
                                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
@@ -441,7 +441,7 @@
                                                                     Service Type:
                                                                 </span>
                                                             </div>
-                                                            
+
                                                             @error('first_name')
                                                             <span class="invalid-feedback text-danger" role="alert">
                                                                 <strong>{{ $message }}</strong>
@@ -489,20 +489,20 @@
 
                                 </div>
                                 <div class="col text-center">
-                                    <a href="javascript:;" class="fiar">
+                                    <a href="{{ route('login.facebook') }}" class="fiar">
                                         <i class="fa fa-facebook fi fir bg-primary text-white text-center"> </i>
                                     </a>
-                                    <a href="javascript:;" class="fiar">
+                                    <a href="" class="fiar">
                                         <i class="fa fa-apple fi fir bg-primary text-white text-center"> </i>
                                     </a>
-                                    <a href="javascript:;" class="fiar">
+                                    <a href="{{ route('login.google') }}" class="fiar">
                                         <i class="fa fa-envelope fi fir bg-primary text-white text-center"> </i>
                                     </a>
                                 </div>
                             </form>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -517,7 +517,7 @@
           <table>
             <tbody>
               <tr>
-                <th style="width:10%"></th> 
+                <th style="width:10%"></th>
                 <th style="width:20%"></th>
                 <th style="width:30%"><div class="row"><div class="col-6">Open At</div> <div class="col-6">Close At</div> </th>
               </tr>
@@ -701,7 +701,7 @@
           </table>
           <div class="col-12 text-right">
             <button class="btn btn-primary" type="button" onclick="showhours()" style="background-color: #2f6bcf;border-color: #2f6bcf;">Apply</button>
-  
+
           </div>
         </div>
       </div>
@@ -776,10 +776,10 @@
           </div>
         </div>
         </div>
-        
+
       </div>
     </div>
-  </div>  
+  </div>
     <!--   Core JS Files   -->
     <script src="{{ asset('vet/assets/js/core/jquery.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('vet/assets/js/core/popper.min.js') }}" type="text/javascript"></script>
@@ -842,13 +842,13 @@
              $('#hour').css("display","block");
              $('#bd-example-modal-sm').modal("hide");
 
-         }       
+         }
         // function mynav1() {
         //     alert("1");
         //     $("#about").show();
         // }
 
-        
+
         // function mynav2() {
         //     alert("2");
         //     $("#tab2").account();

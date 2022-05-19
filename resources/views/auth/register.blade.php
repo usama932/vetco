@@ -215,7 +215,7 @@
                                             @enderror
                                         </div>
                                     </div>
-                                  
+
                                 </div>
                                 <div class="form-group row mb-0">
                                     <div class="col-12 text-center">
@@ -250,15 +250,15 @@
                             </div>
                             <div class="form-group row mb-0">
                                 <div class="col text-center">
-                                    <a href="javascript:;" class="fiar">
+                                    <a href="{{ route('login.facebook') }}" class="fiar">
                                         <i class="fa fa-facebook fi fir bg-primary text-white text-center"
                                            > </i>
                                     </a>
-                                    <a href="javascript:;" class="fiar">
+                                    <a href="{{ route('login.apple') }}" class="fiar">
                                         <i class="fa fa-apple fi fir bg-primary text-white text-center"
                                           > </i>
                                     </a>
-                                    <a href="javascript:;" class="fiar">
+                                    <a href="{{ route('login.google') }}" class="fiar">
                                         <i class="fa fa-envelope fi fir bg-primary text-white text-center"
                                            > </i>
                                     </a>

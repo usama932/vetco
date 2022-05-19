@@ -79,7 +79,7 @@
 
                                     </div>
                                     <div  class="d-inline-flex w-100 text-dark"><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div><div  class="mt-2">OR</div><div style="display: flex; flex: 1;"><hr style="width: 95%;"></div></div>
-                                   
+
                                     <div class="col-12 mt-3">
                                         <input id="email" type="email"
                                                class="form-control text-primary @error('email') is-invalid @enderror"
@@ -209,7 +209,7 @@
         </div>
         </div>
 
-      
+
     </div>
 
 </div>

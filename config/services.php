@@ -29,17 +29,20 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-    'facebook' => [
-        'client_id' => env('FACEBOOK_CLIENT_ID'),
-        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
-        'redirect' => 'http://example.com/callback-url',
-    ],
-
-
     'google' => [
         'client_id' => env('GOOGLE_CLIENT_ID'),
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect' => 'http://example.com/callback-url',
+        'redirect' => 'http://localhost:8080/vetco/public/login/google/callback',
+    ],
+
+    'facebook' => [
+        'client_id' => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect' => 'http://localhost:8080/vetco/public/login/facebook/callback',
+    ],
+    "apple" => [
+        "client_id" => env('APPLE_CLIENT_ID'),
+        "client_secret" => env('APPLE_CLIENT_SECRET'),
     ],
 
 

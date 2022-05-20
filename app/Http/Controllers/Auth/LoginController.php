@@ -42,28 +42,28 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    // public function login(Request $request)
-    // {
-    //     $input = $request->all();
+    public function login(Request $request)
+    {
+        $input = $request->all();
 
-    //     $this->validate($request, [
-    //         'email' => 'required|email',
-    //         'password' => 'required',
-    //     ]);
-    //     if (Auth::attempt(array('email' => $input['email'], 'password' => $input['password']))) {
-    //         if (Auth::user()->hasRole('pet')) {
-    //             return redirect('/search');
-    //         } else if (Auth::user()->hasRole('vet')) {
-    //             return redirect('vet/home');
-    //         } else if (Auth::user()->hasRole('admin')) {
-    //             return redirect('admin/home');
-    //         } else {
-    //             return redirect('/');
-    //         }
-    //     } else {
-    //         return redirect()->back()->with('error', 'Email-Address Or Password Are Wrong.');
-    //     }
-    // }
+        $this->validate($request, [
+            'email' => 'required|email',
+            'password' => 'required',
+        ]);
+        if (Auth::attempt(array('email' => $input['email'], 'password' => $input['password']))) {
+            if (Auth::user()->hasRole('pet')) {
+                return redirect('/search');
+            } else if (Auth::user()->hasRole('vet')) {
+                return redirect('vet/home');
+            } else if (Auth::user()->hasRole('admin')) {
+                return redirect('admin/home');
+            } else {
+                return redirect('/');
+            }
+        } else {
+            return redirect()->back()->with('error', 'Email-Address Or Password Are Wrong.');
+        }
+    }
     public function redirectToGoogle()
     {
         return Socialite::driver('google')->stateless()->redirect();

@@ -72,6 +72,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+       dd($data);
         $user = User::create([
             'first_name' => $data['first_name'],
             'last_name' => $data['last_name'],
@@ -86,7 +87,7 @@ class RegisterController extends Controller
         ]);
 
         $role_user = RoleUser::create([
-            'role_id' => '3',
+            'role_id' =>  $data['role_id'],
             'user_id' => $user->id
         ]);
 

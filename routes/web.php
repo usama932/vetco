@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Laravel\Socialite\Facades\Socialite;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -162,7 +163,8 @@ Route::group(['prefix' => 'vet'], function () {
     Route::get('/register', function () {
         $page = '0';
         return view('pages.vet.register', compact('page'));
-    });
+    })->name('vet.register');
+    
 });
 
 Route::group(['middleware' => ['auth', 'role:pet']], function () {

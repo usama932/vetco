@@ -17,9 +17,11 @@ class CreatePracticesTable extends Migration
             $table->id();
             $table->integer('pet_id')->nullable();
             $table->integer('user_id')->nullable();
-            $table->integer('3XAQ 32Y Z 3')->nullable();
+            $table->string('day')->nullable();
             $table->integer('service_price')->nullable();
-            $table->status('status')->defaul('pending');
+            $table->string('status')->default('pending');
+            $table->time('open_at');
+            $table->time('close_at');
             $table->timestamps();
         });
     }

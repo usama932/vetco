@@ -79,6 +79,7 @@
                         <!-- <h5 class="card-description">This information will let us know more about you.</h5> -->
                      </div>
                      <div class="card-body">
+
                         <div class="tab-content">
                            <div class="tab-pane active" id="about" style="background:#f6f6f6">
                               <!-- <h5 class="info-text text-dark"> Let's start with the basic information (with validation)</h5> -->
@@ -296,6 +297,7 @@
 
                             </div>
 
+
                                 <div class="tab-pane" id="account" style="background:#f6f6f6">
                                     <div class="row justify-content-center">
                                         <div class="col-md-10 col-lg-8 col-sm-12">
@@ -377,23 +379,23 @@
                                 </div>
 
                         </div>
-                        <div class="col-12 text-center">
-                           <label>
-                           Already a member ? <a href="{{ url('vet/login') }}" class="text-blue font-weight-bold"> Login here! </a>
-                           </label>
-                        </div>
-                        <div class="col text-center">
-                           <a href="{{ route('login.facebook') }}" class="fiar">
-                           <i class="fa fa-facebook fi fir bg-primary text-white text-center"> </i>
-                           </a>
-                           <a href="" class="fiar">
-                           <i class="fa fa-apple fi fir bg-primary text-white text-center"> </i>
-                           </a>
-                           <a href="{{ route('login.google') }}" class="fiar">
-                           <i class="fa fa-envelope fi fir bg-primary text-white text-center"> </i>
-                           </a>
-                        </div>
 
+                        <div class="col-12 text-center">
+                            <label>
+                            Already a member ? <a href="{{ url('vet/login') }}" class="text-blue font-weight-bold"> Login here! </a>
+                            </label>
+                         </div>
+                         <div class="col text-center">
+                            <a href="{{ route('login.facebook') }}" class="fiar">
+                            <i class="fa fa-facebook fi fir bg-primary text-white text-center"> </i>
+                            </a>
+                            <a href="" class="fiar">
+                            <i class="fa fa-apple fi fir bg-primary text-white text-center"> </i>
+                            </a>
+                            <a href="{{ route('login.google') }}" class="fiar">
+                            <i class="fa fa-envelope fi fir bg-primary text-white text-center"> </i>
+                            </a>
+                         </div>
                      </div>
                   </div>
                </div>
@@ -422,7 +424,7 @@
                      <td>
                      <div class="togglebutton">
                      <label>
-                     <input type="checkbox" checked="" onchange="checkbox(this)">
+                     <input type="checkbox" checked="" value="sunday" name="addmore[0][day]" onchange="checkbox(this)">
                      <span class="toggle"></span>
                      <span id="labeltext">Open</span>
                      </label>
@@ -431,7 +433,7 @@
                      <td>
                      <div class="row">
                      <div class="col-6">
-                     <input type="time" class="form-control" />
+                     <input type="time" name="addmore[0][]" class="form-control" />
                      </div>
                      <div class="col-6">
                      <input type="time" class="form-control" />
@@ -602,7 +604,7 @@
             </div>
          </div>
       </div>
-      <div class="modal fade bd-example-modal-sm" id="bd-example-modal-sm1" tabindex="-1" role="dialog"
+      {{-- <div class="modal fade bd-example-modal-sm" id="bd-example-modal-sm1" tabindex="-1" role="dialog"
          aria-labelledby="mySmallModalLabel" aria-hidden="true">
          <div class="modal-dialog modal-sm">
             <div class="modal-content">
@@ -669,7 +671,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> --}}
       <!--   Core JS Files   -->
       <script src="{{ asset('vet/assets/js/core/jquery.min.js') }}" type="text/javascript"></script>
       <script src="{{ asset('vet/assets/js/core/popper.min.js') }}" type="text/javascript"></script>

@@ -192,7 +192,7 @@
                             </div>
                             <div class="form-group row mt-3 pl-5">
                                 <div class="col-12 text-center">
-                                    <small class="text-dark"> Don't have account? </small> <a href="{{ url('vet/register') }}"  class="text-dark"> Sign up
+                                    <small class="text-dark"> Don't have account? </small> <a href="{{ route('vet.register') }}"  class="text-dark"> Sign up
                                         Here! </a>
                                 </div>
                             </div>

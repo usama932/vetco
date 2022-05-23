@@ -36,6 +36,7 @@
 
                             <form method="POST" action="{{ route('register') }}">
                                 @csrf
+                                <input type="hidden" name="role_id" value="3">
                                 <div class="row">
                                     <div class="col-12 text-center">
                                         <div class="input-group mb-1 wid-50 ml-auto mr-auto">
@@ -48,7 +49,7 @@
                                                    class="form-control text-primary @error('first_name') is-invalid @enderror"
                                                    placeholder="First Name" value="{{ old('first_name') }}"
                                                    aria-label="Username" name="first_name"
-                                                   aria-describedby="basic-addon1">
+                                                   aria-describedby="basic-addon1" required>
                                             @error('first_name')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -67,7 +68,7 @@
                                                    class="form-control text-primary @error('last_name') is-invalid @enderror"
                                                    placeholder="Last Name" value="{{ old('last_name') }}"
                                                    aria-label="Username" name="last_name"
-                                                   aria-describedby="basic-addon1">
+                                                   aria-describedby="basic-addon1" required>
                                             @error('last_name')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -85,7 +86,7 @@
                                             <input type="text"
                                                    class="form-control text-primary @error('email') is-invalid @enderror"
                                                    placeholder="Email" value="{{ old('email') }}"
-                                                   aria-label="Username" name="email" aria-describedby="basic-addon1">
+                                                   aria-label="Username" name="email" aria-describedby="basic-addon1" required>
                                             @error('email')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -104,7 +105,7 @@
                                                    class="form-control text-primary @error('password') is-invalid @enderror"
                                                    placeholder="Password" id="password" name="password"
                                                    aria-label="Username" value=""
-                                                   aria-describedby="basic-addon1">
+                                                   aria-describedby="basic-addon1" required>
                                             @error('password')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -122,7 +123,7 @@
                                             <input type="password" class="form-control text-primary"
                                                    placeholder="Confirm Password" name="password_confirmation"
                                                    aria-label="Username" id="password_confirmation"
-                                                   aria-describedby="basic-addon1">
+                                                   aria-describedby="basic-addon1" required>
                                         </div>
                                     </div>
                                     <div class="col-12 text-center">
@@ -135,7 +136,7 @@
                                             <input type="text"
                                                    class="form-control text-primary @error('phone') is-invalid @enderror"
                                                    placeholder="Phone Number" value="{{ old('phone') }}"
-                                                   aria-label="Username" name="phone" aria-describedby="basic-addon1">
+                                                   aria-label="Username" name="phone" aria-describedby="basic-addon1" required>
                                             @error('phone')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -153,7 +154,7 @@
                                             <input type="text"
                                                    class="form-control text-primary @error('address') is-invalid @enderror"
                                                    placeholder="Address" value="{{ old('address') }}"
-                                                   aria-label="Username" name="address" aria-describedby="basic-addon1">
+                                                   aria-label="Username" name="address" aria-describedby="basic-addon1" required>
                                             @error('address')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -171,7 +172,7 @@
                                             <input type="text"
                                                    class="form-control text-primary @error('city') is-invalid @enderror"
                                                    placeholder="City" value="{{ old('city') }}"
-                                                   aria-label="Username" name="city" aria-describedby="basic-addon1">
+                                                   aria-label="Username" name="city" aria-describedby="basic-addon1" required>
                                             @error('city')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -189,7 +190,7 @@
                                             <input type="text"
                                                    class="form-control text-primary @error('state') is-invalid @enderror"
                                                    placeholder="State" value="{{ old('state') }}"
-                                                   aria-label="Username" name="state" aria-describedby="basic-addon1">
+                                                   aria-label="Username" name="state" aria-describedby="basic-addon1" required>
                                             @error('state')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -207,7 +208,7 @@
                                             <input type="text"
                                                    class="form-control text-primary @error('zip') is-invalid @enderror"
                                                    placeholder="Zipcode" value="{{ old('zip') }}"
-                                                   aria-label="Username" name="zip" aria-describedby="basic-addon1">
+                                                   aria-label="Username" name="zip" aria-describedby="basic-addon1" required>
                                             @error('zip')
                                             <span class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -221,7 +222,7 @@
                                     <div class="col-12 text-center">
                                         <input type="checkbox" id="agree_checkbox" name="agreement"
                                                class="@error('agreement') is-invalid @enderror"
-                                               value="1" {{(old('agreement') && old('agreement') == 1) ? 'checked' : ''}}>
+                                               value="1" {{(old('agreement') && old('agreement') == 1) ? 'checked' : ''}} required>
                                         <label for="agree_checkbox"> Agree to <a href="{{ url('/privacy') }}"> TERMS & CONDITIONS </a></label>
                                         @error('agreement')
                                         <span class="invalid-feedback text-danger" role="alert" style="display: block;">
@@ -230,13 +231,12 @@
                                         @enderror
                                     </div>
                                     <div class="col-12 text-center">
-                                        {{--                                        <button type="button" id="" class="btn btn-primary"--}}
-                                        {{--                                                data-toggle="modal" data-target="#exampleModal">--}}
-                                        {{--                                            {{ __('Sign up') }}--}}
-                                        {{--                                        </button>--}}
-                                        <a href="{{ url('/add-pet') }}" type="button" id="" class="btn btn-primary">
+                                                                               <button type="submit" id="" class="btn btn-primary">
+                                                                                   {{ __('Sign up') }}
+                                                                               </button>
+                                        {{-- <a href="{{ url('/add-pet') }}" type="button" id="" class="btn btn-primary">
                                             {{ __('Sign up') }}
-                                        </a>
+                                        </a> --}}
                                     </div>
                                 </div>
                             </form>

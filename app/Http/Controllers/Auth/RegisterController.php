@@ -3,12 +3,14 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Models\RoleUser;
-use App\Providers\RouteServiceProvider;
 use App\Models\User;
-use Illuminate\Foundation\Auth\RegistersUsers;
+use App\Providers\RouteServiceProvider;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rules;
+use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
 {
@@ -23,7 +25,7 @@ class RegisterController extends Controller
     |
     */
 
-    use RegistersUsers;
+     use RegistersUsers;
 
     /**
      * Where to redirect users after registration.
@@ -70,35 +72,66 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \App\Models\User
      */
-    protected function create(array $data)
+
+    //  protected function create(array $data)
+    // {
+
+    //     $user = User::create([
+    //         'first_name' => $data['first_name'],
+    //         'last_name' => $data['last_name'],
+    //         'email' => $data['email'],
+    //         'phone' => $data['phone'],
+    //         'address' => $data['address'],
+    //         'city' => $data['city'],
+    //         'state' => $data['state'],
+    //         'zip' => $data['zip'],
+    //         'agreement' => $data['agreement'],
+    //         'password' => Hash::make($data['password']),
+    //     ]);
+    //     $use = User::latest()->first();
+    //     $role_user = RoleUser::create([
+    //         'role_id' =>  $data['role_id'],
+    //         'user_id' => $use->id
+    //     ]);
+    //     if($data['role_id'] == 2){
+    //         return $user;
+    //     }
+    //     elseif($data['role_id'] == 3){
+    //         return $user;
+    //     }
+    //     else{
+    //         return $user;
+    //     }
+
+    // }
+    public function register(Request $request)
     {
 
-        $user = User::create([
-            'first_name' => $data['first_name'],
-            'last_name' => $data['last_name'],
-            'email' => $data['email'],
-            'phone' => $data['phone'],
-            'address' => $data['address'],
-            'city' => $data['city'],
-            'state' => $data['state'],
-            'zip' => $data['zip'],
-            'agreement' => $data['agreement'],
-            'password' => Hash::make($data['password']),
+        $request->validate([
+            'first_name' => ['required', 'string', 'max:255'],
+            'last_name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
-        $use = User::latest()->first();
-        $role_user = RoleUser::create([
-            'role_id' =>  $data['role_id'],
-            'user_id' => $use->id
-        ]);
-        if($data['role_id'] == 2){
-            return $user;
-        }
-        elseif($data['role_id'] == 3){
-            return $user;
-        }
-        else{
-            return $user;
-        }
 
+        $user = User::create([
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'address' => $request->address,
+            'city' => $request->city,
+            'state' => $request->state,
+            'zip' => $request->zip,
+            'agreement' => $request->agreement,
+            'password' => Hash::make($request->password),
+        ]);
+
+        event(new Registered($user));
+        $user->attachRole($request->role_id);
+
+        Auth::login($user);
+
+        return redirect()->route('dashboard');
     }
 }

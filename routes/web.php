@@ -1,8 +1,9 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Laravel\Socialite\Facades\Socialite;
-use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,9 @@ use App\Http\Controllers\Auth\RegisterController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group(['middleware' => ['auth']], function() {
+    Route::get('/dashboard',[HomeController::class,'index' ] )->name('dashboard');
+});
 
 Route::get('/logout', 'App\Http\Controllers\Auth\LoginController@logout');
 Route::get('login/google', [App\Http\Controllers\Auth\LoginController::class, 'redirectToGoogle'])->name('login.google');
@@ -102,7 +106,7 @@ Route::group(['middleware' => ['auth', 'role:admin'], 'prefix' => 'admin'], func
 });
 
 Route::group(['prefix' => 'vet'], function () {
-    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index1']);
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
     Route::get('/reviews', function () {
         $page = 'Reviews';
         return view('pages.vet.reviews', compact('page'));
@@ -164,9 +168,9 @@ Route::group(['prefix' => 'vet'], function () {
         $page = '0';
         return view('pages.vet.register', compact('page'));
     })->name('vet.register');
-    
+
 });
 
 Route::group(['middleware' => ['auth', 'role:pet']], function () {
-    Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index2']);
+    Route::get('/home2', [App\Http\Controllers\HomeController::class, 'index']);
 });
